@@ -13,8 +13,9 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-ACCESS_TOKEN = "THAAX6Vv488utBUVJxVDBwU3drMElFVXNfSHpyRUJ1VTlpSF9NcjA4OG9kQTh6by1tRWNFYy1jUkV0Vm81Wmp0YkpzVkEtX1JkanVVMnNBVnhhdFNKMnA4ck15cVVBNVVzNFg1NzVuQWxTX3lRXzVya0otd01mZAU9lWlJSWlhzOEgtZAXBjanc2MVdfM3ZALVEkZD"
-USER_ID = "34618526867762918"
+import os
+ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN", "THAAX6Vv488utBUVJxVDBwU3drMElFVXNfSHpyRUJ1VTlpSF9NcjA4OG9kQTh")
+USER_ID = os.environ.get("THREADS_USER_ID", "34618526867762918")
 
 QUEUE_FILE = Path(__file__).parent / "post-queue.md"
 DONE_FILE  = Path(__file__).parent / "post-history.md"
