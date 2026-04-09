@@ -17,7 +17,8 @@ import sys
  
 import os
 from dotenv import load_dotenv
-load_dotenv()
+if Path(".env").exists():
+    load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env", encoding="cp932")
 ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN")
 USER_ID = os.environ.get("THREADS_USER_ID")
  
