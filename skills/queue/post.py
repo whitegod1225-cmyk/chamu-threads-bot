@@ -27,8 +27,8 @@ if sys.platform == "win32":
 import os
 from dotenv import load_dotenv
 _env_path = Path(__file__).resolve().parent.parent.parent / ".env"
-if _env_path.exists():
-    # ローカル(Windows/cp932)とCI(Linux/UTF-8)両対応
+# CI環境(GitHub Actions)ではsecrets経由で環境変数が注入されるため.envは不要
+if _env_path.exists() and not os.environ.get("CI"):
     for _enc in ("utf-8", "cp932", "utf-8-sig"):
         try:
             load_dotenv(dotenv_path=_env_path, encoding=_enc)
