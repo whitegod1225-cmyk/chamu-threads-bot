@@ -26,7 +26,13 @@ import os
 from dotenv import load_dotenv
 _env_path = Path(__file__).resolve().parent.parent.parent / ".env"
 if _env_path.exists():
-    load_dotenv(dotenv_path=_env_path, encoding="utf-8")
+    # ローカル(Windows/cp932)とCI(Linux/UTF-8)両対応
+    for _enc in ("utf-8", "cp932", "utf-8-sig"):
+        try:
+            load_dotenv(dotenv_path=_env_path, encoding=_enc)
+            break
+        except UnicodeDecodeError:
+            continue
 ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN")
 USER_ID = os.environ.get("THREADS_USER_ID")
 
