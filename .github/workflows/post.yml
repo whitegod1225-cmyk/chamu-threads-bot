@@ -40,4 +40,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add skills/queue/post-queue.md skills/queue/post-history.md skills/queue/post-log.txt
           git diff --cached --quiet || git commit -m "chore: update post queue"
+          git pull --rebase origin main
           git push
