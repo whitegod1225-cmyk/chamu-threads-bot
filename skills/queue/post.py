@@ -1,11 +1,13 @@
 import random
 import time
 
-# ±10分のランダム待機（-600秒〜+600秒）
-wait = random.randint(-600, 600)
-if wait > 0:
-    print(f"{wait}秒待機します...")
-    time.sleep(wait)
+# ±10分のランダム待機（-600秒〜+600秒）※CI環境ではスキップ
+import os as _os
+if not _os.environ.get("CI"):
+    wait = random.randint(-600, 600)
+    if wait > 0:
+        print(f"{wait}秒待機します...")
+        time.sleep(wait)
 
 import urllib.request
 import urllib.parse
