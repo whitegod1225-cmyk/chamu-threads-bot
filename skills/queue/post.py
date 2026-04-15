@@ -89,10 +89,10 @@ def append_done(block, post_id=None, error=None):
         f.write(f"<!-- 処理日時: {timestamp} | {status} -->\n{block}\n\n---\n\n")
 
 
-def _urlopen(req):
+def _urlopen(req, timeout=30):
     """urllib.request.urlopen のラッパー。HTTPErrorのレスポンスボディも取得する"""
     try:
-        with urllib.request.urlopen(req) as res:
+        with urllib.request.urlopen(req, timeout=timeout) as res:
             return json.loads(res.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", errors="replace")

@@ -30,7 +30,8 @@ jobs:
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-        run: python skills/queue/post.py
+          PYTHONUNBUFFERED: "1"
+        run: python -u skills/queue/post.py
 
       - name: Commit queue update
         run: |
