@@ -121,3 +121,23 @@
 もう産んだ人も、これから産む人も、話せる範囲で聞かせて。
 [2026-04-16 16:11:53] リプライAPIエラー（本文投稿は成功済み）: HTTP Error 400: Bad Request | response: {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":4279009,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with id 17864068410617080 cannot be found.","fbtrace_id":"AwVQLmIyNc_VQAjUoEcoL0B"}}
 [2026-04-16 16:11:53] キュー移動完了。残りキュー: 77件
+[2026-04-16 23:11:42] ===== post.py 起動 =====
+[2026-04-16 23:11:42] キュー件数: 77件
+[2026-04-16 23:11:42] 投稿開始（試行1回目）:
+2人目を妊娠してる時、上の子への罪悪感がすごかった。
+
+体がしんどくて思いっきり遊べなくて。
+「ねえ、抱っこして」って来られても、おなかが苦しくて。
+
+「ごめんね」って思いながらテレビ見せて横になってた日が何日もあった。
+
+でも保育士目線で言わせてほしい。
+兄弟って、生まれてくる前からもう一緒に育ってるんだよ。
+
+罪悪感じゃなくて、上の子に「一緒に待ってるね」って伝えてあげて😊
+[2026-04-16 23:11:46] 投稿完了！ ID: 18418339438135440
+[2026-04-16 23:11:46] セルフリプライ開始:
+2人目以降の妊娠中、上の子との時間どうしてた？
+経験談があったら教えてほしいな。
+[2026-04-16 23:11:48] リプライAPIエラー（本文投稿は成功済み）: HTTP Error 400: Bad Request | response: {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":4279009,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with id 17864111517617080 cannot be found.","fbtrace_id":"AVo-cBA6mUx3c53Qtz5-rJK"}}
+[2026-04-16 23:11:48] キュー移動完了。残りキュー: 76件
