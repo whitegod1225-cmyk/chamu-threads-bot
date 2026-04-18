@@ -101,7 +101,6 @@ def _urlopen(req, timeout=30):
 
 def api_post(text):
     base = "https://graph.threads.net/v1.0"
-    # urlencode の出力は常にASCII（非ASCII文字は%XX形式）なので ascii で encode する
     params1 = urllib.parse.urlencode({
         "media_type": "TEXT",
         "text": text,
@@ -109,6 +108,9 @@ def api_post(text):
     }).encode("ascii")
     req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
     container_id = _urlopen(req1)["id"]
+
+    # コンテナがThreads側に認識されるまで待機
+    time.sleep(3)
 
     params2 = urllib.parse.urlencode({
         "creation_id": container_id,
@@ -128,6 +130,9 @@ def api_reply(text, reply_to_id):
     }).encode("ascii")
     req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
     container_id = _urlopen(req1)["id"]
+
+    # コンテナがThreads側に認識されるまで待機
+    time.sleep(3)
 
     params2 = urllib.parse.urlencode({
         "creation_id": container_id,
