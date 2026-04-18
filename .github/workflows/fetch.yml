@@ -29,12 +29,15 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python -u skills/queue/fetcher.py
 
+      - name: Run analyst script
+        run: python -u skills/queue/analyst.py
+
       - name: Commit metrics update
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add skills/queue/post-history.md skills/queue/analysis-latest.md
-          git diff --cached --quiet || git commit -m "chore: update engagement metrics"
+          git add skills/queue/post-history.md skills/queue/analysis-latest.md skills/queue/next-topics.md
+          git diff --cached --quiet || git commit -m "chore: update metrics and next topics"
           git pull --rebase origin main
           git push
