@@ -105,7 +105,7 @@ def api_post(text):
         "media_type": "TEXT",
         "text": text,
         "access_token": ACCESS_TOKEN
-    }).encode("ascii")
+    }).encode("utf-8")
     req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
     container_id = _urlopen(req1)["id"]
 
@@ -115,7 +115,7 @@ def api_post(text):
     params2 = urllib.parse.urlencode({
         "creation_id": container_id,
         "access_token": ACCESS_TOKEN
-    }).encode("ascii")
+    }).encode("utf-8")
     req2 = urllib.request.Request(f"{base}/{USER_ID}/threads_publish", data=params2, method="POST")
     return _urlopen(req2)["id"]
 
@@ -127,7 +127,7 @@ def api_reply(text, reply_to_id):
         "text": text,
         "reply_to_id": reply_to_id,
         "access_token": ACCESS_TOKEN
-    }).encode("ascii")
+    }).encode("utf-8")
     req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
     container_id = _urlopen(req1)["id"]
 
@@ -137,7 +137,7 @@ def api_reply(text, reply_to_id):
     params2 = urllib.parse.urlencode({
         "creation_id": container_id,
         "access_token": ACCESS_TOKEN
-    }).encode("ascii")
+    }).encode("utf-8")
     req2 = urllib.request.Request(f"{base}/{USER_ID}/threads_publish", data=params2, method="POST")
     return _urlopen(req2)["id"]
 
