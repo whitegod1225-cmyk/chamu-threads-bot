@@ -1,5 +1,19 @@
 # CLAUDE.md ── ちゃむ。自動運用システム設定
 
+## ⚠️ 最重要ルール：post-queue.md を更新したら必ず git push する
+post-queue.md・next-topics.md・knowledgeファイルを変更した後は、
+必ず以下を実行してGitHubに反映させること。
+反映しないとGitHub Actionsが変更を認識できず、自動投稿が止まる。
+
+```
+git add skills/queue/post-queue.md （変更したファイルを指定）
+git commit -m "chore: ..."
+git push origin main
+```
+
+**Claudeへの指示**: post-queue.mdを編集した際は、作業完了の報告とともに
+必ずユーザーに `git push` を促すこと。
+
 ## このプロジェクトについて
 Threadsアカウント「ちゃむ。」の投稿を自動化するシステム。
 6つのエージェントがファイルを介して連携して動く。
