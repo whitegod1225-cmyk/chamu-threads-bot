@@ -10,6 +10,10 @@ on:
     - cron: '0 12 * * *'  # 21:00 JST
   workflow_dispatch:
 
+concurrency:
+  group: post
+  cancel-in-progress: false
+
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -39,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add skills/queue/post-queue.md skills/queue/post-history.md skills/queue/post-log.txt
+          git add skills/queue/post-queue.md skills/queue/post-history.md skills/queue/post-log.txt skills/queue/last-post-hash.txt
           git diff --cached --quiet || git commit -m "chore: update post queue"
           git pull --rebase origin main
           git push

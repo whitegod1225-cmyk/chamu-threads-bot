@@ -1,5 +1,6 @@
 import random
 import time
+import hashlib
 
 import urllib.request
 import urllib.parse
@@ -34,6 +35,7 @@ QUEUE_FILE = Path(__file__).parent / "post-queue.md"
 DONE_FILE  = Path(__file__).parent / "post-history.md"
 LOG_FILE   = Path(__file__).parent / "post-log.txt"
 LOCK_FILE  = Path(__file__).parent / "post.lock"
+HASH_FILE  = Path(__file__).parent / "last-post-hash.txt"
 
 
 def log(msg):
@@ -73,12 +75,13 @@ def save_queue(posts):
         "ライターが作成した投稿をここに追加する。\n"
         "ポスターは一番上の投稿を取り出してThreadsに投稿する。\n"
         "投稿済みのものはここから削除してpost-history.mdに移す。\n\n"
+        "> ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**\n"
+        "> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。\n"
+        "> pushしないと新しい投稿は一切自動投稿されない。\n\n"
         "---\n\n"
     )
-    QUEUE_FILE.write_text(
-        header + "\n\n---\n\n".join(posts) + "\n",
-        encoding="utf-8"
-    )
+    content = header + "\n\n---\n\n".join(posts) + "\n" if posts else header
+    QUEUE_FILE.write_text(content, encoding="utf-8")
 
 
 def append_done(block, post_id=None, error=None):
@@ -166,6 +169,21 @@ def has_placeholder(text):
     return "【リンク】" in text or "【URL】" in text
 
 
+def get_body_hash(body):
+    return hashlib.md5(body.encode("utf-8")).hexdigest()
+
+
+def was_recently_posted(body):
+    """直前の投稿と同じ本文なら True を返す（重複投稿防止）"""
+    if not HASH_FILE.exists():
+        return False
+    return HASH_FILE.read_text(encoding="utf-8").strip() == get_body_hash(body)
+
+
+def record_post_hash(body):
+    HASH_FILE.write_text(get_body_hash(body), encoding="utf-8")
+
+
 def main():
     log("===== post.py 起動 =====")
 
@@ -201,6 +219,14 @@ def main():
             # キューには残したまま終了（手動対応待ち）
             sys.exit(0)
 
+        # ── 重複投稿チェック ──
+        if was_recently_posted(body):
+            log("⚠️ 直前の投稿と同じ本文を検出。重複投稿を防ぐためスキップします。")
+            append_done(block, error="重複投稿スキップ（直前と同一本文）")
+            save_queue(posts[1:])
+            log(f"残りキュー: {len(posts)-1}件")
+            return
+
         # ── 本文投稿（最大2回リトライ） ──
         post_id = None
         last_error = None
@@ -235,6 +261,7 @@ def main():
 
         # ── キュー移動（api_post成功時点で必ず実行） ──
         try:
+            record_post_hash(body)
             append_done(block, post_id=post_id)
             save_queue(posts[1:])
             log(f"キュー移動完了。残りキュー: {len(posts)-1}件")
