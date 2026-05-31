@@ -25,8 +25,9 @@
 - 楽天アフィリエイトURLを置く
 
 ### キュー管理
-- 通常投稿（post-queue.md）には**絶対に混入しない**
-- `affiliate-queue.md` で別管理する
+- `affiliate-queue.md` で下書き・文体調整を行う
+- 仕上がったら **post-queue.md に移動**して自動投稿キューに乗せる
+- affiliate-queue.md に残したままでは自動投稿されない
 
 ## 育児ジャンルの訴求原則
 
