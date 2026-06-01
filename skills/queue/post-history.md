@@ -4046,3 +4046,25 @@ OK：時間をかけて奥歯の溝まで丁寧に磨く
 
 ---
 
+<!-- 処理日時: 2026-06-01 22:59 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":4279009,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with id 17871021327617080 cannot be found.","fbtrace_id":"AMhtFa7m-7VKL4nGmVYSjUt"}} -->
+## 投稿300
+**テーマ**：「乳歯の虫歯を放置してはいけない理由」
+**カテゴリ**：専門知識（B）／型8：保育士権威×NG/OK型
+**時期**：6月（虫歯予防デー）
+
+**本文**
+ちょっと待って。「乳歯の虫歯は放置して大丈夫」と思ってるなら、これだけは読んでほしい。
+
+乳歯の根っこの下には、すでに永久歯が育っている。乳歯に虫歯菌が繁殖すると、その菌が永久歯にも移る。
+
+「生えてきた永久歯がすでに黒い」という子を、保育の現場で実際に何人も見てきた。
+
+乳歯が虫歯になっていたら、永久歯が生える前に治療する。それだけで、その子の歯の一生が変わることがある。
+
+毎日投稿しています。フォローすると届きます。
+
+**コメント欄（セルフリプライ用）**
+乳歯の虫歯、どこまで気にしてた？
+
+---
+

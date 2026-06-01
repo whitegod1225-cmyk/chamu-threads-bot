@@ -3470,3 +3470,29 @@ OK：時間をかけて奥歯の溝まで丁寧に磨く
 子どもの虫歯予防で気をつけてること、ある？
 [2026-06-01 17:14:47] リプライ完了！ ID: 17972107229986327
 [2026-06-01 17:14:47] キュー移動完了。残りキュー: 16件
+[2026-06-01 22:59:37] ===== post.py 起動 =====
+[2026-06-01 22:59:37] キュー件数: 16件
+[2026-06-01 22:59:37] 投稿開始（試行1回目）:
+ちょっと待って。「乳歯の虫歯は放置して大丈夫」と思ってるなら、これだけは読んでほしい。
+
+乳歯の根っこの下には、すでに永久歯が育っている。乳歯に虫歯菌が繁殖すると、その菌が永久歯にも移る。
+
+「生えてきた永久歯がすでに黒い」という子を、保育の現場で実際に何人も見てきた。
+
+乳歯が虫歯になっていたら、永久歯が生える前に治療する。それだけで、その子の歯の一生が変わることがある。
+
+毎日投稿しています。フォローすると届きます。
+[2026-06-01 22:59:43] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":4279009,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with id 17871021318617080 cannot be found.","fbtrace_id":"Ai1C10Zd9xCz-c0Zlfz4za9"}}
+[2026-06-01 22:59:43] 5秒後にリトライします...
+[2026-06-01 22:59:48] 投稿開始（試行2回目）:
+ちょっと待って。「乳歯の虫歯は放置して大丈夫」と思ってるなら、これだけは読んでほしい。
+
+乳歯の根っこの下には、すでに永久歯が育っている。乳歯に虫歯菌が繁殖すると、その菌が永久歯にも移る。
+
+「生えてきた永久歯がすでに黒い」という子を、保育の現場で実際に何人も見てきた。
+
+乳歯が虫歯になっていたら、永久歯が生える前に治療する。それだけで、その子の歯の一生が変わることがある。
+
+毎日投稿しています。フォローすると届きます。
+[2026-06-01 22:59:54] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":4279009,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with id 17871021327617080 cannot be found.","fbtrace_id":"AMhtFa7m-7VKL4nGmVYSjUt"}}
+[2026-06-01 22:59:54] 2回失敗のためスキップ。残りキュー: 15件
