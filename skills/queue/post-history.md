@@ -3976,9 +3976,12 @@ metrics_fetched: true
 
 **コメント欄（セルフリプライ用）**
 歯磨き、何が一番嫌がった時期だった？
+**メトリクス（2026-06-03取得）**
+views=20 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-01 13:27 | 投稿ID: 17951963334160314 -->
 ## 投稿297
 **テーマ**：「歯磨きした、の真相」
@@ -3994,9 +3997,12 @@ metrics_fetched: true
 
 **コメント欄（セルフリプライ用）**
 歯ブラシに歯磨き粉つけて口に入れただけで完了にしてた。
+**メトリクス（2026-06-03取得）**
+views=2641 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-01 15:52 | 投稿ID: 17886555150556029 -->
 ## 投稿298
 **テーマ**：「今週の敗因」（歯科健診）
@@ -4013,9 +4019,12 @@ metrics_fetched: true
 
 **コメント欄（セルフリプライ用）**
 歯磨き「信じたのが間違いだった」あるある、ある？
+**メトリクス（2026-06-03取得）**
+views=1699 / likes=3 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-01 17:14 | 投稿ID: 18104583722284740 -->
 ## 投稿299
 **テーマ**：「虫歯が多い子に共通してたこと」
@@ -4043,9 +4052,12 @@ OK：時間をかけて奥歯の溝まで丁寧に磨く
 
 **コメント欄（セルフリプライ用）**
 子どもの虫歯予防で気をつけてること、ある？
+**メトリクス（2026-06-03取得）**
+views=159 / likes=2 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-01 22:59 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"The requested resource does not exist","type":"OAuthException","code":24,"error_subcode":4279009,"is_transient":false,"error_user_title":"Media Not Found","error_user_msg":"The media with id 17871021327617080 cannot be found.","fbtrace_id":"AMhtFa7m-7VKL4nGmVYSjUt"}} -->
 ## 投稿300
 **テーマ**：「乳歯の虫歯を放置してはいけない理由」
