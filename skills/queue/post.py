@@ -64,9 +64,12 @@ def extract_body(block):
     return m.group(1).strip() if m else None
 
 
-def extract_reply(block):
-    m = re.search(r"\*\*コメント欄（セルフリプライ用）\*\*\n(.+?)$", block, re.DOTALL)
-    return m.group(1).strip() if m else None
+def extract_replies(block):
+    """コメント欄を全て抽出して順番にリストで返す（1段・多段どちらも対応）"""
+    sections = re.split(r"\n\*\*コメント欄.*?セルフリプライ用）\*\*\n", block)
+    if len(sections) <= 1:
+        return []
+    return [s.strip() for s in sections[1:] if s.strip()]
 
 
 def save_queue(posts):
@@ -202,7 +205,7 @@ def main():
 
         block = posts[0]
         body = extract_body(block)
-        reply = extract_reply(block)
+        replies = extract_replies(block)
 
         # ── 本文なしチェック ──
         if not body:
@@ -213,7 +216,7 @@ def main():
             return
 
         # ── 【リンク】プレースホルダーチェック ──
-        if has_placeholder(body) or (reply and has_placeholder(reply)):
+        if has_placeholder(body) or any(has_placeholder(r) for r in replies):
             log("【リンク】プレースホルダーが残っています。手動でURLを入力後、再実行してください。")
             log(f"対象ブロック: {block[:80]}...")
             # キューには残したまま終了（手動対応待ち）
@@ -250,14 +253,19 @@ def main():
             log(f"2回失敗のためスキップ。残りキュー: {len(posts)-1}件")
             sys.exit(1)
 
-        # ── セルフリプライ（失敗しても本文投稿は成功しているのでキュー移動は行う） ──
-        if reply:
+        # ── セルフリプライ（複数段チェーン対応・失敗しても本文投稿は成功しているのでキュー移動は行う） ──
+        current_reply_to = post_id
+        for i, reply_text in enumerate(replies):
             try:
-                log(f"セルフリプライ開始:\n{reply}")
-                reply_id = api_reply(reply, post_id)
-                log(f"リプライ完了！ ID: {reply_id}")
+                log(f"セルフリプライ{i+1}/{len(replies)}開始:\n{reply_text}")
+                reply_id = api_reply(reply_text, current_reply_to)
+                log(f"リプライ{i+1}完了！ ID: {reply_id}")
+                current_reply_to = reply_id  # 次のリプライは前のリプライに連鎖
+                if i < len(replies) - 1:
+                    time.sleep(2)
             except Exception as e:
-                log(f"リプライAPIエラー（本文投稿は成功済み）: {e}")
+                log(f"リプライ{i+1}APIエラー（本文投稿は成功済み）: {e}")
+                break
 
         # ── キュー移動（api_post成功時点で必ず実行） ──
         try:
