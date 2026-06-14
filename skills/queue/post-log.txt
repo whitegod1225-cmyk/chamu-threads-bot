@@ -4571,3 +4571,23 @@ GMP認定工場製造だから子どもに飲ませても安心‼
 https://a.r10.to/h59qhQ
 [2026-06-14 11:37:04] リプライ1完了！ ID: 18105168016951918
 [2026-06-14 11:37:04] キュー移動完了。残りキュー: 2件
+[2026-06-14 22:54:56] ===== post.py 起動 =====
+[2026-06-14 22:54:56] キュー件数: 2件
+[2026-06-14 22:54:56] 投稿開始（試行1回目）:
+夏のサンダル、「安いし水遊びにいいか」で選んでない❓
+
+保育士時代、夏になると足を痛がる子が急増してた😮‍💨
+足のアーチができる大事な時期に、ぺらぺらのサンダルで過ごすのはリスクが高い‼
+
+フォローしておくといつでも読めるよ📚
+[2026-06-14 22:54:57] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Sunday, 14-Jun-26 15:54:56 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"APZufBbeNGk6KNZT1WcdIeN"}}
+[2026-06-14 22:54:57] 5秒後にリトライします...
+[2026-06-14 22:55:02] 投稿開始（試行2回目）:
+夏のサンダル、「安いし水遊びにいいか」で選んでない❓
+
+保育士時代、夏になると足を痛がる子が急増してた😮‍💨
+足のアーチができる大事な時期に、ぺらぺらのサンダルで過ごすのはリスクが高い‼
+
+フォローしておくといつでも読めるよ📚
+[2026-06-14 22:55:02] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Sunday, 14-Jun-26 15:55:02 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AUjT-qpXfu2Xxz3ScgjatOb"}}
+[2026-06-14 22:55:02] 2回失敗のためスキップ。残りキュー: 1件
