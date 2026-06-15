@@ -5651,3 +5651,24 @@ https://a.r10.to/h5xmc1
 
 ---
 
+<!-- 処理日時: 2026-06-15 23:26 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Monday, 15-Jun-26 16:26:30 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"ALDAitx5gYiZ2gbjnp8Eum_"}} -->
+## 投稿352
+**テーマ**：「抜けた乳歯、洗わず保管するとカビる」
+**カテゴリ**：B（有益情報系）
+**時期**：通年
+
+**本文**
+抜けた乳歯、洗わずそのまま保管してる人、めちゃくちゃ多い‼
+
+血液とタンパク質が付いたまま密閉すると、カビと悪臭の原因になる🦷
+プラやアクリルのケースは湿気が逃げないから、乾燥前に入れるのが一番危ない‼
+
+保育士時代、保護者がせっかく大事にとっておいた乳歯が変色してたのを何度も見た😮‍💨
+
+正しいのはオキシドールに半日浸けて、歯ブラシで磨いて、しっかり乾かしてから保管
+漂白剤はタンパク質を溶かしてボロボロになるから絶対NG‼
+
+フォローしておくといつでも読めるよ📚
+
+---
+
