@@ -4689,3 +4689,27 @@ https://a.r10.to/h59qhQ
 [2026-06-16 13:09:01] キュー件数: 3件
 [2026-06-16 13:09:01] ⚠️ 直前の投稿と同じ本文を検出。重複投稿を防ぐためスキップします。
 [2026-06-16 13:09:01] 残りキュー: 2件
+[2026-06-16 23:14:07] ===== post.py 起動 =====
+[2026-06-16 23:14:07] キュー件数: 19件
+[2026-06-16 23:14:07] 投稿開始（試行1回目）:
+梅雨入りしたって☔
+洗濯難民になる季節がきた
+
+干しても乾かない
+室内に干したらスペースがない
+生乾き臭がする
+
+このループ、今年こそ断ち切ろうな🫡
+[2026-06-16 23:14:07] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 16:14:07 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"Av-gDQo4F19017SR6ZpXTGl"}}
+[2026-06-16 23:14:07] 5秒後にリトライします...
+[2026-06-16 23:14:12] 投稿開始（試行2回目）:
+梅雨入りしたって☔
+洗濯難民になる季節がきた
+
+干しても乾かない
+室内に干したらスペースがない
+生乾き臭がする
+
+このループ、今年こそ断ち切ろうな🫡
+[2026-06-16 23:14:12] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 16:14:12 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AaH2HSo4QAlxC5P0oqHJZrC"}}
+[2026-06-16 23:14:12] 2回失敗のためスキップ。残りキュー: 18件

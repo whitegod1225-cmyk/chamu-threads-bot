@@ -5738,3 +5738,32 @@ https://a.r10.to/h59qhQ
 
 ---
 
+<!-- 処理日時: 2026-06-16 23:14 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 16:14:12 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AaH2HSo4QAlxC5P0oqHJZrC"}} -->
+## 投稿A-013
+**テーマ**：梅雨の洗濯難民シーズン到来・今あるスペースを使い切る発想
+**カテゴリ**：有益情報（非アフィ）
+**型**：S-4（速報興奮型）
+**時期**：6月（梅雨入り）
+
+**本文**
+梅雨入りしたって☔
+洗濯難民になる季節がきた
+
+干しても乾かない
+室内に干したらスペースがない
+生乾き臭がする
+
+このループ、今年こそ断ち切ろうな🫡
+
+**コメント欄（セルフリプライ用）**
+梅雨の洗濯、楽になるコツ
+
+❶エアコンの風が当たる場所を最優先に使う
+❷浴室に突っ張り棒を1本追加する
+❸ベランダの手すりを干すスペースとして活用する
+
+スペースを「新たに作る」より
+「すでにある場所を使う」発想がポイント🙌
+
+---
+
