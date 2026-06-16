@@ -4643,3 +4643,21 @@ https://a.r10.to/h59qhQ
 フォローしておくといつでも読めるよ📚
 [2026-06-15 23:26:30] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Monday, 15-Jun-26 16:26:30 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"ALDAitx5gYiZ2gbjnp8Eum_"}}
 [2026-06-15 23:26:30] 2回失敗のためスキップ。残りキュー: 5件
+[2026-06-16 05:27:27] ===== post.py 起動 =====
+[2026-06-16 05:27:27] キュー件数: 5件
+[2026-06-16 05:27:27] 投稿開始（試行1回目）:
+子どもの乳歯、「いつか整理しよう」のまま引き出しに入ってない❓
+
+うちも3人分、何年もそのままにしてた😮‍💨
+
+ちゃんと残したくて探したら、、、
+[2026-06-16 05:27:27] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Monday, 15-Jun-26 22:27:27 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"Aetz8exRh9qe3k4DY7vJxWo"}}
+[2026-06-16 05:27:27] 5秒後にリトライします...
+[2026-06-16 05:27:32] 投稿開始（試行2回目）:
+子どもの乳歯、「いつか整理しよう」のまま引き出しに入ってない❓
+
+うちも3人分、何年もそのままにしてた😮‍💨
+
+ちゃんと残したくて探したら、、、
+[2026-06-16 05:27:33] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Monday, 15-Jun-26 22:27:33 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AvsJXEt8ptKMQzcQlIEhA0C"}}
+[2026-06-16 05:27:33] 2回失敗のためスキップ。残りキュー: 4件
