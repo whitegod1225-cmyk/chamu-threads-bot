@@ -55,7 +55,7 @@ def log(msg):
 def load_queue():
     text = QUEUE_FILE.read_text(encoding="utf-8")
     blocks = re.split(r"\n---\n", text)
-    posts = [b.strip() for b in blocks if re.search(r"## 投稿\d+", b)]
+    posts = [b.strip() for b in blocks if re.search(r"## 投稿[\w-]+", b)]
     return posts
 
 
