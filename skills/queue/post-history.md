@@ -5696,3 +5696,21 @@ https://a.r10.to/hYN4af
 
 ---
 
+<!-- 処理日時: 2026-06-16 08:47 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 01:47:12 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AYJYTDPO40RA0-Wu0-bFk4e"}} -->
+## 投稿353
+**テーマ**：「子どもが『疲れた』と言わないのは元気だからじゃない」
+**カテゴリ**：B（有益情報系）
+**時期**：夏（6〜8月）
+
+**本文**
+夏の外遊びや習い事のあと、子どもが「疲れた」と言わないのは元気だからじゃない‼
+
+保育士時代、「顔色・食欲・帰ってからの動き」で疲労を判断してた😮‍💨
+「なんか今日おとなしいな」のタイミングが実は一番ケアが必要な瞬間‼
+
+子どもの疲れは言語化が難しいから、親が観察して先に気づいてあげてほしいやつ🌿
+
+フォローしておくといつでも読めるよ📚
+
+---
+
