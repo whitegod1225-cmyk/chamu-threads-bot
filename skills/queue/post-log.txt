@@ -4685,3 +4685,7 @@ https://a.r10.to/h59qhQ
 フォローしておくといつでも読めるよ📚
 [2026-06-16 08:47:12] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 01:47:12 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AYJYTDPO40RA0-Wu0-bFk4e"}}
 [2026-06-16 08:47:12] 2回失敗のためスキップ。残りキュー: 3件
+[2026-06-16 13:09:01] ===== post.py 起動 =====
+[2026-06-16 13:09:01] キュー件数: 3件
+[2026-06-16 13:09:01] ⚠️ 直前の投稿と同じ本文を検出。重複投稿を防ぐためスキップします。
+[2026-06-16 13:09:01] 残りキュー: 2件
