@@ -5767,3 +5767,30 @@ https://a.r10.to/h59qhQ
 
 ---
 
+<!-- 処理日時: 2026-06-17 05:08 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 22:08:39 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"ARHYXpncyG-cbeX8WboDtA2"}} -->
+## 投稿A-014
+**テーマ**：ベランダ手すり物干しハンガー（室内スタンドより手すりが優勝）
+**カテゴリ**：アフィリエイト
+**型**：S-12（比較→優勝宣言型）
+**商品**：ベランダ物干し手すりハンガー（伸縮式）
+**時期**：6月（梅雨入り）〜通年
+**URL**：https://a.r10.to/hkqsD6
+
+**本文**
+室内干しスタンド、追加で買ったけど
+結局じゃまになって押し入れに入れた笑
+
+**コメント欄（セルフリプライ用）**
+ベランダの手すりに直接つけるやつが優勝だった
+
+スペースを新たに作らなくていいし
+収納もいらないし
+干せる量がそのまま増える🙌
+
+伸縮式で手すりのサイズに合わせて使えるのもいい
+
+気になる人はここから（PR）
+https://a.r10.to/hkqsD6
+
+---
+
