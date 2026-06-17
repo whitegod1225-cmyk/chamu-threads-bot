@@ -5542,9 +5542,12 @@ metrics_fetched: true
 漂白剤はタンパク質を溶かしてボロボロになるから絶対NG‼
 
 フォローしておくといつでも読めるよ📚
+**メトリクス（2026-06-18取得）**
+views=141 / likes=1 / replies=0 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-14 06:54 | 投稿ID: 18222587251320074 -->
 ## 投稿297
 **テーマ**：「子どもの乳歯、引き出しに眠ってない❓」
@@ -5566,9 +5569,12 @@ metrics_fetched: true
 名前と日付を書くスペースもあるから、子ども3人分まとめてこれ1つで管理できてる‼
 きちんと洗って乾かしてから入れると長く綺麗に残せる（PR）
 https://a.r10.to/hYN4af
+**メトリクス（2026-06-18取得）**
+views=244 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-14 08:46 | 投稿ID: 17952365388149880 -->
 ## 投稿353
 **テーマ**：「子どもが『疲れた』と言わないのは元気だからじゃない」
@@ -5584,9 +5590,12 @@ https://a.r10.to/hYN4af
 子どもの疲れは言語化が難しいから、親が観察して先に気づいてあげてほしいやつ🌿
 
 フォローしておくといつでも読めるよ📚
+**メトリクス（2026-06-18取得）**
+views=95 / likes=0 / replies=0 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-14 11:37 | 投稿ID: 18103286384088494 -->
 ## 投稿298
 **テーマ**：「夏、子どもがぐったり帰ってくる問題」
@@ -5608,9 +5617,12 @@ https://a.r10.to/hYN4af
 GMP認定工場製造だから子どもに飲ませても安心‼
 「疲れやすい」が気になる季節に試してみてほしいやつ（PR）
 https://a.r10.to/h59qhQ
+**メトリクス（2026-06-18取得）**
+views=102 / likes=1 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-06-14 22:55 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Sunday, 14-Jun-26 15:55:02 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AUjT-qpXfu2Xxz3ScgjatOb"}} -->
 ## 投稿354
 **テーマ**：「子どもの夏サンダル、ぺらぺらで大丈夫❓」
