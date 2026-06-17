@@ -5825,3 +5825,34 @@ https://a.r10.to/hkqsD6
 
 ---
 
+<!-- 処理日時: 2026-06-17 12:33 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Wednesday, 17-Jun-26 05:33:06 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"A1CH3Is2-UjnSD_DnBzvuv8"}} -->
+## 投稿A-012
+**テーマ**：子ども用ガーゼケット（夜中に何度も起きてた→布団が暑かっただけ）
+**カテゴリ**：アフィリエイト
+**型**：S-13（ミスリード→ネタバラシ型）
+**商品**：子ども用夏布団・ガーゼケット（綿100%・4点ずれ防止）
+**時期**：6月〜8月
+**URL**：https://a.r10.to/hNt7Bc
+
+**本文**
+子どもが夜中に何度も起きて
+正直ぐったりしてた、、
+
+熱はない、お腹も空いてない
+なんで起きるの…ってずっと悩んでたんだけど
+
+**コメント欄（セルフリプライ用）**
+布団が暑かっただけだった笑
+
+綿100%のガーゼケットに変えたら
+朝までぐっすり寝るようになった🌙
+
+4点で結ぶからずれにくくて
+蹴ってもずり落ちないのが地味にありがたい
+
+丸洗いできるのも🙌
+気になる人はここから（PR）
+https://a.r10.to/hNt7Bc
+
+---
+
