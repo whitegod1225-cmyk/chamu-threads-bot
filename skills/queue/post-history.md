@@ -5868,3 +5868,35 @@ https://a.r10.to/hNt7Bc
 
 ---
 
+<!-- 処理日時: 2026-06-17 23:10 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A8CRNBtRiwJ-uiX1a3-Vqa8"}} -->
+## 投稿A-009
+**テーマ**：授業中座っていられない子は「固有受容覚」が足りていないだけかもしれない
+**カテゴリ**：有益情報（非アフィ）
+**型**：E-3（科学的裏付け型）
+**時期**：通年
+
+**本文**
+授業中ずっと座っていられない子、
+「落ち着きがない」で片付けられがちだけど
+
+実は足が床につかないだけで
+集中力が落ちることがわかってる
+
+「固有受容覚」っていって
+足の裏からの刺激が脳の覚醒を保つ役割をしてる
+
+児童支援員として現場で見てきて
+これ本当に多いんだよね🥹
+
+**コメント欄（セルフリプライ用）**
+椅子に座ってる時に足がブラブラしてる子、よく見る
+
+体が安定しないと脳も安定しにくい
+足元に何か置いてあげるだけで
+落ち着きが変わることがある
+
+「この子落ち着きがない」と思ったら
+まず座ってる環境を見てみて🙌
+
+---
+

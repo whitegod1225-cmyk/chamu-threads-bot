@@ -4769,3 +4769,33 @@ https://a.r10.to/h59qhQ
 なんで起きるの…ってずっと悩んでたんだけど
 [2026-06-17 12:33:06] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Wednesday, 17-Jun-26 05:33:06 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"A1CH3Is2-UjnSD_DnBzvuv8"}}
 [2026-06-17 12:33:06] 2回失敗のためスキップ。残りキュー: 15件
+[2026-06-17 23:10:25] ===== post.py 起動 =====
+[2026-06-17 23:10:25] キュー件数: 15件
+[2026-06-17 23:10:25] 投稿開始（試行1回目）:
+授業中ずっと座っていられない子、
+「落ち着きがない」で片付けられがちだけど
+
+実は足が床につかないだけで
+集中力が落ちることがわかってる
+
+「固有受容覚」っていって
+足の裏からの刺激が脳の覚醒を保つ役割をしてる
+
+児童支援員として現場で見てきて
+これ本当に多いんだよね🥹
+[2026-06-17 23:10:25] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AIv5HvULUVPeNswEfRnviJH"}}
+[2026-06-17 23:10:25] 5秒後にリトライします...
+[2026-06-17 23:10:30] 投稿開始（試行2回目）:
+授業中ずっと座っていられない子、
+「落ち着きがない」で片付けられがちだけど
+
+実は足が床につかないだけで
+集中力が落ちることがわかってる
+
+「固有受容覚」っていって
+足の裏からの刺激が脳の覚醒を保つ役割をしてる
+
+児童支援員として現場で見てきて
+これ本当に多いんだよね🥹
+[2026-06-17 23:10:30] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A8CRNBtRiwJ-uiX1a3-Vqa8"}}
+[2026-06-17 23:10:30] 2回失敗のためスキップ。残りキュー: 14件
