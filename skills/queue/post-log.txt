@@ -4725,3 +4725,29 @@ https://a.r10.to/h59qhQ
 結局じゃまになって押し入れに入れた笑
 [2026-06-17 05:08:39] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Tuesday, 16-Jun-26 22:08:39 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"ARHYXpncyG-cbeX8WboDtA2"}}
 [2026-06-17 05:08:39] 2回失敗のためスキップ。残りキュー: 17件
+[2026-06-17 08:29:36] ===== post.py 起動 =====
+[2026-06-17 08:29:36] キュー件数: 17件
+[2026-06-17 08:29:36] 投稿開始（試行1回目）:
+夏もまだ毛布系の布団かけてる子、
+睡眠の質が下がってるかもしれない
+
+子どもは大人より体温が高くて
+布団が暑すぎると何度も起きたり
+寝汗でパジャマがびしょびしょになる
+
+綿100%のガーゼ素材に変えるだけで
+体温調節がしやすくなるよ🌙
+[2026-06-17 08:29:36] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Wednesday, 17-Jun-26 01:29:36 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AVLPRGMYFpZajmw14Pu6eJQ"}}
+[2026-06-17 08:29:36] 5秒後にリトライします...
+[2026-06-17 08:29:41] 投稿開始（試行2回目）:
+夏もまだ毛布系の布団かけてる子、
+睡眠の質が下がってるかもしれない
+
+子どもは大人より体温が高くて
+布団が暑すぎると何度も起きたり
+寝汗でパジャマがびしょびしょになる
+
+綿100%のガーゼ素材に変えるだけで
+体温調節がしやすくなるよ🌙
+[2026-06-17 08:29:41] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Sunday, 14-Jun-26 07:25:49 PDT. The current time is Wednesday, 17-Jun-26 01:29:41 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"A8iUvX6A83OCi-etdX-cEI_"}}
+[2026-06-17 08:29:41] 2回失敗のためスキップ。残りキュー: 16件
