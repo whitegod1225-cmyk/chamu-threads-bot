@@ -4815,3 +4815,33 @@ https://a.r10.to/h59qhQ
 正直、天才なんよ…🙌
 [2026-06-18 04:58:24] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AByQrmmiDbpo_H8MzwtxkMP"}}
 [2026-06-18 04:58:24] 2回失敗のためスキップ。残りキュー: 13件
+[2026-06-18 08:09:16] ===== post.py 起動 =====
+[2026-06-18 08:09:16] キュー件数: 13件
+[2026-06-18 08:09:16] 投稿開始（試行1回目）:
+炎上覚悟で言うけど
+イヤイヤ期、「成長の証だよ」って
+言われ続けるのしんどくない？
+
+わかってる、成長してる
+でも今しんどいんだよって
+言えない空気ある
+
+元保育士として言わせてほしいのは
+しんどいのは当たり前で
+全然おかしくないってこと🥹
+[2026-06-18 08:09:16] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A9iApReyHDHIS38DCnz5Mf4"}}
+[2026-06-18 08:09:16] 5秒後にリトライします...
+[2026-06-18 08:09:21] 投稿開始（試行2回目）:
+炎上覚悟で言うけど
+イヤイヤ期、「成長の証だよ」って
+言われ続けるのしんどくない？
+
+わかってる、成長してる
+でも今しんどいんだよって
+言えない空気ある
+
+元保育士として言わせてほしいのは
+しんどいのは当たり前で
+全然おかしくないってこと🥹
+[2026-06-18 08:09:21] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A30u58gy4LKskLod4ecX3NI"}}
+[2026-06-18 08:09:21] 2回失敗のためスキップ。残りキュー: 12件

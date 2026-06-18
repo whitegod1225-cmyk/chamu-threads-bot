@@ -5931,3 +5931,36 @@ https://a.r10.to/hYKuIx
 
 ---
 
+<!-- 処理日時: 2026-06-18 08:09 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A30u58gy4LKskLod4ecX3NI"}} -->
+## 投稿A-007
+**テーマ**：イヤイヤ期しんどいって言えない空気への本音（元保育士視点）
+**カテゴリ**：有益情報（非アフィ）
+**型**：E-1（炎上覚悟共感型）
+**時期**：通年
+
+**本文**
+炎上覚悟で言うけど
+イヤイヤ期、「成長の証だよ」って
+言われ続けるのしんどくない？
+
+わかってる、成長してる
+でも今しんどいんだよって
+言えない空気ある
+
+元保育士として言わせてほしいのは
+しんどいのは当たり前で
+全然おかしくないってこと🥹
+
+**コメント欄（セルフリプライ用）**
+現場でも「イヤイヤ期の子は手がかかる」のは事実で
+保育士でもしんどいって思う時があった
+
+「成長の証」は本当だけど
+それを感じる余裕が今ない時に言われると
+頑張れって言われてるように聞こえる
+
+しんどい時はしんどいでいい
+今日一日乗り越えただけで十分だよ🙌
+
+---
+
