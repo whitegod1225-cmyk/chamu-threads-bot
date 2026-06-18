@@ -5995,3 +5995,33 @@ https://a.r10.to/hPEeqL
 
 ---
 
+<!-- 処理日時: 2026-06-18 23:25 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AE1ByOkRUkCR13kyXwgSOhl"}} -->
+## 投稿A-005
+**テーマ**：衣替えあるある・後悔しないための収納の変え方
+**カテゴリ**：有益情報（非アフィ）
+**型**：S-5（逆説後悔型）
+**時期**：衣替えシーズン（6月・10月）
+
+**本文**
+毎年衣替えのたびに後悔してた
+
+去年着てた服にしわが入ってる
+虫食い穴がある
+押し込みすぎてぐちゃぐちゃ
+
+「来年こそ片付け方変えよう」って
+毎年思うやつ🫠
+
+**コメント欄（セルフリプライ用）**
+変えてから後悔しなくなったこと
+
+❶防虫剤は服の上に置く（下に置くと効かない）
+❷ニットは立てて収納しない（型崩れする）
+❸「来年着るかも」で残した服はほぼ着ない
+　→ 今季着なかったら手放す基準にすると楽になる
+
+夏の衣替えのうちにやっておくと
+秋が全然違うよ🙌
+
+---
+
