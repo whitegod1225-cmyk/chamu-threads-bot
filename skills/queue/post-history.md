@@ -5964,3 +5964,34 @@ https://a.r10.to/hYKuIx
 
 ---
 
+<!-- 処理日時: 2026-06-18 12:00 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AZmViZoN6Ck-Nv8EnJtuhXT"}} -->
+## 投稿A-008
+**テーマ**：2wayダイニングチェア（ご飯の時間が毎回試合だった頃）
+**カテゴリ**：アフィリエイト
+**型**：S-9（笑えるエピソード導入型）
+**商品**：2wayダイニングチェア（ベルト5点式・リクライニング）
+**時期**：通年
+**URL**：https://a.r10.to/hPEeqL
+
+**本文**
+うちの子たちが小さかった頃
+ご飯の時間が毎回試合だった笑
+
+食べない、こぼす、椅子から脱走する
+全部同時にやるやつ🫠
+
+**コメント欄（セルフリプライ用）**
+あの頃これ使ってたら
+もう少し楽だったかもって思う商品に出会った
+
+ベルト5点式で脱走できないし
+リクライニングするから離乳食期から使える🙌
+
+0歳から6年使えるから
+長い目で見てコスパいい
+
+気になる人はここから（PR）
+https://a.r10.to/hPEeqL
+
+---
+

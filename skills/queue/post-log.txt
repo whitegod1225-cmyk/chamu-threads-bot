@@ -4845,3 +4845,21 @@ https://a.r10.to/h59qhQ
 全然おかしくないってこと🥹
 [2026-06-18 08:09:21] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A30u58gy4LKskLod4ecX3NI"}}
 [2026-06-18 08:09:21] 2回失敗のためスキップ。残りキュー: 12件
+[2026-06-18 12:00:07] ===== post.py 起動 =====
+[2026-06-18 12:00:07] キュー件数: 12件
+[2026-06-18 12:00:07] 投稿開始（試行1回目）:
+うちの子たちが小さかった頃
+ご飯の時間が毎回試合だった笑
+
+食べない、こぼす、椅子から脱走する
+全部同時にやるやつ🫠
+[2026-06-18 12:00:07] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"Al5nLlW0I1wgDeb-YTYRiff"}}
+[2026-06-18 12:00:07] 5秒後にリトライします...
+[2026-06-18 12:00:12] 投稿開始（試行2回目）:
+うちの子たちが小さかった頃
+ご飯の時間が毎回試合だった笑
+
+食べない、こぼす、椅子から脱走する
+全部同時にやるやつ🫠
+[2026-06-18 12:00:13] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AZmViZoN6Ck-Nv8EnJtuhXT"}}
+[2026-06-18 12:00:13] 2回失敗のためスキップ。残りキュー: 11件
