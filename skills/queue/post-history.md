@@ -5900,3 +5900,34 @@ https://a.r10.to/hNt7Bc
 
 ---
 
+<!-- 処理日時: 2026-06-18 04:58 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AByQrmmiDbpo_H8MzwtxkMP"}} -->
+## 投稿A-010
+**テーマ**：センサリーツール「ふみおくん」（足元に置くだけで集中力サポート）
+**カテゴリ**：アフィリエイト
+**型**：S-15（問いかけ→天才称賛型）
+**商品**：センサリーツール ふみおくん
+**時期**：通年
+**URL**：https://a.r10.to/hYKuIx
+
+**本文**
+誰ですか？
+これを作った人は
+
+正直、天才なんよ…🙌
+
+**コメント欄（セルフリプライ用）**
+足元に置くだけで
+座ってる間に足の裏から適度な刺激が入って
+自然と落ち着いて座れるようになる
+
+多動・姿勢・集中力をサポートする
+センサリーツール
+
+小学生の宿題・勉強中にちょうどいいサイズ感🙌
+リサイクル素材で繰り返し使えるのもいい
+
+気になる人はここから（PR）
+https://a.r10.to/hYKuIx
+
+---
+
