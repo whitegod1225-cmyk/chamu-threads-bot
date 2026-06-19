@@ -4907,3 +4907,35 @@ https://a.r10.to/h59qhQ
 どこに何入れたかもわからなくなるやつ
 [2026-06-19 05:20:20] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AVy3zx5VWJwLmquLHbMIcuK"}}
 [2026-06-19 05:20:20] 2回失敗のためスキップ。残りキュー: 9件
+[2026-06-19 08:32:58] ===== post.py 起動 =====
+[2026-06-19 08:32:58] キュー件数: 9件
+[2026-06-19 08:32:58] 投稿開始（試行1回目）:
+梅雨明けしたら外遊びしたいママへ
+
+公園遊びって、準備が少ないほど
+子どもが長続きするんだよね
+
+❶シャボン玉（座ってても一緒に楽しめる）
+❷水風船（一瞬で盛り上がる）
+❸砂場＋水（延々と遊んでくれる）
+❹シート1枚＋おやつ（場所を作るだけで満足度UP）
+
+「今日どこいく？」の答えを
+増やしておくと夏が楽になるよ🌞
+[2026-06-19 08:32:58] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"A1V0xgOLI-eBTIzel3fiE0w"}}
+[2026-06-19 08:32:58] 5秒後にリトライします...
+[2026-06-19 08:33:03] 投稿開始（試行2回目）:
+梅雨明けしたら外遊びしたいママへ
+
+公園遊びって、準備が少ないほど
+子どもが長続きするんだよね
+
+❶シャボン玉（座ってても一緒に楽しめる）
+❷水風船（一瞬で盛り上がる）
+❸砂場＋水（延々と遊んでくれる）
+❹シート1枚＋おやつ（場所を作るだけで満足度UP）
+
+「今日どこいく？」の答えを
+増やしておくと夏が楽になるよ🌞
+[2026-06-19 08:33:03] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AjFKJfiIXGgP5i4PwUsVfrQ"}}
+[2026-06-19 08:33:03] 2回失敗のためスキップ。残りキュー: 8件
