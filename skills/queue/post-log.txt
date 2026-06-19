@@ -4887,3 +4887,23 @@ https://a.r10.to/h59qhQ
 毎年思うやつ🫠
 [2026-06-18 23:25:02] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AE1ByOkRUkCR13kyXwgSOhl"}}
 [2026-06-18 23:25:02] 2回失敗のためスキップ。残りキュー: 10件
+[2026-06-19 05:20:13] ===== post.py 起動 =====
+[2026-06-19 05:20:13] キュー件数: 10件
+[2026-06-19 05:20:13] 投稿開始（試行1回目）:
+衣替えのたびに
+「去年の服しわしわやん」ってなるの、
+毎年の恒例行事になってた、、
+
+ぎゅうぎゅうに詰め込んで
+どこに何入れたかもわからなくなるやつ
+[2026-06-19 05:20:14] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"ApjdCbUq5_vik3_ZXRtEI1Y"}}
+[2026-06-19 05:20:14] 5秒後にリトライします...
+[2026-06-19 05:20:19] 投稿開始（試行2回目）:
+衣替えのたびに
+「去年の服しわしわやん」ってなるの、
+毎年の恒例行事になってた、、
+
+ぎゅうぎゅうに詰め込んで
+どこに何入れたかもわからなくなるやつ
+[2026-06-19 05:20:20] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AVy3zx5VWJwLmquLHbMIcuK"}}
+[2026-06-19 05:20:20] 2回失敗のためスキップ。残りキュー: 9件

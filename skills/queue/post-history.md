@@ -6025,3 +6025,36 @@ https://a.r10.to/hPEeqL
 
 ---
 
+<!-- 処理日時: 2026-06-19 05:20 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AVy3zx5VWJwLmquLHbMIcuK"}} -->
+## 投稿A-006
+**テーマ**：立体圧縮袋（衣替えのぐちゃぐちゃ問題が解決した）
+**カテゴリ**：アフィリエイト
+**型**：S-2（日常シーン→転換型）
+**商品**：立体圧縮袋 2枚入り
+**時期**：衣替えシーズン（6月・10月）
+**URL**：https://a.r10.to/h5UOcS
+
+**本文**
+衣替えのたびに
+「去年の服しわしわやん」ってなるの、
+毎年の恒例行事になってた、、
+
+ぎゅうぎゅうに詰め込んで
+どこに何入れたかもわからなくなるやつ
+
+**コメント欄（セルフリプライ用）**
+立体の圧縮袋に変えてから
+引き出しの中がちゃんと見えるようになった
+
+スチーマーで戻るし
+防虫・防カビまでついてるのが
+地味にありがたい🙌
+
+かさばる冬物もしっかり圧縮できる立体タイプ
+2枚セットで使いやすい🙌
+
+気になる人はここから（PR）
+https://a.r10.to/h5UOcS
+
+---
+
