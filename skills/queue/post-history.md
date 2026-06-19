@@ -6088,3 +6088,30 @@ https://a.r10.to/h5UOcS
 
 ---
 
+<!-- 処理日時: 2026-06-19 12:28 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"Aknq_f_Sn3g7RFjuIWAZWlI"}} -->
+## 投稿A-004
+**テーマ**：電動シャボン玉ガン（吹かなくていい・追いかけるだけ）
+**カテゴリ**：アフィリエイト
+**型**：S-8（衝動購入報告型）
+**商品**：電動バブルガン
+**時期**：梅雨明け〜夏
+**URL**：https://a.r10.to/h8jeUE
+
+**本文**
+見つけて秒でポチったやつ🫧
+
+**コメント欄（セルフリプライ用）**
+電動で勝手にシャボン玉が出てくるから
+親が吹き続けなくていい笑
+
+子どもは追いかけるだけで大喜びだし
+外遊びのハードルが一気に下がった🌞
+
+夏の公園にも
+おうちの庭やベランダにも使えるやつ🫧
+
+気になる人はここから（PR）
+https://a.r10.to/h8jeUE
+
+---
+
