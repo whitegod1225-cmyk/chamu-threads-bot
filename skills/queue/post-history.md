@@ -6115,3 +6115,34 @@ https://a.r10.to/h8jeUE
 
 ---
 
+<!-- 処理日時: 2026-06-19 13:51 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"Ayido7AUaOYmJo4Dhkti7bn"}} -->
+## 投稿A-001
+**テーマ**：在宅ワーク中に子どもに邪魔される原因は環境にある（元保育士視点）
+**カテゴリ**：有益情報（非アフィ）
+**型**：E-2（専門家問題再定義型）
+**時期**：通年
+
+**本文**
+在宅ワーク中に子どもに邪魔される、
+それたぶん環境のせいだよ
+
+ダイニングテーブルで仕事してると
+子どもから見たら「いつもの場所」だから
+普通に入ってくる
+
+元保育士として見てきた感覚でいうと
+「仕事中」が目で見てわかる専用スペースがあるだけで
+子どもの行動、変わる🙌
+
+**コメント欄（セルフリプライ用）**
+やって変わった3つ
+
+❶自分だけのデスクを持つ
+❷そこにいる間だけヘッドフォンをつける
+　（視覚的な「仕事中サイン」になる）
+❸始める前に「あと〇分で終わるね」と先に言う
+
+これセットでやってから邪魔されにくくなった🥹
+
+---
+

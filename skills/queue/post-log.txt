@@ -4949,3 +4949,31 @@ https://a.r10.to/h59qhQ
 見つけて秒でポチったやつ🫧
 [2026-06-19 12:28:38] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"Aknq_f_Sn3g7RFjuIWAZWlI"}}
 [2026-06-19 12:28:38] 2回失敗のためスキップ。残りキュー: 7件
+[2026-06-19 13:51:12] ===== post.py 起動 =====
+[2026-06-19 13:51:12] キュー件数: 7件
+[2026-06-19 13:51:12] 投稿開始（試行1回目）:
+在宅ワーク中に子どもに邪魔される、
+それたぶん環境のせいだよ
+
+ダイニングテーブルで仕事してると
+子どもから見たら「いつもの場所」だから
+普通に入ってくる
+
+元保育士として見てきた感覚でいうと
+「仕事中」が目で見てわかる専用スペースがあるだけで
+子どもの行動、変わる🙌
+[2026-06-19 13:51:12] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AbkmTua4DfTgSeTkjzsuIEv"}}
+[2026-06-19 13:51:12] 5秒後にリトライします...
+[2026-06-19 13:51:17] 投稿開始（試行2回目）:
+在宅ワーク中に子どもに邪魔される、
+それたぶん環境のせいだよ
+
+ダイニングテーブルで仕事してると
+子どもから見たら「いつもの場所」だから
+普通に入ってくる
+
+元保育士として見てきた感覚でいうと
+「仕事中」が目で見てわかる専用スペースがあるだけで
+子どもの行動、変わる🙌
+[2026-06-19 13:51:18] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"Ayido7AUaOYmJo4Dhkti7bn"}}
+[2026-06-19 13:51:18] 2回失敗のためスキップ。残りキュー: 6件
