@@ -6249,3 +6249,34 @@ https://a.r10.to/h5xmc1
 
 ---
 
+<!-- 処理日時: 2026-06-20 14:13 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AY2pQRHEH8so8WDScXcl-Vj"}} -->
+## 投稿A-016
+**テーマ**：消臭ポスター（これがポスターなの？）
+**カテゴリ**：アフィリエイト
+**型**：S-3（商品発見型・まさか型）
+**商品**：消臭ポスター ねこポスター（貼って剥がせる）
+**時期**：通年
+**URL**：https://a.r10.to/h5HTPe
+
+**本文**
+これ、ポスターなの？？って
+二度見したやつ🐱
+
+**コメント欄（セルフリプライ用）**
+ねこのデザインがかわいすぎて
+トイレに貼ったんだけど
+
+「あれ、なんか気にならなくなってきた？」
+ってなった笑
+
+消臭機能もついてるし
+貼って剥がせるから賃貸でも使えるし
+
+生活感が出やすい場所に1枚あると
+雰囲気が変わるやつ🙌
+
+気になる人はここから（PR）
+https://a.r10.to/h5HTPe
+
+---
+
