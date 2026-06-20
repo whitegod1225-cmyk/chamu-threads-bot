@@ -5029,3 +5029,29 @@ https://a.r10.to/h59qhQ
 保育士の友人に聞いてやっと見つけたのが、、、
 [2026-06-20 08:27:06] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AUKHBYrCLMG2H-Wj8OoRFeb"}}
 [2026-06-20 08:27:06] 2回失敗のためスキップ。残りキュー: 3件
+[2026-06-20 11:25:19] ===== post.py 起動 =====
+[2026-06-20 11:25:19] キュー件数: 3件
+[2026-06-20 11:25:19] 投稿開始（試行1回目）:
+生活感ってなんで出るんだろうって
+ずっと思ってたんだけど
+
+「散らかってるから」じゃなくて
+「目線が行く場所が整ってないから」だった
+
+気づいてから
+ちょっとした置き方変えるだけで
+全然違って見えるようになった🙌
+[2026-06-20 11:25:20] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AsLrW3e7871DI5Rg7YbJbY7"}}
+[2026-06-20 11:25:20] 5秒後にリトライします...
+[2026-06-20 11:25:25] 投稿開始（試行2回目）:
+生活感ってなんで出るんだろうって
+ずっと思ってたんだけど
+
+「散らかってるから」じゃなくて
+「目線が行く場所が整ってないから」だった
+
+気づいてから
+ちょっとした置き方変えるだけで
+全然違って見えるようになった🙌
+[2026-06-20 11:25:25] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"Ahs18OlnFuE_5_x4sd8Atzg"}}
+[2026-06-20 11:25:25] 2回失敗のためスキップ。残りキュー: 2件
