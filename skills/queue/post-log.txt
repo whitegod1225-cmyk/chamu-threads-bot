@@ -4991,3 +4991,23 @@ https://a.r10.to/h59qhQ
 これ地味にずっとしんどかった、、
 [2026-06-20 00:18:48] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AoyWeMhL5tHNRWzcC3qmS2j"}}
 [2026-06-20 00:18:48] 2回失敗のためスキップ。残りキュー: 5件
+[2026-06-20 06:38:51] ===== post.py 起動 =====
+[2026-06-20 06:38:51] キュー件数: 5件
+[2026-06-20 06:38:51] 投稿開始（試行1回目）:
+夏のサンダル、「安いし水遊びにいいか」で選んでない❓
+
+保育士時代、夏になると足を痛がる子が急増してた😮‍💨
+足のアーチができる大事な時期に、ぺらぺらのサンダルで過ごすのはリスクが高い‼
+
+フォローしておくといつでも読めるよ📚
+[2026-06-20 06:38:52] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AVrNbPMbpwY26rttW04wteU"}}
+[2026-06-20 06:38:52] 5秒後にリトライします...
+[2026-06-20 06:38:57] 投稿開始（試行2回目）:
+夏のサンダル、「安いし水遊びにいいか」で選んでない❓
+
+保育士時代、夏になると足を痛がる子が急増してた😮‍💨
+足のアーチができる大事な時期に、ぺらぺらのサンダルで過ごすのはリスクが高い‼
+
+フォローしておくといつでも読めるよ📚
+[2026-06-20 06:38:57] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"ADb-R2NdYX4WOIbK48a6TLl"}}
+[2026-06-20 06:38:57] 2回失敗のためスキップ。残りキュー: 4件

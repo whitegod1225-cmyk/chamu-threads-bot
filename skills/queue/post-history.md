@@ -6176,3 +6176,19 @@ https://a.r10.to/hYbi8o
 
 ---
 
+<!-- 処理日時: 2026-06-20 06:38 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"ADb-R2NdYX4WOIbK48a6TLl"}} -->
+## 投稿354
+**テーマ**：「子どもの夏サンダル、ぺらぺらで大丈夫❓」
+**カテゴリ**：B（有益情報系）
+**時期**：夏（5〜8月）
+
+**本文**
+夏のサンダル、「安いし水遊びにいいか」で選んでない❓
+
+保育士時代、夏になると足を痛がる子が急増してた😮‍💨
+足のアーチができる大事な時期に、ぺらぺらのサンダルで過ごすのはリスクが高い‼
+
+フォローしておくといつでも読めるよ📚
+
+---
+
