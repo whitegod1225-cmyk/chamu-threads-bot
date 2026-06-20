@@ -6146,3 +6146,33 @@ https://a.r10.to/h8jeUE
 
 ---
 
+<!-- 処理日時: 2026-06-20 00:18 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AoyWeMhL5tHNRWzcC3qmS2j"}} -->
+## 投稿A-002
+**テーマ**：パソコンデスク（専用スペースで在宅ワークが変わった）
+**カテゴリ**：アフィリエイト
+**型**：S-14（自己悩み開示→解決報告型）
+**商品**：パソコンデスク（引き出し・棚付き）
+**時期**：通年
+**URL**：https://a.r10.to/hYbi8o
+
+**本文**
+ダイニングテーブルで在宅ワークして
+毎回片付けて、また広げて、
+これ地味にずっとしんどかった、、
+
+**コメント欄（セルフリプライ用）**
+専用デスク置いたら
+「ここがママの仕事の場所」って
+子どもが自然にわかるようになってきた🥹
+
+引き出しも棚もあってすっきりするし
+圧迫感も思ったよりなかった
+
+在宅ワークのスペースにも
+小学生の子の勉強机にもなるサイズ感🙌
+
+気になる人はここから（PR）
+https://a.r10.to/hYbi8o
+
+---
+
