@@ -5067,3 +5067,27 @@ https://a.r10.to/h59qhQ
 二度見したやつ🐱
 [2026-06-20 14:13:25] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AY2pQRHEH8so8WDScXcl-Vj"}}
 [2026-06-20 14:13:25] 2回失敗のためスキップ。残りキュー: 1件
+[2026-06-20 14:34:22] ===== post.py 起動 =====
+[2026-06-20 14:34:22] キュー件数: 1件
+[2026-06-20 14:34:22] 投稿開始（試行1回目）:
+3人育てて後から後悔したこと、
+まだあったんだよね、、
+
+赤ちゃんのうちにしかできないことって
+気づいた時にはもう遅かったりする🥹
+
+当時の自分に贈りたかったやつ、
+コメントに順番に貼っとく🐭
+[2026-06-20 14:34:22] 投稿APIエラー（試行1回目）: URL can't contain control characters. '/v1.0/27174179862248154\n/threads' (found at least '\n')
+[2026-06-20 14:34:22] 5秒後にリトライします...
+[2026-06-20 14:34:27] 投稿開始（試行2回目）:
+3人育てて後から後悔したこと、
+まだあったんだよね、、
+
+赤ちゃんのうちにしかできないことって
+気づいた時にはもう遅かったりする🥹
+
+当時の自分に贈りたかったやつ、
+コメントに順番に貼っとく🐭
+[2026-06-20 14:34:27] 投稿APIエラー（試行2回目）: URL can't contain control characters. '/v1.0/27174179862248154\n/threads' (found at least '\n')
+[2026-06-20 14:34:27] 2回失敗のためスキップ。残りキュー: 0件
