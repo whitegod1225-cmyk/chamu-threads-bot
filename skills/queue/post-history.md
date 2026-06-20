@@ -6192,3 +6192,27 @@ https://a.r10.to/hYbi8o
 
 ---
 
+<!-- 処理日時: 2026-06-20 08:27 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AUKHBYrCLMG2H-Wj8OoRFeb"}} -->
+## 投稿299
+**テーマ**：「子どもの夏サンダル、毎年安いのでいいかって選んで後悔してた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：ビルケンシュトック キッズ Arizona EVA サンダル
+**時期**：夏（5〜8月）
+**文章の型**：新PASONA法
+
+**本文**
+子どもの夏サンダル、毎年「安いのでいいか」って選んで後悔してた😮‍💨
+
+足のアーチができる時期に、ぺらぺらのサンダルで過ごさせてたの、今思うとゾッとする‼
+
+保育士の友人に聞いてやっと見つけたのが、、、
+
+**コメント欄（セルフリプライ用）**
+ビルケンシュトック キッズのArizona EVA、EVA素材で丸洗いできて夏にぴったり🌊
+足のアーチをサポートするフットベッドが子ども用に設計されてるから、扁平足対策にも◎
+サイズ15〜22cmで幼稚園から低学年まで長く使える‼
+気になる人はリンクから見てみて（PR）
+https://a.r10.to/h5xmc1
+
+---
+

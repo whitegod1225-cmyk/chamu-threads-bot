@@ -5011,3 +5011,21 @@ https://a.r10.to/h59qhQ
 フォローしておくといつでも読めるよ📚
 [2026-06-20 06:38:57] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"ADb-R2NdYX4WOIbK48a6TLl"}}
 [2026-06-20 06:38:57] 2回失敗のためスキップ。残りキュー: 4件
+[2026-06-20 08:27:01] ===== post.py 起動 =====
+[2026-06-20 08:27:01] キュー件数: 4件
+[2026-06-20 08:27:01] 投稿開始（試行1回目）:
+子どもの夏サンダル、毎年「安いのでいいか」って選んで後悔してた😮‍💨
+
+足のアーチができる時期に、ぺらぺらのサンダルで過ごさせてたの、今思うとゾッとする‼
+
+保育士の友人に聞いてやっと見つけたのが、、、
+[2026-06-20 08:27:01] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AHIZQsRbuE1BsrJ2sBNde8Z"}}
+[2026-06-20 08:27:01] 5秒後にリトライします...
+[2026-06-20 08:27:06] 投稿開始（試行2回目）:
+子どもの夏サンダル、毎年「安いのでいいか」って選んで後悔してた😮‍💨
+
+足のアーチができる時期に、ぺらぺらのサンダルで過ごさせてたの、今思うとゾッとする‼
+
+保育士の友人に聞いてやっと見つけたのが、、、
+[2026-06-20 08:27:06] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Unsupported post request. Object with ID '34618526867762918' does not exist, cannot be loaded due to missing permissions, or does not support this operation","type":"THApiException","code":100,"error_subcode":33,"fbtrace_id":"AUKHBYrCLMG2H-Wj8OoRFeb"}}
+[2026-06-20 08:27:06] 2回失敗のためスキップ。残りキュー: 3件
