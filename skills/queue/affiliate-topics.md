@@ -71,3 +71,40 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：投稿済み（投稿294）
 
 ---
+
+---
+
+## 候補4：おむつ・衛生用品／おむつケーキ 男の子 女の子 ギフト 名入れ 出産祝い サッ
+**商品名**：おむつケーキ 男の子 女の子 ギフト 名入れ 出産祝い サッシー Sassy 知育玩具 3段 マンスリーカード タオル おもちゃ ケーキオムツ 赤ちゃん ベビー 可愛い 誕生日 ループタオル フェイスタオル 歯がため 月齢カード 成長記録 ベビーアルテ
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qlu0m.xpczbd78.g00qlu0m.xpczc1ce/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaby-arte%2Fok-44%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaby-arte%2Fi%2F10000083%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qlu0m.xpczbd78.g00qlu0m.xpczc1ce/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaby-arte%2Fok-44%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaby-arte%2Fi%2F10000083%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.75 / レビュー20963件 / 5,200円 / オムツケーキの店 ベビーアルテ
+
+---
+
+## 候補5：おむつ・衛生用品／6月23日(火)★到着可能★ おむつケーキ 3段 Sassy
+**商品名**：6月23日(火)★到着可能★ おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 夏ギフト ランキング
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.71 / レビュー13278件 / 5,500円 / おむつケーキ研究所
+
+---
+
+## 候補6：おむつ・衛生用品／【1種類を選べる】パンパース オムツ さらさらケア パンツ(
+**商品名**：【1種類を選べる】パンパース オムツ さらさらケア パンツ(1セット)【パンパース】[さらさらケア]
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028658%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028658%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.82 / レビュー8429件 / 8,980円 / 楽天24 ベビー館
+
