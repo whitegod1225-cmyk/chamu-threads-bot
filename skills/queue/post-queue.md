@@ -10,31 +10,6 @@
 ---
 
 <!-- event: マラソン -->
-## 投稿296
-**テーマ**：「マラソン中のおむつまとめ買い習慣」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：パンパース さらさらケアパンツ
-**時期**：通年
-**文章の型**：S-8（衝動購入報告型）
-
-**本文**
-マラソン中にやること、おむつのまとめ買いがいつのまにか習慣になってた
-子どもたちが保育園にいた頃から毎回同じタイミングで買ってたの
-ポイントもつくし、理由がありすぎて、、、
-
-**コメント欄（セルフリプライ用）**
-パンパースのさらさらケアパンツ、うちはずっとこれ
-
-おむつって定価で買うのがもったいなくて
-マラソン中に多めに買って次まで持たせるのが完全に癖になってる
-
-今日も買い足す予定だから一緒にどうぞ（PR）
-↓
-https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028658%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
-
----
-
-<!-- event: マラソン -->
 ## 投稿297
 **テーマ**：「おむつのサイズアップ、3人分迷い続けた」
 **カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
@@ -133,6 +108,3 @@ https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3
 しかも今お買い物マラソン中だから、ポイント狙って一緒に買っといて（PR）
 ↓
 https://hb.afl.rakuten.co.jp/hgc/g00qlu0m.xpczbd78.g00qlu0m.xpczc1ce/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaby-arte%2Fok-44%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaby-arte%2Fi%2F10000083%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
-
----
-
