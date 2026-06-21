@@ -30,7 +30,7 @@
 
 マラソン中にまとめてストックしといて（PR）
 ↓
-https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028506%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+https://a.r10.to/hHu4M4
 
 ---
 
@@ -56,7 +56,7 @@ https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3
 
 出産準備グッズとして、マラソン中の今が狙い目（PR）
 ↓
-https://hb.afl.rakuten.co.jp/hgc/g00qcnfm.xpczbc1f.g00qcnfm.xpczc127/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatural-living%2Fu119712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatural-living%2Fi%2F10010377%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+https://a.r10.to/h5EgJH
 
 ---
 
@@ -81,7 +81,7 @@ https://hb.afl.rakuten.co.jp/hgc/g00qcnfm.xpczbc1f.g00qcnfm.xpczc127/?pc=https%3
 
 マラソン中に出産祝いをまとめて手配するなら下に貼ったやつ（PR）
 ↓
-https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+https://a.r10.to/hkzY3t
 
 ---
 
@@ -107,4 +107,4 @@ https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3
 
 しかも今お買い物マラソン中だから、ポイント狙って一緒に買っといて（PR）
 ↓
-https://hb.afl.rakuten.co.jp/hgc/g00qlu0m.xpczbd78.g00qlu0m.xpczc1ce/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbaby-arte%2Fok-44%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbaby-arte%2Fi%2F10000083%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+https://a.r10.to/hR9bpZ
