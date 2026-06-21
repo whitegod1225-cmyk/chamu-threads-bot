@@ -93,7 +93,7 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **時期**：通年
 **イベント対応**：マラソン / スーパーSALE
 **投稿アングル**：（記入してください）
-**ステータス**：候補
+**ステータス**：post-queue.md済み（投稿299）
 **スクレイプ情報**：評価4.71 / レビュー13278件 / 5,500円 / おむつケーキ研究所
 
 ---
@@ -105,6 +105,42 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **時期**：通年
 **イベント対応**：マラソン / スーパーSALE
 **投稿アングル**：（記入してください）
-**ステータス**：候補
+**ステータス**：post-queue.md済み（投稿296）
 **スクレイプ情報**：評価4.82 / レビュー8429件 / 8,980円 / 楽天24 ベビー館
+
+---
+
+## 候補7：おむつ・衛生用品／【1種類を選べる】マミーポコパンツ 大きめで長〜く使える オ
+**商品名**：【1種類を選べる】マミーポコパンツ 大きめで長〜く使える オムツ M L BIG(3個)【マミーポコパンツ】
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028506%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00pzd4m.xpczbef4.g00pzd4m.xpczc503/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028506%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：post-queue.md済み（投稿297）
+**スクレイプ情報**：評価4.79 / レビュー8187件 / 5,365円 / 楽天24 ベビー館
+
+---
+
+## 候補8：おむつ・衛生用品／6月22日（月）★発送可能★2段NEW今治タオル名前刺繡入れ
+**商品名**：6月22日（月）★発送可能★2段NEW今治タオル名前刺繡入れおむつケーキ出産祝いギフトかわいいクマラトル男の子女の子クリスマス ベビーおしゃれ ベビーシャワー送料無料マタニティ贈り物★土曜日営業★即日発送可ベビーシャワーママギフト送料無料
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6388件 / 3,980円 / おむつケーキ専門店アイリムベビー
+
+---
+
+## 候補9：おむつ・衛生用品／＼楽天1位獲得！／ 防臭 ウッビー Ubbi おむつペール
+**商品名**：＼楽天1位獲得！／ 防臭 ウッビー Ubbi おむつペール カートリッジ不要 おむつ ゴミ箱 臭わない インテリア オムツ ペール おむつ処理ポット 18L 赤ちゃん ベビー 出産祝い 出産準備 ペット 犬 猫 トイレ 介護 ペットシーツ ネコ砂
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qcnfm.xpczbc1f.g00qcnfm.xpczc127/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatural-living%2Fu119712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatural-living%2Fi%2F10010377%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qcnfm.xpczbc1f.g00qcnfm.xpczc127/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatural-living%2Fu119712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatural-living%2Fi%2F10010377%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：post-queue.md済み（投稿298）
+**スクレイプ情報**：評価4.52 / レビュー6095件 / 8,479円 / ナチュラルベビー Natural Baby
 
