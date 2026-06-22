@@ -144,3 +144,39 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：post-queue.md済み（投稿298）
 **スクレイプ情報**：評価4.52 / レビュー6095件 / 8,479円 / ナチュラルベビー Natural Baby
 
+---
+
+## 候補10：おむつ・衛生用品／6月23日（火）★発送可能★2段NEW今治タオル名前刺繡入れ
+**商品名**：6月23日（火）★発送可能★2段NEW今治タオル名前刺繡入れおむつケーキ出産祝いギフトかわいいクマラトル男の子女の子クリスマス ベビーおしゃれ ベビーシャワー送料無料マタニティ贈り物★土曜日営業★即日発送可ベビーシャワーママギフト送料無料
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6388件 / 3,980円 / おむつケーキ専門店アイリムベビー
+
+---
+
+## 候補11：おむつ・衛生用品／●送料無料●【公式BOS-SHOP★驚異の 防臭袋 BOS
+**商品名**：●送料無料●【公式BOS-SHOP★驚異の 防臭袋 BOS (ボス)】 ストライプパッケージ ★（SSサイズ）200枚入　赤ちゃん オムツ ペット いぬ　ネコ ウンチ トイレ 処分 匂い 消 臭 対策 エチケット マナー 車 散歩 旅
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00sok0m.xpczb0a7.g00sok0m.xpczc9be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbos-shop%2Fbos-b001a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbos-shop%2Fi%2F10000023%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00sok0m.xpczb0a7.g00sok0m.xpczc9be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbos-shop%2Fbos-b001a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbos-shop%2Fi%2F10000023%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.85 / レビュー5561件 / 1,660円 / BOS-SHOP
+
+---
+
+## 候補12：おむつ・衛生用品／【6/24着可※対象地域】出産祝いおむつケーキ ミキハウス
+**商品名**：【6/24着可※対象地域】出産祝いおむつケーキ ミキハウス フジテレビドラマ「ディア・シスター」使用 ベビーギフト ひよこクラブ掲載 ガーゼ ハンカチ 今治 ミニタオル 名入れ 名前刺繍 歯固め パンパース メリーズ おもちゃ 風船 バルーン mikihouse 男の子 女の子
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r310m.xpczb4f4.g00r310m.xpczcfb8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faleppo-souq%2Fmikihouse1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faleppo-souq%2Fi%2F10000166%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r310m.xpczb4f4.g00r310m.xpczcfb8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faleppo-souq%2Fmikihouse1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faleppo-souq%2Fi%2F10000166%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.6 / レビュー4723件 / 3,500円 / Aleppo Souq
+
