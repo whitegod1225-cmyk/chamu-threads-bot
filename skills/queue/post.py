@@ -64,6 +64,11 @@ def extract_body(block):
     return m.group(1).strip() if m else None
 
 
+def extract_image_url(block):
+    m = re.search(r"\*\*画像URL\*\*\n(https?://\S+)", block)
+    return m.group(1).strip() if m else None
+
+
 def extract_replies(block):
     """コメント欄を全て抽出して順番にリストで返す（1段・多段どちらも対応）"""
     sections = re.split(r"\n\*\*コメント欄.*?セルフリプライ用）\*\*\n", block)
@@ -105,13 +110,15 @@ def _urlopen(req, timeout=30):
         raise Exception(f"HTTP Error {e.code}: {e.reason} | response: {body}")
 
 
-def api_post(text):
+def api_post(text, image_url=None):
     base = "https://graph.threads.net/v1.0"
-    params1 = urllib.parse.urlencode({
-        "media_type": "TEXT",
-        "text": text,
-        "access_token": ACCESS_TOKEN
-    }).encode("utf-8")
+    p = {"text": text, "access_token": ACCESS_TOKEN}
+    if image_url:
+        p["media_type"] = "IMAGE"
+        p["image_url"] = image_url
+    else:
+        p["media_type"] = "TEXT"
+    params1 = urllib.parse.urlencode(p).encode("utf-8")
     req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
     container_id = _urlopen(req1)["id"]
 
@@ -205,6 +212,7 @@ def main():
 
         block = posts[0]
         body = extract_body(block)
+        image_url = extract_image_url(block)
         replies = extract_replies(block)
 
         # ── 本文なしチェック ──
@@ -236,7 +244,7 @@ def main():
         for attempt in range(2):
             try:
                 log(f"投稿開始（試行{attempt + 1}回目）:\n{body}")
-                post_id = api_post(body)
+                post_id = api_post(body, image_url)
                 log(f"投稿完了！ ID: {post_id}")
                 last_error = None
                 break
