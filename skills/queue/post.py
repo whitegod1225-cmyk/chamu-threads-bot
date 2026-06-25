@@ -64,9 +64,12 @@ def extract_body(block):
     return m.group(1).strip() if m else None
 
 
-def extract_image_url(block):
-    m = re.search(r"\*\*画像URL\*\*\n(https?://\S+)", block)
-    return m.group(1).strip() if m else None
+def extract_image_urls(block):
+    """**画像URL** セクションのURLを全て返す（1枚→[url]、複数→[url, ...]、なし→[]）"""
+    m = re.search(r"\*\*画像URL\*\*\n((?:https?://\S+\n?)+)", block)
+    if not m:
+        return []
+    return [u.strip() for u in m.group(1).strip().splitlines() if u.strip()]
 
 
 def extract_replies(block):
@@ -110,17 +113,54 @@ def _urlopen(req, timeout=30):
         raise Exception(f"HTTP Error {e.code}: {e.reason} | response: {body}")
 
 
-def api_post(text, image_url=None):
+def _create_image_container(image_url, is_carousel_item=False):
+    """カルーセル用の画像コンテナを作成してIDを返す"""
     base = "https://graph.threads.net/v1.0"
-    p = {"text": text, "access_token": ACCESS_TOKEN}
-    if image_url:
-        p["media_type"] = "IMAGE"
-        p["image_url"] = image_url
+    p = {
+        "media_type": "IMAGE",
+        "image_url": image_url,
+        "access_token": ACCESS_TOKEN,
+    }
+    if is_carousel_item:
+        p["is_carousel_item"] = "true"
+    params = urllib.parse.urlencode(p).encode("utf-8")
+    req = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params, method="POST")
+    return _urlopen(req)["id"]
+
+
+def api_post(text, image_urls=None):
+    base = "https://graph.threads.net/v1.0"
+
+    if not image_urls:
+        # テキストのみ
+        p = {"media_type": "TEXT", "text": text, "access_token": ACCESS_TOKEN}
+        params1 = urllib.parse.urlencode(p).encode("utf-8")
+        req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
+        container_id = _urlopen(req1)["id"]
+
+    elif len(image_urls) == 1:
+        # 画像1枚
+        p = {"media_type": "IMAGE", "image_url": image_urls[0], "text": text, "access_token": ACCESS_TOKEN}
+        params1 = urllib.parse.urlencode(p).encode("utf-8")
+        req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
+        container_id = _urlopen(req1)["id"]
+
     else:
-        p["media_type"] = "TEXT"
-    params1 = urllib.parse.urlencode(p).encode("utf-8")
-    req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
-    container_id = _urlopen(req1)["id"]
+        # カルーセル（複数画像）
+        child_ids = []
+        for url in image_urls:
+            cid = _create_image_container(url, is_carousel_item=True)
+            child_ids.append(cid)
+            time.sleep(1)
+        p = {
+            "media_type": "CAROUSEL",
+            "children": ",".join(child_ids),
+            "text": text,
+            "access_token": ACCESS_TOKEN,
+        }
+        params1 = urllib.parse.urlencode(p).encode("utf-8")
+        req1 = urllib.request.Request(f"{base}/{USER_ID}/threads", data=params1, method="POST")
+        container_id = _urlopen(req1)["id"]
 
     # コンテナがThreads側に認識されるまで待機
     time.sleep(3)
@@ -212,7 +252,7 @@ def main():
 
         block = posts[0]
         body = extract_body(block)
-        image_url = extract_image_url(block)
+        image_urls = extract_image_urls(block)
         replies = extract_replies(block)
 
         # ── 本文なしチェック ──
@@ -244,7 +284,7 @@ def main():
         for attempt in range(2):
             try:
                 log(f"投稿開始（試行{attempt + 1}回目）:\n{body}")
-                post_id = api_post(body, image_url)
+                post_id = api_post(body, image_urls or None)
                 log(f"投稿完了！ ID: {post_id}")
                 last_error = None
                 break
