@@ -9,33 +9,6 @@
 
 ---
 
-## 投稿295
-**テーマ**：「子どもの身長、数字で残してなかった後悔」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：岡崎製材 無垢材 木製壁掛け身長計（森の身長計）
-**時期**：通年（入学・進級シーズンに特に有効）
-**文章の型**：新PASONA法
-**画像URL**
-https://image.rakuten.co.jp/muku-mekiki/cabinet/okazaki-seizai/hazaiproject/height-meter/sin_thumbnail_2.jpg
-https://image.rakuten.co.jp/muku-mekiki/cabinet/okazaki-seizai/hazaiproject/height-meter/sin_thumbnail_3.jpg
-https://image.rakuten.co.jp/muku-mekiki/cabinet/okazaki-seizai/hazaiproject/height-meter/sin_thumbnail_5.jpg
-https://image.rakuten.co.jp/muku-mekiki/cabinet/okazaki-seizai/hazaiproject/height-meter/sin_thumbnail_6.jpg
-
-**本文**
-3人の子どもの身長、毎年測ってたのに数字を残してなかった
-
-「あの頃何cmだったっけ」って今更聞いても誰も覚えてなくて
-こんなことになると思わなかった。それが
-
-**コメント欄（セルフリプライ用）**
-岡崎製材の無垢材で作った身長計を見つけてから、毎年ちゃんと残せるようになった
-国産の木材で年輪の模様が一本一本ちがう1点モノ
-壁に掛けておくだけで、記念日のたびに測るのが楽しみになった
-数字じゃなくて「木の線」として残るのがいい‼（PR）
-https://a.r10.to/hkV6ZO
-
----
-
 ## 投稿296
 **テーマ**：「室内動画の映えない問題、ひとつで解決した」
 **カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
