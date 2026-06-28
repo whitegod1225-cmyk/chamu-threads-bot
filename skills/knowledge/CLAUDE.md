@@ -30,25 +30,43 @@ git push origin main
 Threadsアカウント「ちゃむ。」の投稿を自動化するシステム。
 6つのエージェントがファイルを介して連携して動く。
 
-## 読み込むファイル一覧
+## スキル別読み込みファイル一覧
+
+> **ルール**：各スキルは「必須」列のファイルのみ読む。「任意」は必要と判断した場合のみ読む。全ファイルを毎回読まない。
+
+### 共通コアファイル（全スキルが読む・7本）
 - skills/knowledge/01_profile.md（人物設定）
 - skills/knowledge/02_target.md（ターゲット）
 - skills/knowledge/03_writing.md（文体ルール）
-- skills/knowledge/04_knowledge.md（コンテンツジャンル）
-- skills/knowledge/05_affiliate.md（アフィリエイト方針）
-- skills/knowledge/06_schedule.md（投稿スケジュール）
 - skills/knowledge/07_ng-rules.md（NGルール）
 - skills/knowledge/08_strategy.md（戦略）
-- skills/knowledge/09_references.md（参考投稿ストック ※★印＋直近通常9本＋アフィリ全9本を収録）
-  ※ 古い通常参考投稿は `09_references_archive.md` に分離済み（/researcherや深いリサーチ時のみ参照）
-- skills/knowledge/10_idea-generation.md（バズテーマ独自案生成プロンプト集）
-- skills/knowledge/11_monetize-prompts.md（マネタイズ・成長プロンプト集）
-- skills/knowledge/12_hook-patterns.md（バズフック集 ※投稿の1行目パターン一覧）
-- skills/knowledge/13_cta-patterns.md（CTA集 ※コメント欄末尾のURL誘導文パターン）
-- skills/knowledge/15_post-structures.md（投稿構造テンプレート集 ※S-1〜S-16：アフィリ型、E-1〜E-4：信頼構築型）
-- skills/knowledge/affiliate-research/（アフィリエイト投稿方法の参考記事ストック ※_index.mdを先に読むこと）
-- skills/knowledge/affiliate-examples/（アフィリエイト投稿の文体・構成サンプル集 ※/affiliate-writerが型として参照する ※_index.mdを先に読むこと）
-- skills/knowledge/14_zu-writer.md（カピおじ図解プロンプト生成パラメータ ※/zu-writerが参照する）
+- skills/queue/post-queue.md（投稿キュー）
+- skills/queue/post-history.md（投稿履歴）
+
+### /writer（通常投稿作成）
+**必須**：共通コア ＋ 04_knowledge.md / 06_schedule.md / 09_references.md（通常参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_normal.md / next-topics.md
+**任意**：10_idea-generation.md（テーマ発想が必要な場合）/ 11_monetize-prompts.md（CTA強化が必要な場合）
+
+### /affiliate-writer（アフィリエイト投稿作成）
+**必須**：共通コア ＋ 05_affiliate.md / 09_references.md（アフィリ参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_affiliate.md / affiliate-topics.md
+**任意**：affiliate-research/_index.md / affiliate-examples/_index.md（型の参考が必要な場合）
+
+### /analyst（投稿分析）
+**必須**：共通コア ＋ 04_knowledge.md / analysis-latest.md / next-topics.md
+**任意**：10_idea-generation.md
+
+### /researcher（バズリサーチ）
+**必須**：共通コア ＋ 04_knowledge.md / 09_references.md / 09_references_archive.md
+**任意**：10_idea-generation.md / 11_monetize-prompts.md
+
+### /zu-writer（図解プロンプト生成）
+**必須**：共通コア ＋ 14_zu-writer.md / 04_knowledge.md
+
+### /intro-writer（型A自己紹介）
+**必須**：共通コア ＋ 04_knowledge.md / 12_hook-patterns.md
+
+### /poster・/fetcher・/replyer・/supervisor（運用系）
+**必須**：共通コア のみ（各スキルの手順に従い必要なファイルを個別に読む）
 
 ## キューファイル
 - skills/queue/next-topics.md（通常投稿の次のテーマ）
@@ -80,8 +98,8 @@ post-history.mdの投稿データを分析して、
 ### /writer
 next-topics.mdからテーマを1つ選んでThreads投稿を3本作り、
 post-queue.mdに追加する。
-- 01_profile.md〜08_strategy.mdを全部読み込んでから書く
-- 09_references.mdのバズ投稿から構成を1つ参考にする（丸パクリ禁止）
+- 読み込むファイル：上記「/writer」の必須ファイルのみ（全ファイル読み込み禁止）
+- 09_references.mdの通常参考（★印・直近）から構成を1つ参考にする（丸パクリ禁止）
 - 1行目は5案出して一番強いものを選ぶ
 - 本文200〜350文字
 - コメント欄用の続きも書く（本文で完結させない）
