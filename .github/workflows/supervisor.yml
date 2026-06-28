@@ -1,0 +1,50 @@
+name: Weekly Supervisor Check
+
+on:
+  schedule:
+    - cron: '0 22 * * 0'  # 毎週月曜 07:00 JST（UTC日曜 22:00）
+  workflow_dispatch:       # 手動実行も可
+
+jobs:
+  supervisor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run supervisor check
+        id: check
+        run: python skills/queue/supervisor.py
+        continue-on-error: true
+
+      - name: Commit supervisor report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add skills/queue/supervisor-report.md
+          git diff --cached --quiet || git commit -m "chore: supervisor report $(date +'%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
+
+      - name: Create GitHub Issue on warning
+        if: steps.check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('skills/queue/supervisor-report.md', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `⚠️ Supervisor警告 ${new Date().toISOString().slice(0,10)}`,
+              body: report + '\n\n---\n_自動生成 by supervisor.yml_',
+              labels: ['supervisor', 'alert']
+            });
