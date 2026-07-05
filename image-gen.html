@@ -5,836 +5,424 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>画像生成プロンプトジェネレーター</title>
 <style>
-  :root {
-    --bg: #faf8f5;
-    --card: #ffffff;
-    --border: #e8e0d5;
-    --accent: #c17b4e;
-    --accent-light: #f5ede4;
-    --text: #2d2520;
-    --text-muted: #8a7a6e;
-    --success: #5a8a5e;
-    --radius: 12px;
-    --shadow: 0 2px 12px rgba(0,0,0,0.08);
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    padding: 24px 16px 80px;
-  }
-  .container { max-width: 680px; margin: 0 auto; }
-  header {
-    text-align: center;
-    margin-bottom: 32px;
-  }
-  header h1 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--accent);
-    margin-bottom: 4px;
-  }
-  header p { font-size: 0.85rem; color: var(--text-muted); }
+:root {
+  --bg: #faf8f5;
+  --card: #ffffff;
+  --border: #e8e0d5;
+  --accent: #c17b4e;
+  --light: #f5ede4;
+  --text: #2d2520;
+  --muted: #8a7a6e;
+  --green: #5a8a5e;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; background: var(--bg); color: var(--text); padding: 20px 16px 80px; }
+.wrap { max-width: 660px; margin: 0 auto; }
+h1 { font-size: 1.3rem; color: var(--accent); text-align: center; margin-bottom: 4px; }
+.sub { font-size: .82rem; color: var(--muted); text-align: center; margin-bottom: 24px; }
 
-  /* Progress */
-  .progress {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 28px;
-  }
-  .step-dot {
-    width: 28px; height: 28px;
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 0.75rem; font-weight: 700;
-    background: var(--border);
-    color: var(--text-muted);
-    flex-shrink: 0;
-    transition: all 0.2s;
-  }
-  .step-dot.active { background: var(--accent); color: white; }
-  .step-dot.done { background: var(--success); color: white; }
-  .step-line { flex: 1; height: 2px; background: var(--border); }
-  .step-line.done { background: var(--success); }
+.section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 14px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.section h2 { font-size: .95rem; font-weight: 700; margin-bottom: 12px; }
+label { display: block; font-size: .82rem; color: var(--muted); margin-bottom: 4px; margin-top: 12px; }
+label:first-of-type { margin-top: 0; }
 
-  /* Card */
-  .card {
-    background: var(--card);
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
-    padding: 24px;
-    box-shadow: var(--shadow);
-    margin-bottom: 16px;
-  }
-  .card h2 {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 4px;
-    color: var(--text);
-  }
-  .card .hint {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    margin-bottom: 16px;
-  }
+select, input[type=text] {
+  width: 100%; padding: 9px 12px;
+  border: 1.5px solid var(--border); border-radius: 8px;
+  font-size: .9rem; font-family: inherit; color: var(--text);
+  background: var(--bg); appearance: none; cursor: pointer;
+}
+select:focus, input[type=text]:focus { outline: none; border-color: var(--accent); }
+input[type=text] { cursor: text; }
 
-  /* Buttons */
-  .btn-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-  .btn-grid.single { grid-template-columns: 1fr; }
-  .btn-grid.three { grid-template-columns: 1fr 1fr 1fr; }
-  .choice-btn {
-    background: var(--bg);
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    padding: 10px 12px;
-    font-size: 0.85rem;
-    color: var(--text);
-    cursor: pointer;
-    text-align: left;
-    transition: all 0.15s;
-    line-height: 1.4;
-  }
-  .choice-btn:hover {
-    border-color: var(--accent);
-    background: var(--accent-light);
-    color: var(--accent);
-  }
-  .choice-btn.selected {
-    border-color: var(--accent);
-    background: var(--accent-light);
-    color: var(--accent);
-    font-weight: 600;
-  }
-  .choice-btn.chamu {
-    background: #fff8f0;
-    border-color: var(--accent);
-    color: var(--accent);
-    font-weight: 600;
-    grid-column: 1 / -1;
-    text-align: center;
-  }
-  .choice-btn.chamu:hover { background: var(--accent); color: white; }
+.radio-group { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.radio-group label { margin: 0; font-size: .85rem; color: var(--text); }
+.radio-group input[type=radio] { accent-color: var(--accent); }
 
-  /* Special badges */
-  .badge {
-    display: inline-block;
-    font-size: 0.65rem;
-    padding: 1px 6px;
-    border-radius: 4px;
-    margin-left: 4px;
-    vertical-align: middle;
-  }
-  .badge-rec { background: #fff3e0; color: #e65100; }
+.btn-gen { display: block; width: 100%; padding: 12px; background: var(--accent); color: #fff; border: none; border-radius: 10px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 16px; font-family: inherit; }
+.btn-gen:hover { background: #a0623d; }
 
-  /* Text input */
-  .text-input {
-    width: 100%;
-    padding: 10px 14px;
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    font-size: 0.9rem;
-    font-family: inherit;
-    color: var(--text);
-    background: var(--bg);
-    margin-bottom: 8px;
-    transition: border-color 0.15s;
-  }
-  .text-input:focus { outline: none; border-color: var(--accent); }
+.output { display: none; }
+.out-box { background: #1e1a17; border-radius: 8px; padding: 14px 14px 14px 14px; margin: 10px 0; position: relative; }
+.out-label { font-size: .68rem; color: #777; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+.out-text { font-size: .8rem; color: #e8e0d5; line-height: 1.7; white-space: pre-wrap; word-break: break-word; font-family: 'Courier New', monospace; padding-right: 56px; }
+.cp { position: absolute; top: 12px; right: 12px; padding: 3px 10px; background: #3a3530; color: #bbb; border: none; border-radius: 5px; font-size: .72rem; cursor: pointer; font-family: inherit; }
+.cp:hover { background: var(--accent); color: #fff; }
+.cp.ok { background: var(--green); color: #fff; }
 
-  /* Action buttons */
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
-    transition: all 0.15s;
-  }
-  .btn-primary { background: var(--accent); color: white; }
-  .btn-primary:hover { background: #a0623d; }
-  .btn-secondary {
-    background: white;
-    color: var(--text-muted);
-    border: 1.5px solid var(--border);
-  }
-  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
-  .btn-success { background: var(--success); color: white; }
-  .btn-success:hover { background: #487a4d; }
-  .btn-row {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-top: 16px;
-  }
+.tip { background: #f0f7f0; border: 1px solid #c8e0ca; border-radius: 8px; padding: 10px 13px; font-size: .82rem; color: #3a5c3e; line-height: 1.65; margin-top: 10px; }
+.tip strong { font-weight: 700; }
+.sec-label { font-size: .75rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 16px 0 6px; }
+.reset-btn { display: block; width: 100%; padding: 10px; background: var(--bg); color: var(--muted); border: 1.5px solid var(--border); border-radius: 8px; font-size: .88rem; font-weight: 600; cursor: pointer; margin-top: 10px; font-family: inherit; }
+.reset-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-  /* Output */
-  .output-block {
-    background: #1e1a17;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 12px 0;
-    position: relative;
-  }
-  .output-label {
-    font-size: 0.7rem;
-    font-weight: 700;
-    color: #888;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  .output-text {
-    font-size: 0.82rem;
-    color: #e8e0d5;
-    line-height: 1.7;
-    white-space: pre-wrap;
-    word-break: break-word;
-    font-family: 'Courier New', monospace;
-  }
-  .copy-btn {
-    position: absolute;
-    top: 12px; right: 12px;
-    padding: 4px 10px;
-    background: #3a3530;
-    color: #ccc;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.75rem;
-    cursor: pointer;
-    transition: all 0.15s;
-  }
-  .copy-btn:hover { background: var(--accent); color: white; }
-  .copy-btn.copied { background: var(--success); color: white; }
-
-  /* Tips */
-  .tip-box {
-    background: #f0f7f0;
-    border: 1px solid #c8e0ca;
-    border-radius: 8px;
-    padding: 12px 16px;
-    font-size: 0.82rem;
-    color: #3a5c3e;
-    line-height: 1.6;
-    margin: 12px 0;
-  }
-  .tip-box strong { color: var(--success); }
-
-  .section-title {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin: 20px 0 10px;
-  }
-
-  /* Category group header */
-  .group-header {
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin: 14px 0 6px;
-    padding-left: 2px;
-  }
-
-  .canva-box {
-    background: var(--accent-light);
-    border: 1px solid #e0c4a8;
-    border-radius: 8px;
-    padding: 12px 16px;
-    margin: 12px 0;
-    font-size: 0.85rem;
-    line-height: 1.7;
-  }
-  .canva-box strong { color: var(--accent); }
-
-  .hidden { display: none; }
-
-  @media (max-width: 480px) {
-    .btn-grid { grid-template-columns: 1fr; }
-    .btn-grid.three { grid-template-columns: 1fr 1fr; }
-  }
+#chamu-fields, #normal-fields { display: none; }
 </style>
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1>🎨 画像生成プロンプトジェネレーター</h1>
-    <p>番号を選ぶだけで Gemini / Midjourney / DALL-E 向けプロンプトを作成</p>
-  </header>
+<div class="wrap">
 
-  <div class="progress" id="progress">
-    <div class="step-dot active" id="dot0">1</div>
-    <div class="step-line" id="line01"></div>
-    <div class="step-dot" id="dot1">2</div>
-    <div class="step-line" id="line12"></div>
-    <div class="step-dot" id="dot2">3</div>
-    <div class="step-line" id="line23"></div>
-    <div class="step-dot" id="dot3">4</div>
-    <div class="step-line" id="line34"></div>
-    <div class="step-dot" id="dot4">完成</div>
+<h1>画像生成プロンプトジェネレーター</h1>
+<p class="sub">選ぶだけで Gemini / Midjourney / DALL-E 向けプロンプトを作成</p>
+
+<div class="section">
+  <h2>1. 使用ツール</h2>
+  <div class="radio-group">
+    <label><input type="radio" name="tool" value="gemini" checked> Gemini（推奨・無料）</label>
+    <label><input type="radio" name="tool" value="midjourney"> Midjourney</label>
+    <label><input type="radio" name="tool" value="dalle"> DALL-E（ChatGPT）</label>
+  </div>
+</div>
+
+<div class="section">
+  <h2>2. モード</h2>
+  <div class="radio-group">
+    <label><input type="radio" name="mode" value="chamu" id="mode-chamu" onchange="onModeChange()"> ちゃむ。クイックスタート（note/Threads専用）</label>
+    <label><input type="radio" name="mode" value="normal" id="mode-normal" onchange="onModeChange()"> 通常（34カテゴリから選ぶ）</label>
+  </div>
+</div>
+
+<div id="chamu-fields" class="section">
+  <h2>ちゃむ。設定</h2>
+  <label>画像の種類</label>
+  <select id="chamu-type">
+    <option value="1">noteサムネイル（3:1）</option>
+    <option value="2">note本文挿入画像（16:9）</option>
+    <option value="3">Threads 正方形（1:1）</option>
+    <option value="4">Threads 縦長（4:5）</option>
+  </select>
+  <label>記事テーマ・描いてほしいシーン</label>
+  <input type="text" id="chamu-theme" placeholder="例：癇癪がひどい4歳と静かに待つ母">
+</div>
+
+<div id="normal-fields" class="section">
+  <h2>通常設定</h2>
+  <label>カテゴリ</label>
+  <select id="cat">
+    <optgroup label="A｜SNS投稿・サムネ・見出し系">
+      <option value="A1">1. Instagram フィード投稿（4:5）</option>
+      <option value="A2">2. Instagram ストーリーズ・リールカバー（9:16）</option>
+      <option value="A3">3. Instagram カルーセル用画像（4:5）</option>
+      <option value="A4">4. note 見出し画像（3:1）</option>
+      <option value="A5">5. YouTube・note サムネ画像（16:9）</option>
+      <option value="A6">6. YouTube Shorts / TikTok（9:16）</option>
+      <option value="A7">7. X（Twitter）投稿画像（16:9）</option>
+      <option value="A8">8. X 縦長図解画像（4:5）</option>
+      <option value="A9">9. X 複数スクエア図解画像（1:1）</option>
+    </optgroup>
+    <optgroup label="B｜バナー・広告系">
+      <option value="B10">10. 汎用バナー（16:9）</option>
+      <option value="B11">11. Meta広告バナー（4:5）</option>
+      <option value="B12">12. LP ファーストビュー画像（16:9）</option>
+      <option value="B13">13. Before / After 比較バナー（4:5）</option>
+      <option value="B14">14. LINE広告・リッチメニュー（1:1）</option>
+      <option value="B15">15. セール・キャンペーン告知バナー（4:5）</option>
+    </optgroup>
+    <optgroup label="C｜図解・資料系">
+      <option value="C16">16. フロー図・プロセス図（16:9）</option>
+      <option value="C17">17. 比較図表（16:9）</option>
+      <option value="C18">18. 概念図・イメージ図（16:9）</option>
+      <option value="C19">19. プレゼンスライド用ビジュアル（16:9）</option>
+    </optgroup>
+    <optgroup label="D｜ブランディング・キャラ系">
+      <option value="D20">20. ロゴ案（1:1）</option>
+      <option value="D21">21. プロフィール画像・アバター（1:1）</option>
+      <option value="D22">22. キャラクター・マスコット（1:1）</option>
+      <option value="D23">23. SNSヘッダー・カバー（3:1）</option>
+    </optgroup>
+    <optgroup label="E｜コンテンツ販売系">
+      <option value="E24">24. 商品ヘッダー画像（16:9）</option>
+      <option value="E25">25. 電子書籍・教材の表紙デザイン（3:4）</option>
+      <option value="E26">26. 特典紹介・オファー画像（4:5）</option>
+      <option value="E27">27. 商品モックアップ（4:5）</option>
+    </optgroup>
+    <optgroup label="F｜漫画・ストーリー表現系">
+      <option value="F28">28. 1コマ漫画（1:1）</option>
+      <option value="F29">29. 2〜4コマ漫画（4:5）</option>
+      <option value="F30">30. 会話シーン漫画（4:5）</option>
+      <option value="F31">31. 体験談・失敗談漫画（4:5）</option>
+      <option value="F32">32. 解説漫画・教育漫画（4:5）</option>
+    </optgroup>
+    <optgroup label="G｜その他">
+      <option value="G33">33. イベント・セミナー告知（4:5）</option>
+      <option value="G34">34. 背景画像・素材（16:9）</option>
+    </optgroup>
+  </select>
+
+  <label>ジャンル</label>
+  <select id="genre">
+    <option value="子育て・ママ向け">子育て・ママ向け</option>
+    <option value="美容・コスメ">美容・コスメ</option>
+    <option value="ダイエット・健康">ダイエット・健康</option>
+    <option value="恋愛・人間関係">恋愛・人間関係</option>
+    <option value="ビジネス・副業">ビジネス・副業</option>
+    <option value="投資・お金">投資・お金</option>
+    <option value="ライフスタイル・暮らし">ライフスタイル・暮らし</option>
+    <option value="グルメ・料理">グルメ・料理</option>
+    <option value="ファッション">ファッション</option>
+    <option value="教育・自己啓発">教育・自己啓発</option>
+    <option value="IT・AI・ツール系">IT・AI・ツール系</option>
+    <option value="その他">その他</option>
+  </select>
+
+  <label>テイスト・雰囲気</label>
+  <select id="style">
+    <option value="">おまかせ</option>
+    <option value="minimal">ミニマル・シンプル</option>
+    <option value="pop">ポップ・カジュアル</option>
+    <option value="luxury">高級感・ラグジュアリー</option>
+    <option value="natural">ナチュラル・オーガニック</option>
+    <option value="korean">韓国っぽ・淡色</option>
+    <option value="biz">ビジネス・信頼感</option>
+    <option value="cinematic">エモーショナル・映画風</option>
+    <option value="illust">手書き・イラスト風</option>
+    <option value="manga">漫画風・コミカル</option>
+  </select>
+
+  <label>メインカラー</label>
+  <select id="color">
+    <option value="">おまかせ</option>
+    <option value="white">ホワイト系</option>
+    <option value="beige">ベージュ系</option>
+    <option value="pink">ピンク系</option>
+    <option value="blue">ブルー系</option>
+    <option value="black">ブラック系</option>
+    <option value="green">グリーン系</option>
+    <option value="yellow">イエロー/オレンジ系</option>
+    <option value="pastel">パステル系</option>
+    <option value="red">レッド系</option>
+    <option value="colorful">カラフル</option>
+  </select>
+
+  <label>テーマ・描いてほしいシーン</label>
+  <input type="text" id="theme" placeholder="例：育児疲れのワーキングママが夜ひとりキッチンに立つシーン">
+</div>
+
+<button class="btn-gen" onclick="generate()">プロンプトを生成する</button>
+
+<div class="output" id="output">
+  <div class="sec-label">メインプロンプト</div>
+  <div class="out-box">
+    <div class="out-label">コピーして Gemini / Midjourney / DALL-E に貼る</div>
+    <button class="cp" id="cp1" onclick="doCopy('cp1','main-out')">コピー</button>
+    <div class="out-text" id="main-out"></div>
   </div>
 
-  <div id="screen"></div>
+  <div class="sec-label">ネガティブプロンプト</div>
+  <div class="out-box">
+    <div class="out-label" id="neg-label">Avoid: 欄 または「含まないで:」と一緒に貼る</div>
+    <button class="cp" id="cp2" onclick="doCopy('cp2','neg-out')">コピー</button>
+    <div class="out-text" id="neg-out"></div>
+  </div>
+
+  <div class="tip" id="usage-tip"></div>
+
+  <div class="sec-label">再生成のコツ</div>
+  <div class="tip">
+    ・色が暗い → <code>brighter, more pastel, airy and light</code> を追加<br>
+    ・顔が出た → <code>back view only, face not visible</code> を追加<br>
+    ・文字が入った → <code>absolutely no text, text-free</code> を追加<br>
+    ・雰囲気が違う → 日本語で「もう少し〇〇な感じに」と追加指示してOK
+  </div>
+
+  <button class="reset-btn" onclick="resetAll()">別の画像を作る（設定をリセット）</button>
+</div>
+
 </div>
 
 <script>
-// ─── DATA ────────────────────────────────────────────────────────────────────
-
-const TOOLS = [
-  { id: 'gemini',     label: 'Gemini（Google）', badge: 'rec', badgeText: '推奨・無料' },
-  { id: 'midjourney', label: 'Midjourney' },
-  { id: 'dalle',      label: 'DALL-E（ChatGPT）' },
-];
-
-const ASPECT_RATIO = {
-  '16:9': { gemini: 'in a 16:9 aspect ratio', midjourney: '--ar 16:9 --v 6.1', dalle: 'in horizontal 16:9 format' },
-  '9:16': { gemini: 'in a 9:16 vertical aspect ratio', midjourney: '--ar 9:16 --v 6.1', dalle: 'in vertical 9:16 format' },
-  '4:5':  { gemini: 'in a 4:5 aspect ratio', midjourney: '--ar 4:5 --v 6.1', dalle: 'in 4:5 portrait format' },
-  '1:1':  { gemini: 'in a square 1:1 aspect ratio', midjourney: '--ar 1:1 --v 6.1', dalle: 'in square format' },
-  '3:1':  { gemini: 'in a wide 3:1 banner aspect ratio', midjourney: '--ar 3:1 --v 6.1', dalle: 'in wide 3:1 banner format' },
-  '3:4':  { gemini: 'in a 3:4 portrait aspect ratio', midjourney: '--ar 3:4 --v 6.1', dalle: 'in 3:4 portrait format' },
-  '21:9': { gemini: 'in a cinematic 21:9 aspect ratio', midjourney: '--ar 21:9 --v 6.1', dalle: 'in ultrawide 21:9 format' },
+var STYLE_ENG = {
+  minimal:   'minimalist design, clean lines, generous white space, modern aesthetic',
+  pop:       'bright and cheerful, bold colors, playful composition, energetic mood',
+  luxury:    'luxurious, elegant, premium quality, sophisticated lighting, refined details',
+  natural:   'natural textures, organic shapes, earthy warm tones, soft and cozy atmosphere',
+  korean:    'Korean aesthetic, soft pastel tones, clean and airy, gentle shadows, delicate',
+  biz:       'professional, trustworthy, clean corporate design, structured and credible',
+  cinematic: 'cinematic mood, dramatic lighting, deep shadows, emotional and atmospheric',
+  illust:    'soft watercolor illustration, hand-drawn feel, gentle brushstrokes, warm texture',
+  manga:     'manga-inspired illustration, bold clean outlines, expressive characters, comic style'
 };
 
-const STYLE_MAP = {
-  'ミニマル・シンプル':        'minimalist design, clean lines, generous white space, modern aesthetic',
-  'ポップ・カジュアル':        'bright and cheerful, bold colors, playful composition, energetic mood',
-  '高級感・ラグジュアリー':    'luxurious, elegant, premium quality, sophisticated lighting, refined details',
-  'ナチュラル・オーガニック':  'natural textures, organic shapes, earthy warm tones, soft and cozy atmosphere',
-  '韓国っぽ・淡色':           'Korean aesthetic, soft pastel tones, clean and airy, gentle shadows, delicate',
-  'ビジネス・信頼感':          'professional, trustworthy, clean corporate design, structured and credible',
-  'エモーショナル・映画風':    'cinematic mood, dramatic lighting, deep shadows, emotional and atmospheric',
-  '手書き・イラスト風':        'soft watercolor illustration, hand-drawn feel, gentle brushstrokes, warm texture',
-  '漫画風・コミカル':          'manga-inspired illustration, bold clean outlines, expressive characters, comic style',
+var COLOR_ENG = {
+  white:    'white and soft gray palette, bright and clean',
+  beige:    'warm beige and cream palette, cozy and inviting',
+  pink:     'soft pink and blush tones, feminine and gentle',
+  blue:     'cool blue tones, calm and trustworthy',
+  black:    'dark background, high contrast, bold and striking',
+  green:    'natural green tones, fresh and organic',
+  yellow:   'warm yellow and orange tones, energetic and inviting',
+  pastel:   'soft pastel palette, light and dreamy, candy-like softness',
+  red:      'bold red accents, powerful and attention-grabbing',
+  colorful: 'vibrant multicolor palette, lively and dynamic'
 };
 
-const COLOR_MAP = {
-  'ホワイト系':          'white and soft gray palette, bright and clean',
-  'ベージュ系':          'warm beige and cream palette, cozy and inviting',
-  'ピンク系':            'soft pink and blush tones, feminine and gentle',
-  'ブルー系':            'cool blue tones, calm and trustworthy',
-  'ブラック系':          'dark background, high contrast, bold and striking',
-  'グリーン系':          'natural green tones, fresh and organic',
-  'イエロー/オレンジ系': 'warm yellow and orange tones, energetic and inviting',
-  'パステル系':          'soft pastel palette, light and dreamy, candy-like softness',
-  'レッド系':            'bold red accents, powerful and attention-grabbing',
-  'カラフル':            'vibrant multicolor palette, lively and dynamic',
+var CAT_RATIO = {
+  A1:'4:5', A2:'9:16', A3:'4:5', A4:'3:1', A5:'16:9', A6:'9:16', A7:'16:9', A8:'4:5', A9:'1:1',
+  B10:'16:9', B11:'4:5', B12:'16:9', B13:'4:5', B14:'1:1', B15:'4:5',
+  C16:'16:9', C17:'16:9', C18:'16:9', C19:'16:9',
+  D20:'1:1', D21:'1:1', D22:'1:1', D23:'3:1',
+  E24:'16:9', E25:'3:4', E26:'4:5', E27:'4:5',
+  F28:'1:1', F29:'4:5', F30:'4:5', F31:'4:5', F32:'4:5',
+  G33:'4:5', G34:'16:9'
 };
 
-const GENRES = [
-  '美容・コスメ','ダイエット・健康','恋愛・人間関係','ビジネス・副業','投資・お金',
-  'ライフスタイル・暮らし','子育て・ママ向け','グルメ・料理','ファッション',
-  '教育・自己啓発','IT・AI・ツール系','その他',
-];
-const STYLES = Object.keys(STYLE_MAP).concat(['おまかせ']);
-const COLORS = Object.keys(COLOR_MAP).concat(['おまかせ']);
-
-const CATEGORIES = {
-  A: {
-    label: 'SNS投稿・サムネ・見出し系',
-    items: [
-      { id:1,  name:'Instagram フィード投稿',            ratio:'4:5' },
-      { id:2,  name:'Instagram ストーリーズ・リールカバー', ratio:'9:16' },
-      { id:3,  name:'Instagram カルーセル用画像',         ratio:'4:5' },
-      { id:4,  name:'note 見出し画像',                    ratio:'3:1' },
-      { id:5,  name:'YouTube・note サムネ画像',           ratio:'16:9' },
-      { id:6,  name:'YouTube Shorts / TikTok',           ratio:'9:16' },
-      { id:7,  name:'X（Twitter）投稿画像',               ratio:'16:9' },
-      { id:8,  name:'X 縦長図解画像',                    ratio:'4:5' },
-      { id:9,  name:'X 複数スクエア図解画像',             ratio:'1:1' },
-    ],
-  },
-  B: {
-    label: 'バナー・広告・売上直結系',
-    items: [
-      { id:10, name:'汎用バナー',              ratio:'16:9' },
-      { id:11, name:'Meta広告バナー',          ratio:'4:5' },
-      { id:12, name:'LP ファーストビュー画像', ratio:'16:9' },
-      { id:13, name:'Before / After 比較バナー', ratio:'4:5' },
-      { id:14, name:'LINE広告・リッチメニュー', ratio:'1:1' },
-      { id:15, name:'セール・キャンペーン告知バナー', ratio:'4:5' },
-    ],
-  },
-  C: {
-    label: '図解・資料系',
-    items: [
-      { id:16, name:'フロー図・プロセス図',       ratio:'16:9' },
-      { id:17, name:'比較図表',                   ratio:'16:9' },
-      { id:18, name:'概念図・イメージ図',          ratio:'16:9' },
-      { id:19, name:'プレゼンスライド用ビジュアル', ratio:'16:9' },
-    ],
-  },
-  D: {
-    label: 'ブランディング・キャラ系',
-    items: [
-      { id:20, name:'ロゴ案',               ratio:'1:1' },
-      { id:21, name:'プロフィール画像・アバター', ratio:'1:1' },
-      { id:22, name:'キャラクター・マスコット', ratio:'1:1' },
-      { id:23, name:'SNSヘッダー・カバー',   ratio:'3:1' },
-    ],
-  },
-  E: {
-    label: 'コンテンツ販売系',
-    items: [
-      { id:24, name:'商品ヘッダー画像',         ratio:'16:9' },
-      { id:25, name:'電子書籍・教材の表紙デザイン', ratio:'3:4' },
-      { id:26, name:'特典紹介・オファー画像',   ratio:'4:5' },
-      { id:27, name:'商品モックアップ',         ratio:'4:5' },
-    ],
-  },
-  F: {
-    label: '漫画・ストーリー表現系',
-    items: [
-      { id:28, name:'1コマ漫画',        ratio:'1:1' },
-      { id:29, name:'2〜4コマ漫画',     ratio:'4:5' },
-      { id:30, name:'会話シーン漫画',   ratio:'4:5' },
-      { id:31, name:'体験談・失敗談漫画', ratio:'4:5' },
-      { id:32, name:'解説漫画・教育漫画', ratio:'4:5' },
-    ],
-  },
-  G: {
-    label: 'その他',
-    items: [
-      { id:33, name:'イベント・セミナー告知', ratio:'4:5' },
-      { id:34, name:'背景画像・素材',         ratio:'16:9' },
-    ],
-  },
+var AR_STR = {
+  '16:9': { gemini:'in a 16:9 aspect ratio', midjourney:'--ar 16:9 --v 6.1', dalle:'in horizontal 16:9 format' },
+  '9:16': { gemini:'in a 9:16 vertical aspect ratio', midjourney:'--ar 9:16 --v 6.1', dalle:'in vertical 9:16 format' },
+  '4:5':  { gemini:'in a 4:5 aspect ratio', midjourney:'--ar 4:5 --v 6.1', dalle:'in 4:5 portrait format' },
+  '1:1':  { gemini:'in a square 1:1 aspect ratio', midjourney:'--ar 1:1 --v 6.1', dalle:'in square format' },
+  '3:1':  { gemini:'in a wide 3:1 banner aspect ratio', midjourney:'--ar 3:1 --v 6.1', dalle:'in wide 3:1 banner format' },
+  '3:4':  { gemini:'in a 3:4 portrait aspect ratio', midjourney:'--ar 3:4 --v 6.1', dalle:'in 3:4 portrait format' }
 };
 
-// ─── STATE ───────────────────────────────────────────────────────────────────
-
-let state = {
-  step: 0,
-  tool: null,
-  mode: null,       // 'chamu' | 'normal'
-  chamuType: null,  // 1-4
-  chamuTheme: '',
-  groupKey: null,
-  categoryId: null,
-  genre: null,
-  style: null,
-  color: null,
-  theme: '',
-  purpose: null,
-  emphasis: null,
-};
-
-function resetState() {
-  state = {
-    step: 0, tool: null, mode: null, chamuType: null, chamuTheme: '',
-    groupKey: null, categoryId: null,
-    genre: null, style: null, color: null,
-    theme: '', purpose: null, emphasis: null,
-  };
-}
-
-// ─── HELPERS ─────────────────────────────────────────────────────────────────
-
-function getCategoryItem(id) {
-  for (const g of Object.values(CATEGORIES)) {
-    const found = g.items.find(i => i.id === id);
-    if (found) return found;
+function getTool() {
+  var radios = document.getElementsByName('tool');
+  for (var i = 0; i < radios.length; i++) {
+    if (radios[i].checked) return radios[i].value;
   }
-  return null;
+  return 'gemini';
 }
 
-function getRatioStr(ratio) {
-  const t = state.tool || 'gemini';
-  const map = ASPECT_RATIO[ratio];
-  if (!map) return '';
-  if (t === 'midjourney') return map.midjourney;
-  if (t === 'dalle') return map.dalle;
-  return map.gemini;
+function getMode() {
+  var radios = document.getElementsByName('mode');
+  for (var i = 0; i < radios.length; i++) {
+    if (radios[i].checked) return radios[i].value;
+  }
+  return '';
 }
 
-function getNegativePrompt(isManga, hasPerson) {
-  const common = 'text, letters, words, numbers, watermarks, logos, blurriness, distortion, extra limbs, anatomical errors, oversaturation';
-  const person = 'clear frontal face, identifiable facial features. Use back view, side profile, or partial view only';
-  const manga  = 'realistic photo rendering, 3D CGI style, excessive texture detail';
-  let parts = [common];
-  if (hasPerson) parts.push(person);
-  if (isManga) parts.push(manga);
-  const t = state.tool || 'gemini';
-  if (t === 'midjourney') return '--no ' + parts.join(', ');
+function arStr(ratio) {
+  var tool = getTool();
+  var m = AR_STR[ratio];
+  if (!m) return '';
+  return m[tool] || m.gemini;
+}
+
+function negPrompt(isManga) {
+  var tool = getTool();
+  var common = 'text, letters, words, numbers, watermarks, logos, blurriness, distortion, extra limbs, anatomical errors';
+  var face   = 'clear frontal face. Use back view, side profile, or partial view only';
+  var mgPart = 'realistic photo rendering, 3D CGI style';
+  var parts  = [common, face];
+  if (isManga) parts.push(mgPart);
+  if (tool === 'midjourney') return '--no ' + parts.join(', ');
   return 'Avoid: ' + parts.join('. ');
 }
 
-// ─── PROMPT BUILDER ──────────────────────────────────────────────────────────
-
-function buildPrompt() {
-  if (state.mode === 'chamu') return buildChamuPrompt();
-  return buildNormalPrompt();
+function onModeChange() {
+  var mode = getMode();
+  document.getElementById('chamu-fields').style.display = (mode === 'chamu') ? 'block' : 'none';
+  document.getElementById('normal-fields').style.display = (mode === 'normal') ? 'block' : 'none';
 }
 
-function buildChamuPrompt() {
-  const theme = state.chamuTheme || 'a tender moment between mother and child';
-  const t = state.chamuType;
-  const chamuBase = 'soft watercolor illustration style, warm beige and cream palette with pale pink and sage green accents, cozy Japanese home interior, gentle natural lighting, no text, no words, no face shown clearly, back view or side profile only';
+function generate() {
+  var mode = getMode();
+  var tool = getTool();
+  var mainText = '';
+  var negText  = '';
 
-  let ratioKey, sceneHint;
-  if (t === 1) { ratioKey = '3:1'; sceneHint = 'Wide panoramic banner composition. Generous white space on both sides for title overlay. Editorial and calm.'; }
-  else if (t === 2) { ratioKey = '16:9'; sceneHint = 'Horizontal composition for article insert. Emotionally resonant scene. Warm and hopeful atmosphere.'; }
-  else if (t === 3) { ratioKey = '1:1'; sceneHint = 'Square composition. Clean and balanced. Save-worthy layout.'; }
-  else { ratioKey = '4:5'; sceneHint = 'Portrait composition. Strong visual impact. Subject centered with clear negative space.'; }
+  if (mode === 'chamu') {
+    var ct   = document.getElementById('chamu-type').value;
+    var th   = document.getElementById('chamu-theme').value.trim() || 'a tender moment between mother and child';
+    var base = 'soft watercolor illustration style, warm beige and cream palette with pale pink and sage green accents, cozy Japanese home interior, gentle natural lighting, no text, no words, no face shown clearly, back view or side profile only';
+    var ratioMap = { '1':'3:1', '2':'16:9', '3':'1:1', '4':'4:5' };
+    var sceneMap = {
+      '1': 'Wide panoramic banner. Generous white space on both sides for title overlay.',
+      '2': 'Horizontal composition for article insert. Warm and hopeful atmosphere.',
+      '3': 'Square composition. Clean and balanced.',
+      '4': 'Portrait composition. Strong visual impact, subject centered.'
+    };
+    var ratio = ratioMap[ct] || '16:9';
+    mainText = th + '.\n' + sceneMap[ct] + '\n' + base + '.\n' + arStr(ratio);
+    negText  = negPrompt(false);
 
-  const ratio = getRatioStr(ratioKey);
-  const neg = getNegativePrompt(false, true);
+  } else if (mode === 'normal') {
+    var catVal  = document.getElementById('cat').value;
+    var genre   = document.getElementById('genre').value;
+    var styleV  = document.getElementById('style').value;
+    var colorV  = document.getElementById('color').value;
+    var themeV  = document.getElementById('theme').value.trim() || 'a symbolic visual representing the topic';
+    var ratio   = CAT_RATIO[catVal] || '16:9';
+    var id      = parseInt(catVal.replace(/[A-Z]/, ''), 10);
+    var isManga = (id >= 28 && id <= 32);
+    var styleEng = STYLE_ENG[styleV] || 'clean and modern aesthetic';
+    var colorEng = COLOR_ENG[colorV] || 'balanced and natural color palette';
+    var scene;
 
-  const main = `${theme}.\n${sceneHint}\n${chamuBase}.\n${ratio}`;
-  return { main, neg, ratio: ratioKey, canva: `メインコピー：${state.chamuTheme || '（記事タイトルを入力）'}\nサブコピー：なし（タイトルのみで十分）` };
-}
-
-function buildNormalPrompt() {
-  const cat = getCategoryItem(state.categoryId);
-  if (!cat) return { main: '', neg: '', ratio: '16:9', canva: '' };
-
-  const style  = STYLE_MAP[state.style] || 'clean and modern aesthetic';
-  const color  = COLOR_MAP[state.color] || 'balanced and natural color palette';
-  const theme  = state.theme || 'a symbolic visual representing the topic';
-  const ratio  = getRatioStr(cat.ratio);
-  const id     = state.categoryId;
-  const isManga = id >= 28 && id <= 32;
-
-  let scene = '';
-  // Category-specific scene templates
-  if (id === 4) {
-    scene = `${theme}.\nWide panoramic composition with generous negative space on both sides for text overlay.\nSoft editorial aesthetic. Knowledge and warmth expressed through visual atmosphere.\nMuted refined color palette. Gentle natural lighting. No text, no words anywhere.`;
-  } else if (id === 5) {
-    scene = `${theme}.\nBold thumbnail composition designed to stop the eye while scrolling.\nStrong subject contrast. Dynamic but uncluttered. Main subject unmistakable at thumbnail size.\nDesigned for mobile readability. No text overlay in image.`;
-  } else if (id === 1 || id === 2 || id === 3) {
-    scene = `${theme}.\nAesthetic feed-style composition, visually harmonious and save-worthy.\nGenerou negative space. Warm and polished. No text — ideal for caption overlay.`;
-  } else if (id === 7 || id === 8 || id === 9) {
-    scene = `${theme}.\nClean and information-forward visual. Strong visual hierarchy.\nDesigned to stop scroll. Highly readable at small size. No text — caption or overlay added separately.`;
-  } else if (id >= 10 && id <= 15) {
-    const purpose = state.purpose || 'drive engagement';
-    scene = `${theme}.\nClean advertising layout optimized for mobile. Strong visual hierarchy to ${purpose}.\nOne dominant subject. High contrast. Room for headline and CTA overlay (added externally). No text in image.`;
-  } else if (id === 25) {
-    scene = `${theme}.\nProfessional ebook cover design. Clear title placement area at top third. Author area at bottom.\nDistinctive visual identity — not generic stock photo. Conveys expertise and approachability.\nNo actual text — title and author name added in Canva.`;
-  } else if (isManga) {
-    scene = `${theme}.\n2 to 3 panel manga-style illustration. Expressive characters with clear body language.\nFace hidden, side profile, or minimally detailed. Clean manga line art with soft fill colors.\nSpeech bubbles left blank for text overlay. Consistent character design across panels.`;
-  } else if (id === 20 || id === 21 || id === 22) {
-    scene = `${theme}.\nSimple and memorable visual identity. Small sizes remain clear and distinctive.\nConveys personality and brand essence. Clean composition on neutral background.`;
-  } else {
-    scene = `${theme}.\nClear and purposeful composition. Subject matter immediately apparent.\nBalanced layout with intentional negative space. High visual clarity.`;
-  }
-
-  const main = `${scene}\n${style}.\n${color}.\n${ratio}`;
-  const neg  = getNegativePrompt(isManga, true);
-
-  let canva = '';
-  if (state.theme) canva = `メインコピー：${state.theme}\nサブコピー：（必要に応じてCanvaで追加）`;
-
-  return { main, neg, ratio: cat.ratio, canva };
-}
-
-// ─── PROGRESS ────────────────────────────────────────────────────────────────
-
-function updateProgress(current) {
-  const total = 5;
-  for (let i = 0; i < total; i++) {
-    const dot = document.getElementById(`dot${i}`);
-    if (!dot) continue;
-    dot.classList.remove('active', 'done');
-    if (i < current) dot.classList.add('done');
-    else if (i === current) dot.classList.add('active');
-    if (i < total - 1) {
-      const line = document.getElementById(`line${i}${i+1}`);
-      if (line) { line.classList.toggle('done', i < current); }
+    if (id === 4) {
+      scene = themeV + '.\nWide panoramic composition with generous negative space on both sides for text overlay. Soft editorial aesthetic. No text anywhere.';
+    } else if (id === 5) {
+      scene = themeV + '.\nBold thumbnail composition designed to stop the eye while scrolling. Strong subject contrast, dynamic but uncluttered. No text in image.';
+    } else if (id >= 10 && id <= 15) {
+      scene = themeV + '.\nClean advertising layout optimized for mobile. Strong visual hierarchy. One dominant subject, high contrast. No text in image.';
+    } else if (id === 25) {
+      scene = themeV + '.\nProfessional ebook cover design. Clear title area at top. Conveys expertise and approachability. No text — title added externally.';
+    } else if (isManga) {
+      scene = themeV + '.\n2 to 3 panel manga-style illustration. Expressive characters with clear body language. Face hidden or side profile only. Clean manga line art. Speech bubbles left blank.';
+    } else {
+      scene = themeV + '.\nClear and purposeful composition. High visual clarity with intentional negative space.';
     }
+
+    mainText = scene + '\n' + styleEng + '.\n' + colorEng + '.\n' + arStr(ratio);
+    negText  = negPrompt(isManga);
+
+  } else {
+    alert('モードを選択してください');
+    return;
+  }
+
+  document.getElementById('main-out').textContent = mainText;
+  document.getElementById('neg-out').textContent  = negText;
+
+  if (tool === 'midjourney') {
+    document.getElementById('neg-label').textContent = '--no の後ろに付ける';
+  } else {
+    document.getElementById('neg-label').textContent = 'Avoid: 欄 または「含まないで:」と一緒に貼る';
+  }
+
+  var tips = {
+    gemini: '<strong>Geminiでの使い方</strong><br>1. gemini.google.com を開く<br>2. メインプロンプトをコピーして貼る<br>3. 「以下は含まないでください：」の後にネガティブプロンプトも貼る<br>4. 顔が出た場合は「後ろ姿のみにして」と日本語で追加指示OK<br>5. 生成後、Canvaでテキストを重ねて完成',
+    midjourney: '<strong>Midjourneyでの使い方</strong><br>1. Discord で /imagine コマンドを使う<br>2. メインプロンプトの末尾に --no ... を付ける<br>3. --ar と --v 6.1 はプロンプトに含まれています',
+    dalle: '<strong>DALL-Eでの使い方</strong><br>1. ChatGPT を開く<br>2. 画像生成モードでメインプロンプトを貼る<br>3. ネガティブプロンプトは「含まないでください：」と前置きして一緒に貼る'
+  };
+  document.getElementById('usage-tip').innerHTML = tips[tool] || tips.gemini;
+
+  document.getElementById('output').style.display = 'block';
+  document.getElementById('output').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function doCopy(btnId, textId) {
+  var text = document.getElementById(textId).textContent;
+  var btn  = document.getElementById(btnId);
+  function done() {
+    btn.textContent = 'コピー済み';
+    btn.className   = 'cp ok';
+    setTimeout(function() { btn.textContent = 'コピー'; btn.className = 'cp'; }, 2000);
+  }
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(done).catch(function() { fallback(text); done(); });
+  } else {
+    fallback(text); done();
   }
 }
 
-// ─── SCREENS ─────────────────────────────────────────────────────────────────
-
-function render(html) {
-  document.getElementById('screen').innerHTML = html;
+function fallback(text) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
+  try { document.execCommand('copy'); } catch(e) {}
+  document.body.removeChild(ta);
 }
 
-function btnGrid(items, cols, onSelect) {
-  const gridClass = cols === 1 ? 'single' : cols === 3 ? 'three' : '';
-  const btns = items.map((item, i) => {
-    const extra = item.chamu ? ' chamu' : '';
-    const badge = item.badge ? `<span class="badge badge-rec">${item.badgeText}</span>` : '';
-    return `<button class="choice-btn${extra}" onclick="(${onSelect.toString()})(${JSON.stringify(item.value !== undefined ? item.value : i)})">${item.label}${badge}</button>`;
-  }).join('');
-  return `<div class="btn-grid ${gridClass}">${btns}</div>`;
+function resetAll() {
+  document.getElementById('output').style.display = 'none';
+  document.getElementById('chamu-theme').value = '';
+  document.getElementById('theme').value = '';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
-// STEP 0: Tool selection
-function showStep0() {
-  updateProgress(0);
-  state.step = 0;
-  const items = [
-    ...TOOLS.map(t => ({ label: t.label, value: t.id, badge: t.badge, badgeText: t.badgeText })),
-    { label: 'おまかせ（Gemini向けに最適化）', value: 'gemini' },
-  ];
-  render(`
-    <div class="card">
-      <h2>STEP 1：使用ツールを選択</h2>
-      <p class="hint">プロンプトの記法をツールに合わせて自動調整します</p>
-      ${btnGrid(items, 2, function(v){ window._selectTool(v); })}
-    </div>
-  `);
-  window._selectTool = (v) => { state.tool = v; showStep1(); };
-}
-
-// STEP 1: Category
-function showStep1() {
-  updateProgress(1);
-  state.step = 1;
-  let html = `
-    <div class="card">
-      <h2>STEP 2：カテゴリを選択</h2>
-      <p class="hint">大カテゴリ → サブカテゴリの順で選びます</p>
-      <button class="choice-btn chamu" onclick="window._selectMode('chamu')">
-        ✨ ちゃむ。クイックスタート — noteサムネ・挿入画像・Threads専用
-      </button>
-  `;
-  for (const [key, group] of Object.entries(CATEGORIES)) {
-    html += `<div class="group-header">${key}｜${group.label}</div><div class="btn-grid">`;
-    group.items.forEach(item => {
-      html += `<button class="choice-btn" onclick="window._selectCategory(${item.id})">${item.id}. ${item.name} <small style="color:#aaa;font-size:0.75em">${item.ratio}</small></button>`;
-    });
-    html += `</div>`;
-  }
-  html += `<div class="btn-row"><button class="btn btn-secondary" onclick="showStep0()">← 戻る</button></div></div>`;
-  render(html);
-
-  window._selectMode = (m) => { state.mode = m; showChamuSub(); };
-  window._selectCategory = (id) => {
-    state.mode = 'normal';
-    state.categoryId = id;
-    const cat = getCategoryItem(id);
-    state.groupKey = Object.entries(CATEGORIES).find(([,g]) => g.items.find(i=>i.id===id))?.[0];
-    showStep2();
-  };
-}
-
-// ちゃむ。sub
-function showChamuSub() {
-  updateProgress(2);
-  render(`
-    <div class="card">
-      <h2>✨ ちゃむ。クイックスタート</h2>
-      <p class="hint">ジャンル・スタイル・カラーは育児ナチュラル系に自動設定されます</p>
-      ${btnGrid([
-        { label: '1. noteサムネイル（3:1）', value: 1 },
-        { label: '2. note本文挿入画像（16:9）', value: 2 },
-        { label: '3. Threads正方形（1:1）', value: 3 },
-        { label: '4. Threads縦長（4:5）', value: 4 },
-      ], 2, function(v){ window._chamuType(v); })}
-      <div class="btn-row"><button class="btn btn-secondary" onclick="showStep1()">← 戻る</button></div>
-    </div>
-  `);
-  window._chamuType = (v) => { state.chamuType = v; showChamuTheme(); };
-}
-
-function showChamuTheme() {
-  updateProgress(3);
-  render(`
-    <div class="card">
-      <h2>記事テーマ・描いてほしいシーン</h2>
-      <p class="hint">1行で入力してください。例：「癇癪がひどい4歳と静かに待つ母」</p>
-      <input class="text-input" id="chamuThemeInput" placeholder="記事タイトルまたはシーンを入力..." value="${state.chamuTheme}" />
-      <div class="btn-row">
-        <button class="btn btn-primary" onclick="window._chamuGenerate()">プロンプトを生成 →</button>
-        <button class="btn btn-secondary" onclick="showChamuSub()">← 戻る</button>
-      </div>
-    </div>
-  `);
-  window._chamuGenerate = () => {
-    state.chamuTheme = document.getElementById('chamuThemeInput').value.trim();
-    showOutput();
-  };
-}
-
-// STEP 2: Questions (normal mode)
-function showStep2() {
-  updateProgress(2);
-  const cat = getCategoryItem(state.categoryId);
-  render(`
-    <div class="card">
-      <h2>ジャンルを選択</h2>
-      <p class="hint">${cat.name}（${cat.ratio}）の画像を作成します</p>
-      ${btnGrid(GENRES.map(g => ({ label: g, value: g })), 2, function(v){ window._genre(v); })}
-      <div class="btn-row"><button class="btn btn-secondary" onclick="showStep1()">← 戻る</button></div>
-    </div>
-  `);
-  window._genre = (v) => { state.genre = v; showStep2b(); };
-}
-
-function showStep2b() {
-  updateProgress(2);
-  render(`
-    <div class="card">
-      <h2>テイスト・雰囲気を選択</h2>
-      <p class="hint">生成する画像の雰囲気を選んでください</p>
-      ${btnGrid(STYLES.map(s => ({ label: s, value: s })), 2, function(v){ window._style(v); })}
-      <div class="btn-row"><button class="btn btn-secondary" onclick="showStep2()">← 戻る</button></div>
-    </div>
-  `);
-  window._style = (v) => { state.style = (v === 'おまかせ') ? null : v; showStep2c(); };
-}
-
-function showStep2c() {
-  updateProgress(2);
-  render(`
-    <div class="card">
-      <h2>メインカラーを選択</h2>
-      <p class="hint">画像の配色を選んでください</p>
-      ${btnGrid(COLORS.map(c => ({ label: c, value: c })), 2, function(v){ window._color(v); })}
-      <div class="btn-row"><button class="btn btn-secondary" onclick="showStep2b()">← 戻る</button></div>
-    </div>
-  `);
-  window._color = (v) => { state.color = (v === 'おまかせ') ? null : v; showStep3(); };
-}
-
-// STEP 3: Theme input
-function showStep3() {
-  updateProgress(3);
-  const cat = getCategoryItem(state.categoryId);
-  const isBanner = state.categoryId >= 10 && state.categoryId <= 15;
-  const isManga  = state.categoryId >= 28 && state.categoryId <= 32;
-  const isSales  = state.categoryId >= 24 && state.categoryId <= 27;
-  let placeholder = '例：育児疲れのワーキングママが夜ひとりでキッチンに立つシーン';
-  if (isBanner) placeholder = '例：睡眠改善サプリの広告バナー / 伝えたいベネフィット';
-  if (isManga)  placeholder = '例：夜泣きに悩むママが気づきを得て笑顔になる3コマ漫画';
-  if (isSales)  placeholder = '例：保育士が書いた育児電子書籍「イヤイヤ期の乗り越え方」';
-
-  render(`
-    <div class="card">
-      <h2>テーマ・シーンを入力</h2>
-      <p class="hint">${cat.name}（${cat.ratio}）— 描いてほしい内容を自由に入力してください</p>
-      <input class="text-input" id="themeInput" placeholder="${placeholder}" value="${state.theme}" />
-      ${isBanner ? `
-        <p class="hint" style="margin-top:12px">目的は？（任意）</p>
-        ${btnGrid([
-          {label:'クリックしてほしい',value:'drive clicks'},
-          {label:'購入につなげたい',value:'drive purchases'},
-          {label:'登録・申込みへ',value:'drive sign-ups'},
-          {label:'信頼感を出したい',value:'build trust and credibility'},
-          {label:'限定感・緊急性',value:'convey urgency and exclusivity'},
-          {label:'おまかせ',value:'drive engagement'},
-        ], 2, function(v){ window._setPurpose(v); })}
-      ` : ''}
-      <div class="btn-row">
-        <button class="btn btn-primary" onclick="window._generate()">プロンプトを生成 →</button>
-        <button class="btn btn-secondary" onclick="showStep2c()">← 戻る</button>
-      </div>
-    </div>
-  `);
-  window._generate = () => {
-    state.theme = document.getElementById('themeInput').value.trim();
-    showOutput();
-  };
-  window._setPurpose = (v) => { state.purpose = v; };
-}
-
-// STEP 4: Output
-function showOutput() {
-  updateProgress(4);
-  const result = buildPrompt();
-
-  const toolLabel = { gemini:'Gemini', midjourney:'Midjourney', dalle:'DALL-E' }[state.tool] || 'Gemini';
-  const catName = state.mode === 'chamu'
-    ? ['','noteサムネイル（3:1）','note本文挿入画像（16:9）','Threads正方形（1:1）','Threads縦長（4:5）'][state.chamuType] || 'ちゃむ。'
-    : getCategoryItem(state.categoryId)?.name || '';
-
-  let geminiTip = '';
-  if (state.tool === 'gemini' || !state.tool) {
-    geminiTip = `
-      <div class="tip-box">
-        <strong>Geminiでの使い方</strong><br>
-        1. gemini.google.com を開く<br>
-        2. メインプロンプトをコピーして貼る<br>
-        3. 「以下は含まないでください：」の後にネガティブプロンプトを一緒に貼る<br>
-        4. 顔が出た場合は「後ろ姿のみにして」と日本語で追加指示OK<br>
-        5. 生成後、Canvaでテキストを重ねて完成
-      </div>`;
-  }
-
-  render(`
-    <div class="card">
-      <h2>✅ プロンプト完成</h2>
-      <p class="hint">${catName}｜ツール：${toolLabel}｜比率：${result.ratio}</p>
-
-      <div class="section-title">メインプロンプト</div>
-      <div class="output-block">
-        <div class="output-label">コピーして貼る</div>
-        <button class="copy-btn" onclick="window._copy(this, 'main-prompt')">コピー</button>
-        <div class="output-text" id="main-prompt">${result.main}</div>
-      </div>
-
-      <div class="section-title">ネガティブプロンプト</div>
-      <div class="output-block">
-        <div class="output-label">${state.tool === 'midjourney' ? '--no の後ろに付ける' : '「Avoid:」欄または「含まないで:」と一緒に貼る'}</div>
-        <button class="copy-btn" onclick="window._copy(this, 'neg-prompt')">コピー</button>
-        <div class="output-text" id="neg-prompt">${result.neg}</div>
-      </div>
-
-      ${result.canva ? `
-        <div class="section-title">Canvaで重ねるテキスト案</div>
-        <div class="canva-box">${result.canva.replace(/\n/g,'<br>')}</div>
-      ` : ''}
-
-      ${geminiTip}
-
-      <div class="section-title">再生成のコツ</div>
-      <div class="tip-box">
-        ・色が暗い → <code>brighter, more pastel, airy and light</code> を追加<br>
-        ・顔が出た → <code>back view only, face not visible</code> を追加<br>
-        ・文字が入った → <code>absolutely no text, text-free</code> を追加<br>
-        ・雰囲気が違う → 「もう少し〇〇な感じに」と日本語で追加指示してOK
-      </div>
-
-      <div class="section-title">微調整</div>
-      <div class="btn-grid">
-        <button class="choice-btn" onclick="window._adjust('color')">🎨 色味を変えたい</button>
-        <button class="choice-btn" onclick="window._adjust('style')">✏️ スタイルを変えたい</button>
-        <button class="choice-btn" onclick="window._adjust('theme')">🔄 別シーンで作り直す</button>
-        <button class="choice-btn" onclick="window._adjust('tool')">🔧 ツールを変えたい</button>
-      </div>
-
-      <div class="btn-row" style="margin-top:16px">
-        <button class="btn btn-primary" onclick="window._restart()">🆕 別の画像を作る（リセット）</button>
-      </div>
-    </div>
-  `);
-
-  window._copy = (btn, id) => {
-    const text = document.getElementById(id).innerText;
-    navigator.clipboard.writeText(text).then(() => {
-      btn.textContent = '✓ コピー済み';
-      btn.classList.add('copied');
-      setTimeout(() => { btn.textContent = 'コピー'; btn.classList.remove('copied'); }, 2000);
-    });
-  };
-  window._adjust = (type) => {
-    if (type === 'color')  { showStep2c(); }
-    else if (type === 'style')  { showStep2b(); }
-    else if (type === 'theme')  { state.mode === 'chamu' ? showChamuTheme() : showStep3(); }
-    else if (type === 'tool')   { showStep0(); }
-  };
-  window._restart = () => { resetState(); showStep0(); };
-}
-
-// ─── INIT ────────────────────────────────────────────────────────────────────
-
-showStep0();
 </script>
 </body>
 </html>
