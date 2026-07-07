@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>コンテンツ・アトリエ | 資産化ツール</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c2333;
+    --ink-deep:#11151f;
+    --paper:#f7f1e4;
+    --paper-shadow:#e4dac4;
+    --brass:#b08d57;
+    --brass-bright:#d4af6a;
+    --sumi:#2b2418;
+    --text-on-ink:#ede7d8;
+    --danger:#a8433a;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:radial-gradient(circle at 15% 0%, #232b40 0%, var(--ink) 45%, var(--ink-deep) 100%);
+    color:var(--text-on-ink);
+    font-family:'Noto Sans JP',sans-serif;
+    min-height:100vh;
+  }
+  header{
+    padding:36px 24px 20px;
+    text-align:center;
+    position:relative;
+  }
+  header h1{
+    font-family:'Shippori Mincho',serif;
+    font-weight:800;
+    font-size:clamp(24px,4vw,34px);
+    letter-spacing:.04em;
+    margin:0 0 6px;
+  }
+  header .sub{
+    font-size:12.5px;
+    letter-spacing:.12em;
+    color:var(--brass-bright);
+    opacity:.85;
+  }
+  header::after{
+    content:"";
+    display:block;
+    width:120px;height:2px;
+    background:var(--brass);
+    margin:18px auto 0;
+    opacity:.7;
+  }
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:8px 20px 80px;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:22px;
+  }
+  @media(min-width:920px){
+    .wrap{grid-template-columns:380px 1fr;align-items:start;}
+  }
+  .card{
+    background:var(--paper);
+    color:var(--sumi);
+    border-radius:6px;
+    padding:22px 22px 24px;
+    box-shadow:0 14px 34px rgba(0,0,0,.35), inset 0 0 0 1px rgba(176,141,87,.25);
+    position:relative;
+  }
+  .card h2{
+    font-family:'Shippori Mincho',serif;
+    font-size:16px;
+    margin:0 0 14px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .card h2 .num{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    background:var(--sumi);
+    color:var(--paper);
+    padding:2px 6px;
+    border-radius:3px;
+    letter-spacing:.05em;
+  }
+  label{
+    display:block;
+    font-size:12px;
+    font-weight:700;
+    margin:14px 0 5px;
+    color:#4a4030;
+  }
+  label:first-of-type{margin-top:0;}
+  select,input[type=text],textarea{
+    width:100%;
+    font-family:'Noto Sans JP',sans-serif;
+    font-size:13.5px;
+    padding:9px 10px;
+    border-radius:4px;
+    border:1px solid #cdbe9e;
+    background:#fffdf8;
+    color:var(--sumi);
+    resize:vertical;
+  }
+  textarea{min-height:64px;line-height:1.5;}
+  .presetbar{
+    display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px;
+  }
+  .chip{
+    font-size:11.5px;
+    padding:5px 10px;
+    border-radius:20px;
+    border:1px solid var(--brass);
+    background:transparent;
+    color:var(--sumi);
+    cursor:pointer;
+  }
+  .chip.active{background:var(--brass);color:#fff;}
+  button.primary{
+    width:100%;
+    margin-top:18px;
+    padding:13px;
+    border:none;
+    border-radius:5px;
+    background:var(--sumi);
+    color:var(--paper);
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:.03em;
+    cursor:pointer;
+    transition:background .15s;
+  }
+  button.primary:hover{background:#3a2f20;}
+  button.primary:disabled{opacity:.5;cursor:wait;}
+  button.ghost{
+    padding:6px 10px;
+    border-radius:4px;
+    border:1px solid var(--brass);
+    background:transparent;
+    color:var(--brass-bright);
+    font-size:11.5px;
+    cursor:pointer;
+  }
+  .outputs{display:flex;flex-direction:column;gap:18px;}
+  .out-card{position:relative;}
+  .out-card .stamp{
+    position:absolute;
+    top:14px;right:16px;
+    width:52px;height:52px;
+    border:2.5px solid var(--danger);
+    border-radius:50%;
+    color:var(--danger);
+    font-family:'Shippori Mincho',serif;
+    font-weight:800;
+    font-size:11px;
+    display:flex;align-items:center;justify-content:center;
+    text-align:center;
+    transform:rotate(-14deg) scale(0);
+    opacity:0;
+    transition:transform .4s cubic-bezier(.34,1.56,.64,1), opacity .3s;
+  }
+  .out-card.stamped .stamp{transform:rotate(-14deg) scale(1);opacity:.9;}
+  .charcount{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    color:#6b5f47;
+    margin-top:8px;
+  }
+  .charcount.over{color:var(--danger);font-weight:700;}
+  .articlebody, .threadbody{
+    white-space:pre-wrap;
+    font-size:13.5px;
+    line-height:1.75;
+    background:#fffdf8;
+    border:1px solid #e3d6b8;
+    border-radius:4px;
+    padding:12px 14px;
+    margin-top:6px;
+  }
+  .toprow{display:flex;justify-content:space-between;align-items:center;gap:8px;}
+  .toprow h2{margin:0;}
+  canvas{
+    display:block;
+    width:100%;
+    max-width:480px;
+    border-radius:4px;
+    border:1px solid #e3d6b8;
+    margin-top:8px;
+  }
+  .empty{
+    color:var(--text-on-ink);
+    opacity:.55;
+    text-align:center;
+    padding:60px 20px;
+    font-size:13px;
+    background:rgba(255,255,255,.03);
+    border:1px dashed rgba(237,231,216,.25);
+    border-radius:6px;
+  }
+  .assetlist{margin-top:10px;display:flex;flex-direction:column;gap:6px;max-height:180px;overflow:auto;}
+  .assetitem{
+    font-size:11.5px;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(176,141,87,.3);
+    border-radius:4px;
+    padding:7px 10px;
+    display:flex;justify-content:space-between;gap:8px;
+    color:var(--text-on-ink);
+  }
+  .assetitem span.t{opacity:.6;font-family:'JetBrains Mono',monospace;font-size:10px;}
+  .err{
+    color:#ffb3ab;
+    font-size:12px;
+    margin-top:10px;
+  }
+  .loading{
+    display:flex;align-items:center;gap:8px;
+    font-size:12.5px;color:var(--brass-bright);
+    margin-top:12px;
+  }
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--brass-bright);animation:pulse 1s infinite ease-in-out;}
+  .dot:nth-child(2){animation-delay:.15s;}
+  .dot:nth-child(3){animation-delay:.3s;}
+  @keyframes pulse{0%,100%{opacity:.3;transform:scale(.8);}50%{opacity:1;transform:scale(1.1);}}
+  footer{
+    text-align:center;font-size:11px;opacity:.4;padding:20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>コンテンツ・アトリエ</h1>
+  <div class="sub">note × サムネ × SNS投稿 &nbsp;|&nbsp; 一発生成・資産として蓄積</div>
+</header>
+
+<div class="wrap">
+
+  <!-- INPUT PANE -->
+  <div class="card">
+    <h2><span class="num">01</span>入力を入れる</h2>
+
+    <label>ペルソナ（保存済みを選ぶ、または新規）</label>
+    <div class="presetbar" id="presetBar"></div>
+
+    <label>名前 / 発信者名</label>
+    <input type="text" id="p_name" placeholder="例：ちゃむ。">
+
+    <label>プロフィール・実績（信頼の根拠になる具体的な事実）</label>
+    <textarea id="p_bio" placeholder="例：元保育士・保育インストラクター歴16年。1000人以上の子どもと関わってきた。30代、3人の母。"></textarea>
+
+    <label>ターゲット読者</label>
+    <input type="text" id="p_audience" placeholder="例：育児に自信がない、疲れていて孤独な母親">
+
+    <label>トーン・NGワードのメモ</label>
+    <textarea id="p_tone" placeholder="例：友人口調、AIっぽい定型文禁止、具体的エピソード・数字を入れる、冒頭は矛盾・驚き・否定で感情を引き寄せる、押し売り禁止"></textarea>
+
+    <label>今回のテーマ・ネタ・話題</label>
+    <input type="text" id="topic" placeholder="例：夜泣きで限界だった夜の乗り越え方 / 楽天の抱っこ紐">
+
+    <label>補足メモ（任意）</label>
+    <textarea id="extra" placeholder="価格帯、季節性、特定のエピソードなど"></textarea>
+
+    <button class="primary" id="genBtn" onclick="generateAll()">この条件で生成する</button>
+    <div id="loadingIndicator"></div>
+    <div id="errBox"></div>
+  </div>
+
+  <!-- OUTPUT PANE -->
+  <div>
+    <div class="outputs" id="outputArea">
+      <div class="empty">左の条件を入れて「生成する」を押すと、<br>note記事・サムネイル・Threads投稿文3点まとめて作り出せます。</div>
+    </div>
+
+    <div class="card" style="margin-top:18px;">
+      <div class="toprow">
+        <h2><span class="num">02</span>蓄積した資産</h2>
+        <button class="ghost" onclick="clearAssets()">全消去</button>
+      </div>
+      <div class="assetlist" id="assetList" style="color:#4a4030;"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>試用期間が終わっても保存したペルソナと生成物はこの中に残ります。</footer>
+
+<script>
+const PRESETS = [
+  {
+    id: 'chamu',
+    name: 'ちゃむ。',
+    bio: '元保育士・保育インストラクター歴16年。1000人以上の子どもと関わってきた。30代、3人の母。',
+    audience: '育児に自信がない、疲れていて孤独な母親',
+    tone: '友人口調、AIっぽい定型文・予測可能な言い回し禁止、難しい言葉は使わない、具体的なエピソード・数字を入れる、冒頭は矛盾・驚き・否定で感情を引き寄せる、押し売り禁止、静かな確信のトーン'
+  }
+];
+
+async function getPersonas(){
+  try{
+    const res = await window.storage.list('persona:');
+    if(!res || !res.keys) return [];
+    const personas = [];
+    for(const k of res.keys){
+      try{
+        const item = await window.storage.get(k, false);
+        if(item) personas.push(JSON.parse(item.value));
+      }catch(e){}
+    }
+    return personas;
+  }catch(e){ return []; }
+}
+
+async function savePersona(p){
+  try{
+    await window.storage.set('persona:'+p.id, JSON.stringify(p), false);
+  }catch(e){ console.error('persona save failed', e); }
+}
+
+let currentPersonas = [];
+
+function renderPresetBar(){
+  const bar = document.getElementById('presetBar');
+  bar.innerHTML = '';
+  const all = [...PRESETS.filter(p=>p.id!=='new'), ...currentPersonas.filter(cp=>!PRESETS.find(p=>p.id===cp.id))];
+  all.forEach(p=>{
+    const chip = document.createElement('button');
+    chip.className='chip';
+    chip.textContent = p.name || p.id;
+    chip.onclick = ()=> applyPersona(p);
+    bar.appendChild(chip);
+  });
+  const newChip = document.createElement('button');
+  newChip.className='chip';
+  newChip.textContent='＋新規';
+  newChip.onclick = ()=> applyPersona({id:'new_'+Date.now(),name:'',bio:'',audience:'',tone:''});
+  bar.appendChild(newChip);
+}
+
+function applyPersona(p){
+  document.getElementById('p_name').value = p.name||'';
+  document.getElementById('p_bio').value = p.bio||'';
+  document.getElementById('p_audience').value = p.audience||'';
+  document.getElementById('p_tone').value = p.tone||'';
+}
+
+async function init(){
+  currentPersonas = await getPersonas();
+  renderPresetBar();
+  applyPersona(PRESETS[0]);
+  await renderAssetList();
+}
+init();
+
+function countChars(s){ return [...(s||'')].length; }
+
+function setLoading(on){
+  const el = document.getElementById('loadingIndicator');
+  document.getElementById('genBtn').disabled = on;
+  el.innerHTML = on ? '<div class="loading"><div class="dot"></div><div class="dot"></div><div class="dot"></div>&nbsp;生成中…</div>' : '';
+}
+
+async function callClaude(systemPrompt, userPrompt){
+  const response = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-6",
+      max_tokens: 1500,
+      system: systemPrompt,
+      messages: [{ role: "user", content: userPrompt }]
+    })
+  });
+  if(!response.ok){
+    throw new Error('API error: ' + response.status);
+  }
+  const data = await response.json();
+  const textBlocks = (data.content||[]).filter(b=>b.type==='text').map(b=>b.text);
+  return textBlocks.join('\n');
+}
+
+function extractJson(text){
+  let cleaned = text.trim().replace(/^```json/,'').replace(/^```/,'').replace(/```$/,'').trim();
+  return JSON.parse(cleaned);
+}
+
+async function generateAll(){
+  const name = document.getElementById('p_name').value.trim();
+  const bio = document.getElementById('p_bio').value.trim();
+  const audience = document.getElementById('p_audience').value.trim();
+  const tone = document.getElementById('p_tone').value.trim();
+  const topic = document.getElementById('topic').value.trim();
+  const extra = document.getElementById('extra').value.trim();
+
+  document.getElementById('errBox').innerHTML = '';
+
+  if(!name || !topic){
+    document.getElementById('errBox').innerHTML = '<div class="err">名前とテーマは最低限入力してください。</div>';
+    return;
+  }
+
+  setLoading(true);
+
+  const systemPrompt = `あなたは日本語のSNS運用・note記事制作の専門ライターです。以下のルールを厳守してください。
+
+## 手順0：着地感情の選定（執筆前に必ず行う）
+テーマを読み、読者（疲れた・孤独な・自分を責めている母親）がこの投稿を読み終えた瞬間に着地する感情を、次の3つから1つだけ選ぶ。全出力（note記事・サムネ・Threads3本）をその1つの感情アークだけで設計する。感情を混ぜない。
+
+1. 代わりに言ってくれた感（罪悪感→赦し）：読者が言えずにいた本音を代弁する。→型2構造を適用。
+2. 気づかせてくれた感（謎→認知的快感）：日常の「なぜ？」に理由を与える。→B型構造を適用。
+3. 仲間がいる感（孤独→連帯）：「私だけじゃなかった」で着地させる。→型2構造＋コメント余白を適用。
+
+## 構造ルール
+型2（敗北報告）を使うとき：
+- プロ（発信者）が読者と同じ敵に負ける、二段階の感情反転で書く。
+- 必ず敗北で終える。教訓・成長・前向きなまとめに転じた瞬間、型は死ぬ。
+- 「仲間がいる感」狙いのときは、代弁を8割で止めて完結させず、読者が自分の話を書き込みたくなる余白を残す。
+- 「代わりに言ってくれた感」狙いのときは、代弁を10割やり切り、投稿の中で感情を完結させる。
+
+B型（知識）を使うとき：
+- 「ママのせいじゃない」の免責を必ず入れる。免責なしの知識は責められた感を生む。
+- 知識は渡した瞬間に読者のものになる。だから最後に発信者自身の体験を1〜2行だけ接ぎ木し、感情の接点を作る。これを省略しない。
+
+## note記事とThreadsの関係
+note記事は、Threads投稿が開いた感情の傷を「さらに深く」掘る。同じ感情の続きを書く。別の話を始めない。情報を足さない。Threadsで8割まで来た読者を、noteで10割＋その先まで連れていく。
+
+## ペルソナ固有ルール
+ペルソナ名に「ちゃむ」が含まれる場合、この矛盾を武器として必ず活かす：「保育士として1000人の子は救えたのに、家では自分の子ひとり救えない」。これは権威と共感を同時に成立させる唯一の核。専門性を語るときは必ずこの矛盾とセットで出す。
+
+## 文体・禁止事項
+- AIっぽい定型文・予測可能な言い回し・説明的な表現は一切禁止。
+- 友人に話しかけるような自然な口調。難しい言葉は使わない。
+- 必ず1つ以上の具体的なエピソード・数字を入れる。
+- 冒頭は矛盾・驚き・否定で感情を引き寄せる。
+- Threadsの投稿は本文だけで話を完結させず、続きが気になる終わり方にする（着地感情の設計と矛盾しない範囲で）。
+- 押し売り禁止。静かな確信のトーン。アドバイスで終わらない。読者を褒めて締めない。
+- noteへの誘導はURLなしでのみ可能、「ちゃむ。のnoteへ」の表現のみ使用。「ぜひ読んでください」「こちらをどうぞ」→URL方式は禁止。
+
+## 出力形式
+- 出力は必ずJSONオブジェクトのみ。前置き・後書き・Markdown記法（コードフェンス含む）は一切つけない。
+- JSONのフィールド:
+  note_title: noteの記事のタイトル(30字以内)
+  note_article: noteの記事の本文(700〜1000文字程度、つかみ→具体例→気づき→締めの流れ)
+  thumbnail_headline: サムネイル用の短いキャッチコピー(12字以内、体言止め可)
+  threads_posts: 3つの要素を持つ配列。それぞれ {label, text} の形。
+    1本目 label:"フック型" text: 冒頭フック重視の短い投稿(400字以内、8個のハッシュタグを末尾に付ける、最後は発信者名のハッシュタグで締める)
+    2本目 label:"エピソード型" text: 具体的な体験談ベースの投稿(400字以内、ハッシュタグ8個)
+    3本目 label:"note誘導型" text: note誘導ルールに従った投稿(400字以内、ハッシュタグ8個)`;
+
+  const userPrompt = `発信者名: ${name}
+プロフィール: ${bio || '(未入力)'}
+ターゲット読者: ${audience || '(未入力)'}
+トーン・NGワードメモ: ${tone || '(未入力)'}
+今回のテーマ・ネタ・話題: ${topic}
+補足: ${extra || '(なし)'}
+
+上記の情報をもとに、指定のJSON形式で出力してください。`;
+
+  try{
+    const raw = await callClaude(systemPrompt, userPrompt);
+    const parsed = extractJson(raw);
+    renderOutputs(parsed, name);
+    await saveAsset(parsed, name, topic);
+    await savePersona({id: 'p_'+name.replace(/\s+/g,'_'), name, bio, audience, tone});
+    currentPersonas = await getPersonas();
+    renderPresetBar();
+  }catch(e){
+    console.error(e);
+    document.getElementById('errBox').innerHTML = '<div class="err">生成に失敗しました。もう一度お試しください。('+ (e.message||'') +')</div>';
+  }finally{
+    setLoading(false);
+  }
+}
+
+function drawThumbnail(canvas, headline, name){
+  const ctx = canvas.getContext('2d');
+  const W = 1280, H = 670;
+  canvas.width = W; canvas.height = H;
+
+  const grad = ctx.createLinearGradient(0,0,W,H);
+  grad.addColorStop(0,'#1c2333');
+  grad.addColorStop(1,'#11151f');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0,0,W,H);
+
+  ctx.strokeStyle = 'rgba(176,141,87,0.55)';
+  ctx.lineWidth = 3;
+  ctx.strokeRect(28,28,W-56,H-56);
+
+  ctx.fillStyle = '#d4af6a';
+  ctx.font = '600 22px "JetBrains Mono", monospace';
+  ctx.fillText(name || '', 60, 90);
+
+  ctx.fillStyle = '#f7f1e4';
+  ctx.font = '800 72px "Shippori Mincho", serif';
+  wrapText(ctx, headline || '', 60, 300, W-160, 84);
+
+  ctx.fillStyle = 'rgba(237,231,216,0.5)';
+  ctx.font = '500 18px "Noto Sans JP", sans-serif';
+  ctx.fillText('note', W-140, H-50);
+}
+
+function wrapText(ctx, text, x, y, maxWidth, lineHeight){
+  const chars = [...text];
+  let line = '';
+  const lines = [];
+  for(let i=0;i<chars.length;i++){
+    const test = line + chars[i];
+    if(ctx.measureText(test).width > maxWidth && line.length>0){
+      lines.push(line);
+      line = chars[i];
+    } else {
+      line = test;
+    }
+  }
+  lines.push(line);
+  const startY = y - (lines.length-1)*lineHeight/2;
+  lines.forEach((l,idx)=> ctx.fillText(l, x, startY + idx*lineHeight));
+}
+
+function renderOutputs(parsed, name){
+  const area = document.getElementById('outputArea');
+  const articleLen = countChars(parsed.note_article);
+  const threadsHtml = (parsed.threads_posts||[]).map((p,i)=>{
+    const len = countChars(p.text);
+    const over = len > 500;
+    return `
+      <div class="out-card card" style="margin-top:${i===0?0:14}px;">
+        <div class="stamp">資産<br>#T${i+1}</div>
+        <div class="toprow">
+          <h2><span class="num">T${i+1}</span>${escapeHtml(p.label||'Threads投稿')}</h2>
+          <button class="ghost" onclick="copyText(this)" data-copy="${encodeURIComponent(p.text)}">コピー</button>
+        </div>
+        <div class="threadbody">${escapeHtml(p.text)}</div>
+        <div class="charcount ${over?'over':''}">${len}字 ${over?'（500字超・注意）':''}</div>
+      </div>`;
+  }).join('');
+
+  area.innerHTML = `
+    <div class="out-card card">
+      <div class="stamp">資産<br>note</div>
+      <div class="toprow">
+        <h2><span class="num">03</span>note記事</h2>
+        <button class="ghost" onclick="copyText(this)" data-copy="${encodeURIComponent((parsed.note_title||'')+'\n\n'+(parsed.note_article||''))}">コピー</button>
+      </div>
+      <div style="font-weight:700;font-size:14px;">${escapeHtml(parsed.note_title||'')}</div>
+      <div class="articlebody">${escapeHtml(parsed.note_article||'')}</div>
+      <div class="charcount">${articleLen}字</div>
+    </div>
+
+    <div class="out-card card">
+      <div class="stamp">資産<br>画像</div>
+      <div class="toprow">
+        <h2><span class="num">04</span>サムネイル</h2>
+        <button class="ghost" onclick="downloadThumb()">PNGに保存</button>
+      </div>
+      <canvas id="thumbCanvas"></canvas>
+    </div>
+
+    ${threadsHtml}
+  `;
+
+  const canvas = document.getElementById('thumbCanvas');
+  drawThumbnail(canvas, parsed.thumbnail_headline, name);
+
+  document.querySelectorAll('.out-card').forEach((el,idx)=>{
+    setTimeout(()=> el.classList.add('stamped'), 150 + idx*120);
+  });
+}
+
+function escapeHtml(str){
+  return (str||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function copyText(btn){
+  const text = decodeURIComponent(btn.getAttribute('data-copy'));
+  navigator.clipboard.writeText(text).then(()=>{
+    const old = btn.textContent;
+    btn.textContent = 'コピー済';
+    setTimeout(()=> btn.textContent = old, 1200);
+  }).catch(()=>{});
+}
+
+function downloadThumb(){
+  const canvas = document.getElementById('thumbCanvas');
+  const link = document.createElement('a');
+  link.download = 'thumbnail.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+async function saveAsset(parsed, name, topic){
+  try{
+    const key = 'asset:' + Date.now();
+    const record = {
+      key, name, topic,
+      note_title: parsed.note_title,
+      created: new Date().toISOString()
+    };
+    await window.storage.set(key, JSON.stringify(record), false);
+  }catch(e){ console.error('asset save failed', e); }
+  await renderAssetList();
+}
+
+async function renderAssetList(){
+  const listEl = document.getElementById('assetList');
+  try{
+    const res = await window.storage.list('asset:');
+    if(!res || !res.keys || res.keys.length===0){
+      listEl.innerHTML = '<div style="opacity:.5;font-size:12px;">まだ資産はありません。生成すると自動でここに蓄積されます。</div>';
+      return;
+    }
+    const items = [];
+    for(const k of res.keys){
+      try{
+        const item = await window.storage.get(k, false);
+        if(item) items.push(JSON.parse(item.value));
+      }catch(e){}
+    }
+    items.sort((a,b)=> (b.created||'').localeCompare(a.created||''));
+    listEl.innerHTML = items.map(it=>{
+      const d = it.created ? new Date(it.created) : null;
+      const dstr = d ? `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}` : '';
+      return `<div class="assetitem"><div>${escapeHtml(it.name||'')} → ${escapeHtml(it.note_title||it.topic||'')}</div><span class="t">${dstr}</span></div>`;
+    }).join('');
+  }catch(e){
+    listEl.innerHTML = '<div style="opacity:.5;font-size:12px;">読み込みに失敗しました。</div>';
+  }
+}
+
+async function clearAssets(){
+  try{
+    const res = await window.storage.list('asset:');
+    if(res && res.keys){
+      for(const k of res.keys){
+        await window.storage.delete(k, false);
+      }
+    }
+  }catch(e){}
+  await renderAssetList();
+}
+</script>
+
+</body>
+</html>
