@@ -218,6 +218,18 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 
 ---
 
+## 候補19：寝具・ライフスタイル／シルクピローケース
+**投稿タイプ**：型13（単品）× 3本
+**商品名**：シルクピローケース（shizenshop）
+**楽天URL**：https://item.rakuten.co.jp/shizenshop/silk-pillowcase/
+**アフィリエイトURL**：https://a.r10.to/h8dy8O / https://a.r10.to/h8dygi / https://a.r10.to/h8dyqx
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：①保育士×自分後回し矛盾 ②産後寝不足の原因が枕だった逆説 ③子どもが寝た後ふと気づいた場面
+**ステータス**：affiliate-queue.md済み（投稿295・296・297）
+
+---
+
 ## 候補16：おむつ・衛生用品／7月7日(火)★到着可能★ おむつケーキ 3段 Sassy
 **商品名**：7月7日(火)★到着可能★ おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 夏ギフト ランキング
 **楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
