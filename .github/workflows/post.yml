@@ -3,15 +3,18 @@ name: Threads Auto Post
 on:
   schedule:
     # 平日（月〜金 JST）※祝日はcronでは区別不可
-    - cron: '50 21 * * 0-4'  # 06:50 JST（UTC日〜木 21:50）
-    - cron: '10 0 * * 1-5'   # 09:10 JST
-    - cron: '5 3 * * 1-5'    # 12:05 JST
-    - cron: '30 8 * * 1-5'   # 17:30 JST
+    - cron: '50 20 * * 0-4'  # 05:50 JST（UTC日〜木 20:50）
+    - cron: '40 23 * * 0-4'  # 08:40 JST（UTC日〜木 23:40）
+    - cron: '20 3 * * 1-5'   # 12:20 JST
+    - cron: '40 8 * * 1-5'   # 17:40 JST
+    - cron: '30 11 * * 1-5'  # 20:30 JST
+    - cron: '0 14 * * 1-5'   # 23:00 JST
     # 土日（JST）
-    - cron: '10 23 * * 5,6'  # 08:10 JST（UTC金〜土 23:10）
-    - cron: '10 2 * * 0,6'   # 11:10 JST
-    - cron: '5 5 * * 0,6'    # 14:05 JST
-    - cron: '10 9 * * 0,6'   # 18:10 JST
+    - cron: '20 22 * * 5,6'  # 07:20 JST（UTC金〜土 22:20）
+    - cron: '20 2 * * 0,6'   # 11:20 JST
+    - cron: '30 5 * * 0,6'   # 14:30 JST
+    - cron: '0 10 * * 0,6'   # 19:00 JST
+    - cron: '10 13 * * 0,6'  # 22:10 JST
   workflow_dispatch:
 
 concurrency:
