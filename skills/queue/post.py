@@ -77,7 +77,7 @@ def extract_replies(block):
     sections = re.split(r"\n\*\*コメント欄.*?セルフリプライ用）\*\*\n", block)
     if len(sections) <= 1:
         return []
-    return [s.strip() for s in sections[1:] if s.strip()]
+    return [s.strip() for s in sections[1:] if s.strip() and s.strip() != "なし"]
 
 
 def save_queue(posts):
