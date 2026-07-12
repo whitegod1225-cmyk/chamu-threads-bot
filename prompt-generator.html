@@ -43,6 +43,24 @@ select:focus, input[type=text]:focus { outline: none; border-color: var(--accent
 .reset-btn { display: block; width: 100%; padding: 10px; background: var(--bg); color: var(--muted); border: 1.5px solid var(--border); border-radius: 8px; font-size: .88rem; font-weight: 600; cursor: pointer; margin-top: 10px; font-family: inherit; }
 .reset-btn:hover { border-color: var(--accent); color: var(--accent); }
 #chamu-fields, #normal-fields { display: none; }
+#char-detail { display: none; }
+textarea { width: 100%; padding: 9px 12px; border: 1.5px solid var(--border); border-radius: 8px; font-size: .88rem; font-family: inherit; color: var(--text); background: var(--bg); resize: vertical; min-height: 80px; }
+textarea:focus { outline: none; border-color: var(--accent); }
+.toggle-row { display: flex; align-items: center; gap: 10px; }
+.toggle { position: relative; display: inline-block; width: 42px; height: 24px; flex-shrink: 0; }
+.toggle input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; inset: 0; background: var(--border); border-radius: 24px; cursor: pointer; transition: .2s; }
+.slider:before { content: ''; position: absolute; width: 18px; height: 18px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .2s; }
+input:checked + .slider { background: var(--accent); }
+input:checked + .slider:before { transform: translateX(18px); }
+.toggle-label { font-size: .9rem; font-weight: 600; color: var(--text); }
+.preset-row { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.preset-btn { padding: 5px 12px; background: var(--light); border: 1px solid var(--border); border-radius: 6px; font-size: .8rem; color: var(--accent); cursor: pointer; font-family: inherit; font-weight: 600; }
+.preset-btn:hover { background: var(--accent); color: #fff; }
+.save-btn { padding: 5px 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; font-size: .8rem; color: var(--muted); cursor: pointer; font-family: inherit; }
+.save-btn:hover { border-color: var(--accent); color: var(--accent); }
+.char-tip { font-size: .76rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.mj-cref { display: none; }
 </style>
 </head>
 <body>
@@ -183,6 +201,56 @@ select:focus, input[type=text]:focus { outline: none; border-color: var(--accent
   <input type="text" id="theme" placeholder="例：育児疲れのワーキングママが夜ひとりキッチンに立つシーン">
 </div>
 
+<div class="section" id="char-section">
+  <h2>3. キャラクター設定（任意）</h2>
+  <div class="toggle-row">
+    <label class="toggle"><input type="checkbox" id="char-toggle" onchange="onCharToggle()"><span class="slider"></span></label>
+    <span class="toggle-label">特定のキャラクターを登場させる</span>
+  </div>
+
+  <div id="char-detail">
+    <div class="preset-row" id="preset-row"></div>
+
+    <label style="margin-top:14px">キャラクター名</label>
+    <input type="text" id="char-name" placeholder="例：ちゃむ。">
+
+    <label>キャラクターの外見説明（英語または日本語）</label>
+    <textarea id="char-desc" placeholder="例：a cute onigiri (rice ball) character with small round body, simple dot eyes, tiny rosy cheeks, wearing a cheerful expression. Kawaii chibi style."></textarea>
+    <p class="char-tip">※ AIが英語で解釈します。日本語でも入力可。できるだけ外見を具体的に書くと精度が上がります</p>
+
+    <div class="mj-cref" id="mj-cref-wrap">
+      <label>Midjourney キャラ参照URL（--cref）</label>
+      <input type="text" id="char-cref" placeholder="https://... （キャラ画像のURL）">
+      <p class="char-tip">※ Midjourney v6以降で使用可。キャラのブレを防ぎます</p>
+    </div>
+
+    <label>シーン内でのキャラクターの役割</label>
+    <select id="char-role">
+      <option value="main">メインキャラ（中央・主役）</option>
+      <option value="side">サブキャラ（脇役・小さく添える）</option>
+      <option value="icon">アイコン・ロゴ的に配置</option>
+      <option value="reaction">リアクションしているキャラ</option>
+    </select>
+
+    <div class="preset-row" style="margin-top:12px">
+      <button class="save-btn" onclick="savePreset()">現在の設定をプリセット保存</button>
+    </div>
+
+    <div style="margin-top:16px;border-top:1px solid var(--border);padding-top:14px">
+      <label style="margin-top:0;font-weight:700;color:var(--text)">キャラクター参照画像（任意・ブラウザに保存）</label>
+      <p class="char-tip" style="margin-bottom:8px">アップロードするとツール別の使い方ガイドが変わります。画像はブラウザ内にのみ保存されます</p>
+      <div id="char-img-drop" style="border:2px dashed var(--border);border-radius:10px;padding:16px;text-align:center;cursor:pointer;font-size:.84rem;color:var(--muted)" onclick="document.getElementById('char-img-input').click()">
+        クリックして画像を選択（PNG/JPG）
+      </div>
+      <input type="file" id="char-img-input" accept="image/*" style="display:none" onchange="onImgUpload(event)">
+      <div id="char-img-preview" style="display:none;margin-top:10px;text-align:center">
+        <img id="char-img-thumb" style="max-width:120px;max-height:120px;border-radius:8px;border:1px solid var(--border)">
+        <br><button class="save-btn" style="margin-top:6px" onclick="clearCharImg()">画像を削除</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <button class="btn-gen" onclick="generate()">プロンプトを生成する</button>
 
 <div class="output" id="output">
@@ -199,6 +267,7 @@ select:focus, input[type=text]:focus { outline: none; border-color: var(--accent
     <div class="out-text" id="neg-out"></div>
   </div>
   <div class="tip" id="usage-tip"></div>
+  <div class="tip" id="char-consistency-tip" style="display:none;background:#fff8f0;border-color:#e0c4a8;color:#5a3a1a;margin-top:8px"></div>
   <div class="sec-label">再生成のコツ</div>
   <div class="tip">
     ・色が暗い → <code>brighter, more pastel, airy and light</code> を追加<br>
@@ -251,6 +320,107 @@ var AR_STR = {
   '3:1':{gemini:'in a wide 3:1 banner aspect ratio',midjourney:'--ar 3:1 --v 6.1',dalle:'in wide 3:1 banner format'},
   '3:4':{gemini:'in a 3:4 portrait aspect ratio',midjourney:'--ar 3:4 --v 6.1',dalle:'in 3:4 portrait format'}
 };
+
+// ── キャラクター設定 ──────────────────────────────────────────────────────────
+
+var CHAMU_PRESET = {
+  name: 'ちゃむ。',
+  desc: 'a kawaii chibi onigiri (Japanese rice ball) character. Triangular white rice body with small gray rice grain texture dots scattered on the surface. Thick dark charcoal outline around the entire body. A rectangular flat black nori (seaweed) strip across the lower-center portion of the body. Two small perfectly round solid black dot eyes in the upper-center area. Two round rosy pink blush circles on the cheeks. A small simple curved smile. No arms, no legs — just the onigiri body shape. Clean flat 2D illustration style, minimal shading, bold outlines. Kawaii sticker character design.',
+  role: 'side',
+  cref: ''
+};
+
+function onCharToggle() {
+  var on = document.getElementById('char-toggle').checked;
+  document.getElementById('char-detail').style.display = on ? 'block' : 'none';
+}
+
+function onToolChangeForChar() {
+  var tool = getTool();
+  document.getElementById('mj-cref-wrap').style.display = tool === 'midjourney' ? 'block' : 'none';
+}
+
+function loadPresets() {
+  var presets = getStoredPresets();
+  var row = document.getElementById('preset-row');
+  row.innerHTML = '';
+  // Built-in ちゃむ。preset
+  var b = document.createElement('button');
+  b.className = 'preset-btn';
+  b.textContent = 'ちゃむ。（プリセット）';
+  b.onclick = function() { applyPreset(CHAMU_PRESET); };
+  row.appendChild(b);
+  // User-saved presets
+  Object.keys(presets).forEach(function(k) {
+    var p = presets[k];
+    var btn = document.createElement('button');
+    btn.className = 'preset-btn';
+    btn.textContent = p.name || k;
+    btn.onclick = function() { applyPreset(p); };
+    row.appendChild(btn);
+    // Delete button
+    var del = document.createElement('button');
+    del.className = 'save-btn';
+    del.textContent = k + ' を削除';
+    del.onclick = function() { deletePreset(k); };
+    row.appendChild(del);
+  });
+}
+
+function applyPreset(p) {
+  document.getElementById('char-name').value = p.name || '';
+  document.getElementById('char-desc').value = p.desc || '';
+  document.getElementById('char-role').value = p.role || 'main';
+  document.getElementById('char-cref').value = p.cref || '';
+}
+
+function savePreset() {
+  var name = document.getElementById('char-name').value.trim();
+  if (!name) { alert('キャラクター名を入力してください'); return; }
+  var presets = getStoredPresets();
+  presets[name] = {
+    name: name,
+    desc: document.getElementById('char-desc').value.trim(),
+    role: document.getElementById('char-role').value,
+    cref: document.getElementById('char-cref').value.trim()
+  };
+  localStorage.setItem('pg_presets', JSON.stringify(presets));
+  loadPresets();
+  alert(name + ' を保存しました');
+}
+
+function deletePreset(name) {
+  var presets = getStoredPresets();
+  delete presets[name];
+  localStorage.setItem('pg_presets', JSON.stringify(presets));
+  loadPresets();
+}
+
+function getStoredPresets() {
+  try { return JSON.parse(localStorage.getItem('pg_presets') || '{}'); } catch(e) { return {}; }
+}
+
+function getCharPrompt() {
+  if (!document.getElementById('char-toggle').checked) return '';
+  var desc = document.getElementById('char-desc').value.trim();
+  var role = document.getElementById('char-role').value;
+  var cref = document.getElementById('char-cref').value.trim();
+  var tool = getTool();
+  if (!desc) return '';
+  var roleMap = {
+    main:     'The main subject is a character: ' + desc + ' Centered and prominent in the composition.',
+    side:     'A small character appears in the corner or side: ' + desc + ' Supporting element, not dominant.',
+    icon:     'A character icon or mascot: ' + desc + ' Placed as a logo-like element with clean background.',
+    reaction: 'A character reacting to the scene: ' + desc + ' Expressive pose showing emotion.'
+  };
+  var charText = roleMap[role] || desc;
+  if (tool === 'midjourney' && cref) {
+    charText += ' --cref ' + cref;
+  }
+  return charText;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 function getTool() {
   var r = document.getElementsByName('tool');
@@ -311,6 +481,21 @@ function generate() {
     negText = negPrompt(isManga);
   } else { alert('モードを選択してください'); return; }
 
+  // キャラクター挿入
+  var charPart = getCharPrompt();
+  if (charPart) {
+    // --cref はプロンプト末尾に追加（Midjourneyの場合）
+    if (getTool() === 'midjourney' && charPart.indexOf('--cref') !== -1) {
+      var crefMatch = charPart.match(/--cref\s+\S+/);
+      var charWithoutCref = charPart.replace(/--cref\s+\S+/, '').trim();
+      mainText = mainText + '\n' + charWithoutCref;
+      // --cref を --ar などの後ろに付ける
+      mainText = mainText.replace(/(--ar\s+\S+)/, '$1 ' + (crefMatch ? crefMatch[0] : ''));
+    } else {
+      mainText = mainText + '\n' + charPart;
+    }
+  }
+
   document.getElementById('main-out').textContent = mainText;
   document.getElementById('neg-out').textContent = negText;
   document.getElementById('neg-label').textContent = tool === 'midjourney' ? '--no の後ろに付ける' : 'Avoid: 欄 または「含まないで:」と一緒に貼る';
@@ -320,6 +505,17 @@ function generate() {
     dalle: '<strong>DALL-Eでの使い方</strong><br>1. ChatGPT を開いて画像生成モードに切り替える<br>2. メインプロンプトを貼る<br>3. ネガティブプロンプトは「含まないでください：」と前置きして追加する'
   };
   document.getElementById('usage-tip').innerHTML = tips[tool] || tips.gemini;
+
+  // キャラ固定ガイド
+  var charTip = getCharImgTip(tool);
+  var charTipEl = document.getElementById('char-consistency-tip');
+  if (charTip) {
+    charTipEl.innerHTML = charTip;
+    charTipEl.style.display = 'block';
+  } else {
+    charTipEl.style.display = 'none';
+  }
+
   document.getElementById('output').style.display = 'block';
   document.getElementById('output').scrollIntoView({behavior:'smooth',block:'start'});
 }
@@ -341,6 +537,95 @@ function resetAll() {
   document.getElementById('theme').value = '';
   window.scrollTo({top:0,behavior:'smooth'});
 }
+
+// ── キャラ画像処理 ────────────────────────────────────────────────────────────
+
+function onImgUpload(e) {
+  var file = e.target.files[0];
+  if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function(ev) {
+    var b64 = ev.target.result;
+    try { localStorage.setItem('pg_char_img', b64); } catch(err) {}
+    showCharImg(b64);
+  };
+  reader.readAsDataURL(file);
+}
+
+function showCharImg(b64) {
+  if (!b64) return;
+  document.getElementById('char-img-thumb').src = b64;
+  document.getElementById('char-img-preview').style.display = 'block';
+  document.getElementById('char-img-drop').textContent = '画像を変更するにはクリック';
+}
+
+function clearCharImg() {
+  localStorage.removeItem('pg_char_img');
+  document.getElementById('char-img-thumb').src = '';
+  document.getElementById('char-img-preview').style.display = 'none';
+  document.getElementById('char-img-drop').textContent = 'クリックして画像を選択（PNG/JPG）';
+  document.getElementById('char-img-input').value = '';
+}
+
+function getCharImgTip(tool) {
+  var hasImg = !!localStorage.getItem('pg_char_img');
+  var hasCref = document.getElementById('char-cref').value.trim();
+  if (!document.getElementById('char-toggle').checked) return '';
+
+  if (tool === 'midjourney') {
+    if (hasCref) {
+      return '<strong>Midjourney キャラ固定の使い方</strong><br>' +
+        '1. プロンプトをDiscordの /imagine に貼る<br>' +
+        '2. --cref のURLにキャラ画像のURLが入っています（Imgurなどに画像をアップして取得）<br>' +
+        '3. --cw 100 を追加するとキャラの外見をより強く参照します';
+    } else {
+      return '<strong>Midjourney でキャラを固定するには</strong><br>' +
+        '1. ちゃむ。の画像を <a href="https://imgur.com" target="_blank">imgur.com</a> などにアップロード<br>' +
+        '2. 画像URLをコピーして上の「--cref URL」欄に貼る<br>' +
+        '3. 再生成すると --cref がプロンプトに含まれ、キャラが固定されます';
+    }
+  } else if (tool === 'gemini') {
+    if (hasImg) {
+      return '<strong>Gemini でキャラを固定する方法（画像アップ済み）</strong><br>' +
+        '1. gemini.google.com を開く<br>' +
+        '2. 上の参照画像と同じ画像をGeminiにアップロード（クリップで添付）<br>' +
+        '3. 「この画像のキャラクターを登場させてください。」と一言添えてプロンプトを貼る<br>' +
+        '4. キャラの外見が画像から直接読み取られるため、テキスト説明より精度が上がります';
+    } else {
+      return '<strong>Gemini でキャラを固定するには</strong><br>' +
+        '1. キャラ参照画像をブラウザのキャラ設定欄にアップロード（上の欄）<br>' +
+        '2. Geminiに同じ画像を添付してプロンプトを貼ると精度が上がります';
+    }
+  } else if (tool === 'dalle') {
+    if (hasImg) {
+      return '<strong>DALL-E でキャラを固定する方法（画像アップ済み）</strong><br>' +
+        '1. ChatGPTを開き、メッセージにキャラ画像を添付<br>' +
+        '2. 「この画像のキャラクターを以下のシーンに登場させてください。」と前置きしてプロンプトを貼る<br>' +
+        '3. ChatGPT-4oはアップロード画像を参照して生成できます';
+    } else {
+      return '<strong>DALL-E でキャラを固定するには</strong><br>' +
+        'キャラ参照画像をアップロード欄に追加すると、ChatGPTでの使い方ガイドが表示されます';
+    }
+  }
+  return '';
+}
+
+// ── ツール変更でcref欄を切り替え ─────────────────────────────────────────────
+
+document.getElementsByName('tool').forEach(function(r) {
+  r.addEventListener('change', onToolChangeForChar);
+});
+
+// 初期化
+loadPresets();
+
+// 保存済み画像を復元
+(function() {
+  try {
+    var saved = localStorage.getItem('pg_char_img');
+    if (saved) showCharImg(saved);
+  } catch(e) {}
+})();
 </script>
 </body>
 </html>

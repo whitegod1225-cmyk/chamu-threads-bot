@@ -34,6 +34,13 @@ from pathlib import Path
 
 import anthropic
 
+# .env を自動読み込み（python-dotenv がなくても動く）
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+except ImportError:
+    pass
+
 # ----------------------------------------------------------------------
 # 設定
 # ----------------------------------------------------------------------
