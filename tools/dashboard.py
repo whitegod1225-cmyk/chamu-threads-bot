@@ -11,6 +11,7 @@ Usage:
 import os
 import re
 import json
+import subprocess
 import argparse
 import threading
 import webbrowser
@@ -96,7 +97,19 @@ QUEUE_HEADER = """\
 
 """
 
+def git_pull_before_write():
+    """書き込み前にリモートの最新状態をpullする（重複投稿防止）"""
+    repo_dir = QUEUE_FILE.parent.parent.parent
+    try:
+        subprocess.run(
+            ["git", "pull", "--rebase", "origin", "main"],
+            cwd=repo_dir, capture_output=True, timeout=30
+        )
+    except Exception:
+        pass  # pull失敗でも書き込みは続行
+
 def write_queue(posts, filepath=QUEUE_FILE):
+    git_pull_before_write()
     blocks = []
     for p in posts:
         lines = [f"## 投稿{p['id']}"]
