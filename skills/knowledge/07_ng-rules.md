@@ -48,6 +48,15 @@
 - 型3（現場ハック集型）で「① 〇〇（△△）」のように括弧で補足を入れない。AI感が出るため禁止。補足が必要な場合は改行して次の行に書く
 - 型3などリスト投稿の番号は ①②③（U+2460系）を使わない。スマホ環境によって小さいフォントで表示されAI感が出る。代わりに ❶❷❸❹❺（U+2776系）を使う
 
+## 図解投稿の画像URL形式NG
+
+- **`raw.githubusercontent.com` の使用禁止**：Threads API（Meta）がこのドメインからの画像取得を拒否する（error_subcode: 2207052）。投稿がAPIエラーでキューから自動削除される。
+- 図解投稿に画像URLを記載する際は必ず **jsDelivr CDN形式** を使うこと：
+  ```
+  ✅ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/ファイル名
+  ❌ https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/images/ファイル名
+  ```
+
 ## 投稿前セルフチェック
 □ 1行目で手が止まるか？
 □ 「。」が使われていないか？
