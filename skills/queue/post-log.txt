@@ -7735,3 +7735,45 @@ https://a.r10.to/h5hzCW
 夏の保育園、一緒に乗り越えよう
 [2026-07-16 15:25:58] リプライ1完了！ ID: 18102010559270831
 [2026-07-16 15:25:58] キュー移動完了。残りキュー: 8件
+[2026-07-16 21:47:04] ===== post.py 起動 =====
+[2026-07-16 21:47:04] キュー件数: 8件
+[2026-07-16 21:47:04] 投稿開始（試行1回目）:
+高熱が先にくるか、発疹が先にくるか、それだけ覚えて
+
+保育士16年、毎年夏になると同じ質問をもらってた
+「ヘルパンギーナと手足口病って何がちがうの？」
+
+ざっくりまとめると
+
+▶ 39〜40度の高熱がきて、のどの奥が痛い→ヘルパンギーナ
+▶ 手のひら・足の裏・口の中にポツポツ→手足口病
+
+手足口病は発熱しない子もいるから
+「熱がないから安心」は通用しないことも
+
+どちらも特効薬なし
+水分補給と解熱剤で1週間乗り越えるしかない
+
+画像に違いをまとめたから保存しといてね❤️
+[2026-07-16 21:47:06] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_443_hfmd_vs_herpangina.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AV_jiOiZwqu-W0B6IfvSU7w"}}
+[2026-07-16 21:47:06] 5秒後にリトライします...
+[2026-07-16 21:47:11] 投稿開始（試行2回目）:
+高熱が先にくるか、発疹が先にくるか、それだけ覚えて
+
+保育士16年、毎年夏になると同じ質問をもらってた
+「ヘルパンギーナと手足口病って何がちがうの？」
+
+ざっくりまとめると
+
+▶ 39〜40度の高熱がきて、のどの奥が痛い→ヘルパンギーナ
+▶ 手のひら・足の裏・口の中にポツポツ→手足口病
+
+手足口病は発熱しない子もいるから
+「熱がないから安心」は通用しないことも
+
+どちらも特効薬なし
+水分補給と解熱剤で1週間乗り越えるしかない
+
+画像に違いをまとめたから保存しといてね❤️
+[2026-07-16 21:47:12] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_443_hfmd_vs_herpangina.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"A5EGcHumAnp38OHsV1p1XdZ"}}
+[2026-07-16 21:47:12] 2回失敗のためスキップ。残りキュー: 7件
