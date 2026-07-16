@@ -9418,3 +9418,40 @@ https://a.r10.to/hk7hlm
 
 ---
 
+<!-- 処理日時: 2026-07-16 05:57 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/raw.githubusercontent.com\/whitegod1225-cmyk\/chamu-threads-bot\/main\/images\/post_443_hfmd_vs_herpangina.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AeLQ6pNzUGBfWFyekbue0HM"}} -->
+## 投稿443
+**テーマ**：「ヘルパンギーナと手足口病の違いをまとめた（図解）」
+**カテゴリ**：B（知識・有益系）／図解投稿
+**時期**：夏（感染症シーズン）
+
+**本文**
+高熱が先にくるか、発疹が先にくるか、それだけ覚えて
+
+保育士16年、毎年夏になると同じ質問をもらってた
+「ヘルパンギーナと手足口病って何がちがうの？」
+
+ざっくりまとめると
+
+▶ 39〜40度の高熱がきて、のどの奥が痛い→ヘルパンギーナ
+▶ 手のひら・足の裏・口の中にポツポツ→手足口病
+
+手足口病は発熱しない子もいるから
+「熱がないから安心」は通用しないことも
+
+どちらも特効薬なし
+水分補給と解熱剤で1週間乗り越えるしかない
+
+画像に違いをまとめたから保存しといてね❤️
+
+**画像URL**
+https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/images/post_443_hfmd_vs_herpangina.jpg
+
+**コメント欄（セルフリプライ用）**
+最初にヘルパンギーナって言われたのに後日手足に発疹が出て「手足口病でした」ってパターンも普通にある
+症状が重なるケースもあるから、診断が変わっても不思議じゃないよ
+
+どちらも保育園でぐるぐる回るから、兄弟いる家庭はほぼ覚悟して🙏
+かかって免疫ついたら、少なくともその夏はもうおしまい
+
+---
+
