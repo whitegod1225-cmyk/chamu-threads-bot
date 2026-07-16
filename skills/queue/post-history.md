@@ -9253,9 +9253,12 @@ USB接続でモバイルバッテリーにつなげるから
 
 保冷グッズを毎回準備するより、ずっと楽だった（PR）
 https://a.r10.to/hk7hlm
+**メトリクス（2026-07-17取得）**
+views=246 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-15 10:26 | 投稿ID: 17922473166391046 -->
 ## 投稿428
 **テーマ**：「アトピー肌の赤ちゃん、みんなどのシャンプー使ってた？」
@@ -9282,9 +9285,12 @@ https://a.r10.to/hk7hlm
 肌弱い子を持つ保護者からよく聞いてた
 
 みんなはどのシャンプーに落ち着いた？
+**メトリクス（2026-07-17取得）**
+views=929 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-15 12:49 | 投稿ID: 17926026111141925 -->
 ## 投稿440
 **テーマ**：「手足口病がクラスで出たときの家庭内対策」
@@ -9311,9 +9317,12 @@ https://a.r10.to/hk7hlm
 
 できることをやって、あとは気にしすぎない
 それが一番精神的にもラクになるよ
+**メトリクス（2026-07-17取得）**
+views=1424 / likes=3 / replies=1 / reposts=1 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-15 15:18 | 投稿ID: 18138032818572913 -->
 ## 投稿437
 **テーマ**：「2歳のジュース毎日あげてるなら読んでほしい話」
@@ -9346,9 +9355,12 @@ https://a.r10.to/hk7hlm
 
 完全にやめなくていい
 週2〜3回に減らすだけで全然ちがうから
+**メトリクス（2026-07-17取得）**
+views=238 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-15 21:41 | 投稿ID: 18109538797957644 -->
 ## 投稿438
 **テーマ**：「2歳のおやつ、お菓子3種類は多いよという話」
@@ -9381,9 +9393,12 @@ https://a.r10.to/hk7hlm
 その分フルーツに変えるだけで体が変わってくる
 
 量を悩んでる時点でちゃんとやろうとしてる証拠だよ
+**メトリクス（2026-07-17取得）**
+views=346 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-16 01:02 | 投稿ID: 17913294735423699 -->
 ## 投稿441
 **テーマ**：「保育園のクラスで感染症が出た、でも休ませられない人へ」
@@ -9415,9 +9430,12 @@ https://a.r10.to/hk7hlm
 悩んでるだけで十分ちゃんとしてる
 
 休ませたくても休ませられない事情、みんなある？
+**メトリクス（2026-07-17取得）**
+views=711 / likes=1 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-16 05:57 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/raw.githubusercontent.com\/whitegod1225-cmyk\/chamu-threads-bot\/main\/images\/post_443_hfmd_vs_herpangina.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AeLQ6pNzUGBfWFyekbue0HM"}} -->
 ## 投稿443
 **テーマ**：「ヘルパンギーナと手足口病の違いをまとめた（図解）」
