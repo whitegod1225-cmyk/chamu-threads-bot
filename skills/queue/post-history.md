@@ -9455,3 +9455,22 @@ https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/image
 
 ---
 
+<!-- 処理日時: 2026-07-16 10:31 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/raw.githubusercontent.com\/whitegod1225-cmyk\/chamu-threads-bot\/main\/images\/post_435_drive_goods_front.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AGs92P7H4CWwebsj4hI1EI7"}} -->
+## 投稿435
+**テーマ**：「子どもとのドライブが快適に！5つのお助けアイテム（図解）」
+**カテゴリ**：専門知識（B）／図解投稿
+**時期**：夏（帰省シーズン）
+
+**本文**
+帰省の道中、子どもが2時間泣き止まなかった
+夫はだんだん無口になって、車内の空気が最悪になった
+楽しみにしてたはずなのに、こっちが泣きたかった
+
+**画像URL**
+https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/images/post_435_drive_goods_front.png
+
+**コメント欄（セルフリプライ用）**
+なし
+
+---
+
