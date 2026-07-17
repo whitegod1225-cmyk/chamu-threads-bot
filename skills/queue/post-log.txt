@@ -7890,3 +7890,17 @@ https://a.r10.to/h5hzCW
 手足口病、兄弟間でうつった経験ある人いる？😭
 [2026-07-17 12:40:58] リプライ1完了！ ID: 18137771860522578
 [2026-07-17 12:40:58] キュー移動完了。残りキュー: 3件
+[2026-07-17 15:05:13] ===== post.py 起動 =====
+[2026-07-17 15:05:13] キュー件数: 3件
+[2026-07-17 15:05:13] 投稿開始（試行1回目）:
+帰省の道中、子どもが2時間泣き止まなかった
+夫はだんだん無口になって、車内の空気が最悪になった
+楽しみにしてたはずなのに、こっちが泣きたかった
+[2026-07-17 15:05:16] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_435_drive_goods_front.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"Aw9OIYeTQk22mzvb7qbjz4l"}}
+[2026-07-17 15:05:16] 5秒後にリトライします...
+[2026-07-17 15:05:21] 投稿開始（試行2回目）:
+帰省の道中、子どもが2時間泣き止まなかった
+夫はだんだん無口になって、車内の空気が最悪になった
+楽しみにしてたはずなのに、こっちが泣きたかった
+[2026-07-17 15:05:21] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_435_drive_goods_front.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AtQ0xZGwBg26Xk-kPQOiPu0"}}
+[2026-07-17 15:05:21] 2回失敗のためスキップ。残りキュー: 2件
