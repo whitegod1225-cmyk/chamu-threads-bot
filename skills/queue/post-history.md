@@ -9580,9 +9580,12 @@ https://a.r10.to/hP60Sd
 サンシェード×ネックピローのセットが
 うちの帰省を変えた（PR）
 https://a.r10.to/h5hzCW
+**メトリクス（2026-07-18取得）**
+views=121 / likes=0 / replies=5 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-16 15:25 | 投稿ID: 18100486609908737 -->
 ## 投稿446
 **テーマ**：自己紹介（型A-2あるある型・夏バージョン）
@@ -9616,9 +9619,12 @@ https://a.r10.to/h5hzCW
 そういうもんだよってやっと言えるようになった
 
 夏の保育園、一緒に乗り越えよう
+**メトリクス（2026-07-18取得）**
+views=151 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-16 21:47 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_443_hfmd_vs_herpangina.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"A5EGcHumAnp38OHsV1p1XdZ"}} -->
 ## 投稿443
 **テーマ**：「ヘルパンギーナと手足口病の違いをまとめた（図解）」
@@ -9687,9 +9693,12 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post
 
 かかってしまっても軽症で済む人も多いから
 過度に怖がらず、できることだけやろう
+**メトリクス（2026-07-18取得）**
+views=286 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-17 05:58 | 投稿ID: 18187006579376445 -->
 ## 投稿444
 **テーマ**：「月齢の小さい赤ちゃんの手足口病、乳児湿疹との見分け方」
