@@ -9817,3 +9817,22 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post
 
 ---
 
+<!-- 処理日時: 2026-07-17 23:09 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_436_drive_goods_back.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"Aw_CXWu1_smpHeg2R86cTkz"}} -->
+## 投稿436
+**テーマ**：「こんなときに助かる！子連れドライブの安心アイテム5選（図解）」
+**カテゴリ**：専門知識（B）／図解投稿
+**時期**：夏（帰省シーズン）
+
+**本文**
+帰省ドライブで嘔吐・シートびしょびしょ・チャイルドシート抜け出し、去年この3つを全部経験した
+全部想定外のタイミングで来た
+経験したから言える、これさえ備えれば全然ちがう
+
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_436_drive_goods_back.png
+
+**コメント欄（セルフリプライ用）**
+なし
+
+---
+

@@ -7904,3 +7904,17 @@ https://a.r10.to/h5hzCW
 楽しみにしてたはずなのに、こっちが泣きたかった
 [2026-07-17 15:05:21] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_435_drive_goods_front.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AtQ0xZGwBg26Xk-kPQOiPu0"}}
 [2026-07-17 15:05:21] 2回失敗のためスキップ。残りキュー: 2件
+[2026-07-17 23:09:45] ===== post.py 起動 =====
+[2026-07-17 23:09:45] キュー件数: 2件
+[2026-07-17 23:09:45] 投稿開始（試行1回目）:
+帰省ドライブで嘔吐・シートびしょびしょ・チャイルドシート抜け出し、去年この3つを全部経験した
+全部想定外のタイミングで来た
+経験したから言える、これさえ備えれば全然ちがう
+[2026-07-17 23:09:47] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_436_drive_goods_back.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AZSH4qc88DKO8e_-VFVy3hF"}}
+[2026-07-17 23:09:47] 5秒後にリトライします...
+[2026-07-17 23:09:52] 投稿開始（試行2回目）:
+帰省ドライブで嘔吐・シートびしょびしょ・チャイルドシート抜け出し、去年この3つを全部経験した
+全部想定外のタイミングで来た
+経験したから言える、これさえ備えれば全然ちがう
+[2026-07-17 23:09:53] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_436_drive_goods_back.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"Aw_CXWu1_smpHeg2R86cTkz"}}
+[2026-07-17 23:09:53] 2回失敗のためスキップ。残りキュー: 1件
