@@ -7932,3 +7932,17 @@ https://a.r10.to/h5hzCW
 楽しみにしてたはずなのに、こっちが泣きたかった
 [2026-07-18 05:06:10] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_435_drive_goods_front.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"A-lxR91GCoXwI6D5GEmVYes"}}
 [2026-07-18 05:06:10] 2回失敗のためスキップ。残りキュー: 2件
+[2026-07-18 07:18:58] ===== post.py 起動 =====
+[2026-07-18 07:18:58] キュー件数: 5件
+[2026-07-18 07:18:58] 投稿開始（試行1回目）:
+帰省ドライブで嘔吐・シートびしょびしょ・チャイルドシート抜け出し、去年この3つを全部経験した
+全部想定外のタイミングで来た
+経験したから言える、これさえ備えれば全然ちがう
+[2026-07-18 07:18:59] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_436_drive_goods_back.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"Aq84fnAVFFpYu64g_kogNzD"}}
+[2026-07-18 07:18:59] 5秒後にリトライします...
+[2026-07-18 07:19:04] 投稿開始（試行2回目）:
+帰省ドライブで嘔吐・シートびしょびしょ・チャイルドシート抜け出し、去年この3つを全部経験した
+全部想定外のタイミングで来た
+経験したから言える、これさえ備えれば全然ちがう
+[2026-07-18 07:19:04] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_436_drive_goods_back.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AJFDxME-sv2DBHngfI2-IvG"}}
+[2026-07-18 07:19:04] 2回失敗のためスキップ。残りキュー: 4件
