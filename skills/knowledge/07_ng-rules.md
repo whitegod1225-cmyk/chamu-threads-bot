@@ -57,11 +57,18 @@
 ## 図解投稿の画像URL形式NG
 
 - **`raw.githubusercontent.com` の使用禁止**：Threads API（Meta）がこのドメインからの画像取得を拒否する（error_subcode: 2207052）。投稿がAPIエラーでキューから自動削除される。
-- 図解投稿に画像URLを記載する際は必ず **jsDelivr CDN形式** を使うこと：
+- 図解投稿に画像URLは **jsDelivr CDN形式または GitHub Pages形式** のどちらでもよい（post.pyが実行時にjsDelivr→GitHub Pagesへ自動変換するため、どちらで書いてもAPIには届かない）：
   ```
   ✅ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/ファイル名
+  ✅ https://whitegod1225-cmyk.github.io/chamu-threads-bot/images/ファイル名
   ❌ https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/images/ファイル名
   ```
+
+## E投稿（アフィリエイト）の間隔ルール
+
+- **E投稿の前後に最低2本のB/D/F/A投稿を必ず挟む**（直前1本だけでは不足）
+- 週1〜2本が上限目安。E投稿が連続するキュー構成は禁止
+- 例：E → B → D → E ✅ / E → B → E ❌
 
 ## 投稿前セルフチェック
 □ 1行目で手が止まるか？
