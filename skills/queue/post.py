@@ -214,6 +214,21 @@ def release_lock():
         LOCK_FILE.unlink()
 
 
+JSDELIVR_PATTERN = re.compile(
+    r"https://cdn\.jsdelivr\.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/(.+)"
+)
+GITHUB_PAGES_BASE = "https://whitegod1225-cmyk.github.io/chamu-threads-bot"
+
+def normalize_image_url(url):
+    """jsDelivr形式のURLをGitHub Pages形式に自動変換する"""
+    m = JSDELIVR_PATTERN.match(url)
+    if m:
+        converted = f"{GITHUB_PAGES_BASE}/{m.group(1)}"
+        log(f"画像URL変換: {url} → {converted}")
+        return converted
+    return url
+
+
 def has_placeholder(text):
     """【リンク】などの未置換プレースホルダーが残っていないか確認"""
     return "【リンク】" in text or "【URL】" in text
@@ -252,7 +267,7 @@ def main():
 
         block = posts[0]
         body = extract_body(block)
-        image_urls = extract_image_urls(block)
+        image_urls = [normalize_image_url(u) for u in extract_image_urls(block)]
         replies = extract_replies(block)
 
         # ── 本文なしチェック ──
