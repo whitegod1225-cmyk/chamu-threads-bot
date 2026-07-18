@@ -9729,9 +9729,12 @@ metrics_fetched: true
 
 上の子からうつってきた場合は感染から2〜7日で症状が出てくる
 上の子が確定したら、その日数を数えながら下の子の様子を見て
+**メトリクス（2026-07-19取得）**
+views=204 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-17 10:23 | 投稿ID: 18324808111279394 -->
 ## 投稿439
 **テーマ**：「自宅保育のおやつ、1日3回になる日があった」
@@ -9761,9 +9764,12 @@ metrics_fetched: true
 方法が増えたら自然と変わっていく
 
 自宅保育、おやつどのくらいあげてた？
+**メトリクス（2026-07-19取得）**
+views=103 / likes=0 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-17 12:40 | 投稿ID: 18056627954770500 -->
 ## 投稿445
 **テーマ**：「手足口病で保育園を休む日数、正しく知ってる人が少ない」
@@ -9795,9 +9801,12 @@ metrics_fetched: true
 おむつ使ってる子がいる家庭は、しばらく手洗いだけは徹底してほしい
 
 手足口病、兄弟間でうつった経験ある人いる？😭
+**メトリクス（2026-07-19取得）**
+views=1907 / likes=1 / replies=1 / reposts=0 / quotes=0
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-07-17 15:05 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/cdn.jsdelivr.net\/gh\/whitegod1225-cmyk\/chamu-threads-bot\u0040main\/images\/post_435_drive_goods_front.png.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AtQ0xZGwBg26Xk-kPQOiPu0"}} -->
 ## 投稿435
 **テーマ**：「子どもとのドライブが快適に！5つのお助けアイテム（図解）」
