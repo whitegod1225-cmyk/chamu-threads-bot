@@ -236,6 +236,24 @@ def normalize_image_url(url):
     return url
 
 
+def is_affiliate(block):
+    """**商品** フィールドがある = アフィリエイト投稿"""
+    return bool(re.search(r"\*\*商品\*\*", block))
+
+
+def is_morning_first_slot():
+    """朝一番スロット（アフィ禁止帯）か判定（JST基準）
+    平日: 05:30〜08:59 / 土日: 07:00〜10:59"""
+    import datetime as dt
+    jst = dt.timezone(dt.timedelta(hours=9))
+    now = dt.datetime.now(jst)
+    h, m, wd = now.hour, now.minute, now.weekday()  # 0=Mon, 6=Sun
+    if wd < 5:  # 平日
+        return (h == 5 and m >= 30) or (6 <= h <= 8)
+    else:       # 土日
+        return 7 <= h <= 10
+
+
 def has_placeholder(text):
     """【リンク】などの未置換プレースホルダーが残っていないか確認"""
     return "【リンク】" in text or "【URL】" in text
@@ -271,6 +289,13 @@ def main():
             return
 
         log(f"キュー件数: {len(posts)}件")
+
+        # ── 朝一番アフィリ回避：先頭がアフィリなら最初の非アフィリ投稿と入れ替え ──
+        if is_morning_first_slot() and is_affiliate(posts[0]) and len(posts) > 1:
+            swap_idx = next((i for i, p in enumerate(posts[1:], 1) if not is_affiliate(p)), None)
+            if swap_idx is not None:
+                log(f"⚠️ 朝一番スロット：アフィリ投稿を後回し → 投稿{swap_idx + 1}番目と入れ替え")
+                posts[0], posts[swap_idx] = posts[swap_idx], posts[0]
 
         block = posts[0]
         body = extract_body(block)
