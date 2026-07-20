@@ -54,15 +54,13 @@ def log(msg):
 
 
 def load_urgent():
-    """urgent-post.md に本文があれば (block, True) を返す。なければ (None, False)"""
+    """urgent-post.md に **本文** セクションがあれば (text, True) を返す。なければ (None, False)"""
     if not URGENT_FILE.exists():
         return None, False
-    text = URGENT_FILE.read_text(encoding="utf-8").strip()
-    # コメント行・空行だけなら「中身なし」扱い
-    lines = [l for l in text.splitlines() if l.strip() and not l.strip().startswith("<!--")]
-    if not lines:
-        return None, False
-    return text, True
+    text = URGENT_FILE.read_text(encoding="utf-8")
+    if re.search(r"\*\*本文\*\*", text):
+        return text, True
+    return None, False
 
 
 def clear_urgent():
