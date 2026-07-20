@@ -55,7 +55,14 @@ def log(msg):
 def load_queue():
     text = QUEUE_FILE.read_text(encoding="utf-8")
     blocks = re.split(r"\n---\n", text)
-    posts = [b.strip() for b in blocks if re.search(r"## 投稿[\w-]+", b)]
+    posts = []
+    for b in blocks:
+        b = b.strip()
+        if not re.search(r"## 投稿[\w-]+", b):
+            continue
+        # --- が欠落して複数投稿が1ブロックに混入した場合も正しく分割する
+        sub_blocks = re.split(r"\n(?=## 投稿[\w-]+)", b)
+        posts.extend(s.strip() for s in sub_blocks if re.search(r"## 投稿[\w-]+", s))
     return posts
 
 
