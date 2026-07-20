@@ -31,11 +31,12 @@ if _env_path.exists() and not os.environ.get("CI"):
 ACCESS_TOKEN = os.environ.get("THREADS_ACCESS_TOKEN")
 USER_ID = os.environ.get("THREADS_USER_ID")
 
-QUEUE_FILE = Path(__file__).parent / "post-queue.md"
-DONE_FILE  = Path(__file__).parent / "post-history.md"
-LOG_FILE   = Path(__file__).parent / "post-log.txt"
-LOCK_FILE  = Path(__file__).parent / "post.lock"
-HASH_FILE  = Path(__file__).parent / "last-post-hash.txt"
+QUEUE_FILE  = Path(__file__).parent / "post-queue.md"
+URGENT_FILE = Path(__file__).parent / "urgent-post.md"
+DONE_FILE   = Path(__file__).parent / "post-history.md"
+LOG_FILE    = Path(__file__).parent / "post-log.txt"
+LOCK_FILE   = Path(__file__).parent / "post.lock"
+HASH_FILE   = Path(__file__).parent / "last-post-hash.txt"
 
 
 def log(msg):
@@ -50,6 +51,29 @@ def log(msg):
         print(line.encode(enc, errors="replace").decode(enc))
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(line + "\n")
+
+
+def load_urgent():
+    """urgent-post.md に本文があれば (block, True) を返す。なければ (None, False)"""
+    if not URGENT_FILE.exists():
+        return None, False
+    text = URGENT_FILE.read_text(encoding="utf-8").strip()
+    # コメント行・空行だけなら「中身なし」扱い
+    lines = [l for l in text.splitlines() if l.strip() and not l.strip().startswith("<!--")]
+    if not lines:
+        return None, False
+    return text, True
+
+
+def clear_urgent():
+    """urgent-post.md の投稿本文を削除してヘッダーだけ残す"""
+    header = (
+        "# urgent-post.md ── 緊急投稿\n"
+        "<!-- 投稿したい文章を書いてpushすると、次の自動投稿タイミングで優先的に投稿される -->\n"
+        "<!-- 投稿後はこのファイルが自動でクリアされる -->\n"
+        "<!-- コメント欄が不要な場合は「**コメント欄（セルフリプライ用）**」セクションごと削除してOK -->\n\n"
+    )
+    URGENT_FILE.write_text(header, encoding="utf-8")
 
 
 def load_queue():
@@ -283,6 +307,54 @@ def main():
         sys.exit(0)
 
     try:
+        # ── 緊急投稿チェック（通常キューより優先） ──
+        urgent_block, has_urgent = load_urgent()
+        if has_urgent:
+            log("🚨 緊急投稿を検出 → キューをスキップして優先投稿します")
+            body = extract_body(urgent_block)
+            image_urls = [normalize_image_url(u) for u in extract_image_urls(urgent_block)]
+            replies = extract_replies(urgent_block)
+
+            if not body:
+                log("緊急投稿に本文が見つかりません。スキップします。")
+                clear_urgent()
+                return
+
+            post_id = None
+            last_error = None
+            for attempt in range(2):
+                try:
+                    log(f"緊急投稿開始（試行{attempt + 1}回目）:\n{body}")
+                    post_id = api_post(body, image_urls or None)
+                    log(f"緊急投稿完了！ ID: {post_id}")
+                    last_error = None
+                    break
+                except Exception as e:
+                    last_error = e
+                    log(f"緊急投稿APIエラー（試行{attempt + 1}回目）: {e}")
+                    if attempt == 0:
+                        time.sleep(5)
+
+            if last_error is not None:
+                log(f"緊急投稿2回失敗。ファイルはそのまま残します: {last_error}")
+                sys.exit(1)
+
+            current_reply_to = post_id
+            for i, reply_text in enumerate(replies):
+                try:
+                    reply_id = api_reply(reply_text, current_reply_to)
+                    log(f"緊急投稿リプライ{i+1}完了！ ID: {reply_id}")
+                    current_reply_to = reply_id
+                    if i < len(replies) - 1:
+                        time.sleep(2)
+                except Exception as e:
+                    log(f"緊急投稿リプライエラー: {e}")
+                    break
+
+            clear_urgent()
+            log("緊急投稿完了・ファイルをクリアしました")
+            return
+
         posts = load_queue()
         if not posts:
             log("投稿がありません。終了します。")

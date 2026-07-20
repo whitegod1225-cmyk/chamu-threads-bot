@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add skills/queue/post-queue.md skills/queue/post-history.md skills/queue/post-log.txt skills/queue/last-post-hash.txt
+          git add skills/queue/post-queue.md skills/queue/post-history.md skills/queue/post-log.txt skills/queue/last-post-hash.txt skills/queue/urgent-post.md
           git diff --cached --quiet || git commit -m "chore: update post queue"
           git pull --rebase origin main
           git push
