@@ -300,3 +300,39 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：候補
 **スクレイプ情報**：評価4.6 / レビュー4725件 / 3,500円 / Aleppo Souq
 
+---
+
+## 候補23：おむつ・衛生用品／pt5倍＆10万pt!要エントリ★ おむつケーキ 3段 Sa
+**商品名**：pt5倍＆10万pt!要エントリ★ おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 夏ギフト ランキング
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.71 / レビュー13289件 / 5,500円 / おむつケーキ研究所
+
+---
+
+## 候補24：おむつ・衛生用品／7月21日（火）★発送可能★2段NEW今治タオル名前刺繡入れ
+**商品名**：7月21日（火）★発送可能★2段NEW今治タオル名前刺繡入れおむつケーキ出産祝いギフトかわいいラトルいぬ、クくま、うさぎ、ねこ男の子女の子クリスマス ベビーおしゃれ ベビーシャワー送料無料マタニティ贈り物★土曜日営業★即日発送可ベビーシャワーママギフト送料無料
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6389件 / 4,280円 / おむつケーキ専門店アイリムベビー
+
+---
+
+## 候補25：おむつ・衛生用品／【7/21着可※対象地域】出産祝いおむつケーキ ミキハウス
+**商品名**：【7/21着可※対象地域】出産祝いおむつケーキ ミキハウス フジテレビドラマ「ディア・シスター」使用 ベビーギフト ひよこクラブ掲載 ガーゼ ハンカチ 今治 ミニタオル 名入れ 名前刺繍 歯固め パンパース メリーズ おもちゃ 風船 バルーン mikihouse 男の子 女の子
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r310m.xpczb4f4.g00r310m.xpczcfb8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faleppo-souq%2Fmikihouse1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faleppo-souq%2Fi%2F10000166%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r310m.xpczb4f4.g00r310m.xpczcfb8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faleppo-souq%2Fmikihouse1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Faleppo-souq%2Fi%2F10000166%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.6 / レビュー4726件 / 3,500円 / Aleppo Souq
+
