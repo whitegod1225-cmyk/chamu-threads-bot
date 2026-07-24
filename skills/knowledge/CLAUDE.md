@@ -96,8 +96,9 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 - skills/queue/post-history.md（通常投稿履歴）
 - skills/queue/analysis-latest.md（最新分析結果）
 - skills/queue/affiliate-topics.md（アフィリエイト商品候補リスト ※next-topics.mdのアフィリエイト版）
-- skills/queue/affiliate-queue.md（アフィリエイト投稿の下書きエリア ※文体調整後にpost-queue.mdへ移動する）
 - skills/queue/affiliate-history.md（アフィリエイト投稿履歴・効果追跡）
+
+> ⚠️ **affiliate-queue.mdは廃止（2026-07-24）**。アフィリエイト投稿は直接post-queue.mdに追記する。
 
 ## スキル一覧
 
@@ -210,9 +211,10 @@ STEP4 本文・コメント欄生成
 STEP5 生成ループ（最大2回）
 - /writer と同じ。HARD GATES（特に「（PR）」欠落・E連続・1枚目商品名混入）を確認する
 
-STEP6 E投稿間隔確認
+STEP6 E投稿間隔確認・追記
 - 直前・直後に最低2本の通常投稿があるか確認してから追記する
 - 不足の場合はユーザーに報告して通常投稿を先に追加してもらう
+- **affiliate-queue.mdは廃止済み。完成した投稿は直接post-queue.mdに追記する**
 
 ### /poster
 post-queue.mdの一番上の投稿をThreads APIで投稿する。

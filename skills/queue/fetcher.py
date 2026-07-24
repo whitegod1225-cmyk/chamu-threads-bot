@@ -115,10 +115,38 @@ def main():
         category_m = re.search(r'\*\*カテゴリ\*\*：(.+)', block)
         category = category_m.group(1).strip() if category_m else "不明"
 
+        # ── スコアカード算出 ──
+        resonance_score = likes * 3 + replies * 5 + reposts * 2
+        quality_score = round(resonance_score / views * 100, 1) if views > 0 else 0.0
+
+        # hook_type: カテゴリ文字列から「型N：XXX型」を抽出
+        hook_m = re.search(r'型\w+[：:][^\s/]+型', category)
+        hook_type = hook_m.group(0) if hook_m else "不明"
+
+        # cta_type: コメント欄の内容から推定
+        reply_section_m = re.search(r'\*\*コメント欄.*?\*\*\n(.+)', block, re.DOTALL)
+        reply_text = reply_section_m.group(1) if reply_section_m else ""
+        if any(kw in reply_text for kw in ["保存して", "スクショ", "手元に"]):
+            cta_type = "保存誘導"
+        elif any(kw in reply_text for kw in ["フォロー", "流れてきます", "毎日して"]):
+            cta_type = "フォロー誘導"
+        elif any(kw in reply_text for kw in ["コメント", "教えて", "あった？", "いる？"]):
+            cta_type = "コメント誘導"
+        elif any(kw in reply_text for kw in ["おつかれ", "大丈夫", "十分", "ぼちぼち"]):
+            cta_type = "救い締め"
+        else:
+            cta_type = "その他"
+
+        # failure_flag: views<50 かつ likes=0
+        failure_flag = views < 50 and likes == 0
+
         # post-historyブロックにメトリクス追記
         metrics_line = (
             f"\n**メトリクス（{now.strftime('%Y-%m-%d')}取得）**\n"
             f"views={views} / likes={likes} / replies={replies} / reposts={reposts} / quotes={quotes}\n"
+            f"resonance_score={resonance_score} / quality_score={quality_score}%\n"
+            f"hook_type={hook_type} / cta_type={cta_type}"
+            + (f" / failure_flag=true ⚠️" if failure_flag else "") + "\n"
             f"metrics_fetched: true\n"
         )
         # --- の前に挿入
@@ -134,6 +162,11 @@ def main():
             "likes": likes,
             "replies": replies,
             "reposts": reposts,
+            "resonance_score": resonance_score,
+            "quality_score": quality_score,
+            "hook_type": hook_type,
+            "cta_type": cta_type,
+            "failure_flag": failure_flag,
         })
 
     if updated:
@@ -147,19 +180,52 @@ def main():
         lines = [f"# analysis-latest.md ── エンゲージメント分析\n"]
         lines.append(f"更新日時: {now.strftime('%Y-%m-%d %H:%M')}\n\n")
         lines.append("## 投稿別パフォーマンス\n\n")
-        lines.append("| テーマ | カテゴリ | 投稿日 | views | likes | replies | reposts |\n")
-        lines.append("|--------|---------|--------|-------|-------|---------|--------|\n")
-        sorted_results = sorted(results, key=lambda x: x["likes"], reverse=True)
+        lines.append("| テーマ | カテゴリ | 投稿日 | views | likes | replies | reposts | score |\n")
+        lines.append("|--------|---------|--------|-------|-------|---------|---------|-------|\n")
+        sorted_results = sorted(results, key=lambda x: x["resonance_score"], reverse=True)
         for r in sorted_results:
-            lines.append(f"| {r['theme']} | {r['category']} | {r['posted_at']} | {r['views']} | {r['likes']} | {r['replies']} | {r['reposts']} |\n")
+            flag = " ⚠️" if r.get("failure_flag") else ""
+            lines.append(
+                f"| {r['theme']} | {r['category']} | {r['posted_at']} "
+                f"| {r['views']} | {r['likes']} | {r['replies']} | {r['reposts']} "
+                f"| {r['resonance_score']}{flag} |\n"
+            )
 
         lines.append("\n## ハイライト\n\n")
         if sorted_results:
             best = sorted_results[0]
-            lines.append(f"**最高いいね数**: 「{best['theme']}」（{best['likes']}いいね / views {best['views']}）\n\n")
+            lines.append(
+                f"**最高スコア**: 「{best['theme']}」"
+                f"（score={best['resonance_score']} / quality={best['quality_score']}% / hook={best['hook_type']}）\n\n"
+            )
             worst = sorted_results[-1]
             if len(sorted_results) > 1:
-                lines.append(f"**最低いいね数**: 「{worst['theme']}」（{worst['likes']}いいね / views {worst['views']}）\n\n")
+                lines.append(
+                    f"**最低スコア**: 「{worst['theme']}」"
+                    f"（score={worst['resonance_score']} / views={worst['views']}）\n\n"
+                )
+            failures = [r for r in results if r.get("failure_flag")]
+            if failures:
+                lines.append(f"**⚠️ failure_flag（views<50 かつ likes=0）**: {len(failures)}件\n")
+                for f in failures:
+                    lines.append(f"  - 「{f['theme']}」（{f['posted_at']}）\n")
+                lines.append("\n")
+
+        # hook_type別集計
+        from collections import Counter
+        hook_counts = Counter(r["hook_type"] for r in results if r["hook_type"] != "不明")
+        if hook_counts:
+            lines.append("## hook_type別平均スコア\n\n")
+            lines.append("| hook_type | 件数 | 平均score |\n")
+            lines.append("|-----------|------|----------|\n")
+            hook_scores = {}
+            for r in results:
+                ht = r["hook_type"]
+                hook_scores.setdefault(ht, []).append(r["resonance_score"])
+            for ht, scores in sorted(hook_scores.items(), key=lambda x: -sum(x[1])/len(x[1])):
+                avg = round(sum(scores) / len(scores), 1)
+                lines.append(f"| {ht} | {len(scores)} | {avg} |\n")
+            lines.append("\n")
 
         ANALYSIS_FILE.write_text("".join(lines), encoding="utf-8")
         print(f"analysis-latest.md に {len(results)}件の分析を保存しました")
