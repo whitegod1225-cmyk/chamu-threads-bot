@@ -172,6 +172,17 @@ def main():
     if updated:
         HISTORY_FILE.write_text("".join(blocks), encoding="utf-8")
         print("post-history.md を更新しました")
+        # メタファイルを再生成
+        try:
+            import importlib.util, sys as _sys
+            _spec = importlib.util.spec_from_file_location(
+                "make_meta", Path(__file__).parent / "make_meta.py"
+            )
+            _mod = importlib.util.module_from_spec(_spec)
+            _spec.loader.exec_module(_mod)
+            _mod.main()
+        except Exception as e:
+            print(f"[fetcher] make_meta 呼び出し失敗（無視）: {e}")
     else:
         print("更新対象なし（取得済みまたは24h未満）")
 

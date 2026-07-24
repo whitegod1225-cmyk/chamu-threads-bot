@@ -12,6 +12,9 @@ Threads投稿のメトリクスをxlsxのPDCAダッシュボードに書き込�
   python sync_to_sheet.py
   → threads_metrics_cache.json + post_meta.json をマージして xlsx に書き込む
 
+  python sync_to_sheet.py --from-meta
+  → skills/queue/post-history-meta.md を読んで xlsx に書き込む（手動メタ不要）
+
   python sync_to_sheet.py --create-if-missing
   → xlsx が存在しなければ自動作成してから書き込む
 """
@@ -33,6 +36,7 @@ HERE = os.path.dirname(__file__)
 CACHE_PATH = os.path.join(HERE, "threads_metrics_cache.json")
 META_PATH = os.path.join(HERE, "post_meta.json")
 XLSX_PATH = os.path.join(HERE, "content_pdca_base.xlsx")
+POST_HISTORY_META = os.path.join(HERE, "..", "skills", "queue", "post-history-meta.md")
 
 HEADER_FILL = PatternFill("solid", fgColor="1C2333")
 HEADER_FONT = Font(bold=True, color="EDE7D8", size=10)
@@ -84,6 +88,73 @@ def create_workbook(path):
     wb.save(path)
     print(f"新しいxlsxを作成しました: {path}")
     return wb
+
+
+def build_rows_from_meta():
+    """post-history-meta.md のMarkdownテーブルを読んで行データを返す"""
+    import re
+    path = os.path.abspath(POST_HISTORY_META)
+    if not os.path.exists(path):
+        sys.exit(f"post-history-meta.md が見つかりません: {path}\n先に make_meta.py を実行してください。")
+
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+
+    rows = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line.startswith("|") or line.startswith("| 番号") or line.startswith("|---"):
+            continue
+        cols = [c.strip() for c in line.strip("|").split("|")]
+        if len(cols) < 14:
+            continue
+        (post_num, posted_at, theme, category,
+         views, likes, replies, reposts,
+         score, quality, hook_type, cta_type, fetched, post_id) = cols[:14]
+
+        def safe_int(v):
+            try: return int(v)
+            except: return 0
+
+        def safe_float(v):
+            try: return float(v)
+            except: return 0.0
+
+        v = safe_int(views)
+        l = safe_int(likes)
+        r = safe_int(replies)
+        rp = safe_int(reposts)
+        sc = safe_int(score) if score != "-" else (l * 3 + r * 5 + rp * 2)
+        ql = safe_float(quality) if quality != "-" else round(sc / v * 100, 2) if v > 0 else 0.0
+
+        # カテゴリから型・パターン・大分類を推定
+        cat_m = re.match(r'([A-Z]+)[（(](.+?)[）)]', category)
+        cat_type = cat_m.group(1) if cat_m else category[:2]
+        cat_detail = cat_m.group(2) if cat_m else category
+
+        date_str = posted_at[:10] if posted_at != "-" else ""
+        permalink = f"https://www.threads.net/post/{post_id}" if post_id not in ("-", "") else ""
+
+        rows.append({
+            "投稿ID": post_id if post_id != "-" else post_num,
+            "日付": date_str,
+            "テーマ": theme,
+            "型": cat_type,
+            "パターン": hook_type if hook_type != "-" else "",
+            "大分類": cat_detail,
+            "Views": v,
+            "Likes": l,
+            "Comments": r,
+            "Reposts": rp,
+            "Quotes": 0,
+            "Resonanceスコア": sc,
+            "質スコア(%)": ql,
+            "permalink": permalink,
+        })
+
+    rows.sort(key=lambda r: r.get("日付") or "", reverse=True)
+    print(f"[from-meta] {len(rows)}行を読み込みました")
+    return rows
 
 
 def build_rows():
@@ -175,9 +246,11 @@ def main():
     parser = argparse.ArgumentParser(description="Threadsメトリクスをxlsxに同期")
     parser.add_argument("--create-if-missing", action="store_true",
                          help="xlsxが存在しなければ自動作成する")
+    parser.add_argument("--from-meta", action="store_true",
+                         help="post-history-meta.mdを読んでxlsxに書き込む（手動メタ不要）")
     args = parser.parse_args()
 
-    if not os.path.exists(CACHE_PATH):
+    if not args.from_meta and not os.path.exists(CACHE_PATH):
         sys.exit(f"threads_metrics_cache.json が見つかりません: {CACHE_PATH}\n/fetcherを先に実行してください。")
 
     if not os.path.exists(XLSX_PATH):
@@ -192,9 +265,10 @@ def main():
     wb = openpyxl.load_workbook(XLSX_PATH)
     ws = wb.active
 
-    rows = build_rows()
+    rows = build_rows_from_meta() if args.from_meta else build_rows()
     if not rows:
-        print("書き込むデータがありません（threads_metrics_cache.jsonが空または形式不正）。")
+        src = "post-history-meta.md" if args.from_meta else "threads_metrics_cache.json"
+        print(f"書き込むデータがありません（{src}が空または形式不正）。")
         return
 
     written = write_rows(ws, rows)

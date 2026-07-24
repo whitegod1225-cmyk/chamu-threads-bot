@@ -44,7 +44,7 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 - skills/knowledge/07_ng-rules.md（NGルール）
 - skills/knowledge/08_strategy.md（戦略）
 - skills/queue/post-queue.md（投稿キュー）
-- skills/queue/post-history.md（投稿履歴）
+- skills/queue/post-history-meta.md（投稿履歴・軽量メタ版 ※本文はpost-history.mdに保管）
 
 ### /writer（通常投稿作成）
 **必須**：共通コア ＋ 04_knowledge.md / 06_schedule.md / 09_references.md（通常参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_normal.md / next-topics.md
@@ -56,7 +56,7 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /analyst（投稿分析）
 **必須**：共通コア ＋ 04_knowledge.md / analysis-latest.md / next-topics.md / 21_resonance-analysis.md / 22_algorithm-adaptation.md
-**任意**：10_idea-generation.md
+**任意**：10_idea-generation.md / post-history.md（本文を含む全データ参照が必要な場合のみ）
 
 ### /researcher（バズリサーチ）
 **必須**：共通コア ＋ 04_knowledge.md / 09_references.md / 09_references_archive.md
@@ -93,7 +93,8 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 ## キューファイル
 - skills/queue/next-topics.md（通常投稿の次のテーマ）
 - skills/queue/post-queue.md（投稿キュー ※通常投稿・アフィリエイト投稿どちらも可）
-- skills/queue/post-history.md（通常投稿履歴）
+- skills/queue/post-history-meta.md（投稿履歴・軽量メタ版 ※自動生成・直接編集不可）
+- skills/queue/post-history.md（投稿履歴・全文保管版 ※/analystが任意参照）
 - skills/queue/analysis-latest.md（最新分析結果）
 - skills/queue/affiliate-topics.md（アフィリエイト商品候補リスト ※next-topics.mdのアフィリエイト版）
 - skills/queue/affiliate-history.md（アフィリエイト投稿履歴・効果追跡）
