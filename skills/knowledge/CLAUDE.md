@@ -48,7 +48,7 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /writer（通常投稿作成）
 **必須**：共通コア ＋ 04_knowledge.md / 06_schedule.md / 09_references.md（通常参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_normal.md / next-topics.md
-**任意**：10_idea-generation.md（テーマ発想が必要な場合）/ 11_monetize-prompts.md（CTA強化が必要な場合）/ 16_series-templates.md（シリーズ化する場合）/ 18_comment-openers.md（コメント欄1行目に迷ったとき）
+**任意**：10_idea-generation.md（テーマ発想が必要な場合）/ 11_monetize-prompts.md（CTA強化が必要な場合）/ 16_series-templates.md（シリーズ化する場合）/ 18_comment-openers.md（コメント欄1行目に迷ったとき）/ 27_reference-accounts.md（フック・構造の参考技法を使いたい場合）
 
 ### /affiliate-writer（アフィリエイト投稿作成）
 **必須**：共通コア ＋ 05_affiliate.md / 09_references.md（アフィリ参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_affiliate.md / affiliate-topics.md
