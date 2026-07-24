@@ -270,14 +270,9 @@ post-history.mdを読んで、対応パターンの投稿についたコメン�
 3. 未返答コメントに対して返答文を生成し、一覧として出力する
 4. 出力を確認後、手動またはAPI経由で返信する
 
-### /supervisor
-全ファイルの状態をチェックして、自動運用が正常に動いているか診断する。
-- 投稿が2日以上止まっていないか確認する
-- next-topics.mdのテーマが残り1つ以下なら警告する
-- post-queue.mdの投稿が5件以上溜まっていたら警告する
-- metrics_fetchedがfalseのまま48時間以上経過している投稿を警告する
-- 問題があれば原因と次にやるべきことを具体的に提案する
-- 結果をsupervisor-report.mdに保存する
+### /supervisor ※廃止（2026-07-24）→ /conductor-check に統合済み
+手動で診断したい場合も `/conductor-check` を使うこと。
+supervisor.py（GitHub Actions週次実行）はそのまま残置。
 
 ## note_idea_tool（相談蓄積 → noteネタ企画）
 
