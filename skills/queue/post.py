@@ -281,6 +281,53 @@ def has_placeholder(text):
     return "【リンク】" in text or "【URL】" in text
 
 
+# U+2460〜U+2466: ①②③④⑤⑥⑦ (AI感が出るフォント依存文字)
+_CIRCLED_DIGITS_SMALL = re.compile(r"[①②③④⑤⑥⑦⑧⑨⑩]")
+# U+2661: ♡ 外字ハート
+_HEART_SYMBOL = re.compile(r"♡")
+# 疑問符＋感嘆符の組み合わせ（！？はセーフ）
+_WRONG_PUNCT = re.compile(r"\？‼|？！！")
+
+def validate_post(block, body, replies):
+    """
+    HARD GATESを機械判定する。違反があればリストで返す（空リスト=問題なし）。
+    投稿をブロックするかはログとして記録し、呼び出し元が判断する。
+    """
+    violations = []
+    all_text = body + "\n" + "\n".join(replies)
+
+    # 句読点「。」
+    if "。" in all_text:
+        violations.append("HARD GATE違反: 句読点「。」が含まれています")
+
+    # ♡ 外字ハート (U+2661)
+    if _HEART_SYMBOL.search(all_text):
+        violations.append("HARD GATE違反: ♡（外字ハート U+2661）が含まれています → 「いいね」または絵文字に変更してください")
+
+    # 「リンク」という単語
+    if "リンク" in all_text:
+        violations.append("HARD GATE違反: 「リンク」という単語が含まれています → 「コメントから」「URLから」等に変更してください")
+
+    # raw.githubusercontent.com（normalize_image_urlで変換されるはずだが念のため）
+    if "raw.githubusercontent.com" in all_text:
+        violations.append("HARD GATE違反: raw.githubusercontent.com が含まれています → jsDelivr形式に変更してください")
+
+    # ①②③（U+2460系）
+    if _CIRCLED_DIGITS_SMALL.search(all_text):
+        violations.append("HARD GATE違反: ①②③（U+2460系）が含まれています → ❶❷❸（U+2776系）に変更してください")
+
+    # ？‼ の組み合わせ
+    if _WRONG_PUNCT.search(all_text):
+        violations.append("HARD GATE違反: 「？‼」の組み合わせが含まれています → 「！？」または「？」単体に変更してください")
+
+    # アフィリエイト投稿: （PR）チェック
+    if is_affiliate(block):
+        if not any("（PR）" in r for r in replies):
+            violations.append("HARD GATE違反: アフィリエイト投稿のコメント欄に「（PR）」がありません")
+
+    return violations
+
+
 def get_body_hash(body):
     return hashlib.md5(body.encode("utf-8")).hexdigest()
 
@@ -385,6 +432,14 @@ def main():
             log("【リンク】プレースホルダーが残っています。手動でURLを入力後、再実行してください。")
             log(f"対象ブロック: {block[:80]}...")
             # キューには残したまま終了（手動対応待ち）
+            sys.exit(0)
+
+        # ── HARD GATESチェック ──
+        gate_violations = validate_post(block, body, replies)
+        if gate_violations:
+            for v in gate_violations:
+                log(f"⚠️ {v}")
+            log("⚠️ HARD GATE違反あり。投稿はスキップします。キューに残します。")
             sys.exit(0)
 
         # ── 重複投稿チェック ──
