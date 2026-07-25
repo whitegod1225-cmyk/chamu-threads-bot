@@ -263,6 +263,19 @@ def is_affiliate(block):
     return bool(re.search(r"\*\*商品\*\*", block))
 
 
+def last_two_were_affiliate():
+    """post-history.mdの直近2投稿が両方ともアフィリエイトならTrueを返す（3連続防止）"""
+    if not DONE_FILE.exists():
+        return False
+    text = DONE_FILE.read_text(encoding="utf-8")
+    # <!-- ... --> コメントで始まるブロックを後ろから2つ取る
+    blocks = re.split(r'(?=<!-- )', text)
+    blocks = [b for b in blocks if "## 投稿" in b]
+    if len(blocks) < 2:
+        return False
+    return is_affiliate(blocks[-1]) and is_affiliate(blocks[-2])
+
+
 def is_morning_first_slot():
     """朝一番スロット（アフィ禁止帯）か判定（JST基準）
     平日: 05:30〜08:59 / 土日: 07:00〜10:59"""
@@ -415,6 +428,16 @@ def main():
             if swap_idx is not None:
                 log(f"⚠️ 朝一番スロット：アフィリ投稿を後回し → 投稿{swap_idx + 1}番目と入れ替え")
                 posts[0], posts[swap_idx] = posts[swap_idx], posts[0]
+
+        # ── 3連続アフィリ回避：直近2本が両方アフィリなら先頭の非アフィリと入れ替え ──
+        if is_affiliate(posts[0]) and last_two_were_affiliate() and len(posts) > 1:
+            swap_idx = next((i for i, p in enumerate(posts[1:], 1) if not is_affiliate(p)), None)
+            if swap_idx is not None:
+                log(f"⚠️ 3連続アフィリ防止：アフィリ投稿を後回し → 投稿{swap_idx + 1}番目と入れ替え")
+                posts[0], posts[swap_idx] = posts[swap_idx], posts[0]
+            else:
+                log("⚠️ 3連続アフィリ防止：非アフィリ投稿がキューにないためスキップ")
+                sys.exit(0)
 
         block = posts[0]
         body = extract_body(block)
