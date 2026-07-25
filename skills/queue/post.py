@@ -295,9 +295,11 @@ def validate_post(block, body, replies):
     """
     violations = []
     all_text = body + "\n" + "\n".join(replies)
+    # 「ちゃむ。」はアカウント名なので句読点チェックから除外する
+    text_for_kuten = all_text.replace("ちゃむ。", "")
 
     # 句読点「。」
-    if "。" in all_text:
+    if "。" in text_for_kuten:
         violations.append("HARD GATE違反: 句読点「。」が含まれています")
 
     # ♡ 外字ハート (U+2661)
