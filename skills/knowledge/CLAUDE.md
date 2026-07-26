@@ -87,6 +87,10 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 **必須**：共通コア ＋ 20_note-kouzou-bunseki.md / 04_knowledge.md / skills/queue/consultation-db.md / skills/queue/note-index.md / 19_note-templates.md
 **任意**：19_note-examples.md（文体参考が必要な場合）
 
+### /note-affiliate-writer（無料note×楽天アフィリ記事生成）
+**必須**：共通コア ＋ 28_note-affiliate.md / 05_affiliate.md / 04_knowledge.md / skills/queue/note-index.md
+**任意**：affiliate-topics.md（商品候補から選ぶ場合）
+
 ### /poster・/fetcher・/supervisor（運用系）
 **必須**：共通コア のみ（各スキルの手順に従い必要なファイルを個別に読む）
 
