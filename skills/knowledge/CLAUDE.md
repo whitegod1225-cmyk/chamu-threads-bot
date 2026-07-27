@@ -56,7 +56,8 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /analyst（投稿分析）
 **必須**：共通コア ＋ 04_knowledge.md / analysis-latest.md / next-topics.md / 21_resonance-analysis.md / 22_algorithm-adaptation.md
-**任意**：10_idea-generation.md / post-history.md（本文を含む全データ参照が必要な場合のみ）
+**任意**：10_idea-generation.md / post-history.md（本文を含む全データ参照が必要な場合のみ）/ 16_series-templates.md（シリーズ化候補が出た場合のみ）
+**注意**：analysis-latest.mdには/fetcherが追記した直近7日のコメント（質問タグ付き）が含まれる。Step 3.5で必ず読者言葉を抽出してテーマ転用候補を出すこと
 
 ### /researcher（バズリサーチ）
 **必須**：共通コア ＋ 04_knowledge.md / 09_references.md / 09_references_archive.md
