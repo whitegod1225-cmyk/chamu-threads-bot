@@ -336,3 +336,39 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：候補
 **スクレイプ情報**：評価4.6 / レビュー4726件 / 3,500円 / Aleppo Souq
 
+---
+
+## 候補26：おむつ・衛生用品／【 期間限定 送料無料 】 おなまえBOX ★ お名前スタン
+**商品名**：【 期間限定 送料無料 】 おなまえBOX ★ お名前スタンプ 安心のレビュー4.5万超 ひらがな 漢字 ローマ字 スーパーセット アイロン不要油性スタンプ台 選べる付属品 フォント 入園準備 入学 保育園 布 タグ おむつスタンプ 出産祝い おなまえスタンプ こども 名前スタンプ
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00q7z3m.xpczb3d5.g00q7z3m.xpczca21/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fishimatsudo%2F792595%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fishimatsudo%2Fi%2F10000077%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00q7z3m.xpczb3d5.g00q7z3m.xpczca21/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fishimatsudo%2F792595%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fishimatsudo%2Fi%2F10000077%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.73 / レビュー45082件 / 2,980円 / はんの専門店石松堂
+
+---
+
+## 候補27：おむつ・衛生用品／7/27【最大10万p進呈!要エントリ】 おむつケーキ 3段
+**商品名**：7/27【最大10万p進呈!要エントリ】 おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 夏ギフト ランキング
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.71 / レビュー13290件 / 5,500円 / おむつケーキ研究所
+
+---
+
+## 候補28：おむつ・衛生用品／7月27日（月）★発送可能★2段NEW今治タオル名前刺繡入れ
+**商品名**：7月27日（月）★発送可能★2段NEW今治タオル名前刺繡入れおむつケーキ出産祝いギフトかわいいラトルいぬ、クくま、うさぎ、ねこ男の子女の子クリスマス ベビーおしゃれ ベビーシャワー送料無料マタニティ贈り物★土曜日営業★即日発送可ベビーシャワーママギフト送料無料
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6389件 / 4,280円 / おむつケーキ専門店アイリムベビー
+
