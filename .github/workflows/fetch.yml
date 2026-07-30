@@ -41,3 +41,17 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update metrics and next topics"
           git pull --rebase origin main
           git push
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[fetch失敗] ${today} メトリクス取得エラー`,
+              body: `## fetch.yml が失敗しました\n\n**日時**: ${today}\n\n**よくある原因**:\n- THREADS_ACCESS_TOKEN が期限切れ（60日で失効）\n- Threads API の一時障害\n\n**対処**:\n1. [Threads Developers Dashboard](https://developers.facebook.com/apps/) で新しいトークンを取得\n2. このリポジトリの Secrets → \`THREADS_ACCESS_TOKEN\` を更新\n3. Actions タブから fetch.yml を手動実行して確認\n\n[Actions ログを確認](https://github.com/${context.repo.owner}/${context.repo.repo}/actions)`,
+              labels: ["bug"]
+            });

@@ -218,23 +218,46 @@ def main():
     ANALYSIS_FILE.write_text("".join(lines), encoding="utf-8")
     print("analysis-latest.md を更新しました")
 
-    # next-topics.md を生成
+    # next-topics.md を追記モードで更新（既存テーマを消さない）
     topics = generate_topics(analysis)
 
-    topic_lines = [f"# next-topics.md ── 次回投稿テーマ提案\n"]
-    topic_lines.append(f"更新日時: {now.strftime('%Y-%m-%d %H:%M')}\n")
-    topic_lines.append("※ /writerはここからテーマを選んで投稿を生成する\n\n")
+    existing = ""
+    if TOPICS_FILE.exists():
+        existing = TOPICS_FILE.read_text(encoding="utf-8")
 
-    for i, t in enumerate(topics, 1):
-        label = CATEGORY_LABELS.get(t["bucket"], t["bucket"])
-        topic_lines.append(f"## テーマ{i}：{t['theme']}\n")
-        topic_lines.append(f"**カテゴリ**: {label}（{t['bucket']}）\n")
-        topic_lines.append(f"**切り口**: {t['angle']}\n")
-        topic_lines.append(f"**1行目案**: {t['first_line']}\n\n")
-        topic_lines.append("---\n\n")
+    # 既存のテーマ名を収集（重複追加を防ぐ）
+    existing_themes = set(re.findall(r'^## テーマ\d+：(.+)', existing, re.MULTILINE))
 
-    TOPICS_FILE.write_text("".join(topic_lines), encoding="utf-8")
-    print(f"next-topics.md に{len(topics)}件のテーマを保存しました")
+    # 既存の最大テーマ番号を取得
+    existing_nums = [int(n) for n in re.findall(r'^## テーマ(\d+)', existing, re.MULTILINE)]
+    next_num = max(existing_nums) + 1 if existing_nums else 1
+
+    # 既存テーマと重複しないものだけ追記
+    new_topics = [t for t in topics if t["theme"] not in existing_themes]
+
+    if not new_topics:
+        print("追加するテーマなし（すべて既存に含まれています）")
+    else:
+        # ヘッダーがなければ初期化、あれば追記
+        if not existing.strip():
+            header = f"# next-topics.md ── 次回投稿テーマ提案\n更新日時: {now.strftime('%Y-%m-%d %H:%M')}\n※ /writerはここからテーマを選んで投稿を生成する\n\n"
+            TOPICS_FILE.write_text(header, encoding="utf-8")
+        else:
+            # 更新日時だけ書き換え
+            updated = re.sub(r'更新日時: .+', f'更新日時: {now.strftime("%Y-%m-%d %H:%M")}', existing, count=1)
+            TOPICS_FILE.write_text(updated, encoding="utf-8")
+
+        with TOPICS_FILE.open("a", encoding="utf-8") as f:
+            for t in new_topics:
+                label = CATEGORY_LABELS.get(t["bucket"], t["bucket"])
+                f.write(f"## テーマ{next_num}：{t['theme']}\n")
+                f.write(f"**カテゴリ**: {label}（{t['bucket']}）\n")
+                f.write(f"**切り口**: {t['angle']}\n")
+                f.write(f"**1行目案**: {t['first_line']}\n\n")
+                f.write("---\n\n")
+                next_num += 1
+
+        print(f"next-topics.md に{len(new_topics)}件のテーマを追記しました")
 
     print("\n【提案テーマ】")
     for t in topics:
