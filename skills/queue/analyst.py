@@ -1,5 +1,5 @@
 """
-analyst.py — post-history.md のメトリクスを分析して next-topics.md を更新する
+analyst.py — post-history.md のメトリクスを分析して next-topics.md / performance-patterns.md を更新する
 fetcherがメトリクスを取得した後に実行する
 """
 import re
@@ -11,12 +11,12 @@ from datetime import datetime, timezone, timedelta
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-HISTORY_FILE = Path(__file__).parent / "post-history.md"
+HISTORY_FILE  = Path(__file__).parent / "post-history.md"
 ANALYSIS_FILE = Path(__file__).parent / "analysis-latest.md"
-TOPICS_FILE = Path(__file__).parent / "next-topics.md"
+TOPICS_FILE   = Path(__file__).parent / "next-topics.md"
+PATTERNS_FILE = Path(__file__).parent / "performance-patterns.md"
 JST = timezone(timedelta(hours=9))
 
-# カテゴリ分類（fetcher/reorder_queueと同じロジック）
 CATEGORY_LABELS = {
     "A": "感情・共感系",
     "AC": "ワンオペ・保育園共感系",
@@ -25,18 +25,101 @@ CATEGORY_LABELS = {
     "note": "note誘導",
 }
 
-def classify(category: str) -> str:
+# 型の表示名
+POST_TYPE_LABELS = {
+    "①言い換え型":    "①言い換え型",
+    "②概念再定義型":  "②概念再定義型",
+    "③告白・報告型":  "③告白・報告型",
+    "④あるある型":    "④あるある型",
+    "B→A変換型":      "B→A変換型",
+    "アフィリ型":      "アフィリ型",
+    "不明":           "不明",
+}
+
+# フック種別の表示名
+HOOK_LABELS = {
+    "数字先出し": "数字先出し（16年・3回・1000人 etc.）",
+    "場面描写":   "場面描写（〇時・〇日目・〇年前 etc.）",
+    "権威崩し":   "権威崩し（保育士なのに〜できなかった）",
+    "逆説型":     "逆説型（〇〇じゃなかった・と思ってたけど）",
+    "告白型":     "告白型（〇〇だった・わからなかった・やめた）",
+    "感情直球":   "感情直球（つらい・しんどい・悲しい etc.）",
+    "その他":     "その他",
+}
+
+
+def classify_bucket(category: str) -> str:
     if "note誘導" in category:
         return "note"
     if any(k in category for k in ["専門知識", "グッズ・専門知識"]):
         return "B"
-    if any(k in category for k in ["グッズ", "節約"]):
+    if any(k in category for k in ["グッズ", "節約", "アフィリ", "楽天"]):
         return "DE"
     if any(k in category for k in ["ワーママ", "入園準備", "入園後", "入園", "ワンオペ"]):
         return "AC"
     if any(k in category for k in ["共感", "体験談", "問いかけ", "生活系"]):
         return "A"
     return "A"
+
+
+def classify_post_type(category: str, theme: str) -> str:
+    """カテゴリ欄と投稿テーマから①〜④型を判定する"""
+    text = category + " " + theme
+
+    if "型13" in text or "アフィリ" in text or "楽天" in text:
+        return "アフィリ型"
+    if "①" in text or "言い換え" in text:
+        return "①言い換え型"
+    if "②" in text or "概念再定義" in text or "再定義" in text:
+        return "②概念再定義型"
+    if "③" in text or "告白" in text or "報告" in text:
+        return "③告白・報告型"
+    if "④" in text or "あるある" in text or "カオス" in text:
+        return "④あるある型"
+    if "B→A" in text or "B×A" in text or "知識系" in text:
+        return "B→A変換型"
+
+    # フォールバック：テーマの文言から推測
+    if any(w in theme for w in ["言い換え", "代わりに言う", "言う言葉"]):
+        return "①言い換え型"
+    if any(w in theme for w in ["じゃない", "ではない", "ではなかった", "じゃなかった"]):
+        return "②概念再定義型"
+    if any(w in theme for w in ["なのに", "わからなかった", "できなかった", "やめた"]):
+        return "③告白・報告型"
+
+    return "不明"
+
+
+def classify_hook(first_line: str) -> str:
+    """投稿の1行目からフック種別を判定する"""
+    if not first_line:
+        return "その他"
+
+    # 権威崩し：「保育士〇〇年なのに」「〇〇のはずなのに」
+    if re.search(r'(保育士|元保育士|16年|1000人).{0,10}(なのに|のに)', first_line):
+        return "権威崩し"
+
+    # 数字先出し：1行目に数字が含まれる（年数・回数・人数等）
+    if re.search(r'\d+(年|回|人|本|日|時|歳|ヶ月|個|円|分)', first_line):
+        return "数字先出し"
+
+    # 場面描写：具体的な時刻・日付・状況
+    if re.search(r'(午前|午後|\d+時|\d+日目|\d+年前|夏休み|土曜|朝|夜中|夜11時|夜10時)', first_line):
+        return "場面描写"
+
+    # 逆説型：「〇〇じゃなかった」「〇〇ではなかった」
+    if re.search(r'(じゃなかった|ではなかった|と思ってたけど|だと思ってた)', first_line):
+        return "逆説型"
+
+    # 告白型：「〇〇だった」「わからなかった」「やめた」
+    if re.search(r'(なのに|だった|わからなかった|できなかった|やめた|出た|あった)', first_line):
+        return "告白型"
+
+    # 感情直球：感情ワード直出し
+    if re.search(r'(つらい|しんどい|悲しい|嬉しい|怖い|苦しい|限界)', first_line):
+        return "感情直球"
+
+    return "その他"
 
 
 def parse_metrics(history: str) -> list:
@@ -48,7 +131,6 @@ def parse_metrics(history: str) -> list:
         if not re.match(r'\d+', block):
             continue
 
-        # メトリクスがある投稿のみ
         m_metrics = re.search(
             r'views=(\d+) / likes=(\d+) / replies=(\d+) / reposts=(\d+)',
             block
@@ -64,24 +146,45 @@ def parse_metrics(history: str) -> list:
         m_theme = re.search(r'\*\*テーマ\*\*：(.+)', block)
         m_cat   = re.search(r'\*\*カテゴリ\*\*：(.+)', block)
         m_date  = re.search(r'(?:処理日時|投稿済み): (\d{4}-\d{2}-\d{2})', block)
+        m_type  = re.search(r'\*\*型\*\*：(.+)', block)
+        m_hook  = re.search(r'\*\*フック種別\*\*：(.+)', block)
 
         theme    = m_theme.group(1).strip() if m_theme else "不明"
         category = m_cat.group(1).strip() if m_cat else "不明"
         date_str = m_date.group(1) if m_date else "不明"
 
-        # エンゲージメントスコア（いいね×3 + コメント×5 + リポスト×4）
+        # 型フィールドが明示されていればそれを使う、なければ推定
+        post_type = m_type.group(1).strip() if m_type else classify_post_type(category, theme)
+
+        # フック種別フィールドが明示されていればそれを使う、なければ本文1行目から推定
+        if m_hook:
+            hook = m_hook.group(1).strip()
+        else:
+            # 本文の1行目を取得
+            body_match = re.search(r'\*\*本文\*\*\n(.+)', block)
+            first_line = body_match.group(1).strip() if body_match else theme
+            hook = classify_hook(first_line)
+
         score = likes * 3 + replies * 5 + reposts * 4
+        like_rate    = round(likes / views * 100, 3) if views > 0 else 0
+        comment_rate = round(replies / views * 100, 3) if views > 0 else 0
+        quality      = round(score / views * 100, 3) if views > 0 else 0
 
         posts.append({
-            "theme": theme,
-            "category": category,
-            "bucket": classify(category),
-            "date": date_str,
-            "views": views,
-            "likes": likes,
-            "replies": replies,
-            "reposts": reposts,
-            "score": score,
+            "theme":        theme,
+            "category":     category,
+            "bucket":       classify_bucket(category),
+            "post_type":    post_type,
+            "hook":         hook,
+            "date":         date_str,
+            "views":        views,
+            "likes":        likes,
+            "replies":      replies,
+            "reposts":      reposts,
+            "score":        score,
+            "like_rate":    like_rate,
+            "comment_rate": comment_rate,
+            "quality":      quality,
         })
 
     return posts
@@ -93,13 +196,10 @@ def analyze(posts: list) -> dict:
 
     sorted_by_score = sorted(posts, key=lambda x: x["score"], reverse=True)
 
-    # カテゴリ別平均スコア
     bucket_scores = {}
     for p in posts:
         b = p["bucket"]
-        if b not in bucket_scores:
-            bucket_scores[b] = []
-        bucket_scores[b].append(p["score"])
+        bucket_scores.setdefault(b, []).append(p["score"])
 
     bucket_avg = {
         b: round(sum(scores) / len(scores), 1)
@@ -107,11 +207,150 @@ def analyze(posts: list) -> dict:
     }
 
     return {
-        "total": len(posts),
-        "best": sorted_by_score[:3],
-        "worst": sorted_by_score[-3:],
+        "total":      len(posts),
+        "best":       sorted_by_score[:3],
+        "worst":      sorted_by_score[-3:],
         "bucket_avg": bucket_avg,
     }
+
+
+def group_stats(posts: list, key: str) -> dict:
+    """指定キーでグループ化してパフォーマンス統計を返す"""
+    groups = {}
+    for p in posts:
+        val = p.get(key, "不明")
+        groups.setdefault(val, []).append(p)
+
+    result = {}
+    for val, group in groups.items():
+        n = len(group)
+        avg_views    = round(sum(p["views"] for p in group) / n)
+        avg_score    = round(sum(p["score"] for p in group) / n, 1)
+        avg_like     = round(sum(p["like_rate"] for p in group) / n, 3)
+        avg_comment  = round(sum(p["comment_rate"] for p in group) / n, 3)
+        avg_quality  = round(sum(p["quality"] for p in group) / n, 3)
+        result[val] = {
+            "count":       n,
+            "avg_views":   avg_views,
+            "avg_score":   avg_score,
+            "avg_like":    avg_like,
+            "avg_comment": avg_comment,
+            "avg_quality": avg_quality,
+        }
+    return result
+
+
+def recommend_label(stats: dict) -> str:
+    """パフォーマンス統計から推奨度ラベルを返す"""
+    if stats["count"] <= 1:
+        return "— データ不足"
+    if stats["avg_like"] >= 0.6 and stats["avg_quality"] >= 1.0:
+        return "✅ 積極使用"
+    if stats["avg_like"] >= 0.3 or stats["avg_quality"] >= 0.5:
+        return "⚠️ 様子見"
+    return "❌ 見直し"
+
+
+def generate_performance_patterns(posts: list, now: datetime):
+    """performance-patterns.md を生成・更新する"""
+    if not posts:
+        return
+
+    # 直近30投稿を対象
+    recent = sorted(posts, key=lambda x: x["date"], reverse=True)[:30]
+
+    type_stats = group_stats(recent, "post_type")
+    hook_stats = group_stats(recent, "hook")
+
+    # 推奨型・非推奨型を抽出
+    recommended_types = [t for t, s in type_stats.items() if "✅" in recommend_label(s)]
+    avoid_types       = [t for t, s in type_stats.items() if "❌" in recommend_label(s)]
+    recommended_hooks = [h for h, s in hook_stats.items() if "✅" in recommend_label(s)]
+    avoid_hooks       = [h for h, s in hook_stats.items() if "❌" in recommend_label(s)]
+
+    # 既存ファイルの週次ログ部分を保持
+    weekly_log = ""
+    if PATTERNS_FILE.exists():
+        existing = PATTERNS_FILE.read_text(encoding="utf-8")
+        m = re.search(r'(## 週次ログ.*)', existing, re.DOTALL)
+        if m:
+            weekly_log = m.group(1)
+
+    lines = []
+    lines.append("# performance-patterns.md ── 型別・フック別学習ログ\n")
+    lines.append(f"更新: {now.strftime('%Y-%m-%d %H:%M')}（直近{len(recent)}投稿を対象）\n\n")
+    lines.append("> このファイルは analyst.py が自動更新します。手動編集不要。\n")
+    lines.append("> /writer はこのファイルの推奨設定を参照して型とフックを選ぶこと。\n\n")
+
+    # 型別パフォーマンス表
+    lines.append("## 型別パフォーマンス\n\n")
+    lines.append("| 型 | 使用数 | 平均views | 平均いいね率 | 平均コメント率 | 平均qualityスコア | 推奨度 |\n")
+    lines.append("|---|---|---|---|---|---|---|\n")
+    for t, s in sorted(type_stats.items(), key=lambda x: x[1]["avg_quality"], reverse=True):
+        label = recommend_label(s)
+        lines.append(
+            f"| {t} | {s['count']}本 | {s['avg_views']:,} | {s['avg_like']:.2f}% "
+            f"| {s['avg_comment']:.2f}% | {s['avg_quality']:.2f}% | {label} |\n"
+        )
+
+    lines.append("\n")
+
+    # フック種別パフォーマンス表
+    lines.append("## フック種別パフォーマンス\n\n")
+    lines.append("| フック種別 | 使用数 | 平均views | 平均いいね率 | 平均コメント率 | 推奨度 |\n")
+    lines.append("|---|---|---|---|---|---|\n")
+    for h, s in sorted(hook_stats.items(), key=lambda x: x[1]["avg_like"], reverse=True):
+        label = recommend_label(s)
+        lines.append(
+            f"| {h} | {s['count']}本 | {s['avg_views']:,} "
+            f"| {s['avg_like']:.2f}% | {s['avg_comment']:.2f}% | {label} |\n"
+        )
+
+    lines.append("\n")
+
+    # 推奨設定サマリー（/writerが参照する）
+    lines.append("## 推奨設定（/writer が参照する設定）\n\n")
+    lines.append(f"- **優先する型**: {', '.join(recommended_types) if recommended_types else '様子見中'}\n")
+    lines.append(f"- **避ける型**: {', '.join(avoid_types) if avoid_types else 'なし'}\n")
+    lines.append(f"- **優先するフック**: {', '.join(recommended_hooks) if recommended_hooks else '様子見中'}\n")
+    lines.append(f"- **避けるフック**: {', '.join(avoid_hooks) if avoid_hooks else 'なし'}\n\n")
+
+    # トップ投稿（型・フック確認用）
+    lines.append("## 直近トップ投稿（型・フック確認用）\n\n")
+    lines.append("| テーマ（先頭30文字） | 型 | フック | views | いいね率 | コメント率 |\n")
+    lines.append("|---|---|---|---|---|---|\n")
+    top = sorted(recent, key=lambda x: x["quality"], reverse=True)[:10]
+    for p in top:
+        theme_short = p["theme"][:30].rstrip("「」")
+        lines.append(
+            f"| {theme_short} | {p['post_type']} | {p['hook']} "
+            f"| {p['views']:,} | {p['like_rate']:.2f}% | {p['comment_rate']:.2f}% |\n"
+        )
+
+    lines.append("\n")
+
+    # 週次ログ：既存を保持しつつ今週分を先頭に追加
+    today_log = f"### {now.strftime('%Y-%m-%d')}\n"
+    today_log += f"- 分析対象: {len(recent)}投稿\n"
+    today_log += f"- 最強型: {sorted(type_stats.items(), key=lambda x: x[1]['avg_quality'], reverse=True)[0][0] if type_stats else '不明'}\n"
+    today_log += f"- 最強フック: {sorted(hook_stats.items(), key=lambda x: x[1]['avg_like'], reverse=True)[0][0] if hook_stats else '不明'}\n"
+    if avoid_types:
+        today_log += f"- 要見直し型: {', '.join(avoid_types)}\n"
+    today_log += "\n"
+
+    if weekly_log:
+        # 既存ログに今日分を追記（重複日はスキップ）
+        if now.strftime('%Y-%m-%d') not in weekly_log:
+            updated_log = weekly_log.replace("## 週次ログ\n", f"## 週次ログ\n{today_log}")
+        else:
+            updated_log = weekly_log
+        lines.append(updated_log)
+    else:
+        lines.append("## 週次ログ\n\n")
+        lines.append(today_log)
+
+    PATTERNS_FILE.write_text("".join(lines), encoding="utf-8")
+    print("performance-patterns.md を更新しました")
 
 
 def generate_topics(analysis: dict) -> list:
@@ -121,10 +360,7 @@ def generate_topics(analysis: dict) -> list:
 
     topics = []
     bucket_avg = analysis.get("bucket_avg", {})
-
-    # 最も伸びているカテゴリを優先
     sorted_buckets = sorted(bucket_avg.items(), key=lambda x: x[1], reverse=True)
-    best_bucket = sorted_buckets[0][0] if sorted_buckets else "AC"
 
     bucket_suggestions = {
         "A": [
@@ -152,9 +388,9 @@ def generate_topics(analysis: dict) -> list:
                 key = suggestion[0]
                 if key not in used:
                     topics.append({
-                        "bucket": bucket,
-                        "theme": suggestion[0],
-                        "angle": suggestion[1],
+                        "bucket":     bucket,
+                        "theme":      suggestion[0],
+                        "angle":      suggestion[1],
                         "first_line": suggestion[2],
                     })
                     used.add(key)
@@ -163,11 +399,10 @@ def generate_topics(analysis: dict) -> list:
         if len(topics) >= 3:
             break
 
-    # 足りなければデフォルト補充
     defaults = [
         {"bucket": "AC", "theme": "保育園ある日の朝をラクにした3つの工夫", "angle": "生活改善×共感", "first_line": "「朝のバタバタ、これだけで10分短くなった」"},
-        {"bucket": "B", "theme": "癇癪がひどい時期の保育士的対処法", "angle": "専門知識×体験談", "first_line": "「癇癪、止めようとするから長引く」"},
-        {"bucket": "A", "theme": "ワンオペで限界だった日の翌朝", "angle": "感情の変化を描く", "first_line": "「昨夜泣いたくせに、朝になったらまた動けてる」"},
+        {"bucket": "B",  "theme": "癇癪がひどい時期の保育士的対処法",       "angle": "専門知識×体験談", "first_line": "「癇癪、止めようとするから長引く」"},
+        {"bucket": "A",  "theme": "ワンオペで限界だった日の翌朝",            "angle": "感情の変化を描く", "first_line": "「昨夜泣いたくせに、朝になったらまた動けてる」"},
     ]
     for d in defaults:
         if len(topics) >= 3:
@@ -195,14 +430,18 @@ def main():
     analysis = analyze(posts)
 
     # analysis-latest.md を更新
-    lines = [f"# analysis-latest.md ── エンゲージメント分析\n"]
+    lines = ["# analysis-latest.md ── エンゲージメント分析\n"]
     lines.append(f"更新日時: {now.strftime('%Y-%m-%d %H:%M')}\n\n")
 
     lines.append("## 投稿別パフォーマンス\n\n")
-    lines.append("| テーマ | カテゴリ | 投稿日 | views | likes | replies | reposts | score |\n")
-    lines.append("|--------|---------|--------|-------|-------|---------|---------|-------|\n")
+    lines.append("| テーマ | 型 | フック | 投稿日 | views | likes | replies | score | いいね率 | quality |\n")
+    lines.append("|--------|---|---|--------|-------|-------|---------|-------|---------|--------|\n")
     for p in sorted(posts, key=lambda x: x["score"], reverse=True):
-        lines.append(f"| {p['theme']} | {p['category']} | {p['date']} | {p['views']} | {p['likes']} | {p['replies']} | {p['reposts']} | {p['score']} |\n")
+        lines.append(
+            f"| {p['theme'][:28]} | {p['post_type']} | {p['hook']} | {p['date']} "
+            f"| {p['views']} | {p['likes']} | {p['replies']} | {p['score']} "
+            f"| {p['like_rate']:.2f}% | {p['quality']:.2f}% |\n"
+        )
 
     lines.append("\n## カテゴリ別平均スコア\n\n")
     for b, avg in sorted(analysis["bucket_avg"].items(), key=lambda x: x[1], reverse=True):
@@ -211,12 +450,17 @@ def main():
 
     if analysis.get("best"):
         lines.append("\n## ハイライト\n\n")
-        lines.append(f"**最高スコア**: 「{analysis['best'][0]['theme']}」（score={analysis['best'][0]['score']}, likes={analysis['best'][0]['likes']}, views={analysis['best'][0]['views']}）\n\n")
-        if len(analysis["best"]) > 1:
-            lines.append(f"**伸びたカテゴリ**: {analysis['best'][0]['category']}\n\n")
+        best = analysis['best'][0]
+        lines.append(
+            f"**最高スコア**: 「{best['theme']}」"
+            f"（score={best['score']}, 型={best['post_type']}, フック={best['hook']}, views={best['views']}）\n\n"
+        )
 
     ANALYSIS_FILE.write_text("".join(lines), encoding="utf-8")
     print("analysis-latest.md を更新しました")
+
+    # performance-patterns.md を生成・更新
+    generate_performance_patterns(posts, now)
 
     # next-topics.md を追記モードで更新（既存テーマを消さない）
     topics = generate_topics(analysis)
@@ -225,25 +469,22 @@ def main():
     if TOPICS_FILE.exists():
         existing = TOPICS_FILE.read_text(encoding="utf-8")
 
-    # 既存のテーマ名を収集（重複追加を防ぐ）
     existing_themes = set(re.findall(r'^## テーマ\d+：(.+)', existing, re.MULTILINE))
-
-    # 既存の最大テーマ番号を取得
-    existing_nums = [int(n) for n in re.findall(r'^## テーマ(\d+)', existing, re.MULTILINE)]
-    next_num = max(existing_nums) + 1 if existing_nums else 1
-
-    # 既存テーマと重複しないものだけ追記
-    new_topics = [t for t in topics if t["theme"] not in existing_themes]
+    existing_nums   = [int(n) for n in re.findall(r'^## テーマ(\d+)', existing, re.MULTILINE)]
+    next_num        = max(existing_nums) + 1 if existing_nums else 1
+    new_topics      = [t for t in topics if t["theme"] not in existing_themes]
 
     if not new_topics:
         print("追加するテーマなし（すべて既存に含まれています）")
     else:
-        # ヘッダーがなければ初期化、あれば追記
         if not existing.strip():
-            header = f"# next-topics.md ── 次回投稿テーマ提案\n更新日時: {now.strftime('%Y-%m-%d %H:%M')}\n※ /writerはここからテーマを選んで投稿を生成する\n\n"
+            header = (
+                f"# next-topics.md ── 次回投稿テーマ提案\n"
+                f"更新日時: {now.strftime('%Y-%m-%d %H:%M')}\n"
+                f"※ /writerはここからテーマを選んで投稿を生成する\n\n"
+            )
             TOPICS_FILE.write_text(header, encoding="utf-8")
         else:
-            # 更新日時だけ書き換え
             updated = re.sub(r'更新日時: .+', f'更新日時: {now.strftime("%Y-%m-%d %H:%M")}', existing, count=1)
             TOPICS_FILE.write_text(updated, encoding="utf-8")
 
