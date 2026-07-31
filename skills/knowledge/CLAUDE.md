@@ -88,6 +88,11 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 **必須**：共通コア ＋ 20_note-kouzou-bunseki.md / 04_knowledge.md / skills/queue/consultation-db.md / skills/queue/note-index.md / 19_note-templates.md
 **任意**：19_note-examples.md（文体参考が必要な場合）
 
+### /note-seo-writer（SEO×感情設計 note記事生成）
+**必須**：共通コア ＋ 20_note-kouzou-bunseki.md / 24_note-emotion-design.md / 25_note-emotion-examples.md / 04_knowledge.md / 13_cta-patterns.md / skills/queue/consultation-db.md / skills/queue/note-index.md / skills/queue/note-keyword-map.md
+**任意**：19_note-examples.md（文体参考が必要な場合）
+**用途**：Google/note内検索から読者を集める設計。有料note1本→逆算でキーワードを設計→無料記事を量産する。`/note-article-seller`（感情設計・Threads連携）と補完関係。
+
 ### /note-affiliate-writer（無料note×楽天アフィリ記事生成）
 **必須**：共通コア ＋ 28_note-affiliate.md / 05_affiliate.md / 04_knowledge.md / skills/queue/note-index.md
 **任意**：affiliate-topics.md（商品候補から選ぶ場合）
