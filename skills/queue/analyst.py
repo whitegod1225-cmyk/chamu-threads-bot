@@ -308,6 +308,38 @@ def generate_performance_patterns(posts: list, now: datetime):
 
     lines.append("\n")
 
+    # note誘導型の集計
+    note_posts = [p for p in recent if p.get("bucket") == "note"]
+    if note_posts:
+        lines.append("## note誘導型パフォーマンス\n\n")
+        n = len(note_posts)
+        avg_views   = round(sum(p["views"] for p in note_posts) / n)
+        avg_like    = round(sum(p["like_rate"] for p in note_posts) / n, 3)
+        avg_comment = round(sum(p["comment_rate"] for p in note_posts) / n, 3)
+        avg_quality = round(sum(p["quality"] for p in note_posts) / n, 3)
+        lines.append(f"- 対象投稿数: {n}本\n")
+        lines.append(f"- 平均views: {avg_views:,}\n")
+        lines.append(f"- 平均いいね率: {avg_like:.2f}%\n")
+        lines.append(f"- 平均コメント率: {avg_comment:.2f}%\n")
+        lines.append(f"- 平均qualityスコア: {avg_quality:.2f}%\n\n")
+        lines.append("| テーマ（先頭30文字） | フック | views | いいね率 | コメント率 |\n")
+        lines.append("|---|---|---|---|---|\n")
+        for p in sorted(note_posts, key=lambda x: x["quality"], reverse=True):
+            theme_short = p["theme"][:30].rstrip("「」")
+            lines.append(
+                f"| {theme_short} | {p['hook']} "
+                f"| {p['views']:,} | {p['like_rate']:.2f}% | {p['comment_rate']:.2f}% |\n"
+            )
+        # 全体平均との比較
+        all_avg_like = round(sum(p["like_rate"] for p in recent) / len(recent), 3) if recent else 0
+        diff = round(avg_like - all_avg_like, 3)
+        diff_sign = "+" if diff >= 0 else ""
+        lines.append(f"\n全体平均いいね率: {all_avg_like:.2f}% → note誘導型との差: {diff_sign}{diff:.2f}%\n")
+        lines.append("> note誘導投稿のいいね率が全体平均を上回る場合は積極的にCTAを入れる。\n\n")
+    else:
+        lines.append("## note誘導型パフォーマンス\n\n")
+        lines.append("> 直近30投稿にnote誘導型なし。カテゴリに「note誘導」を入れて記録が蓄積されると自動集計されます。\n\n")
+
     # 推奨設定サマリー（/writerが参照する）
     lines.append("## 推奨設定（/writer が参照する設定）\n\n")
     lines.append(f"- **優先する型**: {', '.join(recommended_types) if recommended_types else '様子見中'}\n")
