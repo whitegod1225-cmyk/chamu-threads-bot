@@ -319,8 +319,9 @@ def validate_post(block, body, replies):
     if _HEART_SYMBOL.search(all_text):
         violations.append("HARD GATE違反: ♡（外字ハート U+2661）が含まれています → 「いいね」または絵文字に変更してください")
 
-    # 「リンク」という単語
-    if "リンク" in all_text:
+    # 「リンク」という単語（「ドリンク」等の複合語は除外）
+    import re as _re
+    if _re.search(r'(?<!ド)リンク', all_text):
         violations.append("HARD GATE違反: 「リンク」という単語が含まれています → 「コメントから」「URLから」等に変更してください")
 
     # raw.githubusercontent.com（normalize_image_urlで変換されるはずだが念のため）
