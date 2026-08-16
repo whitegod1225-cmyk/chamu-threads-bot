@@ -40,7 +40,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add skills/queue/post-history.md skills/queue/analysis-latest.md skills/queue/next-topics.md skills/queue/performance-patterns.md skills/queue/note-keyword-map.md
           git diff --cached --quiet || git commit -m "chore: update metrics and next topics"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
 
       - name: Create issue on failure
