@@ -14821,9 +14821,14 @@ metrics_fetched: true
 
 今夜泣きで眠れてないお母さんへ
 今夜もおつかれさま
+**メトリクス（2026-08-18取得）**
+views=0 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=0.0%
+hook_type=不明 / cta_type=救い締め / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-16 13:19 | 投稿ID: 17952438342235853 -->
 ## 投稿579
 **テーマ**：「夏休みに入ってから夜11時になっても子どもが寝ない」
@@ -14857,9 +14862,14 @@ metrics_fetched: true
 うちの子はそこから少しずつ早くなっていったよ
 
 夏の寝かしつけ、今年しんどかった人いる？
+**メトリクス（2026-08-18取得）**
+views=131 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=3.8%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-16 20:56 | 投稿ID: 18384353689201245 -->
 ## 投稿580
 **テーマ**：「保育士の主任に「今あの子の邪魔をしたのはあなたよ」って言われた日のこと」
@@ -14893,9 +14903,14 @@ metrics_fetched: true
 子どもが顔を上げた後に一言だけ
 
 これ、保存してもし集中してるとき思い出したら試してみて
+**メトリクス（2026-08-18取得）**
+views=712 / likes=4 / replies=2 / reposts=0 / quotes=0
+resonance_score=22 / quality_score=3.1%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-16 23:55 | 投稿ID: 18140823664566362 -->
 ## 投稿581
 **テーマ**：「「うちの子もしかして」って思ったとき、わたしが最初に知りたかった数字がある」
@@ -14926,9 +14941,14 @@ ASD・ADHD・LDの現在地を統計データと一緒にnoteにまとめてあ�
 気になる人は読んでみて
 
 https://note.com/hot_phlox7660/n/n52f7d149156e?from=th_hattatsu
+**メトリクス（2026-08-18取得）**
+views=0 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=0.0%
+hook_type=不明 / cta_type=その他 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-17 03:59 | 投稿ID: 17921516298419366 -->
 ## 投稿582
 **テーマ**：「発達検査を申し込む前に、「これを知ってたら」ってなったこと」
