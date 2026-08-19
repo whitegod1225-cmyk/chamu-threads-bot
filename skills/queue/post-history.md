@@ -14386,9 +14386,14 @@ metrics_fetched: true
 まずここから確認してみて
 
 食事中の立ち上がり、今しんどい人いる？
+**メトリクス（2026-08-20取得）**
+views=159 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=3.1%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-18 20:58 | 投稿ID: 17969707428129828 -->
 ## 投稿592
 **テーマ**：「食事中に立った子どもに「座って！」と言い続けて、最後わたしが先に食事をやめた」
@@ -14421,9 +14426,14 @@ metrics_fetched: true
 一番早い解決だったよ
 
 今日もごはんの時間しんどかった人へ、おつかれさまです
+**メトリクス（2026-08-20取得）**
+views=337 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=2.4%
+hook_type=不明 / cta_type=救い締め
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-18 23:57 | エラー: 重複投稿スキップ（直前と同一本文） -->
 ## 投稿592
 **テーマ**：「食事中に立った子どもに「座って！」と言い続けて、最後わたしが先に食事をやめた」
