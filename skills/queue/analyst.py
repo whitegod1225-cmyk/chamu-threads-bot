@@ -240,13 +240,21 @@ def group_stats(posts: list, key: str) -> dict:
     return result
 
 
-def recommend_label(stats: dict) -> str:
-    """パフォーマンス統計から推奨度ラベルを返す"""
+def recommend_label(stats: dict, baseline_like: float = 0.0, baseline_quality: float = 0.0) -> str:
+    """パフォーマンス統計から推奨度ラベルを返す（全体平均との相対比較）"""
     if stats["count"] <= 1:
         return "— データ不足"
-    if stats["avg_like"] >= 0.6 and stats["avg_quality"] >= 1.0:
+    # 全体平均の120%以上 → 積極使用
+    if baseline_like > 0 and baseline_quality > 0:
+        if stats["avg_like"] >= baseline_like * 1.2 and stats["avg_quality"] >= baseline_quality * 1.2:
+            return "✅ 積極使用"
+        if stats["avg_like"] >= baseline_like * 0.7 or stats["avg_quality"] >= baseline_quality * 0.7:
+            return "⚠️ 様子見"
+        return "❌ 見直し"
+    # ベースラインなし時のフォールバック（絶対値）
+    if stats["avg_like"] >= 0.3 and stats["avg_quality"] >= 0.5:
         return "✅ 積極使用"
-    if stats["avg_like"] >= 0.3 or stats["avg_quality"] >= 0.5:
+    if stats["avg_like"] >= 0.1 or stats["avg_quality"] >= 0.2:
         return "⚠️ 様子見"
     return "❌ 見直し"
 
@@ -262,11 +270,15 @@ def generate_performance_patterns(posts: list, now: datetime):
     type_stats = group_stats(recent, "post_type")
     hook_stats = group_stats(recent, "hook")
 
-    # 推奨型・非推奨型を抽出
-    recommended_types = [t for t, s in type_stats.items() if "✅" in recommend_label(s)]
-    avoid_types       = [t for t, s in type_stats.items() if "❌" in recommend_label(s)]
-    recommended_hooks = [h for h, s in hook_stats.items() if "✅" in recommend_label(s)]
-    avoid_hooks       = [h for h, s in hook_stats.items() if "❌" in recommend_label(s)]
+    # 全体ベースライン（直近30投稿の平均）
+    baseline_like    = round(sum(p["like_rate"] for p in recent) / len(recent), 3) if recent else 0.0
+    baseline_quality = round(sum(p["quality"] for p in recent) / len(recent), 3) if recent else 0.0
+
+    # 推奨型・非推奨型を抽出（相対比較）
+    recommended_types = [t for t, s in type_stats.items() if "✅" in recommend_label(s, baseline_like, baseline_quality)]
+    avoid_types       = [t for t, s in type_stats.items() if "❌" in recommend_label(s, baseline_like, baseline_quality)]
+    recommended_hooks = [h for h, s in hook_stats.items() if "✅" in recommend_label(s, baseline_like, baseline_quality)]
+    avoid_hooks       = [h for h, s in hook_stats.items() if "❌" in recommend_label(s, baseline_like, baseline_quality)]
 
     # 既存ファイルの週次ログ部分を保持
     weekly_log = ""
@@ -287,7 +299,7 @@ def generate_performance_patterns(posts: list, now: datetime):
     lines.append("| 型 | 使用数 | 平均views | 平均いいね率 | 平均コメント率 | 平均qualityスコア | 推奨度 |\n")
     lines.append("|---|---|---|---|---|---|---|\n")
     for t, s in sorted(type_stats.items(), key=lambda x: x[1]["avg_quality"], reverse=True):
-        label = recommend_label(s)
+        label = recommend_label(s, baseline_like, baseline_quality)
         lines.append(
             f"| {t} | {s['count']}本 | {s['avg_views']:,} | {s['avg_like']:.2f}% "
             f"| {s['avg_comment']:.2f}% | {s['avg_quality']:.2f}% | {label} |\n"
@@ -300,7 +312,7 @@ def generate_performance_patterns(posts: list, now: datetime):
     lines.append("| フック種別 | 使用数 | 平均views | 平均いいね率 | 平均コメント率 | 推奨度 |\n")
     lines.append("|---|---|---|---|---|---|\n")
     for h, s in sorted(hook_stats.items(), key=lambda x: x[1]["avg_like"], reverse=True):
-        label = recommend_label(s)
+        label = recommend_label(s, baseline_like, baseline_quality)
         lines.append(
             f"| {h} | {s['count']}本 | {s['avg_views']:,} "
             f"| {s['avg_like']:.2f}% | {s['avg_comment']:.2f}% | {label} |\n"

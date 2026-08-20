@@ -1,0 +1,41 @@
+name: Weekly Report
+
+on:
+  schedule:
+    - cron: '0 23 * * 0'  # JST 月曜8時 (= UTC 日曜23:00)
+  workflow_dispatch:
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Generate weekly report issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u skills/queue/weekly_report.py
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[weekly_report失敗] ${today}`,
+              body: `weekly_report.yml の実行に失敗しました。\n\n[Actionsログを確認](https://github.com/${context.repo.owner}/${context.repo.repo}/actions)`,
+              labels: ["bug"]
+            });
