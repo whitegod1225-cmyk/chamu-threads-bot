@@ -14426,9 +14426,14 @@ metrics_fetched: true
 子どもの顔がほぐれたよ
 
 保存して、子どもがなんか元気なさそうな朝に
+**メトリクス（2026-08-23取得）**
+views=785 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=0.6%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-21 22:39 | 投稿ID: 18129254140754743 -->
 ## 投稿598
 **テーマ**：「怒りすぎた日の夜に『いいお母さんは怒らないんだ』って泣きながら思ってた時期があった」
@@ -14460,9 +14465,14 @@ metrics_fetched: true
 怒ったあとに戻れる方がよかったって話
 
 次に怒ってしまったとき、思い出してみてね
+**メトリクス（2026-08-23取得）**
+views=407 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=1.2%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-22 03:08 | 投稿ID: 18073451249419108 -->
 ## 投稿599
 **テーマ**：「子どもに嫌いって言われた日の夜、急に自分の育て方が全部間違ってた気がしてくるやつ」
