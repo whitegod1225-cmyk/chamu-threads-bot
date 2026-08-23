@@ -14506,9 +14506,14 @@ metrics_fetched: true
 同じ夜を過ごしてる人にも伝えたくて
 
 似たような夜があった人はコメントで教えて
+**メトリクス（2026-08-24取得）**
+views=159 / likes=0 / replies=4 / reposts=0 / quotes=0
+resonance_score=20 / quality_score=12.6%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-22 06:01 | 投稿ID: 18113999020767498 -->
 ## 投稿600
 **テーマ**：「怒りすぎた後に『ごめんね』だけ言ってたの、これ一言足したら変わった」
@@ -14537,9 +14542,14 @@ metrics_fetched: true
 怒ってしまった日の夜、一言だけ足してみて
 「ごめんね、怖かったよね」
 それだけでいいよ
+**メトリクス（2026-08-24取得）**
+views=589 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=0.8%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-22 10:01 | 投稿ID: 18081178991679163 -->
 ## 投稿601
 **テーマ**：「夏のお迎えから帰ってきた子がご飯を食べない、食欲がないんじゃなかった」
@@ -14577,9 +14587,14 @@ metrics_fetched: true
 夕ごはんがだいぶ楽になったよ
 
 よかったら保存して、お迎え後に思い出してね
+**メトリクス（2026-08-24取得）**
+views=138 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=3.6%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-22 13:20 | 投稿ID: 18070509080706997 -->
 ## 投稿602
 **テーマ**：「保育士16年で毎日子どもに食事をさせてきたのに、夏のお迎え後に『食べなさい』を言い続けてた」
@@ -14613,9 +14628,14 @@ metrics_fetched: true
 自分の子どもで気づいた話だから笑えないけど
 
 夏のお迎え後、試してみてね
+**メトリクス（2026-08-24取得）**
+views=423 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=1.2%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-22 22:36 | 投稿ID: 18093058298399455 -->
 ## 投稿603
 **テーマ**：「夏のお迎え後に『早く食べて』って言いたくなるとき、これに変えてから全然ちがった」
@@ -14648,6 +14668,11 @@ metrics_fetched: true
 全部これが理由だったって気づいてから楽になったよ
 
 よかったら保存して、来年の夏にも使ってね
+**メトリクス（2026-08-24取得）**
+views=538 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=0.9%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
