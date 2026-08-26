@@ -14815,9 +14815,14 @@ metrics_fetched: true
 気になるものがあったらコメントで聞いてください
 
 フォローしておくと届きます
+**メトリクス（2026-08-27取得）**
+views=10 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=50.0%
+hook_type=型A：自己紹介型 / cta_type=フォロー誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-25 09:20 | 投稿ID: 17942062479344702 -->
 ## 投稿5
 **テーマ**：「高速乗るたびに後部座席から転がる音がしてた」
@@ -14847,9 +14852,14 @@ PUレザーで拭けるから、こぼしても慌てなくていい
 
 Rakuten PR
 https://a.r10.to/h50vvk
+**メトリクス（2026-08-27取得）**
+views=169 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=4.7%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-25 12:01 | 投稿ID: 17964046850965457 -->
 ## 投稿6
 **テーマ**：「駐車場で座り込んでだっこ要求」
@@ -14876,9 +14886,14 @@ https://a.r10.to/h50vvk
 「だっこ」はタンクが空になってるサインだって後から知ったよ
 外で突然要求してくる日ほど甘えが溜まってた
 そのままぎゅっとしてあげると意外と早く満たされる
+**メトリクス（2026-08-27取得）**
+views=1882 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=0.4%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-25 14:26 | 投稿ID: 17954575335211387 -->
 ## 投稿7
 **テーマ**：「昨日まで食べてたのに今日は『きらい』」
@@ -14904,9 +14919,14 @@ https://a.r10.to/h50vvk
 2〜3歳の「きらい」は味が嫌なんじゃなくて「これは安全か」を確認してる段階にある
 新しいもの・前と違う見た目・においが変わる→「きらい」
 これが本能的な異物確認のサインだから、料理の問題じゃないよ
+**メトリクス（2026-08-27取得）**
+views=91 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=5.5%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-25 21:00 | 投稿ID: 18021904058705710 -->
 ## 投稿8
 **テーマ**：「あと1回が8回になる公園」
@@ -14931,9 +14951,14 @@ https://a.r10.to/h50vvk
 みんなはどうやって公園から帰ってた？
 うちは最終的に「針が5になったら帰ろう」で動くようになったけど
 対策あったら教えてほしい
+**メトリクス（2026-08-27取得）**
+views=111 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=4.5%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-25 23:59 | 投稿ID: 18071262362710661 -->
 ## 投稿9
 **テーマ**：「帰省3時間ドライブで後部座席から『とって』が何回来たかカウントするの途中でやめた」
@@ -14962,9 +14987,14 @@ https://a.r10.to/h50vvk
 
 Rakuten PR
 https://a.r10.to/h50vBW
+**メトリクス（2026-08-27取得）**
+views=32 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=15.6%
+hook_type=不明 / cta_type=その他 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-26 04:01 | 投稿ID: 18090259049406250 -->
 ## 投稿10
 **テーマ**：「駐車場で座り込んだ子どもに言う言葉」
