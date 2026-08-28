@@ -15225,9 +15225,14 @@ metrics_fetched: true
 「何回まで」より「何時になったら」の方が子どもには伝わる
 数字じゃなくて具体的な出来事で終わりを示すのが2〜3歳のコツ
 これ知ってから公園での怒りがほぼなくなったよ
+**メトリクス（2026-08-29取得）**
+views=100 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=5.0%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-27 19:16 | 投稿ID: 18124893511819655 -->
 ## 投稿17
 **テーマ**：「夏休み明けの1週間だけ子どもが荒れる、あれ止めようとしなくていい理由がある」
@@ -15260,6 +15265,11 @@ metrics_fetched: true
 「また行けなくなった」じゃなくて「今は慣らし中」と思うと少し楽よ
 
 保育士目線の話、また明日も置いとくね
+**メトリクス（2026-08-29取得）**
+views=230 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=2.2%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
