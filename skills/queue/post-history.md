@@ -15023,9 +15023,14 @@ metrics_fetched: true
 「あそこまで」が通じなければ「競争しよ」も効く
 子どもの体が動く言葉は必ず「具体的なゴール」か「ワクワク」がある
 保存して次に座り込まれた日に試してみて
+**メトリクス（2026-08-28取得）**
+views=63 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=7.9%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-26 09:25 | 投稿ID: 17997763865796782 -->
 ## 投稿11
 **テーマ**：「『きらい』と言われた時に言葉を変えたら残す量が変わった」
@@ -15052,9 +15057,14 @@ metrics_fetched: true
 「1個だけ」が通じなければ「なめるだけ」も試してみて
 「食べる」のハードルを限界まで下げるのがコツ
 ちょっとずつ口に慣れていくのが2〜3歳の食の広げ方
+**メトリクス（2026-08-28取得）**
+views=115 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=4.3%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-26 12:02 | 投稿ID: 18104086886340300 -->
 ## 投稿12
 **テーマ**：「公園で『あと1回』をやめたらすんなり帰れるようになった言葉」
@@ -15081,9 +15091,14 @@ metrics_fetched: true
 時計がない公園なら「この歌が終わったら」でも同じように使える
 子どもは「終わり」が見えると待てる
 終わりが見えないから泣き叫ぶ
+**メトリクス（2026-08-28取得）**
+views=210 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=2.4%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-26 14:25 | 投稿ID: 18353122231221919 -->
 ## 投稿13
 **テーマ**：「お迎え後に後部座席を見るのが毎日ちょっとだけ憂鬱だった」
@@ -15113,9 +15128,14 @@ PUレザーだから汚れても拭けば戻る
 
 Rakuten PR
 https://a.r10.to/h50vUK
+**メトリクス（2026-08-28取得）**
+views=106 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=7.5%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-27 00:04 | 投稿ID: 18371742778237515 -->
 ## 投稿14
 **テーマ**：「駐車場で突然座り込むの、わがままじゃなかった」
@@ -15141,9 +15161,14 @@ https://a.r10.to/h50vUK
 「わがまま」に見えるサインほど、実は体か心が限界のことが多い
 元保育士として16年で一番後悔してることのひとつ
 保存して、次に座り込まれた日に読み返して
+**メトリクス（2026-08-28取得）**
+views=96 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=8.3%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-27 05:02 | 投稿ID: 18139094185590719 -->
 ## 投稿15
 **テーマ**：「2歳が毎日『きらい』を更新してくるのは発達の話だった」
@@ -15167,9 +15192,14 @@ https://a.r10.to/h50vUK
 4歳くらいから「食べてみたい」が勝ち始める
 偏食は育て方の問題じゃなくてほぼ全員通る道だよ
 保存して、次に残された日に読み返して
+**メトリクス（2026-08-28取得）**
+views=334 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=1.5%
+hook_type=不明 / cta_type=保存誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-08-27 14:06 | 投稿ID: 17950442886035304 -->
 ## 投稿16
 **テーマ**：「『あと1回』を守れないのは約束を破ってるんじゃなかった」
