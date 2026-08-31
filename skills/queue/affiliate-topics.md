@@ -533,3 +533,39 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：候補
 **スクレイプ情報**：評価4.6 / レビュー4730件 / 3,500円 / Aleppo Souq
 
+---
+
+## 候補42：おむつ・衛生用品／9月1日(火)★到着可能★ おむつケーキ 3段 Sassy
+**商品名**：9月1日(火)★到着可能★ おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 ハロウィン ランキング
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.71 / レビュー13303件 / 5,500円 / おむつケーキ研究所
+
+---
+
+## 候補43：おむつ・衛生用品／9月1日（火）★発送可能★2段NEW今治タオル名前刺繡入れお
+**商品名**：9月1日（火）★発送可能★2段NEW今治タオル名前刺繡入れおむつケーキ出産祝いギフトかわいいラトルいぬ、クくま、うさぎ、ねこ男の子女の子クリスマス ベビーおしゃれ ベビーシャワー送料無料マタニティ贈り物★土曜日営業★即日発送可ベビーシャワーママギフト送料無料
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6389件 / 4,280円 / おむつケーキ専門店アイリムベビー
+
+---
+
+## 候補44：おむつ・衛生用品／【人気殺到！楽天年間ランキング1位】 おねぽん おねしょ ズ
+**商品名**：【人気殺到！楽天年間ランキング1位】 おねぽん おねしょ ズボン 防水 おねしょ パンツ トレーニングパンツ トイレトレーニング おねしょズボン 夏用 冬用 トイトレ 女の子 男の子 腹巻 ベビー 子供 キッズ 2歳 3歳 4歳 5歳 綿100% パジャマ オムツカバー
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00twbam.xpczb91b.g00twbam.xpczc3b4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwagaku0204%2Fonesyopants%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwagaku0204%2Fi%2F10000086%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00twbam.xpczb91b.g00twbam.xpczc3b4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwagaku0204%2Fonesyopants%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwagaku0204%2Fi%2F10000086%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.4 / レビュー4948件 / 2,180円 / Oeuf Soleil
+
