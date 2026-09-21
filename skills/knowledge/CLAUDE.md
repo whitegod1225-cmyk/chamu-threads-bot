@@ -11,7 +11,7 @@
 **post-queue.md更新後は必ず末尾の「📊 型Aカウンター」セクションを書き直す。**
 更新する値：キュー内投稿数・キュー内の型A本数・判定メッセージ・最終更新日
 
-対象スキル：`/writer` `/affiliate-writer` `/zu-writer` `/intro-writer` すべて
+対象スキル：`/writer` `/affiliate-writer` `/zu-writer` `/intro-writer` `/kapi-writer` すべて
 
 ---
 
@@ -53,6 +53,11 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 ### /affiliate-writer（アフィリエイト投稿作成）
 **必須**：共通コア ＋ 05_affiliate.md / 09_references.md（アフィリ参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_affiliate.md / affiliate-topics.md
 **任意**：affiliate-research/_index.md / affiliate-examples/_index.md（型の参考が必要な場合）
+
+### /kapi-writer（かぴ式文章版 Threads投稿作成）
+**必須**：共通コア ＋ kapi-writing-rules.md / kapi-first-lines.md / kapi-post-patterns.md / next-topics.md
+**任意**：affiliate-topics.md（URL指定でアフィリエイト商品を使う場合）/ 13_cta-patterns.md（CTA選択が必要な場合）
+**特徴**：かぴ式14パターン（コメント誘導型）を使い、ちゃむ。ペルソナに変換して生成する。5案提示→ユーザーが選択→完成版生成の対話フロー。画像版（/affiliate-writer）の文章バージョン。
 
 ### /analyst（投稿分析）
 **必須**：共通コア ＋ 04_knowledge.md / analysis-latest.md / next-topics.md / 21_resonance-analysis.md / 22_algorithm-adaptation.md
@@ -195,6 +200,30 @@ STEP5 生成ループ（最大2回）
 STEP6 キューへ追記
 - 作った投稿をpost-queue.mdに追記する
 - 読み込むファイル：上記「/writer」の必須ファイルのみ（全ファイル読み込み禁止）
+
+### /kapi-writer
+かぴ式14パターン（コメント誘導型）を使い、ちゃむ。の言葉でThreads投稿を生成してpost-queue.mdに追加する。
+
+**発火すべき依頼例**
+- 「かぴ式で〇〇の投稿を作って」
+- 「14パターンで投稿を作りたい」
+- 「コメント誘導型で〇〇テーマで」
+- 「断言連呼型・怒り構文・箇条書き型などで書いて」
+- 「かぴ文章バージョンで」
+
+**発火してはいけない近接例**
+- 商品URLの短文＋画像型 → `/affiliate-writer`（かぴ式画像バージョン）
+- 通常の4型投稿 → `/writer`
+
+**生成手順**（詳細はスキルファイル参照）
+
+STEP1 ファイル読み込み（kapi-writing-rules.md / kapi-first-lines.md / kapi-post-patterns.md）
+STEP2 テーマ・商品確認
+STEP3 5案の本文を生成（異なる型×異なるフック、コメント欄はまだ作らない）
+STEP4 ユーザーに「一番読み進めてしまった投稿はどれですか？」と聞く
+STEP5 選ばれた1案の完成版（本文＋コメント欄）を作る
+STEP6 セルフチェック（kapi-writing-rules.md §8 ＋ 07_ng-rules.md）
+STEP7 post-queue.md に追記
 
 ### /affiliate-writer
 商品URLを受け取り、ちゃむ。のアフィリエイト投稿を生成してpost-queue.mdに追加する。
