@@ -15310,6 +15310,11 @@ metrics_fetched: true
 
 「へえ、知らんかった」がひとつでも届いたら嬉しいです
 気が向いたらフォローしてみてください🫶
+**メトリクス（2026-09-24取得）**
+views=80 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=6.2%
+hook_type=型A：自己紹介型 / cta_type=フォロー誘導
+metrics_fetched: true
+
 
 ---
-
