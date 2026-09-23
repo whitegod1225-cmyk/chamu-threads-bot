@@ -276,6 +276,22 @@ def last_two_were_affiliate():
     return is_affiliate(blocks[-1]) and is_affiliate(blocks[-2])
 
 
+def is_dead_of_night():
+    """深夜帯（JST 01:00〜05:29）か判定。
+    GitHub Actions の cron 遅延が大きい場合に深夜投稿してしまうのを防ぐ。"""
+    import datetime as dt
+    jst = dt.timezone(dt.timedelta(hours=9))
+    now = dt.datetime.now(jst)
+    h, m = now.hour, now.minute
+    if h == 0:
+        return False          # 0時台はOK（22〜23時スロットの正常遅延範囲）
+    if 1 <= h <= 4:
+        return True
+    if h == 5 and m < 30:
+        return True
+    return False
+
+
 def is_morning_first_slot():
     """朝一番スロット（アフィ禁止帯）か判定（JST基準）
     平日: 05:30〜08:59 / 土日: 07:00〜10:59"""
@@ -361,6 +377,14 @@ def record_post_hash(body):
 
 def main():
     log("===== post.py 起動 =====")
+
+    # ── 深夜帯ガード（GitHub Actions 遅延による深夜投稿を防ぐ） ──
+    import datetime as dt
+    jst = dt.timezone(dt.timedelta(hours=9))
+    jst_now = dt.datetime.now(jst)
+    if is_dead_of_night():
+        log(f"[SKIP] 深夜帯のため投稿スキップ (JST {jst_now.strftime('%H:%M')}). 次のスロットまで待機します。")
+        sys.exit(0)
 
     # ── 二重起動チェック ──
     if not acquire_lock():
