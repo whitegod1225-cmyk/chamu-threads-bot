@@ -1,40 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する
-ポスターは一番上の投稿を取り出してThreadsに投稿する
-投稿済みのものはここから削除してpost-history.mdに移す
+ライターが作成した投稿をここに追加する。
+ポスターは一番上の投稿を取り出してThreadsに投稿する。
+投稿済みのものはここから削除してpost-history.mdに移す。
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
-> pushしないと新しい投稿は一切自動投稿されない
-
----
-
-## 投稿28
-**テーマ**：バランスボール半球タイプ（アフィリエイト・型13・画像付き）
-**カテゴリ**：B（商品紹介×実体験）
-**商品**：フィットネスボール半球タイプ 46cm/60cm（楽天）
-
-**本文**
-ママ友の家でアジア大会見ながら子どもがこれに乗ってた
-
-この場面がなんかすごく良くて、、、
-
-**画像URL**
-https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_19_balance_board.jpg
-
-**コメント欄（セルフリプライ用）**
-テレビで選手が走ってる横で、子どもが自然に体を動かしてる
-こんな体幹トレーニング、親が何も言わなくていいじゃんって
-
-バランスボールの半球タイプで、乗るだけで体が姿勢を保とうとするやつ
-遊んでるうちに体の軸が育っていく感じ
-
-46cmと60cmから選べて耐荷重100kgだから親子で使える
-アジア大会見てスポーツ熱が上がってる今、うちも始めたよ✨
-
-**コメント欄（セルフリプライ用）**
-気になる人はここから↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhouenshop%2Fckkt4251634fcb2022022%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
+> pushしないと新しい投稿は一切自動投稿されない。
 
 ---
 
@@ -806,5 +777,3 @@ Nike Air Max Phenomenaっていうんだけど
 
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fabctown%2Fcompass1760925533%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----

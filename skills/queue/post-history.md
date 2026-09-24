@@ -15355,3 +15355,33 @@ metrics_fetched: true
 
 ---
 
+<!-- 処理日時: 2026-09-24 15:54 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AN5hju9GXfMdhr6O40bUbs1"}} -->
+## 投稿28
+**テーマ**：バランスボール半球タイプ（アフィリエイト・型13・画像付き）
+**カテゴリ**：B（商品紹介×実体験）
+**商品**：フィットネスボール半球タイプ 46cm/60cm（楽天）
+
+**本文**
+ママ友の家でアジア大会見ながら子どもがこれに乗ってた
+
+この場面がなんかすごく良くて、、、
+
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_19_balance_board.jpg
+
+**コメント欄（セルフリプライ用）**
+テレビで選手が走ってる横で、子どもが自然に体を動かしてる
+こんな体幹トレーニング、親が何も言わなくていいじゃんって
+
+バランスボールの半球タイプで、乗るだけで体が姿勢を保とうとするやつ
+遊んでるうちに体の軸が育っていく感じ
+
+46cmと60cmから選べて耐荷重100kgだから親子で使える
+アジア大会見てスポーツ熱が上がってる今、うちも始めたよ✨
+
+**コメント欄（セルフリプライ用）**
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhouenshop%2Fckkt4251634fcb2022022%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
