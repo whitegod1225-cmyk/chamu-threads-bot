@@ -12221,3 +12221,5 @@ https://a.r10.to/h50vUK
 この場面がなんかすごく良くて、、、
 [2026-09-24 15:54:50] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AN5hju9GXfMdhr6O40bUbs1"}}
 [2026-09-24 15:54:50] 2回失敗のためスキップ。残りキュー: 24件
+[2026-09-24 17:56:59] ===== post.py 起動 =====
+[2026-09-24 17:56:59] [SKIP] 深夜帯のため投稿スキップ (JST 02:56). 次のスロットまで待機します。
