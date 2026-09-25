@@ -15352,9 +15352,14 @@ metrics_fetched: true
 
 保育士として何百人も見てきたから
 これだけは断言できる
+**メトリクス（2026-09-26取得）**
+views=186 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=2.7%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-24 15:54 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AN5hju9GXfMdhr6O40bUbs1"}} -->
 ## 投稿28
 **テーマ**：バランスボール半球タイプ（アフィリエイト・型13・画像付き）
@@ -15431,9 +15436,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=http
 届け方を変えてみてください
 
 毎日向き合ってるあなたが正解です🌱
+**メトリクス（2026-09-26取得）**
+views=122 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=4.1%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-25 01:55 | 投稿ID: 17949706581050077 -->
 ## 投稿36
 **テーマ**：「子どもの布団、夜中に3回直した冬があった」
@@ -15458,9 +15468,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=http
 夜中3回起き上がってた頃に教えてあげたかった(^^)
 下に貼ったやつ↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-09-26取得）**
+views=132 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=9.8%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-25 08:45 | 投稿ID: 18126253388311357 -->
 ## 投稿20
 **テーマ**：保育士4年目に見た「ただ隣に座る」先輩（観察者×憧れ型）
