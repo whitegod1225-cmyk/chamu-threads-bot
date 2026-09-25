@@ -12340,3 +12340,30 @@ https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-09-25 14:11:44] リプライ2完了！ ID: 17933622555394456
 [2026-09-25 14:11:44] キュー移動完了。残りキュー: 20件
+[2026-09-25 15:55:09] ===== post.py 起動 =====
+[2026-09-25 15:55:09] キュー件数: 20件
+[2026-09-25 15:55:09] 投稿開始（試行1回目）:
+保育士16年やってて
+連休明けだけは覚悟が違った
+
+泣いてる子どもを受け取るとき
+「大丈夫だよ」って言いながら
+心の中では「そうだよね、帰りたいよね」ってなってた
+
+保護者の背中が廊下の角に消えてから
+やっと一息ついて
+
+それを毎回やってくれてる保育士さんへ
+今日はありがとう、、、
+[2026-09-25 15:55:17] 投稿完了！ ID: 18073615901730850
+[2026-09-25 15:55:17] セルフリプライ1/1開始:
+連休明けに泣いてる子どもを預けるとき
+罪悪感があって当然だから
+
+でも知ってほしいのは
+保護者の姿が見えなくなってからの子どもの切り替え、意外と早い
+
+5分後には友達のおもちゃをじっと眺めてたりする
+あの朝の「ごめんね」は、保育士もちゃんと受け取ってるから🌱
+[2026-09-25 15:55:29] リプライ1完了！ ID: 18390636631203207
+[2026-09-25 15:55:29] キュー移動完了。残りキュー: 19件
