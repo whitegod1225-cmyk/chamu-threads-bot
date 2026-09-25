@@ -9,28 +9,6 @@
 
 ---
 
-## 投稿34
-**テーマ**：パンどろぼう全種類欲しくなった（アフィリエイト・型13）
-**カテゴリ**：B（商品紹介×実体験）
-**商品**：パンどろぼう 食パンがそのまま運べるバッグ 全5種セット（楽天）※投稿30と同商品・別アングル
-
-**本文**
-ごめん、パンどろぼうさん
-全種類欲しくなるとか聞いてないんですけど、、、
-
-**コメント欄（セルフリプライ用）**
-…とか言いながら、結局5種類全部かごに入れてた🥹
-どれも可愛すぎて1つに絞れないの、パンどろぼうのせいだからね
-
-12月に全5種セットで再販するみたいだから、
-気になる人は今のうちにチェックしておいて
-
-**コメント欄（セルフリプライ用）**
-これだよ🌱　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿40
 **テーマ**：「連休明けの保育士の覚悟・体験談」
 **カテゴリ**：A（通常投稿・体験談型）
