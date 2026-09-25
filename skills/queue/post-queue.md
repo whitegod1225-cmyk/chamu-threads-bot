@@ -9,32 +9,6 @@
 
 ---
 
-## 投稿36
-**テーマ**：「子どもの布団、夜中に3回直した冬があった」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：赤ちゃん用フリーススリーパー（袖なし）
-**時期**：秋冬（9〜2月）
-**文章の型**：新PASONA法
-
-**本文**
-子どもの布団、夜中に3回直した冬があった
-スリーパー知ってたら1回も起きなくてよかったんだって、、、
-
-**コメント欄（セルフリプライ用）**
-スリーパーってただの保温グッズじゃなくて
-布団がずれる問題をそもそもなくするやつだった
-
-着てるから子どもがどんなに転がっても体が冷えない
-フリース素材でふわっとやわらかくて、スナップボタンでおむつ替えも楽
-50cmから対応してるから新生児から使い始められるよ
-
-**コメント欄（セルフリプライ用）**
-夜中3回起き上がってた頃に教えてあげたかった(^^)
-下に貼ったやつ↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿20
 **テーマ**：保育士4年目に見た「ただ隣に座る」先輩（観察者×憧れ型）
 **カテゴリ**：A（通常投稿・ストーリー型）
