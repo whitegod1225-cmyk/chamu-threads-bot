@@ -12446,3 +12446,31 @@ https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-09-26 10:17:10] リプライ2完了！ ID: 18121989386479795
 [2026-09-26 10:17:10] キュー移動完了。残りキュー: 16件
+[2026-09-26 13:53:33] ===== post.py 起動 =====
+[2026-09-26 13:53:33] キュー件数: 16件
+[2026-09-26 13:53:33] ⚠️ 3連続アフィリ防止：アフィリ投稿を後回し → 投稿2番目と入れ替え
+[2026-09-26 13:53:33] 投稿開始（試行1回目）:
+連休明けの保育士あるある、全部わかる
+
+・朝から鼻水大行進が来る
+・泣く子が3割増しになってる
+・いつもは元気な子がちょっとよそよそしい
+・自分の体もリズムが戻ってない
+
+それでも「おかえり」って言える人たちが
+保育士なんよ、、、
+[2026-09-26 13:53:42] 投稿完了！ ID: 18031140947889765
+[2026-09-26 13:53:42] セルフリプライ1/1開始:
+元保育士として断言できるけど
+
+連休明けの「大丈夫ですよ」は
+本当に大丈夫だから
+
+預けるとき後ろ髪引かれながら仕事に向かうこと
+保育士はちゃんと知ってる
+
+「早く泣き止んでほしい」じゃなくて
+「今日もよろしくお願いします」だけで十分
+それが一番の信頼になる🌱
+[2026-09-26 13:53:55] リプライ1完了！ ID: 18333417955276186
+[2026-09-26 13:53:55] キュー移動完了。残りキュー: 15件
