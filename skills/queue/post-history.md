@@ -15512,9 +15512,14 @@ metrics_fetched: true
 子どもを一番安心させる
 
 自分の子どもが泣いてるとき、あの先輩の顔を思い出す
+**メトリクス（2026-09-27取得）**
+views=556 / likes=3 / replies=1 / reposts=0 / quotes=0
+resonance_score=14 / quality_score=2.5%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-25 14:11 | 投稿ID: 17993503022843980 -->
 ## 投稿34
 **テーマ**：パンどろぼう全種類欲しくなった（アフィリエイト・型13）
@@ -15535,9 +15540,14 @@ metrics_fetched: true
 **コメント欄（セルフリプライ用）**
 これだよ🌱　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-09-27取得）**
+views=382 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=3.4%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-25 15:55 | 投稿ID: 18073615901730850 -->
 ## 投稿40
 **テーマ**：「連休明けの保育士の覚悟・体験談」
@@ -15568,9 +15578,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=http
 
 5分後には友達のおもちゃをじっと眺めてたりする
 あの朝の「ごめんね」は、保育士もちゃんと受け取ってるから🌱
+**メトリクス（2026-09-27取得）**
+views=463 / likes=3 / replies=1 / reposts=0 / quotes=0
+resonance_score=14 / quality_score=3.0%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-26 00:36 | 投稿ID: 17948457816057951 -->
 ## 投稿21
 **テーマ**：37.5度呼び出しルールへのモヤモヤ（不条理代弁型）
@@ -15600,9 +15615,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=http
 
 ルールに怒るより
 「そのしんどさを誰かと共有できてるか」の方が大事🌱
+**メトリクス（2026-09-27取得）**
+views=4509 / likes=3 / replies=1 / reposts=0 / quotes=0
+resonance_score=14 / quality_score=0.3%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-26 07:45 | 投稿ID: 18112533146041064 -->
 ## 投稿35
 **テーマ**：元保育士が語る子どもの向き不向き・遺伝子検査（アフィリエイト・型13）
