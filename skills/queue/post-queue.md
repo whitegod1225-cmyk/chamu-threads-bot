@@ -9,34 +9,6 @@
 
 ---
 
-## 投稿37
-**テーマ**：「保育士16年、現場では冬のお昼寝にスリーパーが必須だった」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：赤ちゃん用フリーススリーパー（袖なし）
-**時期**：秋冬（9〜2月）
-**文章の型**：新PASONA法
-
-**本文**
-保育士16年、現場では冬のお昼寝にスリーパーが必須だった
-なのに自分の子どもに使い始めたのが生後11ヶ月で、、、
-
-**コメント欄（セルフリプライ用）**
-現場で着せると、お昼寝の途中で目が覚めても泣かなかった
-それだけ「着てると冷えない」のを子どもが感じてた
-
-自分の子どもに毎晩布団をかけ直す日々を続けてから気づくって
-元保育士として正直情けなかった
-
-フリース素材でやわらかく、スナップボタンで夜中のおむつ替えも楽
-50〜90cmまで対応だから0歳から入学前まで使えるよ
-
-**コメント欄（セルフリプライ用）**
-生後11ヶ月の自分に教えてあげたい(^^)
-気になる人はここから↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿35
 **テーマ**：元保育士が語る子どもの向き不向き・遺伝子検査（アフィリエイト・型13）
 **カテゴリ**：B（商品紹介×実体験）
@@ -68,34 +40,31 @@ https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=http
 
 ---
 
-## 投稿21
-**テーマ**：37.5度呼び出しルールへのモヤモヤ（不条理代弁型）
-**カテゴリ**：A（通常投稿・不条理代弁型）
-**型**：不条理代弁型
+## 投稿37
+**テーマ**：「保育士16年、現場では冬のお昼寝にスリーパーが必須だった」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：赤ちゃん用フリーススリーパー（袖なし）
+**時期**：秋冬（9〜2月）
+**文章の型**：新PASONA法
 
 **本文**
-え？
-
-37.5度で呼び出しのルール、
-
-保育士16年やってたわたしでも
-いつもモヤモヤしてた
-
-37.4度は預けて
-37.5度は仕事を抜けて迎えに行く
+保育士16年、現場では冬のお昼寝にスリーパーが必須だった
+なのに自分の子どもに使い始めたのが生後11ヶ月で、、、
 
 **コメント欄（セルフリプライ用）**
-このルールが「親にとって辛い」ことは
-現場も全員わかってた
+現場で着せると、お昼寝の途中で目が覚めても泣かなかった
+それだけ「着てると冷えない」のを子どもが感じてた
 
-でも保育園も園医の指示のもとで動いてるから
-勝手に基準を変えることができない
+自分の子どもに毎晩布団をかけ直す日々を続けてから気づくって
+元保育士として正直情けなかった
 
-モヤモヤしてる感情は正しい
-それは「おかしい」じゃなくて「しんどい」だから
+フリース素材でやわらかく、スナップボタンで夜中のおむつ替えも楽
+50〜90cmまで対応だから0歳から入学前まで使えるよ
 
-ルールに怒るより
-「そのしんどさを誰かと共有できてるか」の方が大事🌱
+**コメント欄（セルフリプライ用）**
+生後11ヶ月の自分に教えてあげたい(^^)
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
 
