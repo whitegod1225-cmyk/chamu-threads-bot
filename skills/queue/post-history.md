@@ -15603,3 +15603,35 @@ https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-09-26 07:45 | 投稿ID: 18112533146041064 -->
+## 投稿35
+**テーマ**：元保育士が語る子どもの向き不向き・遺伝子検査（アフィリエイト・型13）
+**カテゴリ**：B（商品紹介×実体験）
+**商品**：BabySmile ドリームガイド A-101（楽天）※投稿26と同商品・別アングル
+
+**本文**
+元保育士として、これだけは言う
+子どもの「向き不向き」、1000人みても外からは判断できない
+笑えないくらい見抜けなかったことがある
+アジア大会を見ながら「うちの子に合うスポーツ何だろう」って思ってるパパママに
+知ってほしいものが1個あって、
+
+**コメント欄（セルフリプライ用）**
+こどもの遺伝子検査キット、BabySmile ドリームガイド
+
+唾液を採るだけで、DNAから運動適性や思考スタイルがわかる
+「瞬発系か持久系か」「どの動きが伸びやすいか」が出てくる
+
+16年、現場で子どもを見てきて思うのは、
+この傾向を知ってから関わると、声かけも習い事選びも変わるってこと
+
+外から見ただけじゃ気づけない「その子の傾向」がDNAには出てる
+子どもの習い事で迷ってるなら、種目を決める前に1回やってほしい
+
+**コメント欄（セルフリプライ用）**
+もちろん結果がすべてではないけど、これからの育て方の参考にもなりそう✨
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseastar%2F1210102901t%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
