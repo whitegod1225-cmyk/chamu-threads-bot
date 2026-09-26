@@ -12424,3 +12424,25 @@ https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseastar%2F1210102901t%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-09-26 07:45:51] リプライ2完了！ ID: 18118713106938425
 [2026-09-26 07:45:51] キュー移動完了。残りキュー: 17件
+[2026-09-26 10:16:30] ===== post.py 起動 =====
+[2026-09-26 10:16:30] キュー件数: 17件
+[2026-09-26 10:16:30] 投稿開始（試行1回目）:
+保育士16年、現場では冬のお昼寝にスリーパーが必須だった
+なのに自分の子どもに使い始めたのが生後11ヶ月で、、、
+[2026-09-26 10:16:39] 投稿完了！ ID: 17906228040333518
+[2026-09-26 10:16:39] セルフリプライ1/2開始:
+現場で着せると、お昼寝の途中で目が覚めても泣かなかった
+それだけ「着てると冷えない」のを子どもが感じてた
+
+自分の子どもに毎晩布団をかけ直す日々を続けてから気づくって
+元保育士として正直情けなかった
+
+フリース素材でやわらかく、スナップボタンで夜中のおむつ替えも楽
+50〜90cmまで対応だから0歳から入学前まで使えるよ
+[2026-09-26 10:16:52] リプライ1完了！ ID: 17952971913039154
+[2026-09-26 10:16:54] セルフリプライ2/2開始:
+生後11ヶ月の自分に教えてあげたい(^^)
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-09-26 10:17:10] リプライ2完了！ ID: 18121989386479795
+[2026-09-26 10:17:10] キュー移動完了。残りキュー: 16件
