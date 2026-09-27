@@ -9,38 +9,6 @@
 
 ---
 
-## 投稿29
-**テーマ**：ぶんぶんチョッパー・料理中の子ども危険回避（アフィリエイト・型13）
-**カテゴリ**：B（商品紹介×実体験）
-**商品**：マルチハンディチョッパー Toffy（楽天）
-
-**本文**
-包丁持ってるとき、子どもが来た瞬間のあの感覚
-
-怖くて、怒って、また自己嫌悪
-
-ぶんぶんチョッパーにしてから、それがなくなった
-電源なし、刃は中に隠れてる、子どもの隣で使える
-怒らなくていい毎日になった
-
-**コメント欄（セルフリプライ用）**
-引っ張るだけで30秒
-まな板も包丁もいらない
-
-料理中に「ちょっと待って！」
-って言わなくていい毎日になった
-
-食洗機対応で洗い物もゼロ
-もっと早く買えばよかった
-
-保存して、次の買い物のときに見返して
-
-**コメント欄（セルフリプライ用）**
-気になったら見てみて　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/545bdece.ad57533d.545bded7.8b760153/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgekiyasukaguya%2Fket140132%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿38
 **テーマ**：「冬に向けてスリーパーだけは見ないで」
 **カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
@@ -99,36 +67,35 @@ https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=http
 
 ---
 
-## 投稿42
-**テーマ**：「連休明けの保育士へ感謝・代弁」
-**カテゴリ**：A（通常投稿・感謝代弁型）
-**型**：感謝・不条理代弁型
-**時期**：連休明け（通年）
+## 投稿29
+**テーマ**：ぶんぶんチョッパー・料理中の子ども危険回避（アフィリエイト・型13）
+**カテゴリ**：B（商品紹介×実体験）
+**商品**：マルチハンディチョッパー Toffy（楽天）
 
 **本文**
-連休明けの今日
-保育士さんに全力でありがとうを言いたい
+包丁持ってるとき、子どもが来た瞬間のあの感覚
 
-泣く子を笑顔で受け取って
-ぐずる子に「おかえり」って言って
-崩れたリズムをまた一から作り直してる
+怖くて、怒って、また自己嫌悪
 
-元保育士として言うけど
-この仕事、連休明けが一番しんどい
-
-それを毎回やってくれてる
+ぶんぶんチョッパーにしてから、それがなくなった
+電源なし、刃は中に隠れてる、子どもの隣で使える
+怒らなくていい毎日になった
 
 **コメント欄（セルフリプライ用）**
-保育士として16年、連休明けに何百回も子どもを受け取ってきた
+引っ張るだけで30秒
+まな板も包丁もいらない
 
-泣いてる子を預けることへの罪悪感、すごくわかる
-でも「ごめんなさい」って正直に言ってくれる保護者が
-実は一番ありがたかった
+料理中に「ちょっと待って！」
+って言わなくていい毎日になった
 
-完璧に準備して連れてくる必要はなくて
-「今日もよろしくお願いします」だけで十分
+食洗機対応で洗い物もゼロ
+もっと早く買えばよかった
 
-今日も一日、お互いよく頑張った🌱
+保存して、次の買い物のときに見返して
+
+**コメント欄（セルフリプライ用）**
+気になったら見てみて　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/545bdece.ad57533d.545bded7.8b760153/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgekiyasukaguya%2Fket140132%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
 
