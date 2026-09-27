@@ -15652,9 +15652,14 @@ metrics_fetched: true
 もちろん結果がすべてではないけど、これからの育て方の参考にもなりそう✨
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseastar%2F1210102901t%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-09-28取得）**
+views=149 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=6.7%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-26 10:17 | 投稿ID: 17906228040333518 -->
 ## 投稿37
 **テーマ**：「保育士16年、現場では冬のお昼寝にスリーパーが必須だった」
@@ -15681,9 +15686,14 @@ https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=http
 生後11ヶ月の自分に教えてあげたい(^^)
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-09-28取得）**
+views=214 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=4.7%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-26 13:53 | 投稿ID: 18031140947889765 -->
 ## 投稿41
 **テーマ**：「連休明けの保育士あるある」
@@ -15714,9 +15724,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=http
 「早く泣き止んでほしい」じゃなくて
 「今日もよろしくお願いします」だけで十分
 それが一番の信頼になる🌱
+**メトリクス（2026-09-28取得）**
+views=909 / likes=4 / replies=1 / reposts=0 / quotes=0
+resonance_score=17 / quality_score=1.9%
+hook_type=不明 / cta_type=救い締め
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-27 00:33 | 投稿ID: 18166197718472311 -->
 ## 投稿25
 **テーマ**：衣替えタイミング・最低気温18℃（有益情報型）
@@ -15736,9 +15751,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=http
 引っ越したばかりとか、地域が変わった人にも参考になる
 
 https://weathernews.jp/news/202609/010271/?share=1
+**メトリクス（2026-09-28取得）**
+views=79 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=6.3%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-27 08:14 | 投稿ID: 18107241086611492 -->
 ## 投稿30
 **テーマ**：パンどろぼう 食パンバッグ全5種セット（アフィリエイト・型13）
