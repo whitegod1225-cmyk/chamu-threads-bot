@@ -12495,3 +12495,22 @@ https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=http
 https://weathernews.jp/news/202609/010271/?share=1
 [2026-09-27 00:33:03] リプライ1完了！ ID: 18044248727820033
 [2026-09-27 00:33:03] キュー移動完了。残りキュー: 14件
+[2026-09-27 08:13:58] ===== post.py 起動 =====
+[2026-09-27 08:13:58] キュー件数: 14件
+[2026-09-27 08:13:58] 投稿開始（試行1回目）:
+【吉報】パンどろぼう、12月にまた会えるらしい…
+
+今から待てないんだけど……
+[2026-09-27 08:14:07] 投稿完了！ ID: 18107241086611492
+[2026-09-27 08:14:07] セルフリプライ1/2開始:
+食パンがそのまま入る形のバッグで、全5種類
+全部並べるとパン屋さんの陳列みたいになる
+
+子どもへのクリスマスプレゼントにも使えるし
+プチギフトにも絶対喜ばれる
+[2026-09-27 08:14:25] リプライ1完了！ ID: 17908658862490060
+[2026-09-27 08:14:27] セルフリプライ2/2開始:
+これだよ🌱　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-09-27 08:14:44] リプライ2完了！ ID: 18106506842265562
+[2026-09-27 08:14:44] キュー移動完了。残りキュー: 13件
