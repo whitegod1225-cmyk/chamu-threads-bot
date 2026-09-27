@@ -9,6 +9,29 @@
 
 ---
 
+## 投稿30
+**テーマ**：パンどろぼう 食パンバッグ全5種セット（アフィリエイト・型13）
+**カテゴリ**：B（商品紹介×実体験）
+**商品**：パンどろぼう 食パンがそのまま運べるバッグ 全5種セット（楽天）
+
+**本文**
+【吉報】パンどろぼう、12月にまた会えるらしい…
+
+今から待てないんだけど……
+
+**コメント欄（セルフリプライ用）**
+食パンがそのまま入る形のバッグで、全5種類
+全部並べるとパン屋さんの陳列みたいになる
+
+子どもへのクリスマスプレゼントにも使えるし
+プチギフトにも絶対喜ばれる
+
+**コメント欄（セルフリプライ用）**
+これだよ🌱　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
 ## 投稿33
 **テーマ**：体験入学3件はしご→種目より先に体幹（アフィリエイト・型13・画像付き）
 **カテゴリ**：B（商品紹介×実体験）
@@ -36,50 +59,6 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post
 **コメント欄（セルフリプライ用）**
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhouenshop%2Fckkt4251634fcb2022022%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
-## 投稿30
-**テーマ**：パンどろぼう 食パンバッグ全5種セット（アフィリエイト・型13）
-**カテゴリ**：B（商品紹介×実体験）
-**商品**：パンどろぼう 食パンがそのまま運べるバッグ 全5種セット（楽天）
-
-**本文**
-【吉報】パンどろぼう、12月にまた会えるらしい…
-
-今から待てないんだけど……
-
-**コメント欄（セルフリプライ用）**
-食パンがそのまま入る形のバッグで、全5種類
-全部並べるとパン屋さんの陳列みたいになる
-
-子どもへのクリスマスプレゼントにも使えるし
-プチギフトにも絶対喜ばれる
-
-**コメント欄（セルフリプライ用）**
-これだよ🌱　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
-## 投稿25
-**テーマ**：衣替えタイミング・最低気温18℃（有益情報型）
-**カテゴリ**：A（通常投稿・有益情報型）
-
-**本文**
-衣替えのタイミング、毎年なんとなくで決めてた
-
-最低気温18℃になったら、が目安らしい
-
-コメントに詳しいデータ貼っておきます
-
-**コメント欄（セルフリプライ用）**
-ウェザーニュースの衣替え前線予報
-
-地域別の目安時期も出てるから
-引っ越したばかりとか、地域が変わった人にも参考になる
-
-https://weathernews.jp/news/202609/010271/?share=1
 
 ---
 
