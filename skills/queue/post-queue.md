@@ -9,36 +9,6 @@
 
 ---
 
-## 投稿33
-**テーマ**：体験入学3件はしご→種目より先に体幹（アフィリエイト・型13・画像付き）
-**カテゴリ**：B（商品紹介×実体験）
-**商品**：フィットネスボール半球タイプ 46cm/60cm（楽天）※投稿28・32と同商品・別アングル
-
-**本文**
-体験入学3件はしごして種目まだ迷ってる
-その間にできることがあったって気づいた話、、、
-
-**画像URL**
-https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_19_balance_board.jpg
-
-**コメント欄（セルフリプライ用）**
-体操・水泳・バドミントンって全部見学したんだけど
-どれも「まず体の軸ができてると伸びが違う」って言われて
-
-あ、種目より先にやることがあったんだって
-
-始めたのがバランスボール（半球タイプ）を踏む1日5分
-乗るだけで体幹に効く感覚があって、短時間でも続けやすかった
-
-どの種目に決まっても使えるし、決まらなくてもこれだけやっておけば損しない
-46cmと60cmから選べて耐荷重100kgだから親子で一緒に使える
-
-**コメント欄（セルフリプライ用）**
-気になる人はここから↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhouenshop%2Fckkt4251634fcb2022022%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿38
 **テーマ**：「冬に向けてスリーパーだけは見ないで」
 **カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
