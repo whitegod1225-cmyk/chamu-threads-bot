@@ -9,37 +9,6 @@
 
 ---
 
-## 投稿32
-**テーマ**：習い事3ヶ月で向いてないかも→体幹の土台（アフィリエイト・型13・画像付き）
-**カテゴリ**：B（商品紹介×実体験）
-**商品**：フィットネスボール半球タイプ 46cm/60cm（楽天）※投稿28と同商品・別アングル
-
-**本文**
-子どもの習い事、3ヶ月で「向いてないかも」ってなったとき
-最初に整えておけばよかったものがあったって気づいた話、、、
-
-**画像URL**
-https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_19_balance_board.jpg
-
-**コメント欄（セルフリプライ用）**
-「センスがない」じゃなくて「体の土台が足りてなかっただけ」だったんだよね
-
-元保育士として現場で見てきたけど
-同じ練習量でも伸びる子と伸びない子の差、体幹にあることが多かった
-
-もっと早く家でやっておけばよかったのがバランスボール（半球タイプ）
-踏んで乗るだけでバランス感覚と体幹が同時に鍛えられる
-
-習い事を始める前から使っておけば、どの種目でもスタートが違ったと思う
-46cmと60cmから選べて耐荷重100kgだから親子で使い回せる
-ストレス発散にもいいし、メリットしかない✨
-
-**コメント欄（セルフリプライ用）**
-気になる人はここから↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhouenshop%2Fckkt4251634fcb2022022%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿29
 **テーマ**：ぶんぶんチョッパー・料理中の子ども危険回避（アフィリエイト・型13）
 **カテゴリ**：B（商品紹介×実体験）
