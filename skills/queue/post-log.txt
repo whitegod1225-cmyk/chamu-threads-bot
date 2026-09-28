@@ -12597,3 +12597,24 @@ https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=http
 今日も一日、お互いよく頑張った🌱
 [2026-09-27 23:24:00] リプライ1完了！ ID: 17989148927861760
 [2026-09-27 23:24:00] キュー移動完了。残りキュー: 10件
+[2026-09-28 01:58:35] ===== post.py 起動 =====
+[2026-09-28 01:58:35] キュー件数: 10件
+[2026-09-28 01:58:35] 投稿開始（試行1回目）:
+お願いします…
+冬に向けてスリーパーだけは見ないで…だって、
+[2026-09-28 01:58:44] 投稿完了！ ID: 18122881444927652
+[2026-09-28 01:58:44] セルフリプライ1/2開始:
+だって、一度使ったら布団かけ直す夜中の起き上がりが消えた
+それだけで翌朝の体がぜんぜん違うから
+
+子どもがどう転がっても脱げない
+スナップボタンで着脱が楽すぎて、おむつ替えのたびに「これに出会えてよかった」ってなってた
+
+フリース素材でふんわり暖かく、50cmから対応で新生児から使い始められる
+[2026-09-28 01:58:54] リプライ1完了！ ID: 17962191024198880
+[2026-09-28 01:58:56] セルフリプライ2/2開始:
+布団かけ直してた頃に教えてあげたかった(^^)
+これだよ🌱　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-09-28 01:59:10] リプライ2完了！ ID: 18027409316885424
+[2026-09-28 01:59:10] キュー移動完了。残りキュー: 9件
