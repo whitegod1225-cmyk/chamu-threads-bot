@@ -12650,3 +12650,25 @@ https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=http
 エコ網たわし、絶対に見ないでください…だって、
 [2026-09-29 00:31:42] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Monday, 28-Sep-26 03:39:27 PDT. The current time is Monday, 28-Sep-26 17:31:42 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"A1WC3xP38OGAIMfmanl97Wz"}}
 [2026-09-29 00:31:42] 2回失敗のためスキップ。残りキュー: 7件
+[2026-09-29 02:44:15] ===== post.py 起動 =====
+[2026-09-29 02:44:15] キュー件数: 7件
+[2026-09-29 02:44:15] 投稿開始（試行1回目）:
+包丁持ってるとき、子どもが来た瞬間のあの感覚
+
+怖くて、怒って、また自己嫌悪
+
+ぶんぶんチョッパーにしてから、それがなくなった
+電源なし、刃は中に隠れてる、子どもの隣で使える
+怒らなくていい毎日になった
+[2026-09-29 02:44:16] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Monday, 28-Sep-26 03:39:27 PDT. The current time is Monday, 28-Sep-26 19:44:16 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AiGBYDTV1GX153-2TFq-55X"}}
+[2026-09-29 02:44:16] 5秒後にリトライします...
+[2026-09-29 02:44:21] 投稿開始（試行2回目）:
+包丁持ってるとき、子どもが来た瞬間のあの感覚
+
+怖くて、怒って、また自己嫌悪
+
+ぶんぶんチョッパーにしてから、それがなくなった
+電源なし、刃は中に隠れてる、子どもの隣で使える
+怒らなくていい毎日になった
+[2026-09-29 02:44:21] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Monday, 28-Sep-26 03:39:27 PDT. The current time is Monday, 28-Sep-26 19:44:21 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"ALwx4sWQRbXSY7zgOq3KZ4R"}}
+[2026-09-29 02:44:21] 2回失敗のためスキップ。残りキュー: 6件

@@ -15982,3 +15982,36 @@ https://hb.afl.rakuten.co.jp/ichiba/57dd7ea9.0e905ae7.57dd7eaa.5c7ab488/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-09-29 02:44 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"Error validating access token: Session has expired on Monday, 28-Sep-26 03:39:27 PDT. The current time is Monday, 28-Sep-26 19:44:21 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"ALwx4sWQRbXSY7zgOq3KZ4R"}} -->
+## 投稿29
+**テーマ**：ぶんぶんチョッパー・料理中の子ども危険回避（アフィリエイト・型13）
+**カテゴリ**：B（商品紹介×実体験）
+**商品**：マルチハンディチョッパー Toffy（楽天）
+
+**本文**
+包丁持ってるとき、子どもが来た瞬間のあの感覚
+
+怖くて、怒って、また自己嫌悪
+
+ぶんぶんチョッパーにしてから、それがなくなった
+電源なし、刃は中に隠れてる、子どもの隣で使える
+怒らなくていい毎日になった
+
+**コメント欄（セルフリプライ用）**
+引っ張るだけで30秒
+まな板も包丁もいらない
+
+料理中に「ちょっと待って！」
+って言わなくていい毎日になった
+
+食洗機対応で洗い物もゼロ
+もっと早く買えばよかった
+
+保存して、次の買い物のときに見返して
+
+**コメント欄（セルフリプライ用）**
+気になったら見てみて　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/545bdece.ad57533d.545bded7.8b760153/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgekiyasukaguya%2Fket140132%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
