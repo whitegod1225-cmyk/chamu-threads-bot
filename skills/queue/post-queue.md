@@ -41,37 +41,6 @@ https://hb.afl.rakuten.co.jp/ichiba/545bdece.ad57533d.545bded7.8b760153/?pc=http
 
 ---
 
-## 投稿39
-**テーマ**：「エコ網たわし、絶対に見ないで」
-**カテゴリ**：E（節約・グッズ・生活系）
-**型**：かぴ式文章版 / 禁止フック型バリB（逆説おすすめ型）
-**フック種別**：G3懇願＋禁止 × G9未完結
-**時期**：通年
-
-**本文**
-お願いです…
-エコ網たわし、絶対に見ないでください…だって、
-
-**コメント欄（セルフリプライ用）**
-だって、一度使ったらスポンジに戻れなくなった
-においが出ない
-洗剤を出す回数が減った
-買い替えをそもそも考えなくなった
-
-**コメント欄（セルフリプライ用）**
-台所のことを頭の片隅で気にしなくてよくなったのが、一番沼だったかもしれない
-
-愛媛・伊方町から届くエコ素材の網たわし
-網の目が汚れをかき取ってくれて、水だけでも落ちることが多い
-
-**コメント欄（セルフリプライ用）**
-何年も繰り返し使えるから、スポンジの使い捨てが地味に気になってたひとにこそ試してみてほしい
-
-気になる人は、ここから見てみてください　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/57dd7ea9.0e905ae7.57dd7eaa.5c7ab488/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ff384429-ikata%2Fiktam005%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿23
 **テーマ**：給食で誤配膳しそうになった話（【〇〇な話】体験記型）
 **カテゴリ**：A（通常投稿・体験記型）
