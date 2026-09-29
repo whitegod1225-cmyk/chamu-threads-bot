@@ -16115,3 +16115,34 @@ https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-09-29 23:57 | 投稿ID: 17944417086347130 -->
+## 投稿43
+**テーマ**：「モンポケのメリー、これ一択だったよ」
+**カテゴリ**：E（節約・グッズ・生活系）
+**型**：かぴ式文章版 / 体験談型（画像で勝負）
+**フック種別**：G7後悔 × G12正解提示
+**時期**：通年
+
+**本文**
+メリー迷ってるひとに先に言っておく
+これ一択だったよ、、、
+
+**コメント欄（セルフリプライ用）**
+だって、見た瞬間に「ポケモンじゃん」ってなるから
+
+ポケモン世代が親になって
+自分の子どものそばにモンポケがいる
+それだけで気持ちが上がるんよ
+
+**コメント欄（セルフリプライ用）**
+7ステップ対応でねんね期から伝い歩きまで一台で完結
+メリーとジムを別々に買い直す必要がなくなる
+
+何年も使えるのに、ずっとポケモンと一緒にいられるのがいい
+
+**コメント欄（セルフリプライ用）**
+気になる人はここから見てみて　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/57ddf8d3.a9f7c0e6.57ddf8d4.72938729/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4903447607800%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
