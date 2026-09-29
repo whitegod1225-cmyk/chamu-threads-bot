@@ -15780,9 +15780,14 @@ metrics_fetched: true
 **コメント欄（セルフリプライ用）**
 これだよ🌱　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/57c93d71.7c823141.57c93d72.d595889e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-treasuremarket%2F111159%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-09-30取得）**
+views=226 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=4.4%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-27 10:45 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AAljaWQbzZlgQRgB_Iq4XM9"}} -->
 ## 投稿33
 **テーマ**：体験入学3件はしご→種目より先に体幹（アフィリエイト・型13・画像付き）
@@ -15853,9 +15858,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=http
 ❺「一緒に困ってほしい」と伝える
 「やってほしい」より「どうしたらいいと思う？」
 当事者として考え始めた瞬間に動き出す
+**メトリクス（2026-09-30取得）**
+views=347 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=2.3%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-27 23:24 | 投稿ID: 18121218274727976 -->
 ## 投稿42
 **テーマ**：「連休明けの保育士へ感謝・代弁」
@@ -15887,9 +15897,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=http
 「今日もよろしくお願いします」だけで十分
 
 今日も一日、お互いよく頑張った🌱
+**メトリクス（2026-09-30取得）**
+views=276 / likes=4 / replies=3 / reposts=0 / quotes=0
+resonance_score=27 / quality_score=9.8%
+hook_type=不明 / cta_type=救い締め
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-28 01:59 | 投稿ID: 18122881444927652 -->
 ## 投稿38
 **テーマ**：「冬に向けてスリーパーだけは見ないで」
@@ -15915,9 +15930,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57c02e9a.665ae67e.57c02e9b.b4195f61/?pc=http
 布団かけ直してた頃に教えてあげたかった(^^)
 これだよ🌱　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzaczac188%2Fsleepsuit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-09-30取得）**
+views=194 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=5.2%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-28 09:40 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"A-ALYJGKqoj3oTfkF8ApiXI"}} -->
 ## 投稿32
 **テーマ**：習い事3ヶ月で向いてないかも→体幹の土台（アフィリエイト・型13・画像付き）
