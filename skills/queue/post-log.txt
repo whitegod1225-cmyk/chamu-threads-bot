@@ -12742,3 +12742,5 @@ https://hb.afl.rakuten.co.jp/ichiba/53daf82c.36a8d535.53daf830.e68e09a0/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseastar%2F1210102901t%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-09-29 15:06:50] リプライ2完了！ ID: 17934938376399773
 [2026-09-29 15:06:50] キュー移動完了。残りキュー: 4件
+[2026-09-29 17:00:44] ===== post.py 起動 =====
+[2026-09-29 17:00:44] [SKIP] 深夜帯のため投稿スキップ (JST 02:00). 次のスロットまで待機します。
