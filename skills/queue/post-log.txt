@@ -12770,3 +12770,20 @@ https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/57ddf8d3.a9f7c0e6.57ddf8d4.72938729/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4903447607800%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-09-29 23:57:30] リプライ3完了！ ID: 18026320457857146
 [2026-09-29 23:57:30] キュー移動完了。残りキュー: 3件
+[2026-09-30 02:23:23] ===== post.py 起動 =====
+[2026-09-30 02:23:23] キュー件数: 3件
+[2026-09-30 02:23:23] 画像URL変換: https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_19_balance_board.jpg → https://whitegod1225-cmyk.github.io/chamu-threads-bot/images/post_19_balance_board.jpg
+[2026-09-30 02:23:23] 投稿開始（試行1回目）:
+ママ友の家に遊びに行ったら、子どもがびょんびょん跳んで遊んでて、、、
+
+何これ？って聞いたら
+バランスボードだって
+[2026-09-30 02:23:25] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"Abbj17Kv1_BNtL6ytVOGquO"}}
+[2026-09-30 02:23:25] 5秒後にリトライします...
+[2026-09-30 02:23:30] 投稿開始（試行2回目）:
+ママ友の家に遊びに行ったら、子どもがびょんびょん跳んで遊んでて、、、
+
+何これ？って聞いたら
+バランスボードだって
+[2026-09-30 02:23:30] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AV6Ml2-jJ5Lj7lUPNvUCjTY"}}
+[2026-09-30 02:23:30] 2回失敗のためスキップ。残りキュー: 2件
