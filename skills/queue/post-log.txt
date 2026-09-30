@@ -12787,3 +12787,7 @@ https://hb.afl.rakuten.co.jp/ichiba/57ddf8d3.a9f7c0e6.57ddf8d4.72938729/?pc=http
 バランスボードだって
 [2026-09-30 02:23:30] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AV6Ml2-jJ5Lj7lUPNvUCjTY"}}
 [2026-09-30 02:23:30] 2回失敗のためスキップ。残りキュー: 2件
+[2026-09-30 09:36:53] ===== post.py 起動 =====
+[2026-09-30 09:36:53] キュー件数: 2件
+[2026-09-30 09:36:53] ⚠️ HARD GATE違反: 「リンク」という単語が含まれています → 「コメントから」「URLから」等に変更してください
+[2026-09-30 09:36:53] ⚠️ HARD GATE違反あり。投稿はスキップします。キューに残します。
