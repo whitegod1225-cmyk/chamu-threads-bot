@@ -16082,9 +16082,14 @@ https://hb.afl.rakuten.co.jp/ichiba/545bdece.ad57533d.545bded7.8b760153/?pc=http
 お子さんのアレルギー情報が
 担任だけでなく全職員に共有されているか、
 入園のタイミングで確認してみてください
+**メトリクス（2026-10-01取得）**
+views=768 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=0.7%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-29 15:06 | 投稿ID: 18067832177783150 -->
 ## 投稿26
 **テーマ**：こども遺伝子検査キット BabySmile ドリームガイド（アフィリエイト・型13）
@@ -16112,9 +16117,14 @@ https://hb.afl.rakuten.co.jp/ichiba/545bdece.ad57533d.545bded7.8b760153/?pc=http
 **コメント欄（セルフリプライ用）**
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseastar%2F1210102901t%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-01取得）**
+views=134 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=7.5%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-29 23:57 | 投稿ID: 17944417086347130 -->
 ## 投稿43
 **テーマ**：「モンポケのメリー、これ一択だったよ」
@@ -16143,9 +16153,14 @@ https://hb.afl.rakuten.co.jp/ichiba/534f5616.27e6fd2d.534f561f.781318e2/?pc=http
 **コメント欄（セルフリプライ用）**
 気になる人はここから見てみて　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/57ddf8d3.a9f7c0e6.57ddf8d4.72938729/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4903447607800%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-01取得）**
+views=54 / likes=0 / replies=3 / reposts=0 / quotes=0
+resonance_score=15 / quality_score=27.8%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-09-30 02:23 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_19_balance_board.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AV6Ml2-jJ5Lj7lUPNvUCjTY"}} -->
 ## 投稿19
 **テーマ**：バランスボード（アフィリエイト・実体験型）
