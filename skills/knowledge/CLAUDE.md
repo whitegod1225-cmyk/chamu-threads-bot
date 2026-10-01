@@ -1,4 +1,4 @@
-# CLAUDE.md ── ちゃむ。自動運用システム設定
+﻿# CLAUDE.md ── ちゃむ自動運用システム設定
 
 ## ⚠️ 最重要ルール①：型A（自己紹介型）10投稿ごと挿入ルール
 
@@ -30,7 +30,7 @@ git push origin main
 必ずユーザーに `git push` を促すこと。
 
 ## このプロジェクトについて
-Threadsアカウント「ちゃむ。」の投稿を自動化するシステム。
+Threadsアカウント「ちゃむ」の投稿を自動化するシステム。
 6つのエージェントがファイルを介して連携して動く。
 
 ## スキル別読み込みファイル一覧
@@ -48,7 +48,7 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /writer（通常投稿作成）
 **必須**：共通コア ＋ 04_knowledge.md / 06_schedule.md / 09_references.md（通常参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_normal.md / next-topics.md
-**任意**：10_idea-generation.md（テーマ発想が必要な場合）/ 11_monetize-prompts.md（CTA強化が必要な場合）/ 16_series-templates.md（シリーズ化する場合）/ 18_comment-openers.md（コメント欄1行目に迷ったとき）/ 27_reference-accounts.md（フック・構造の参考技法を使いたい場合）
+**任意**：10_idea-generation.md（テーマ発想が必要な場合）/ 11_monetize-prompts.md（CTA強化が必要な場合）/ 16_series-templates.md（シリーズ化する場合）/ 18_comment-openers.md（コメント欄1行目に迷ったとき）/ 27_reference-accounts.md（フック・構造の参考技法を使いたい場合）/ **29_material-interview.md（ちゃむから場面・感情を引き出したいとき・生成前インタビューが必要な場合）**
 
 ### /affiliate-writer（アフィリエイト投稿作成）
 **必須**：共通コア ＋ 05_affiliate.md / 09_references.md（アフィリ参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_affiliate.md / affiliate-topics.md
@@ -56,8 +56,8 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /kapi-writer（かぴ式文章版 Threads投稿作成）
 **必須**：共通コア ＋ kapi-writing-rules.md / kapi-first-lines.md / kapi-post-patterns.md / next-topics.md
-**任意**：affiliate-topics.md（URL指定でアフィリエイト商品を使う場合）/ 13_cta-patterns.md（CTA選択が必要な場合）
-**特徴**：かぴ式14パターン（コメント誘導型）を使い、ちゃむ。ペルソナに変換して生成する。5案提示→ユーザーが選択→完成版生成の対話フロー。画像版（/affiliate-writer）の文章バージョン。
+**任意**：affiliate-topics.md（URL指定でアフィリエイト商品を使う場合）/ 13_cta-patterns.md（CTA選択が必要な場合）/ **29_material-interview.md（生成前にちゃむから場面・感情を引き出したいとき）**
+**特徴**：かぴ式14パターン（コメント誘導型）を使い、ちゃむペルソナに変換して生成する。5案提示→ユーザーが選択→完成版生成の対話フロー。画像版（/affiliate-writer）の文章バージョン。
 
 ### /analyst（投稿分析）
 **必須**：共通コア ＋ 04_knowledge.md / analysis-latest.md / next-topics.md / 21_resonance-analysis.md / 22_algorithm-adaptation.md
@@ -79,11 +79,11 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /note-writer（note記事作成）
 **必須**：共通コア ＋ 19_note-templates.md / 20_note-kouzou-bunseki.md / 04_knowledge.md / skills/queue/note-index.md
-**任意**：24_note-emotion-design.md / 25_note-emotion-examples.md（感情設計が必要な場合）/ 19_note-examples.md（文体・トーン参考が必要な場合）/ 08_strategy.md（note戦略確認が必要な場合）
+**任意**：24_note-emotion-design.md / 25_note-emotion-examples.md（感情設計が必要な場合）/ 19_note-examples.md（文体・トーン参考が必要な場合）/ 08_strategy.md（note戦略確認が必要な場合）/ **29_material-interview.md（素材が荒い・断片的なメモ・体験談が整理されていない場合）** / **30_note-pdca.md（公開後の改善・数字の読み方・ファネル診断が必要な場合）**
 
 ### /image-gen（画像生成プロンプト作成）
 **必須**：なし（スキルファイル単体で完結・外部ファイル不要）
-**用途**：Gemini / Midjourney / DALL-E向けの画像生成プロンプトを34カテゴリ×番号選択で生成。`/image-gen chamu` でちゃむ。専用クイックスタート。
+**用途**：Gemini / Midjourney / DALL-E向けの画像生成プロンプトを34カテゴリ×番号選択で生成。`/image-gen chamu` でちゃむ専用クイックスタート。
 
 ### /thumbnail-prompt（note記事用画像プロンプト・簡易版）
 **必須**：なし（スキルファイル単体で完結）
@@ -91,11 +91,11 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /note-article-seller（note記事生成・本格版）
 **必須**：共通コア ＋ 20_note-kouzou-bunseki.md / 04_knowledge.md / skills/queue/consultation-db.md / skills/queue/note-index.md / 19_note-templates.md
-**任意**：19_note-examples.md（文体参考が必要な場合）
+**任意**：19_note-examples.md（文体参考が必要な場合）/ **29_material-interview.md（素材が荒い・断片的なメモ・体験談が整理されていない場合）** / **30_note-pdca.md（商品設計の4問チェック・無料記事の役割設計を確認したい場合）**
 
 ### /note-seo-writer（SEO×感情設計 note記事生成）
 **必須**：共通コア ＋ 20_note-kouzou-bunseki.md / 24_note-emotion-design.md / 25_note-emotion-examples.md / 04_knowledge.md / 13_cta-patterns.md / skills/queue/consultation-db.md / skills/queue/note-index.md / skills/queue/note-keyword-map.md
-**任意**：19_note-examples.md（文体参考が必要な場合）
+**任意**：19_note-examples.md（文体参考が必要な場合）/ **29_material-interview.md（素材が荒い・断片的なメモ・体験談が整理されていない場合）** / **30_note-pdca.md（公開後の改善フロー・ファネル診断を確認したい場合）**
 **用途**：Google/note内検索から読者を集める設計。有料note1本→逆算でキーワードを設計→無料記事を量産する。`/note-article-seller`（感情設計・Threads連携）と補完関係。
 
 ### /note-affiliate-writer（無料note×楽天アフィリ記事生成）
@@ -120,7 +120,7 @@ Threadsアカウント「ちゃむ。」の投稿を自動化するシステム�
 
 ### /researcher
 YouTubeやInstagramで育児系のバズコンテンツをリサーチして、
-ちゃむ。のジャンルで使えるネタ・構成・知識をまとめてファイルに保存する。
+ちゃむのジャンルで使えるネタ・構成・知識をまとめてファイルに保存する。
 
 **発火すべき依頼例**：「バズネタを調べて」「テーマ在庫が減ってきた」「next-topicsを補充して」
 **発火してはいけない近接例**：投稿を実際に書く依頼 → `/writer`
@@ -202,7 +202,7 @@ STEP6 キューへ追記
 - 読み込むファイル：上記「/writer」の必須ファイルのみ（全ファイル読み込み禁止）
 
 ### /kapi-writer
-かぴ式14パターン（コメント誘導型）を使い、ちゃむ。の言葉でThreads投稿を生成してpost-queue.mdに追加する。
+かぴ式14パターン（コメント誘導型）を使い、ちゃむの言葉でThreads投稿を生成してpost-queue.mdに追加する。
 
 **発火すべき依頼例**
 - 「かぴ式で〇〇の投稿を作って」
@@ -226,7 +226,7 @@ STEP6 セルフチェック（kapi-writing-rules.md §8 ＋ 07_ng-rules.md）
 STEP7 post-queue.md に追記
 
 ### /affiliate-writer
-商品URLを受け取り、ちゃむ。のアフィリエイト投稿を生成してpost-queue.mdに追加する。
+商品URLを受け取り、ちゃむのアフィリエイト投稿を生成してpost-queue.mdに追加する。
 
 **発火すべき依頼例**
 - 商品URLが含まれる「投稿を作って」
@@ -307,7 +307,7 @@ post-history.mdを読んで、対応パターンの投稿についたコメン�
 
 **返答ルール**
 - 1〜2行以内。3行以上は書かない
-- ちゃむ。の文体で書く。語尾は毎回変える
+- ちゃむの文体で書く。語尾は毎回変える
 - 「ありがとうございます」は使わない→「ありがとう」「嬉しい」に変換
 - AIっぽい定型文（「参考になれば嬉しいです」等）は全面禁止
 - 番号のみのコメントには番号を引用して返す（「❸！コメントありがとう☻」等）
@@ -389,7 +389,7 @@ Resonanceスコア = likes×3 + comments×5 + reposts×2（コメント最重視
 
 ### 概要
 ブラウザで動くオールインワン生成ツール。
-ペルソナ（ちゃむ。など）とテーマを入力するだけで、
+ペルソナ（ちゃむなど）とテーマを入力するだけで、
 note記事・サムネイル・Threads投稿3本を同時生成する。
 
 ### 使い方

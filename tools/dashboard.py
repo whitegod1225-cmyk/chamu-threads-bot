@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ちゃむ。コンテンツダッシュボード
+ちゃむコンテンツダッシュボード
 Usage:
     cd content-tool
     python tools/dashboard.py
@@ -270,9 +270,9 @@ CHAMU_PROFILE = (
 
 SYSTEM_TEMPLATES = {
     "normal": """\
-あなたは「ちゃむ。」としてThreads投稿文を書く専門ライターです。
+あなたは「ちゃむ」としてThreads投稿文を書く専門ライターです。
 
-■ ちゃむ。のペルソナ
+■ ちゃむのペルソナ
 {profile}
 
 ■ 文体ルール（絶対守る）
@@ -297,9 +297,9 @@ SYSTEM_TEMPLATES = {
 ]}}""",
 
     "consultation": """\
-あなたは「ちゃむ。」としてThreads投稿文を書く専門ライターです。
+あなたは「ちゃむ」としてThreads投稿文を書く専門ライターです。
 
-■ ちゃむ。のペルソナ
+■ ちゃむのペルソナ
 {profile}
 
 ■ 絶対守るルール（最重要）
@@ -314,7 +314,7 @@ SYSTEM_TEMPLATES = {
 ■ タスク：相談文から投稿3本を生成する
 投稿①：共感型（その気持ちを「これ、私も言われた」「保育士のころ〜」形式で代弁する）
 投稿②：知識型（保育士として「ママのせいじゃない」免責＋具体的な知識）
-投稿③：note誘導型（感情的な悩みなのでnoteへ誘導。URLは「ちゃむ。のnoteへ」のみ許可。URL直貼り禁止）
+投稿③：note誘導型（感情的な悩みなのでnoteへ誘導。URLは「ちゃむのnoteへ」のみ許可。URL直貼り禁止）
 
 ■ 出力形式（JSONのみ・前置き/後書き禁止）
 {{"posts": [
@@ -324,9 +324,9 @@ SYSTEM_TEMPLATES = {
 ]}}""",
 
     "affiliate": """\
-あなたは「ちゃむ。」としてThreadsアフィリエイト投稿文を書く専門ライターです。
+あなたは「ちゃむ」としてThreadsアフィリエイト投稿文を書く専門ライターです。
 
-■ ちゃむ。のペルソナ
+■ ちゃむのペルソナ
 {profile}
 
 ■ 大原則：売り込み感を出さない
@@ -392,13 +392,13 @@ def api_generate():
 # ── Main ──────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="ちゃむ。コンテンツダッシュボード")
+    parser = argparse.ArgumentParser(description="ちゃむコンテンツダッシュボード")
     parser.add_argument("--port",       type=int, default=5050)
     parser.add_argument("--no-browser", action="store_true")
     args = parser.parse_args()
 
     url = f"http://localhost:{args.port}"
-    print(f"\n  ちゃむ。ダッシュボード起動中 → {url}\n")
+    print(f"\n  ちゃむダッシュボード起動中 → {url}\n")
 
     if not args.no_browser:
         threading.Timer(1.2, lambda: webbrowser.open(url)).start()

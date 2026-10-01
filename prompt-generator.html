@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -80,13 +80,13 @@ input:checked + .slider:before { transform: translateX(18px); }
 <div class="section">
   <h2>2. モード</h2>
   <div class="radio-group">
-    <label><input type="radio" name="mode" value="chamu" onchange="onModeChange()"> ちゃむ。クイックスタート（note/Threads専用）</label>
+    <label><input type="radio" name="mode" value="chamu" onchange="onModeChange()"> ちゃむクイックスタート（note/Threads専用）</label>
     <label><input type="radio" name="mode" value="normal" onchange="onModeChange()"> 通常（34カテゴリから選ぶ）</label>
   </div>
 </div>
 
 <div id="chamu-fields" class="section">
-  <h2>ちゃむ。設定</h2>
+  <h2>ちゃむ設定</h2>
   <label>画像の種類</label>
   <select id="chamu-type">
     <option value="1">noteサムネイル（3:1）</option>
@@ -212,7 +212,7 @@ input:checked + .slider:before { transform: translateX(18px); }
     <div class="preset-row" id="preset-row"></div>
 
     <label style="margin-top:14px">キャラクター名</label>
-    <input type="text" id="char-name" placeholder="例：ちゃむ。">
+    <input type="text" id="char-name" placeholder="例：ちゃむ">
 
     <label>キャラクターの外見説明（英語または日本語）</label>
     <textarea id="char-desc" placeholder="例：a cute onigiri (rice ball) character with small round body, simple dot eyes, tiny rosy cheeks, wearing a cheerful expression. Kawaii chibi style."></textarea>
@@ -324,7 +324,7 @@ var AR_STR = {
 // ── キャラクター設定 ──────────────────────────────────────────────────────────
 
 var CHAMU_PRESET = {
-  name: 'ちゃむ。',
+  name: 'ちゃむ',
   desc: 'a kawaii chibi onigiri (Japanese rice ball) character. Triangular white rice body with small gray rice grain texture dots scattered on the surface. Thick dark charcoal outline around the entire body. A rectangular flat black nori (seaweed) strip across the lower-center portion of the body. Two small perfectly round solid black dot eyes in the upper-center area. Two round rosy pink blush circles on the cheeks. A small simple curved smile. No arms, no legs — just the onigiri body shape. Clean flat 2D illustration style, minimal shading, bold outlines. Kawaii sticker character design.',
   role: 'side',
   cref: ''
@@ -344,10 +344,10 @@ function loadPresets() {
   var presets = getStoredPresets();
   var row = document.getElementById('preset-row');
   row.innerHTML = '';
-  // Built-in ちゃむ。preset
+  // Built-in ちゃむpreset
   var b = document.createElement('button');
   b.className = 'preset-btn';
-  b.textContent = 'ちゃむ。（プリセット）';
+  b.textContent = 'ちゃむ（プリセット）';
   b.onclick = function() { applyPreset(CHAMU_PRESET); };
   row.appendChild(b);
   // User-saved presets
@@ -580,7 +580,7 @@ function getCharImgTip(tool) {
         '3. --cw 100 を追加するとキャラの外見をより強く参照します';
     } else {
       return '<strong>Midjourney でキャラを固定するには</strong><br>' +
-        '1. ちゃむ。の画像を <a href="https://imgur.com" target="_blank">imgur.com</a> などにアップロード<br>' +
+        '1. ちゃむの画像を <a href="https://imgur.com" target="_blank">imgur.com</a> などにアップロード<br>' +
         '2. 画像URLをコピーして上の「--cref URL」欄に貼る<br>' +
         '3. 再生成すると --cref がプロンプトに含まれ、キャラが固定されます';
     }

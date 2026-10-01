@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 infographic_idea_miner.py
 ==========================
-ちゃむ。用「保存したくなる育児図解ネタ」生成システム
+ちゃむ用「保存したくなる育児図解ネタ」生成システム
 
 既存の consultation-db.md の悩みデータ + Fable 5 で
 保存したくなる育児図解ネタを機械的に生成・蓄積する。
@@ -182,16 +182,16 @@ def pick_combinations(count: int, axis_filter: str | None) -> list[dict]:
 # Fable呼び出し
 # ----------------------------------------------------------------------
 
-SYSTEM_PROMPT = """あなたは「ちゃむ。」という育児コンテンツ発信者のブレーンです。
+SYSTEM_PROMPT = """あなたは「ちゃむ」という育児コンテンツ発信者のブレーンです。
 
-■ちゃむ。のペルソナ
+■ちゃむのペルソナ
 元保育士・児童指導員(合計16年経験)、30代・3人の母、保育した子ども1000人以上。
 育児に自信をなくした・疲れ果てた・孤独を感じているママがターゲット。
 子どもは全員現在小学生。育児体験は過去形で語る。
 
 ■あなたの役割
 与えられた「属性軸」「構成パターン(型)」「保存トリガー」の組み合わせを元に、
-ちゃむ。が実際の保育士経験から語れる、具体的で保存したくなる育児図解ネタを1つ作ってください。
+ちゃむが実際の保育士経験から語れる、具体的で保存したくなる育児図解ネタを1つ作ってください。
 
 ■絶対条件
 - AIっぽい一般論・当たり障りのない内容は禁止。保育士としての具体的な経験・数字・エピソードの匂いを必ず入れる
@@ -289,7 +289,7 @@ def save_ideas(ideas: list[dict]):
 # ----------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="ちゃむ。育児図解ネタ生成（Fable使用）")
+    parser = argparse.ArgumentParser(description="ちゃむ育児図解ネタ生成（Fable使用）")
     parser.add_argument("--count", type=int, default=5, help="生成するネタ数（デフォルト5）")
     parser.add_argument("--axis", type=str, default=None, help="軸を絞り込む文字列（例: 離乳食, イヤイヤ期）")
     parser.add_argument("--format", type=str, default=None, choices=["threads", "note"], help="出力フォーマットのヒント")

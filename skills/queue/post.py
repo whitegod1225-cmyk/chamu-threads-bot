@@ -1,4 +1,4 @@
-import random
+﻿import random
 import time
 import hashlib
 
@@ -324,8 +324,8 @@ def validate_post(block, body, replies):
     """
     violations = []
     all_text = body + "\n" + "\n".join(replies)
-    # 「ちゃむ。」はアカウント名なので句読点チェックから除外する
-    text_for_kuten = all_text.replace("ちゃむ。", "")
+    # 「ちゃむ」はアカウント名なので句読点チェックから除外する
+    text_for_kuten = all_text.replace("ちゃむ", "")
 
     # 句読点「。」
     if "。" in text_for_kuten:
