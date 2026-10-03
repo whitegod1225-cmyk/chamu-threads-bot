@@ -12851,3 +12851,16 @@ https://hb.afl.rakuten.co.jp/ichiba/57ddf8d3.a9f7c0e6.57ddf8d4.72938729/?pc=http
 保育士目線と等身大のリアル、どっちも好きって人に届いたらうれしいです
 [2026-10-03 01:10:01] 投稿完了！ ID: 18098462996379107
 [2026-10-03 01:10:01] キュー移動完了。残りキュー: 16件
+[2026-10-03 08:09:40] ===== post.py 起動 =====
+[2026-10-03 08:09:40] キュー件数: 16件
+[2026-10-03 08:09:40] 画像URL変換: https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_36_nike_airmax.jpg → https://whitegod1225-cmyk.github.io/chamu-threads-bot/images/post_36_nike_airmax.jpg
+[2026-10-03 08:09:40] 投稿開始（試行1回目）:
+支援センターで毎週会うママが、いっつも歩くのが速くて余裕そうで
+なんか違うなって思ったら足元だった、、、
+[2026-10-03 08:09:41] 投稿APIエラー（試行1回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_36_nike_airmax.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AblcaPQELtirmCo-LbUcDBi"}}
+[2026-10-03 08:09:41] 5秒後にリトライします...
+[2026-10-03 08:09:46] 投稿開始（試行2回目）:
+支援センターで毎週会うママが、いっつも歩くのが速くて余裕そうで
+なんか違うなって思ったら足元だった、、、
+[2026-10-03 08:09:47] 投稿APIエラー（試行2回目）: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_36_nike_airmax.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AftgcIq0IAVvHllTpfTjq37"}}
+[2026-10-03 08:09:47] 2回失敗のためスキップ。残りキュー: 15件

@@ -16221,3 +16221,34 @@ https://hb.afl.rakuten.co.jp/ichiba/57cfef36.ac353130.57cfef37.7da117b8/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-03 08:09 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_36_nike_airmax.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AftgcIq0IAVvHllTpfTjq37"}} -->
+## 投稿44
+**テーマ**：「支援センターのあのママの余裕、足元だった」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：スニーカー（Nike Air Max Phenomena）
+**時期**：通年
+**文章の型**：新PASONA法（B あるある場面アングル）
+
+**本文**
+支援センターで毎週会うママが、いっつも歩くのが速くて余裕そうで
+なんか違うなって思ったら足元だった、、、
+
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_36_nike_airmax.jpg
+
+**コメント欄（セルフリプライ用）**
+スリッポンなのにエア入りで、見た目もきれいで
+
+ローファー風だから普段着にも馴染むし
+子どもを抱えたまま玄関で片手でスッと履ける
+
+Nike Air Max Phenomenaっていうんだけど
+撥水もついてて、雨の日のお迎えも気にしなくなった
+
+あのママの余裕、靴のせいだったかもしれない🌱
+
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fabctown%2Fcompass1760925533%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
