@@ -144,7 +144,8 @@ https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=http
 
 1個60回分あるから衣替え以外も使い回せる
 
-⇛ 商品リンク（㏚　Rakuten）
+気になる人はここから↓
+㏚　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/57cb71e2.bf372a19.57cb71e3.18beec8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuguruyahonpo%2F4901080697615-2-101%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
