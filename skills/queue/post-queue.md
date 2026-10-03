@@ -1,11 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する
-ポスターは一番上の投稿を取り出してThreadsに投稿する
-投稿済みのものはここから削除してpost-history.mdに移す
+ライターが作成した投稿をここに追加する。
+ポスターは一番上の投稿を取り出してThreadsに投稿する。
+投稿済みのものはここから削除してpost-history.mdに移す。
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
-> pushしないと新しい投稿は一切自動投稿されない
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
+> pushしないと新しい投稿は一切自動投稿されない。
 
 ---
 
@@ -36,21 +36,6 @@ Nike Air Max Phenomenaっていうんだけど
 
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fabctown%2Fcompass1760925533%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
-## 投稿48
-**テーマ**：「涼しくなってきた途端に『あ、運動会だ』ってなってるの、うちだけじゃないよね」
-**カテゴリ**：A（フォロー転換）／型A：自己紹介型
-**時期**：秋（10月前後）
-
-**本文**
-涼しくなってきた途端に「あ、運動会だ」ってなってるの、うちだけじゃないよね
-
-元保育士16年、今は3人の子を育てながら児童支援員してます
-保育士時代の声かけとか、小学生になってからの実体験とか毎日置いてます
-
-保育士目線と等身大のリアル、どっちも好きって人に届いたらうれしいです
 
 ---
 
@@ -569,11 +554,3 @@ https://hb.afl.rakuten.co.jp/ichiba/58213efc.7d736888.58213efd.b2169148/?pc=http
 気になる人はここから↓
 ㏚　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/58214fbb.36aa2aab.58214fbc.537ef13a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-seiketu%2F119f-p%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
-## 📊 型Aカウンター
-- キュー内投稿数：17本（投稿44・48・45・49・24・57・46・60・50・47・53・51・54・52・58・56・59）
-- キュー内の型A本数：2本（投稿48・2番目、投稿54・13番目）
-- 判定：**✅ 正常**　投稿54(型A)から4本目次は6本後に型Aが必要
-- 最終更新：2026-10-03
