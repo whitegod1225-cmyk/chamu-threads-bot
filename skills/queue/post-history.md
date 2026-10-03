@@ -16218,9 +16218,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57cfef36.ac353130.57cfef37.7da117b8/?pc=http
 保育士時代の声かけとか、小学生になってからの実体験とか毎日置いてます
 
 保育士目線と等身大のリアル、どっちも好きって人に届いたらうれしいです
+**メトリクス（2026-10-04取得）**
+views=134 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=型A：自己紹介型 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-03 08:09 | エラー: HTTP Error 400: Bad Request | response: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/whitegod1225-cmyk.github.io\/chamu-threads-bot\/images\/post_36_nike_airmax.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AftgcIq0IAVvHllTpfTjq37"}} -->
 ## 投稿44
 **テーマ**：「支援センターのあのママの余裕、足元だった」
