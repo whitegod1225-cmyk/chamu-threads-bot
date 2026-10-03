@@ -1,11 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する。
-ポスターは一番上の投稿を取り出してThreadsに投稿する。
-投稿済みのものはここから削除してpost-history.mdに移す。
+ライターが作成した投稿をここに追加する
+ポスターは一番上の投稿を取り出してThreadsに投稿する
+投稿済みのものはここから削除してpost-history.mdに移す
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
-> pushしないと新しい投稿は一切自動投稿されない。
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
+> pushしないと新しい投稿は一切自動投稿されない
 
 ---
 
@@ -489,3 +489,39 @@ https://hb.afl.rakuten.co.jp/ichiba/58213efc.7d736888.58213efd.b2169148/?pc=http
 気になる人はここから↓
 ㏚　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/58214fbb.36aa2aab.58214fbc.537ef13a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-seiketu%2F119f-p%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+## 投稿61
+**テーマ**：「元保育士16年が、3人育てて初めて公言できること」
+**カテゴリ**：B（知識×共感系）／③告白・報告型
+**型**：③告白・報告型
+**フック種別**：数字先出し×告白型
+**時期**：通年
+
+**本文**
+元保育士16年が、3人育てて初めて公言できること
+
+・離乳食は市販で十分
+・保育園着はユニクロか西松屋しか買わなかった
+・おしり拭きで顔を拭くの、大正解
+・「ちゃんとして」は子どもに届かない
+・泣きやませなくていい夜がある
+・イヤイヤ期は止められない、乗り越えるもの
+・家が散らかってても、誰も死なない
+
+保育士として絶対言えなかったことが
+こんなにたくさんあったよ、、、
+
+**コメント欄（セルフリプライ用）**
+プロでも自分の子にはうまくいかないことが
+いっぱいあった
+
+それでも一番大事なのは知識じゃなかった
+笑顔でいることだって、3人育てて確信したよ
+
+うまくできない日があっていい
+手を抜いていい
+今日のわたしで十分だよ
+
+育児の罪悪感が軽くなる話、毎日してます
