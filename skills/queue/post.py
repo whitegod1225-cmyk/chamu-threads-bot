@@ -479,9 +479,10 @@ def main():
 
         # ── 【リンク】プレースホルダーチェック ──
         if has_placeholder(body) or any(has_placeholder(r) for r in replies):
-            log("【リンク】プレースホルダーが残っています。手動でURLを入力後、再実行してください。")
+            log("【リンク】プレースホルダーが残っています。この投稿を末尾に移動します（URLを入力後、先頭に戻してください）。")
             log(f"対象ブロック: {block[:80]}...")
-            # キューには残したまま終了（手動対応待ち）
+            # 末尾に移動して他の投稿がブロックされないようにする
+            save_queue(posts[1:] + [posts[0]])
             sys.exit(0)
 
         # ── HARD GATESチェック ──
@@ -489,7 +490,9 @@ def main():
         if gate_violations:
             for v in gate_violations:
                 log(f"⚠️ {v}")
-            log("⚠️ HARD GATE違反あり。投稿はスキップします。キューに残します。")
+            log("⚠️ HARD GATE違反あり。この投稿を末尾に移動し、次の投稿を次回スロットで試みます。手動で修正してください。")
+            # 先頭投稿を末尾に移動（後続投稿がブロックされないよう）
+            save_queue(posts[1:] + [posts[0]])
             sys.exit(0)
 
         # ── 重複投稿チェック ──
