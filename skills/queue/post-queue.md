@@ -9,41 +9,6 @@
 
 ---
 
-## 投稿24
-**テーマ**：衣替えの前処理・防虫剤（アフィリエイト・型13リライト版）
-**カテゴリ**：B（商品紹介×実体験）
-**時期**：秋（衣替えシーズン）
-
-**本文**
-衣替えって「しまう前にやること」をやってないと、来年後悔する
-
-**コメント欄（セルフリプライ用）**
-黄ばみの原因はほとんどが皮脂汚れ
-
-洗ったつもりでも落としきれてないことが多くて、
-クローゼットの中で酸化して黄ばむ
-
-防ぐには脇の下やエリ周りを
-部分洗い剤か液体酸素系漂白剤で前処理してから洗う
-
-あとひとつ見落とされがちなのが防虫剤
-何種類も混ぜると衣類のシミの原因になるから、
-1種類だけに決めること
-
-**コメント欄（セルフリプライ用）**
-今年から使ってる防虫剤がこれ
-
-ボタンを押すだけで衣装ケースの隅々まで届くタイプで、
-ツンとしないソープの香りが地味にありがたい
-
-1個60回分あるから衣替え以外も使い回せる
-
-気になる人はここから↓
-㏚　Rakuten
-https://hb.afl.rakuten.co.jp/ichiba/57cb71e2.bf372a19.57cb71e3.18beec8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuguruyahonpo%2F4901080697615-2-101%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿57
 **テーマ**：「ママに怒られるよ」
 **カテゴリ**：A（通常投稿）／④カオスあるある型
