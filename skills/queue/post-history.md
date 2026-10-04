@@ -16291,9 +16291,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=http
 難しい話じゃなくて、本当にそれだけだったよ
 
 保育士16年の声かけ、毎日ひとつずつ置いてくね
+**メトリクス（2026-10-05取得）**
+views=105 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=4.8%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-03 14:26 | 投稿ID: 18367211611244104 -->
 ## 投稿49
 **テーマ**：「夜泣き3日目の23時、おもちゃ踏んで覚醒させたとき、笑えてきた」
@@ -16332,9 +16337,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=http
 何もできなかった夜も、ちゃんと横にいたから
 
 今夜しんどい人、もう十分だよ
+**メトリクス（2026-10-05取得）**
+views=153 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=3.3%
+hook_type=不明 / cta_type=救い締め
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-04 00:35 | 投稿ID: 18072845243726013 -->
 ## 投稿24
 **テーマ**：衣替えの前処理・防虫剤（アフィリエイト・型13リライト版）
@@ -16368,9 +16378,14 @@ https://hb.afl.rakuten.co.jp/ichiba/57de242c.f4985826.57de242d.8219f0d5/?pc=http
 気になる人はここから↓
 ㏚　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/57cb71e2.bf372a19.57cb71e3.18beec8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuguruyahonpo%2F4901080697615-2-101%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-05取得）**
+views=112 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=8.9%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-04 08:28 | 投稿ID: 18136475653654382 -->
 ## 投稿57
 **テーマ**：「ママに怒られるよ」
