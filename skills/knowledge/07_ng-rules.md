@@ -87,11 +87,11 @@
 
 ```
 ✅ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/ファイル名
-✅ https://whitegod1225-cmyk.github.io/chamu-threads-bot/images/ファイル名
-❌ https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/images/ファイル名
+❌ https://whitegod1225-cmyk.github.io/chamu-threads-bot/images/ファイル名  ← Threads APIが2207052でブロック
+❌ https://raw.githubusercontent.com/whitegod1225-cmyk/chamu-threads-bot/main/images/ファイル名  ← 同上
 ```
 
-post.pyが実行時にjsDelivr→GitHub Pagesへ自動変換するため、どちらで書いてもAPIには届く。
+post.pyが実行時にGitHub Pages / raw形式 → jsDelivr形式へ自動変換する。**投稿を書くときは必ずjsDelivr形式を使うこと。**
 
 ---
 

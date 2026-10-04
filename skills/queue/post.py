@@ -243,18 +243,25 @@ def release_lock():
         LOCK_FILE.unlink()
 
 
-JSDELIVR_PATTERN = re.compile(
-    r"https://cdn\.jsdelivr\.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/(.+)"
+JSDELIVR_BASE = "https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main"
+
+# GitHub PagesとrawはThreads APIが2207052でブロックするため、jsDelivrに統一する
+_GITHUB_PAGES_PATTERN = re.compile(
+    r"https://whitegod1225-cmyk\.github\.io/chamu-threads-bot/(.+)"
 )
-GITHUB_PAGES_BASE = "https://whitegod1225-cmyk.github.io/chamu-threads-bot"
+_RAW_GITHUB_PATTERN = re.compile(
+    r"https://raw\.githubusercontent\.com/whitegod1225-cmyk/chamu-threads-bot/main/(.+)"
+)
 
 def normalize_image_url(url):
-    """jsDelivr形式のURLをGitHub Pages形式に自動変換する"""
-    m = JSDELIVR_PATTERN.match(url)
-    if m:
-        converted = f"{GITHUB_PAGES_BASE}/{m.group(1)}"
-        log(f"画像URL変換: {url} → {converted}")
-        return converted
+    """GitHub Pages / raw.githubusercontent.com → jsDelivr形式に統一する。
+    jsDelivr形式はそのまま通す（Threads APIが正常に取得できる唯一の形式）。"""
+    for pat in (_GITHUB_PAGES_PATTERN, _RAW_GITHUB_PATTERN):
+        m = pat.match(url)
+        if m:
+            converted = f"{JSDELIVR_BASE}/{m.group(1)}"
+            log(f"画像URL変換: {url} → {converted}")
+            return converted
     return url
 
 
