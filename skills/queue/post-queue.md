@@ -1,46 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する
-ポスターは一番上の投稿を取り出してThreadsに投稿する
-投稿済みのものはここから削除してpost-history.mdに移す
+ライターが作成した投稿をここに追加する。
+ポスターは一番上の投稿を取り出してThreadsに投稿する。
+投稿済みのものはここから削除してpost-history.mdに移す。
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
-> pushしないと新しい投稿は一切自動投稿されない
-
----
-
-## 投稿57
-**テーマ**：「ママに怒られるよ」
-**カテゴリ**：A（通常投稿）／④カオスあるある型
-**型**：④カオスあるある型
-**フック種別**：場面描写×感情直球
-**時期**：通年
-
-**本文**
-「ママに怒られるよ」
-
-これ聞くたびに、ちょっとだけ傷ついてたよ
-
-「ねえ座って　ママに怒られるよ」
-「早く片付けて　ママが怒る」
-「そんなことしたらママに言うよ」
-
-怒る役は全部わたし
-パパはずっといい人のまま
-
-子どもの中に「怖いママ」だけが積み上がっていく
-それがつらかった、ただそれだけで、、、
-
-**コメント欄（セルフリプライ用）**
-「ママに怒られるよ」って言う人を責めてるわけじゃないよ
-かばいたくて出てる言葉だってわかるから
-
-でも子どもは「何がダメか」より「誰が怒るか」で覚えるんよね
-
-「危ないからやめよう」「今はそこじゃないよ」
-名前を使わないだけで、全然違うよ
-
-わかる人、コメントで教えて
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
+> pushしないと新しい投稿は一切自動投稿されない。
 
 ---
 
@@ -557,5 +522,3 @@ BIRTHDAY BAR（バースデイバー）のドギーモチーフルームシュ�
 **コメント欄2（セルフリプライ用）**
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstylife%2Fsv7525%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----

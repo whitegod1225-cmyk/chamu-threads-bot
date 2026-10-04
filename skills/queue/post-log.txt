@@ -12961,3 +12961,32 @@ https://hb.afl.rakuten.co.jp/ichiba/57ddf8d3.a9f7c0e6.57ddf8d4.72938729/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/57cb71e2.bf372a19.57cb71e3.18beec8f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuguruyahonpo%2F4901080697615-2-101%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-04 00:35:35] リプライ2完了！ ID: 18129517363699012
 [2026-10-04 00:35:35] キュー移動完了。残りキュー: 13件
+[2026-10-04 08:28:37] ===== post.py 起動 =====
+[2026-10-04 08:28:37] キュー件数: 16件
+[2026-10-04 08:28:37] 投稿開始（試行1回目）:
+「ママに怒られるよ」
+
+これ聞くたびに、ちょっとだけ傷ついてたよ
+
+「ねえ座って　ママに怒られるよ」
+「早く片付けて　ママが怒る」
+「そんなことしたらママに言うよ」
+
+怒る役は全部わたし
+パパはずっといい人のまま
+
+子どもの中に「怖いママ」だけが積み上がっていく
+それがつらかった、ただそれだけで、、、
+[2026-10-04 08:28:48] 投稿完了！ ID: 18136475653654382
+[2026-10-04 08:28:48] セルフリプライ1/1開始:
+「ママに怒られるよ」って言う人を責めてるわけじゃないよ
+かばいたくて出てる言葉だってわかるから
+
+でも子どもは「何がダメか」より「誰が怒るか」で覚えるんよね
+
+「危ないからやめよう」「今はそこじゃないよ」
+名前を使わないだけで、全然違うよ
+
+わかる人、コメントで教えて
+[2026-10-04 08:28:59] リプライ1完了！ ID: 17910131397481693
+[2026-10-04 08:28:59] キュー移動完了。残りキュー: 15件
