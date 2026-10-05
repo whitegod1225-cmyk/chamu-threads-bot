@@ -16419,9 +16419,14 @@ metrics_fetched: true
 名前を使わないだけで、全然違うよ
 
 わかる人、コメントで教えて
+**メトリクス（2026-10-06取得）**
+views=19 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=26.3%
+hook_type=不明 / cta_type=コメント誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-04 11:17 | 投稿ID: 18132894385735432 -->
 ## 投稿46
 **テーマ**：「保育士16年間、新人研修で必ず禁止リストに上がってた言葉がある」
@@ -16457,9 +16462,14 @@ metrics_fetched: true
 知ってたのに家では全然できてなかったな、って今でも思う
 
 保育士16年の失敗と学び、また書くね
+**メトリクス（2026-10-06取得）**
+views=411 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=1.2%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-04 14:59 | 投稿ID: 18097794347093096 -->
 ## 投稿60
 **テーマ**：「子どもの服から変な臭いがして、何度洗っても取れなくて、原因が洗濯機の中だって気づくまで半年かかったよ」
@@ -16494,9 +16504,14 @@ metrics_fetched: true
 気になる人はここから↓
 ㏚　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/58216273.b4fdf635.58216274.47860006/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaikanyama-st%2F06007034%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-06取得）**
+views=255 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=3.9%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-04 23:35 | 投稿ID: 17953112844256997 -->
 ## 投稿50
 **テーマ**：「ワンオペを消耗させるもの / 楽にするもの」
@@ -16534,9 +16549,14 @@ https://hb.afl.rakuten.co.jp/ichiba/58216273.b4fdf635.58216274.47860006/?pc=http
 楽になれるのは「今日のわたしで十分」という一言からだった
 
 どれが一番あてはまった？コメントで教えて🙌
+**メトリクス（2026-10-06取得）**
+views=50 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=10.0%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-05 02:24 | 投稿ID: 18030292466685660 -->
 ## 投稿47
 **テーマ**：「朝から『ちゃんとして』を何回言うか数えたら、5分で3回だった」
@@ -16572,9 +16592,14 @@ https://hb.afl.rakuten.co.jp/ichiba/58216273.b4fdf635.58216274.47860006/?pc=http
 ほんとにそれだけで変わってきたよ
 
 みんなは「ちゃんとして」って1日何回言ってる？
+**メトリクス（2026-10-06取得）**
+views=30 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=16.7%
+hook_type=不明 / cta_type=その他 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-05 10:19 | 投稿ID: 18138939589628633 -->
 ## 投稿53
 **テーマ**：「外れないミトンで朝の傷がなくなった」
