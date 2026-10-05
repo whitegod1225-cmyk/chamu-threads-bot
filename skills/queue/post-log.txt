@@ -13139,3 +13139,5 @@ https://hb.afl.rakuten.co.jp/ichiba/58216273.b4fdf635.58216274.47860006/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhigh-high%2Fmitten02%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-05 10:19:43] リプライ1APIエラー（本文投稿は成功済み）: HTTP Error 500: Internal Server Error | response: {"error":{"message":"Param text must be at most 500 characters long.","type":"THApiException","code":100,"fbtrace_id":"AemElouPOQ53Lxi04-YysN7"}}
 [2026-10-05 10:19:43] キュー移動完了。残りキュー: 10件
+[2026-10-05 17:25:20] ===== post.py 起動 =====
+[2026-10-05 17:25:20] [SKIP] 深夜帯のため投稿スキップ (JST 02:25). 次のスロットまで待機します。
