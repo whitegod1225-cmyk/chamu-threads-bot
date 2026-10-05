@@ -13117,3 +13117,25 @@ https://hb.afl.rakuten.co.jp/ichiba/58216273.b4fdf635.58216274.47860006/?pc=http
 みんなは「ちゃんとして」って1日何回言ってる？
 [2026-10-05 02:24:27] リプライ1完了！ ID: 17935514808391488
 [2026-10-05 02:24:27] キュー移動完了。残りキュー: 11件
+[2026-10-05 10:19:35] ===== post.py 起動 =====
+[2026-10-05 10:19:35] キュー件数: 11件
+[2026-10-05 10:19:35] 投稿開始（試行1回目）:
+0歳のうちの子、1日で頬に5本の引っかき傷を作った日があった
+ミトンをつけてたのに全部外れてた、その頃の話で、、、
+[2026-10-05 10:19:43] 投稿完了！ ID: 18138939589628633
+[2026-10-05 10:19:43] セルフリプライ1/1開始:
+ミトンって外れる原因、ほとんどが手首のゆるさなんよね
+
+きつく縛ると跡が残りそうで怖いし
+ゆるいとすぐ取れる
+そのどっちでもないやつをずっと探してた
+
+調節できるリボン付きで手首にやさしくフィットするミトン
+素材も柔らかくて新生児の肌にも使えるよ
+
+朝起きたら傷がなかった、その日が嬉しかった
+
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhigh-high%2Fmitten02%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-05 10:19:43] リプライ1APIエラー（本文投稿は成功済み）: HTTP Error 500: Internal Server Error | response: {"error":{"message":"Param text must be at most 500 characters long.","type":"THApiException","code":100,"fbtrace_id":"AemElouPOQ53Lxi04-YysN7"}}
+[2026-10-05 10:19:43] キュー移動完了。残りキュー: 10件
