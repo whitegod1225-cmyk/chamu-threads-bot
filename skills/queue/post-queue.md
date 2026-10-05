@@ -1,11 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する。
-ポスターは一番上の投稿を取り出してThreadsに投稿する。
-投稿済みのものはここから削除してpost-history.mdに移す。
+ライターが作成した投稿をここに追加する
+ポスターは一番上の投稿を取り出してThreadsに投稿する
+投稿済みのものはここから削除してpost-history.mdに移す
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
-> pushしないと新しい投稿は一切自動投稿されない。
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
+> pushしないと新しい投稿は一切自動投稿されない
 
 ---
 
@@ -110,7 +110,7 @@
 
 ウイルスって帰宅の最初の10秒で広がるって話、コメントに
 
-**コメント欄（セルフリプライ用）**
+**コメント欄1（セルフリプライ用）**
 保育園のころ、うちの子もこれをずっとやってた
 インフルエンザって、手から目・鼻・口に触れる経路が意外と多くて
 
@@ -122,8 +122,8 @@
 
 謎ルートを歩く前に終わらせてる、それだけで全然ちがうよ
 
-気になる人はここから↓
-㏚　Rakuten
+**コメント欄2（セルフリプライ用）**
+気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/58213efc.7d736888.58213efd.b2169148/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenko-joy%2F4987286415215%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
