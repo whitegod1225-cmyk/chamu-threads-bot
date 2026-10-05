@@ -364,6 +364,14 @@ def validate_post(block, body, replies):
         if not any("（PR）" in r or "Rakuten PR" in r for r in replies):
             violations.append("HARD GATE違反: アフィリエイト投稿のコメント欄に「Rakuten PR」がありません")
 
+    # コメント欄500文字チェック（Threads API の上限）
+    for i, reply in enumerate(replies, 1):
+        if len(reply) > 500:
+            violations.append(
+                f"HARD GATE違反: コメント欄{i}が{len(reply)}文字（上限500文字）→ "
+                "URLを別コメント欄に分割してください"
+            )
+
     return violations
 
 
