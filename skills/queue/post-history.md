@@ -16626,9 +16626,14 @@ metrics_fetched: true
 
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhigh-high%2Fmitten02%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-07取得）**
+views=86 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=5.8%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-05 21:14 | 投稿ID: 18138047497616349 -->
 ## 投稿51
 **テーマ**：「おしり拭きで顔拭きは正解だった」
@@ -16662,9 +16667,14 @@ https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=http
 毎日見てるから知ってた、ただそれだけの話
 
 育児の罪悪感が軽くなる話、毎日してます
+**メトリクス（2026-10-07取得）**
+views=275 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=1.8%
+hook_type=不明 / cta_type=フォロー誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-06 01:26 | 投稿ID: 18033526796893924 -->
 ## 投稿54
 **テーマ**：「子どもってなんで言うこと聞かないんだろう」
@@ -16680,9 +16690,14 @@ https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=http
 元保育士・3児の母、30代のちゃむです
 プロの知識と等身大の失敗を正直に書いてます
 気が向いたらフォローしてください
+**メトリクス（2026-10-07取得）**
+views=455 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=型A：自己紹介型 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-06 03:20 | 投稿ID: 18117836050972169 -->
 ## 投稿52
 **テーマ**：「まだ誰にも言われてない育児アドバイス」
@@ -16715,9 +16730,14 @@ https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=http
 自分の子をいちばん見てるのは自分だって、忘れないでほしいよ
 
 みんなの「一番刺さったアドバイス」コメントで教えて
+**メトリクス（2026-10-07取得）**
+views=134 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=3.7%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-06 10:11 | 投稿ID: 17912934639469278 -->
 ## 投稿58
 **テーマ**：「保育園から帰った子に『手洗って！』って言うたびに謎ルートが爆誕する」
