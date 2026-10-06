@@ -1,43 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する
-ポスターは一番上の投稿を取り出してThreadsに投稿する
-投稿済みのものはここから削除してpost-history.mdに移す
+ライターが作成した投稿をここに追加する。
+ポスターは一番上の投稿を取り出してThreadsに投稿する。
+投稿済みのものはここから削除してpost-history.mdに移す。
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
-> pushしないと新しい投稿は一切自動投稿されない
-
----
-
-## 投稿69
-**テーマ**：「七五三、息子のスーツを完全に忘れてた」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：キッズフォーマルスーツ（leafdeer）
-**時期**：七五三シーズン（9〜11月）
-**文章の型**：かぴ式
-
-**本文**
-七五三、娘の着物の準備ばかりしてて
-息子のスーツを完全に忘れてた
-
-当日1週間前に気づいて焦ったやつ
-
-**コメント欄1（セルフリプライ用）**
-急いでネットで探したら
-サイズも揃ってて翌日届くスーツセットがあった
-
-ベスト・パンツ・ネクタイ・ポケットチーフの4点セット
-シャツと蝶ネクタイがついた6点セットもある
-
-80cmから170cmまであるから
-兄弟で揃えたいときにも使いやすい
-
-写真館でも「しっかりしたスーツですね」って言ってもらえたから
-ギリギリでも全然間に合った
-
-**コメント欄2（セルフリプライ用）**
-息子のスーツはここで見つけた↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fleafdeer%2Ff2539%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
+> pushしないと新しい投稿は一切自動投稿されない。
 
 ---
 

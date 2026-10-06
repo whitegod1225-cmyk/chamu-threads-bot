@@ -13238,3 +13238,29 @@ https://hb.afl.rakuten.co.jp/ichiba/536459bf.20ae0720.536459c0.21b44182/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/58213efc.7d736888.58213efd.b2169148/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenko-joy%2F4987286415215%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-06 10:11:59] リプライ2完了！ ID: 18115527668003585
 [2026-10-06 10:11:59] キュー移動完了。残りキュー: 6件
+[2026-10-06 15:28:07] ===== post.py 起動 =====
+[2026-10-06 15:28:07] キュー件数: 13件
+[2026-10-06 15:28:07] 投稿開始（試行1回目）:
+七五三、娘の着物の準備ばかりしてて
+息子のスーツを完全に忘れてた
+
+当日1週間前に気づいて焦ったやつ
+[2026-10-06 15:28:16] 投稿完了！ ID: 18130040158702776
+[2026-10-06 15:28:16] セルフリプライ1/2開始:
+急いでネットで探したら
+サイズも揃ってて翌日届くスーツセットがあった
+
+ベスト・パンツ・ネクタイ・ポケットチーフの4点セット
+シャツと蝶ネクタイがついた6点セットもある
+
+80cmから170cmまであるから
+兄弟で揃えたいときにも使いやすい
+
+写真館でも「しっかりしたスーツですね」って言ってもらえたから
+ギリギリでも全然間に合った
+[2026-10-06 15:28:29] リプライ1完了！ ID: 18111558076886896
+[2026-10-06 15:28:31] セルフリプライ2/2開始:
+息子のスーツはここで見つけた↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fleafdeer%2Ff2539%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-06 15:28:47] リプライ2完了！ ID: 18094411163151122
+[2026-10-06 15:28:47] キュー移動完了。残りキュー: 12件
