@@ -226,3 +226,36 @@ BIRTHDAY BAR（バースデイバー）のドギーモチーフルームシュ�
 **コメント欄2（セルフリプライ用）**
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstylife%2Fsv7525%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+## 投稿65
+**テーマ**：「謝ってもらえますか」
+**カテゴリ**：A（あるある×共感系）／④カオスあるある型
+**型**：④カオスあるある型
+**フック種別**：場面描写×理不尽逆転
+**時期**：通年
+
+**本文**
+公園で、隣の子がうちの子の顔に砂をかけた
+「お顔に当たると痛いよ」って声をかけたら
+その子がぽろっと泣き出した
+
+びっくりして固まってたら
+そのお母さんが近づいてきて
+
+「謝ってもらえますか」って、、、
+
+**コメント欄（セルフリプライ用）**
+保育士16年、砂場で子どもに声をかけることは毎日やってた
+
+「お顔は当たると痛いよ」って
+それ以上でもそれ以下でもない、普通の声かけのはずで
+
+でも帰り道ずっと
+「わたし何か悪いことした？」って考えてた
+
+子どもに声をかけることが
+こんなに難しくなったんかな、って
+
+経験した人いたら教えて
