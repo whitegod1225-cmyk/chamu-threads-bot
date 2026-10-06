@@ -9,6 +9,70 @@
 
 ---
 
+## 投稿69
+**テーマ**：「七五三、息子のスーツを完全に忘れてた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：キッズフォーマルスーツ（leafdeer）
+**時期**：七五三シーズン（9〜11月）
+**文章の型**：かぴ式
+
+**本文**
+七五三、娘の着物の準備ばかりしてて
+息子のスーツを完全に忘れてた
+
+当日1週間前に気づいて焦ったやつ
+
+**コメント欄1（セルフリプライ用）**
+急いでネットで探したら
+サイズも揃ってて翌日届くスーツセットがあった
+
+ベスト・パンツ・ネクタイ・ポケットチーフの4点セット
+シャツと蝶ネクタイがついた6点セットもある
+
+80cmから170cmまであるから
+兄弟で揃えたいときにも使いやすい
+
+写真館でも「しっかりしたスーツですね」って言ってもらえたから
+ギリギリでも全然間に合った
+
+**コメント欄2（セルフリプライ用）**
+息子のスーツはここで見つけた↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fleafdeer%2Ff2539%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+## 投稿71
+**テーマ**：「21年間売れ続けてる授乳グッズを3人育てて初めて知った」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：ママ代行ミルク屋さん（ハンズフリー授乳クッション）
+**時期**：通年
+**文章の型**：かぴ式
+
+**本文**
+21年間売れ続けてる授乳グッズを
+3人育てて初めて知った
+
+、、、なんで
+
+**コメント欄1（セルフリプライ用）**
+赤ちゃんの横に置くだけで
+自分でミルクが飲める授乳クッション
+
+楽天ランキング1位も取ってて
+21年間ずっとそこにあったのに
+3人全員、毎晩腕パンパンにしながら飲ませてた
+
+保育士16年やってても知らなかった
+育児のプロでもこんなもん、、、
+
+これから授乳期のお母さんには絶対教えたい
+
+**コメント欄2（セルフリプライ用）**
+21年売れ続けてる理由、使ってみて↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
 ## 投稿56
 **テーマ**：「夫が子どもをかばうたびに、なんか損した気分になってた理由がやっとわかった」
 **カテゴリ**：B（知識×感情共感系）／②概念再定義型
@@ -362,38 +426,6 @@ https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=http
 
 ---
 
-## 投稿69
-**テーマ**：「七五三、息子のスーツを完全に忘れてた」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：キッズフォーマルスーツ（leafdeer）
-**時期**：七五三シーズン（9〜11月）
-**文章の型**：かぴ式
-
-**本文**
-七五三、娘の着物の準備ばかりしてて
-息子のスーツを完全に忘れてた
-
-当日1週間前に気づいて焦ったやつ
-
-**コメント欄1（セルフリプライ用）**
-急いでネットで探したら
-サイズも揃ってて翌日届くスーツセットがあった
-
-ベスト・パンツ・ネクタイ・ポケットチーフの4点セット
-シャツと蝶ネクタイがついた6点セットもある
-
-80cmから170cmまであるから
-兄弟で揃えたいときにも使いやすい
-
-写真館でも「しっかりしたスーツですね」って言ってもらえたから
-ギリギリでも全然間に合った
-
-**コメント欄2（セルフリプライ用）**
-息子のスーツはここで見つけた↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fleafdeer%2Ff2539%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿70
 **テーマ**：「産後のわたしに、もっと早く届けたかった」
 **カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
@@ -422,36 +454,4 @@ https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=http
 
 **コメント欄2（セルフリプライ用）**
 産後の自分に届けたかったやつはこれ↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
-## 投稿71
-**テーマ**：「21年間売れ続けてる授乳グッズを3人育てて初めて知った」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：ママ代行ミルク屋さん（ハンズフリー授乳クッション）
-**時期**：通年
-**文章の型**：かぴ式
-
-**本文**
-21年間売れ続けてる授乳グッズを
-3人育てて初めて知った
-
-、、、なんで
-
-**コメント欄1（セルフリプライ用）**
-赤ちゃんの横に置くだけで
-自分でミルクが飲める授乳クッション
-
-楽天ランキング1位も取ってて
-21年間ずっとそこにあったのに
-3人全員、毎晩腕パンパンにしながら飲ませてた
-
-保育士16年やってても知らなかった
-育児のプロでもこんなもん、、、
-
-これから授乳期のお母さんには絶対教えたい
-
-**コメント欄2（セルフリプライ用）**
-21年売れ続けてる理由、使ってみて↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
