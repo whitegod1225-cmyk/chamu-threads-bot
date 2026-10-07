@@ -16913,3 +16913,41 @@ https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-07 15:47 | 投稿ID: 18232707952320000 -->
+## 投稿59
+**テーマ**：「保育士のとき現場で一番カビやすかった子ども用品、毎年確認するたびに同じものがやられてたよ」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**型**：アフィリ型
+**フック種別**：権威崩し×知識ギャップ
+**時期**：秋（長雨シーズン後）
+
+**本文**
+保育士のとき現場で一番カビやすかった子ども用品、毎年確認するたびに同じものがやられてたよ
+
+9月に長雨が続いたあとは特に
+
+お風呂のゴムおもちゃ、穴から中を確認したことある？
+外からきれいに見えても、内側から黒くなってるやつ
+
+今年の9月、ずっと雨だったから
+うちのも全部確認してきた、、、
+
+**コメント欄1（セルフリプライ用）**
+ゴムおもちゃって内部に水が溜まったまま乾かないから
+カビが育ちやすいんよね
+
+保育園でも年1で全部確認して、カビてるものは交換してた
+
+パッキンやシリコン素材の黒ずみって
+普通の漂白剤じゃ奥まで届かないことがあって
+
+ジェル状のカビ取りにしてから、しつこいやつも落とせるようになったよ
+子どものものだから、使用後はしっかり洗い流す前提で大掃除のときだけ使ってる
+
+**コメント欄2（セルフリプライ用）**
+気になる人はここから↓
+㏚　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/58214fbb.36aa2aab.58214fbc.537ef13a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-seiketu%2F119f-p%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
