@@ -9,38 +9,6 @@
 
 ---
 
-## 投稿71
-**テーマ**：「21年間売れ続けてる授乳グッズを3人育てて初めて知った」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：ママ代行ミルク屋さん（ハンズフリー授乳クッション）
-**時期**：通年
-**文章の型**：かぴ式
-
-**本文**
-21年間売れ続けてる授乳グッズを
-3人育てて初めて知った
-
-、、、なんで
-
-**コメント欄1（セルフリプライ用）**
-赤ちゃんの横に置くだけで
-自分でミルクが飲める授乳クッション
-
-楽天ランキング1位も取ってて
-21年間ずっとそこにあったのに
-3人全員、毎晩腕パンパンにしながら飲ませてた
-
-保育士16年やってても知らなかった
-育児のプロでもこんなもん、、、
-
-これから授乳期のお母さんには絶対教えたい
-
-**コメント欄2（セルフリプライ用）**
-21年売れ続けてる理由、使ってみて↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿65
 **テーマ**：「謝ってもらえますか」
 **カテゴリ**：A（あるある×共感系）／④カオスあるある型
