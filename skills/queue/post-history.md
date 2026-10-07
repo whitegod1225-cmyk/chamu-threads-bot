@@ -16769,9 +16769,14 @@ metrics_fetched: true
 **コメント欄2（セルフリプライ用）**
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/58213efc.7d736888.58213efd.b2169148/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenko-joy%2F4987286415215%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-08取得）**
+views=46 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=21.7%
+hook_type=不明 / cta_type=コメント誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-06 15:28 | 投稿ID: 18130040158702776 -->
 ## 投稿69
 **テーマ**：「七五三、息子のスーツを完全に忘れてた」
@@ -16802,9 +16807,14 @@ https://hb.afl.rakuten.co.jp/ichiba/58213efc.7d736888.58213efd.b2169148/?pc=http
 **コメント欄2（セルフリプライ用）**
 息子のスーツはここで見つけた↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fleafdeer%2Ff2539%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-08取得）**
+views=232 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=4.3%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-07 00:07 | 投稿ID: 17997648132031505 -->
 ## 投稿56
 **テーマ**：「夫が子どもをかばうたびに、なんか損した気分になってた理由がやっとわかった」
@@ -16843,9 +16853,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=http
 それがフォロー役のほんとの仕事だったよ
 
 保存して、次に「もういいじゃん」って言いそうになったとき見返して
+**メトリクス（2026-10-08取得）**
+views=12 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=41.7%
+hook_type=不明 / cta_type=保存誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-07 02:42 | 投稿ID: 18431307241196579 -->
 ## 投稿71
 **テーマ**：「21年間売れ続けてる授乳グッズを3人育てて初めて知った」
@@ -16876,9 +16891,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53367af5.c3636b82.53367b00.7c14653e/?pc=http
 **コメント欄2（セルフリプライ用）**
 21年売れ続けてる理由、使ってみて↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-08取得）**
+views=88 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=11.4%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-07 10:10 | 投稿ID: 17873097363638044 -->
 ## 投稿65
 **テーマ**：「謝ってもらえますか」
