@@ -16930,9 +16930,14 @@ metrics_fetched: true
 こんなに難しくなったんかな、って
 
 経験した人いたら教えて
+**メトリクス（2026-10-09取得）**
+views=39486 / likes=398 / replies=22 / reposts=6 / quotes=0
+resonance_score=1316 / quality_score=3.3%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-07 15:47 | 投稿ID: 18232707952320000 -->
 ## 投稿59
 **テーマ**：「保育士のとき現場で一番カビやすかった子ども用品、毎年確認するたびに同じものがやられてたよ」
@@ -16968,9 +16973,14 @@ metrics_fetched: true
 気になる人はここから↓
 ㏚　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/58214fbb.36aa2aab.58214fbc.537ef13a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-seiketu%2F119f-p%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-09取得）**
+views=100 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=10.0%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-08 00:24 | 投稿ID: 18034460945895158 -->
 ## 投稿66
 **テーマ**：「小学生の娘に完全論破された」
@@ -17003,9 +17013,14 @@ https://hb.afl.rakuten.co.jp/ichiba/58214fbb.36aa2aab.58214fbc.537ef13a/?pc=http
 論破されてよかった、、、
 
 みんな毎回ゴシゴシしてる？
+**メトリクス（2026-10-09取得）**
+views=227 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=3.5%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-08 02:56 | 投稿ID: 18096773978542037 -->
 ## 投稿63
 **テーマ**：「使用済みオムツを捨てるたびにリビング中がにおってた」
@@ -17037,9 +17052,14 @@ SIAA認定の防臭素材でにおいをそもそも出さない
 **コメント欄2（セルフリプライ用）**
 家のオムツ臭が気になってたら↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/5333a4cd.5ba97d79.5333a4d7.c31b6b49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisu-onlineshop%2Fsolow-03%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-09取得）**
+views=60 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=16.7%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-08 10:29 | 投稿ID: 18466283464137166 -->
 ## 投稿62
 **テーマ**：「俺も疲れてる」
