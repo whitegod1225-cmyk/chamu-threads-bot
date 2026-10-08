@@ -17006,3 +17006,37 @@ https://hb.afl.rakuten.co.jp/ichiba/58214fbb.36aa2aab.58214fbc.537ef13a/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-08 02:56 | 投稿ID: 18096773978542037 -->
+## 投稿63
+**テーマ**：「使用済みオムツを捨てるたびにリビング中がにおってた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：SOLOW ペダルオープンツイン（ゴミ箱）＋炭八ミニ
+**時期**：通年
+**文章の型**：新PASONA法
+
+**本文**
+使用済みオムツを捨てるたびにリビング中がにおってた
+フタ付きのゴミ箱使ってたのになんでって思って、、、
+
+**コメント欄1（セルフリプライ用）**
+なんで防げないんだろってずっと考えてたんだけど
+捨てる一瞬にフタが開いてにおいがもれるのが原因だった
+
+いまはSOLOW（ソロウ）のペダルゴミ箱に替えた
+ツインになっててオムツ専用スペースが作れる
+SIAA認定の防臭素材でにおいをそもそも出さない
+
+さらに炭八ミニが2本セットでついてくる
+においと湿気を両方吸い取ってくれる天然炭で
+使用済みオムツって水分もあるからこれが効いてる
+ゴミ箱まわりの湿っぽいあの空気がなくなった
+
+夫にも「なんかにおわなくなったね」って言われて
+ゴミ箱変えただけなのにって思った
+
+**コメント欄2（セルフリプライ用）**
+家のオムツ臭が気になってたら↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/5333a4cd.5ba97d79.5333a4d7.c31b6b49/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frisu-onlineshop%2Fsolow-03%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
