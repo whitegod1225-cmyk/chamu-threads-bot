@@ -17086,3 +17086,33 @@ https://hb.afl.rakuten.co.jp/ichiba/5333a4cd.5ba97d79.5333a4d7.c31b6b49/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-08 15:53 | 投稿ID: 17988656835060726 -->
+## 投稿64
+**テーマ**：「育休中、一日中赤ちゃんと床で過ごしてたのに自分のスリッパだけ3年ほったらかしてた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：BIRTHDAY BAR ドギーモチーフ ルームシューズ
+**時期**：秋冬
+**文章の型**：新PASONA法
+
+**本文**
+育休中、一日中赤ちゃんと床で過ごしてたのに自分のスリッパだけ3年ほったらかしてた
+あのころの自分に早く届けたかったなって思って、、、
+
+**コメント欄1（セルフリプライ用）**
+産後って赤ちゃんのものはどんどん増えてくのに
+自分のものは気づいたら全部後回しになってるんよね
+
+足元が変わると気分も変わるの、これが意外と効くんよ
+
+BIRTHDAY BAR（バースデイバー）のドギーモチーフルームシューズ
+ちょこんとわんこが乗ってて、見るたびに笑ってしまう
+ボアとチェックのミックスで足元もあったかい
+
+先行予約中だから気になってたら早めに確認してほしい
+
+**コメント欄2（セルフリプライ用）**
+気になる人はここから↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstylife%2Fsv7525%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
