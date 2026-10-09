@@ -17103,9 +17103,14 @@ metrics_fetched: true
 そこから変わったよ
 
 育児の罪悪感が軽くなる話、毎日してます
+**メトリクス（2026-10-10取得）**
+views=77 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=6.5%
+hook_type=不明 / cta_type=フォロー誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-08 15:53 | 投稿ID: 17988656835060726 -->
 ## 投稿64
 **テーマ**：「育休中、一日中赤ちゃんと床で過ごしてたのに自分のスリッパだけ3年ほったらかしてた」
@@ -17133,9 +17138,14 @@ BIRTHDAY BAR（バースデイバー）のドギーモチーフルームシュ�
 **コメント欄2（セルフリプライ用）**
 気になる人はここから↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstylife%2Fsv7525%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-10取得）**
+views=46 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=21.7%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-09 00:38 | 投稿ID: 17877061536566529 -->
 ## 投稿67
 **テーマ**：「キュキュッとするまで洗ってたの、全部逆効果だったらしい」
@@ -17168,9 +17178,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=http
 ずぼらに見えて合理的だった
 
 わたしの「ちゃんと洗う」、何年分の無駄だったんや
+**メトリクス（2026-10-10取得）**
+views=183 / likes=2 / replies=1 / reposts=0 / quotes=0
+resonance_score=11 / quality_score=6.0%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-09 03:05 | 投稿ID: 17890604382459021 -->
 ## 投稿70
 **テーマ**：「産後のわたしに、もっと早く届けたかった」
@@ -17201,9 +17216,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=http
 **コメント欄2（セルフリプライ用）**
 産後の自分に届けたかったやつはこれ↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-10取得）**
+views=102 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=9.8%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-09 10:27 | 投稿ID: 18156336454518788 -->
 ## 投稿68
 **テーマ**：「怒れなかった」
