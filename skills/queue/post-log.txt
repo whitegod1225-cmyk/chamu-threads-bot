@@ -13565,3 +13565,29 @@ https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-09 03:05:01] リプライ2完了！ ID: 17948391069328604
 [2026-10-09 03:05:01] キュー移動完了。残りキュー: 5件
+[2026-10-09 10:27:25] ===== post.py 起動 =====
+[2026-10-09 10:27:25] キュー件数: 5件
+[2026-10-09 10:27:25] 投稿開始（試行1回目）:
+怒れなかった
+
+正しいことを言われてたから
+
+「フライパンって次も油使うんだから
+キュキュッとしなくてよくない？」って
+洗い物を手伝いながら娘が言ってきた
+
+、、、黙ってしまった
+[2026-10-09 10:27:34] 投稿完了！ ID: 18156336454518788
+[2026-10-09 10:27:34] セルフリプライ1/1開始:
+調べたら本当で
+フライパンってゴシゴシ洗うほどコーティングが傷んで
+早くダメになるらしい
+
+「ちゃんとしなよ」って
+何回子どもに言ってきたんだろって
+ちょっと反省した
+
+子どもの「なんで？」は
+だいたい本質ついてる
+[2026-10-09 10:27:44] リプライ1完了！ ID: 18129623920864344
+[2026-10-09 10:27:44] キュー移動完了。残りキュー: 4件
