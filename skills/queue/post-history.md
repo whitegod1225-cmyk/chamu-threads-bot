@@ -17171,3 +17171,36 @@ https://hb.afl.rakuten.co.jp/ichiba/53b425fb.cfa516ba.53b425fd.b4f856c2/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-09 03:05 | 投稿ID: 17890604382459021 -->
+## 投稿70
+**テーマ**：「産後のわたしに、もっと早く届けたかった」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：ママ代行ミルク屋さん（ハンズフリー授乳クッション）
+**時期**：通年
+**文章の型**：かぴ式
+
+**本文**
+産後のわたしに、もっと早く届けたかった
+
+赤ちゃんにミルクをあげながら
+上の子に「ちょっと待って」って
+何百回言ったか
+
+**コメント欄1（セルフリプライ用）**
+赤ちゃんの横に置くだけで
+自分でミルクが飲める授乳クッションがあった
+
+抱っこも不要、ボトルを持ち続けなくていい
+セットして離れたら上の子の相手ができる
+
+双子を同時に飲ませてる写真を見たとき
+「これが答えだった」って思った
+
+21年間選ばれ続けてるの、置いてみてわかった
+
+**コメント欄2（セルフリプライ用）**
+産後の自分に届けたかったやつはこれ↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foyasumitamago%2F003%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
