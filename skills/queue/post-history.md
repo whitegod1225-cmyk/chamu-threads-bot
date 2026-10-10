@@ -17254,9 +17254,14 @@ metrics_fetched: true
 
 子どもの「なんで？」は
 だいたい本質ついてる
+**メトリクス（2026-10-11取得）**
+views=181 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=4.4%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-09 15:35 | 投稿ID: 18217980712360310 -->
 ## 投稿61
 **テーマ**：「元保育士16年が、3人育てて初めて公言できること」
@@ -17291,9 +17296,14 @@ metrics_fetched: true
 今日のわたしで十分だよ
 
 育児の罪悪感が軽くなる話、毎日してます
+**メトリクス（2026-10-11取得）**
+views=508 / likes=4 / replies=1 / reposts=2 / quotes=0
+resonance_score=21 / quality_score=4.1%
+hook_type=不明 / cta_type=フォロー誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-10 01:44 | 投稿ID: 18072729335575925 -->
 ## 投稿72
 **テーマ**：「産後に要らなかったもの7選」
@@ -17320,9 +17330,14 @@ metrics_fetched: true
 
 産後に本当に必要だったのは
 「今日もよくやったね」の一言だけだったよ
+**メトリクス（2026-10-11取得）**
+views=707 / likes=2 / replies=1 / reposts=0 / quotes=0
+resonance_score=11 / quality_score=1.6%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-10 08:32 | 投稿ID: 18129666145772136 -->
 ## 投稿73
 **テーマ**：「子どもに言って良かった言葉7選」
