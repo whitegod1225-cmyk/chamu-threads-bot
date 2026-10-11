@@ -1,21 +1,8 @@
 name: Threads Auto Post
 
 on:
-  schedule:
-    # 平日（月〜金 JST）※GitHub Actionsの遅延を考慮して15分前倒し設定
-    # 目標投稿時刻の約15分前にトリガー → 実際の投稿は目標時刻±数分に収まる
-    - cron: '45 20 * * 0-4'  # → 目標 06:00 JST
-    - cron: '45 23 * * 0-4'  # → 目標 09:00 JST
-    - cron: '15 3 * * 1-5'   # → 目標 12:30 JST
-    - cron: '45 8 * * 1-5'   # → 目標 18:00 JST
-    - cron: '45 11 * * 1-5'  # → 目標 21:00 JST
-    - cron: '45 13 * * 1-5'  # → 目標 23:00 JST
-    # 土日（JST）
-    - cron: '15 22 * * 5,6'  # → 目標 07:30 JST
-    - cron: '15 2 * * 0,6'   # → 目標 11:30 JST
-    - cron: '45 5 * * 0,6'   # → 目標 15:00 JST
-    - cron: '45 9 * * 0,6'   # → 目標 19:00 JST
-    - cron: '45 12 * * 0,6'  # → 目標 22:00 JST
+  # スケジュールは Google Apps Script (gas_scheduler.gs) が JST で管理し
+  # workflow_dispatch をトリガーする。cron による時差ズレを廃止。
   workflow_dispatch:
 
 concurrency:
