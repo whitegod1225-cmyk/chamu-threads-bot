@@ -17367,9 +17367,14 @@ metrics_fetched: true
 親の「それでいいよ」が
 子どもの自己肯定感になっていく
 16年の保育士生活で一番確信したことかもしれない
+**メトリクス（2026-10-12取得）**
+views=116 / likes=2 / replies=1 / reposts=0 / quotes=0
+resonance_score=11 / quality_score=9.5%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-10 11:23 | 投稿ID: 18113706316990196 -->
 ## 投稿74
 **テーマ**：「保育士16年でやった寝かしつけ7選」
@@ -17402,6 +17407,11 @@ metrics_fetched: true
 
 トントンしたくなったら
 その手をそのまま止めてみて
+**メトリクス（2026-10-12取得）**
+views=1141 / likes=5 / replies=1 / reposts=0 / quotes=0
+resonance_score=20 / quality_score=1.8%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
