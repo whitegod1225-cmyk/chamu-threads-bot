@@ -67,3 +67,36 @@ Ballelite（バレリット）のポムポムプリンもこもこ腹巻付き�
 **コメント欄2（セルフリプライ用）**
 腹巻めんどくさいと思ってたひとはこれ見て↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/585db758.a6a025c0.585db75c.16c68ad6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fballelite%2Ftb3375%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+## 投稿76
+**テーマ**：「子ども3人かかえてた30代、毎朝起きた瞬間からどっと重かった」
+**カテゴリ**：B（育児あるある×共感系）
+**型**：②概念再定義型
+**フック種別**：数字先出し×告白型
+**時期**：通年
+
+**本文**
+子ども3人かかえてた30代、毎朝起きた瞬間からどっと重かった
+十分寝てるのに、夕方になるたびになんか急にイライラしてた
+
+ずっと育児疲れだと思ってた
+でも3年後、全然違う理由だったって知って、、、
+
+**コメント欄（セルフリプライ用）**
+「違う理由」っていうのは、30代から体がひっそり変わっていくこと
+
+育児が忙しいほど後回しになるんだけど
+「朝がなんかしんどい」「夕方だけイライラが急にくる」って感覚
+子育てのせいでも、夫婦関係のせいでもなくて
+自分の体からきてることがある
+
+現場で1,000人以上の子どもを見てきた元保育士が
+自分の体のことを一番わかってなかった
+
+「あの頃の自分に教えてあげたかった」って今でも思う
+
+同じ感覚になった人いる？
+
+---
