@@ -48,7 +48,7 @@ https://hb.afl.rakuten.co.jp/ichiba/585db758.a6a025c0.585db75c.16c68ad6/?pc=http
 バカにしたんじゃないの
 ただ、去年の私ならこれは選ばなかったなって、、、
 
-**画像**
+**画像URL**
 https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_82_halloween_baby.png
 
 **コメント欄1（セルフリプライ用）**
@@ -62,7 +62,7 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post
 ロンパースと帽子の2点セットで、サイズは66〜90まで
 即納だから、ハロウィン前でも届くのが助かる
 
-PR　Rakuten
+Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
