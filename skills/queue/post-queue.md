@@ -219,6 +219,9 @@ https://hb.afl.rakuten.co.jp/ichiba/55413425.dca8acb6.5541342e.4bda1228/?pc=http
 バカにしたんじゃないの
 ただ、去年の私ならこれは選ばなかったなって、、、
 
+**画像**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_82_halloween_baby.png
+
 **コメント欄1（セルフリプライ用）**
 去年の私、「どうせ数時間しか着ないし」って適当に済ませたんだよね
 あの赤ちゃんを見て、去年のうちの子の写真を見返したら後悔した…🥺
