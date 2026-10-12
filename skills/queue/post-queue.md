@@ -1,11 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する。
-ポスターは一番上の投稿を取り出してThreadsに投稿する。
-投稿済みのものはここから削除してpost-history.mdに移す。
+ライターが作成した投稿をここに追加する
+ポスターは一番上の投稿を取り出してThreadsに投稿する
+投稿済みのものはここから削除してpost-history.mdに移す
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
-> pushしないと新しい投稿は一切自動投稿されない。
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
+> pushしないと新しい投稿は一切自動投稿されない
 
 ---
 
@@ -204,3 +204,33 @@ https://hb.afl.rakuten.co.jp/ichiba/55413425.dca8acb6.5541342e.4bda1228/?pc=http
 自分がなかったぶん、一緒に楽しめる気がして
 
 ハロウィン、子どもの頃からあった人いる？
+
+---
+
+## 投稿82
+**テーマ**：「去年の私ならこれは選ばなかったな」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：ハロウィンベビーコスチューム2点セット（帽子付き）
+**時期**：ハロウィン（10月）
+**文章の型**：新PASONA法
+
+**本文**
+イオンで赤ちゃんの仮装を見て、声を出して笑ってしまった
+バカにしたんじゃないの
+ただ、去年の私ならこれは選ばなかったなって、、、
+
+**コメント欄1（セルフリプライ用）**
+去年の私、「どうせ数時間しか着ないし」って適当に済ませたんだよね
+あの赤ちゃんを見て、去年のうちの子の写真を見返したら後悔した…🥺
+コットンで肌にやさしくて、帽子までセットなら、写真を撮るだけでも満足できたなって
+来年の私はちゃんと選ぶ、って決めた🎃
+
+**コメント欄2（セルフリプライ用）**
+今年はまだ間に合いそうだったから、置いときます🎃
+ロンパースと帽子の2点セットで、サイズは66〜90まで
+即納だから、ハロウィン前でも届くのが助かる
+
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
