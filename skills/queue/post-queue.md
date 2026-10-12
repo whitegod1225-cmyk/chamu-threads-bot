@@ -206,3 +206,36 @@ https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/586c3975.a048b98a.586c3976.4905451f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-itiya%2Fna2500-50hw%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
+
+## 投稿81
+**テーマ**：「ハロウィンって昭和生まれには突然来た文化だよね」
+**カテゴリ**：B（育児あるある×共感系）
+**型**：かぴ式文章版 / 概念再定義型
+**フック種別**：共通体験×文化論
+**時期**：ハロウィン（10月）
+
+**本文**
+ハロウィンって昭和生まれには「突然来た文化」だよね
+気づいたら年間行事に入ってた
+
+わたしは毎年「これいつからあった？」ってなるのに
+息子にとってはもう「お正月」「七五三」と同じ感じで、、、
+
+**コメント欄（セルフリプライ用）**
+衣装選びも気合いが違う
+「去年のやつじゃダメ」「これじゃなきゃ」って
+もう真顔で選んでる
+
+保育士だった頃も毎年10月が近づくと
+子どもたちがそわそわしてきて
+「先生、何の衣装にする？」ってよく話しかけてきた
+
+わたしたちには「突然来た文化」でも
+この子たちには最初から「当たり前にある行事」なんだよね
+
+それがなんかいいなって思う
+自分がなかったぶん、一緒に楽しめる気がして
+
+ハロウィン、子どもの頃からあった人いる？
+
+---
