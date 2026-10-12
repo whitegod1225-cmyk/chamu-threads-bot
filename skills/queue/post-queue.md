@@ -1,11 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する。
-ポスターは一番上の投稿を取り出してThreadsに投稿する。
-投稿済みのものはここから削除してpost-history.mdに移す。
+ライターが作成した投稿をここに追加する
+ポスターは一番上の投稿を取り出してThreadsに投稿する
+投稿済みのものはここから削除してpost-history.mdに移す
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
-> pushしないと新しい投稿は一切自動投稿されない。
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
+> pushしないと新しい投稿は一切自動投稿されない
 
 ---
 
@@ -143,7 +143,7 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=http
 孫や甥っ子・姪っ子に贈りたい人、これ知ってた？
 
 **コメント欄2（セルフリプライ用）**
-PR　Rakuten
+Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
@@ -169,7 +169,7 @@ https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=http
 ハロウィンにかこつけて、堂々と自分用もカゴに入れていいと思うママのご褒美、これね👇
 
 **コメント欄2（セルフリプライ用）**
-ママのご褒美リンドール↓　（PR）Rakuten
+ママのご褒美リンドール↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/55413425.dca8acb6.5541342e.4bda1228/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzuyaebisudo%2Fr-lindor-48-gsp%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
