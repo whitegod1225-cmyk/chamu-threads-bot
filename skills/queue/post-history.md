@@ -17481,3 +17481,31 @@ metrics_fetched: true
 
 ---
 
+<!-- 処理日時: 2026-10-13 01:39 | 投稿ID: 17984634030082909 -->
+## 投稿75
+**テーマ**：「グンゼに腹巻付きパンツがあるって、なんで誰も教えてくれなかった」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：Ballelite ポムポムプリン もこもこ腹巻付きパンツ（グンゼコラボ）
+**時期**：秋冬
+**文章の型**：新PASONA法
+
+**本文**
+グンゼに腹巻付きパンツがあるって、なんで誰も教えてくれなかった
+しかもサンリオコラボで、あったかさとかわいいが一緒に来て、、、
+
+**コメント欄1（セルフリプライ用）**
+腹巻付きパンツって、はくだけでおなかまであったかくなる
+朝に別で腹巻をつける手間がなくなるから続けられる
+
+Ballelite（バレリット）のポムポムプリンもこもこ腹巻付きパンツ
+グンゼのコラボ商品で、もこもこ素材がかわいい
+家の中で着てるだけで気分が上がるよ
+
+冬の育児中、おなかを冷やしてたひとに届けたい
+
+**コメント欄2（セルフリプライ用）**
+腹巻めんどくさいと思ってたひとはこれ見て↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/585db758.a6a025c0.585db75c.16c68ad6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fballelite%2Ftb3375%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+

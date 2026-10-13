@@ -13766,3 +13766,24 @@ https://hb.afl.rakuten.co.jp/ichiba/5844d027.c6c3bc3f.5844d028.d6acd295/?pc=http
 同じ感覚になった人いる？
 [2026-10-12 21:25:37] リプライ1完了！ ID: 18178977277436808
 [2026-10-12 21:25:37] キュー移動完了。残りキュー: 7件
+[2026-10-13 01:38:21] ===== post.py 起動 =====
+[2026-10-13 01:38:21] キュー件数: 7件
+[2026-10-13 01:38:21] 投稿開始（試行1回目）:
+グンゼに腹巻付きパンツがあるって、なんで誰も教えてくれなかった
+しかもサンリオコラボで、あったかさとかわいいが一緒に来て、、、
+[2026-10-13 01:38:30] 投稿完了！ ID: 17984634030082909
+[2026-10-13 01:38:30] セルフリプライ1/2開始:
+腹巻付きパンツって、はくだけでおなかまであったかくなる
+朝に別で腹巻をつける手間がなくなるから続けられる
+
+Ballelite（バレリット）のポムポムプリンもこもこ腹巻付きパンツ
+グンゼのコラボ商品で、もこもこ素材がかわいい
+家の中で着てるだけで気分が上がるよ
+
+冬の育児中、おなかを冷やしてたひとに届けたい
+[2026-10-13 01:38:42] リプライ1完了！ ID: 17911920834511432
+[2026-10-13 01:38:44] セルフリプライ2/2開始:
+腹巻めんどくさいと思ってたひとはこれ見て↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/585db758.a6a025c0.585db75c.16c68ad6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fballelite%2Ftb3375%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-13 01:39:05] リプライ2完了！ ID: 17910313626473203
+[2026-10-13 01:39:05] キュー移動完了。残りキュー: 6件
