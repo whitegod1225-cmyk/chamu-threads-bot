@@ -13801,3 +13801,17 @@ https://hb.afl.rakuten.co.jp/ichiba/585db758.a6a025c0.585db75c.16c68ad6/?pc=http
 来年の私はちゃんと選ぶ、って決めた🎃
 [2026-10-13 03:11:17] リプライ1APIエラー（本文投稿は成功済み）: HTTP Error 500: Internal Server Error | response: {"error":{"message":"An unexpected error has occurred. Please retry your request later.","type":"OAuthException","is_transient":true,"code":2,"fbtrace_id":"AjoI1tRKZYlAaSjS7Chh5__"}}
 [2026-10-13 03:11:17] キュー移動完了。残りキュー: 5件
+[2026-10-13 09:23:43] ===== post.py 起動 =====
+[2026-10-13 09:23:43] キュー件数: 5件
+[2026-10-13 09:23:43] 投稿開始（試行1回目）:
+子育ての知識は16年分あるのに
+夕方5時になると全部吹っ飛ぶ人間がいる
+
+元保育士・3児の母、30代
+節約育児グッズ探しと外遊びが好きで
+子どもの言葉集めが趣味になってる
+
+がんばりすぎない育児を一緒に探せたら嬉しい
+気が向いたらフォローしてください
+[2026-10-13 09:23:54] 投稿完了！ ID: 18145333870594609
+[2026-10-13 09:23:54] キュー移動完了。残りキュー: 4件
