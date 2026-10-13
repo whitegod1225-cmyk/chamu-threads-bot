@@ -17446,9 +17446,14 @@ metrics_fetched: true
 それが育児なんよね
 
 「わたしや‼」ってなったことある人いる？
+**メトリクス（2026-10-14取得）**
+views=429 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=1.9%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-12 21:25 | 投稿ID: 18116236045824373 -->
 ## 投稿76
 **テーマ**：「子ども3人かかえてた30代、毎朝起きた瞬間からどっと重かった」
@@ -17478,9 +17483,14 @@ metrics_fetched: true
 「あの頃の自分に教えてあげたかった」って今でも思う
 
 同じ感覚になった人いる？
+**メトリクス（2026-10-14取得）**
+views=174 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=2.9%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-13 01:39 | 投稿ID: 17984634030082909 -->
 ## 投稿75
 **テーマ**：「グンゼに腹巻付きパンツがあるって、なんで誰も教えてくれなかった」
@@ -17506,9 +17516,14 @@ Ballelite（バレリット）のポムポムプリンもこもこ腹巻付き�
 **コメント欄2（セルフリプライ用）**
 腹巻めんどくさいと思ってたひとはこれ見て↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/585db758.a6a025c0.585db75c.16c68ad6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fballelite%2Ftb3375%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-14取得）**
+views=141 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=7.1%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-13 03:11 | 投稿ID: 17964350493199850 -->
 ## 投稿82
 **テーマ**：「去年の私ならこれは選ばなかったな」
@@ -17538,9 +17553,14 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post
 
 Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-14取得）**
+views=1097 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=1.2%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-13 09:23 | 投稿ID: 18145333870594609 -->
 ## 投稿77
 **テーマ**：「子育ての知識は16年分あるのに夕方5時になると全部吹っ飛ぶ」
