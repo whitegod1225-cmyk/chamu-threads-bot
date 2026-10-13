@@ -9,35 +9,6 @@
 
 ---
 
-## 投稿78
-**テーマ**：「保育現場で近視の子どもが増えてると気づいてたのに」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：子どもの視力・スクリーンタイム関連書籍
-**時期**：通年
-**文章の型**：新PASONA法
-
-**本文**
-保育現場で近視の子どもが増えてると気づいてたのに
-自分の子には毎晩スマホを渡し続けてた、、、
-
-**コメント欄1（セルフリプライ用）**
-「渡し続けてた、、、」の続きを正直に話すと
-
-保育士として目の発達の話は知ってたのに
-家では泣き止まないたびにスマホを差し出してた
-
-読んでみて変わったのが「視力って悪くなってから戻せない」という事実で
-やめさせようとするより、今から何ができるかを考えるようになった
-
-6歳までに視力の土台が決まるって知ってたのに
-ちゃんと向き合ったのは読んでからだった
-
-**コメント欄2（セルフリプライ用）**
-6歳までの目を守る話、下に↓　Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16868215%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿79
 **テーマ**：「義母のハロウィンベビー服センスが良すぎた」
 **カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
