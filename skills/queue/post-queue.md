@@ -9,37 +9,6 @@
 
 ---
 
-## 投稿82
-**テーマ**：「去年の私ならこれは選ばなかったな」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：ハロウィンベビーコスチューム2点セット（帽子付き）
-**時期**：ハロウィン（10月）
-**文章の型**：新PASONA法
-
-**本文**
-イオンで赤ちゃんの仮装を見て、声を出して笑ってしまった
-バカにしたんじゃないの
-ただ、去年の私ならこれは選ばなかったなって、、、
-
-**画像URL**
-https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post_82_halloween_baby.png
-
-**コメント欄1（セルフリプライ用）**
-去年の私、「どうせ数時間しか着ないし」って適当に済ませたんだよね
-あの赤ちゃんを見て、去年のうちの子の写真を見返したら後悔した…🥺
-コットンで肌にやさしくて、帽子までセットなら、写真を撮るだけでも満足できたなって
-来年の私はちゃんと選ぶ、って決めた🎃
-
-**コメント欄2（セルフリプライ用）**
-今年はまだ間に合いそうだったから、置いときます🎃
-ロンパースと帽子の2点セットで、サイズは66〜90まで
-即納だから、ハロウィン前でも届くのが助かる
-
-Rakuten PR
-https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿77
 **テーマ**：「子育ての知識は16年分あるのに夕方5時になると全部吹っ飛ぶ」
 **カテゴリ**：A（フォロー転換）／型A：自己紹介型
