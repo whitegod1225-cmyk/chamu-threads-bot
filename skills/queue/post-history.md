@@ -17580,9 +17580,14 @@ metrics_fetched: true
 
 **コメント欄（セルフリプライ用）**
 なし
+**メトリクス（2026-10-15取得）**
+views=169 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=型A：自己紹介型 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-13 15:18 | 投稿ID: 18057199511590910 -->
 ## 投稿78
 **テーマ**：「保育現場で近視の子どもが増えてると気づいてたのに」
@@ -17610,9 +17615,14 @@ metrics_fetched: true
 **コメント欄2（セルフリプライ用）**
 6歳までの目を守る話、下に↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F16868215%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-15取得）**
+views=133 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=7.5%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-13 23:27 | 投稿ID: 17877496140567308 -->
 ## 投稿81
 **テーマ**：「ハロウィンって昭和生まれには突然来た文化だよね」
@@ -17644,9 +17654,14 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=http
 自分がなかったぶん、一緒に楽しめる気がして
 
 ハロウィン、子どもの頃からあった人いる？
+**メトリクス（2026-10-15取得）**
+views=274 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=1.8%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-14 01:24 | 投稿ID: 18180839272437377 -->
 ## 投稿80
 **テーマ**：「ハロウィンのチョコ、自分が先に3個食べてた」
@@ -17671,9 +17686,14 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=http
 **コメント欄2（セルフリプライ用）**
 ママのご褒美リンドール↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/55413425.dca8acb6.5541342e.4bda1228/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzuyaebisudo%2Fr-lindor-48-gsp%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-15取得）**
+views=149 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=6.7%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-14 07:36 | 投稿ID: 18004178915806802 -->
 ## 投稿79
 **テーマ**：「義母のハロウィンベビー服センスが良すぎた」
