@@ -13890,3 +13890,28 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/55413425.dca8acb6.5541342e.4bda1228/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzuyaebisudo%2Fr-lindor-48-gsp%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-14 01:24:10] リプライ2完了！ ID: 18116202617086267
 [2026-10-14 01:24:10] キュー移動完了。残りキュー: 1件
+[2026-10-14 07:36:02] ===== post.py 起動 =====
+[2026-10-14 07:36:02] キュー件数: 1件
+[2026-10-14 07:36:02] 投稿開始（試行1回目）:
+先週、義実家に行ったら…
+義母が「孫に似合うと思って買っちゃった」って出してきた
+いや、待ってお義母さん、、、
+[2026-10-14 07:36:11] 投稿完了！ ID: 18004178915806802
+[2026-10-14 07:36:11] セルフリプライ1/2開始:
+いや、待ってお義母さん…センス良すぎるんだが🥺
+帽子までついた2点セットで、着せたら一気にハロウィンの赤ちゃんになった🎃
+コットン95%で肌ざわりもやさしいし、
+サイズも66〜90まであるから選びやすい！
+ほんとにありがとうございます…！
+
+楽天1位でレビューも700件超えてて、義母のセンスはみんなのお墨付きでした👏
+即納表記もあるから、今からハロウィンに間に合いそう🎃
+サイズは「大きめ」って口コミもあったから、迷ったら小さめもアリかも！
+
+孫や甥っ子・姪っ子に贈りたい人、これ知ってた？
+[2026-10-14 07:36:21] リプライ1完了！ ID: 18107592518210888
+[2026-10-14 07:36:23] セルフリプライ2/2開始:
+Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-14 07:36:37] リプライ2完了！ ID: 18217266700356935
+[2026-10-14 07:36:37] キュー移動完了。残りキュー: 0件
