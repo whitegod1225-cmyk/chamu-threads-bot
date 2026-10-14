@@ -17782,3 +17782,43 @@ https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-14 22:41 | 投稿ID: 18080810903388172 -->
+## 投稿87
+**テーマ**：お風呂場の転倒事故・滑り止めマット
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：PVC浴室用滑り止めマット（legashop）
+**時期**：通年
+**文章の型**：かぴ式
+
+**本文**
+お風呂場で「ドン」って音がした
+
+駆けつけたら、子どもが床で泣いてた
+頭を打ってなくてよかった、ほんとに
+
+浴室って、家の中でいちばん危ない場所だと思う
+濡れた床、石鹸、テンションあがってる子ども
+転倒事故の条件、全部そろってる
+
+保育士16年、施設の安全管理も見てきた私が
+「これだけは早くやれ」と言えるのが
+滑り止めマットを敷くこと
+
+怪我してから買うより、今日買う方がいい
+
+**コメント欄1（セルフリプライ用）**
+使ってるのはPVC製の吸盤付きマット
+
+吸盤でしっかり固定されるから
+子どもが踏んでもズレない
+抗菌・防カビ・防ヌメリで洗濯機洗いOK
+においが少ないのも地味に助かってる
+
+カラーも選べるから浴室に馴染む
+
+**コメント欄2（セルフリプライ用）**
+あの「ドン」を二度と聞かないための一枚↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/585f3eaf.0b473ec0.585f3eb0.55420330/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flegashop%2Fplq7m-fbl-diee155%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
