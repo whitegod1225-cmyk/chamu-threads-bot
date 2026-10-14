@@ -13933,3 +13933,28 @@ CUBEO（キュベオ）っていう消臭グッズを知ってから変わった
 https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsensya%2F420-sps03%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-14 13:06:45] リプライ2完了！ ID: 18227111557329186
 [2026-10-14 13:06:45] キュー移動完了。残りキュー: 0件
+[2026-10-14 15:28:48] ===== post.py 起動 =====
+[2026-10-14 15:28:48] キュー件数: 5件
+[2026-10-14 15:28:48] 投稿開始（試行1回目）:
+本日のママ予報
+
+6:00　快晴
+　　　（よし、今日はいい日にする）
+
+11:00　曇り
+　　　（「これきらい」今日4回目）
+
+15:00　大荒れ・強風
+　　　（宿題1行で「もう疲れた」）
+
+21:00　快晴
+　　　（寝顔、かわいすぎる）
+
+明日の予報：晴れのち曇り、ところにより爆発
+
+それでも毎朝「今日こそ」って起きてしまう
+[2026-10-14 15:28:57] 投稿完了！ ID: 17998885596008332
+[2026-10-14 15:28:57] セルフリプライ1/1開始:
+今日の予報、どんな感じだった？
+[2026-10-14 15:29:09] リプライ1完了！ ID: 17994542183843649
+[2026-10-14 15:29:09] キュー移動完了。残りキュー: 4件
