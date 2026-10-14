@@ -17647,3 +17647,30 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381a.b2f24572.548d3825.fe4707ad/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-14 01:24 | 投稿ID: 18180839272437377 -->
+## 投稿80
+**テーマ**：「ハロウィンのチョコ、自分が先に3個食べてた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：リンドール詰め合わせ
+**時期**：ハロウィン（10月）
+**文章の型**：新PASONA法
+
+**本文**
+もう、誰ですか💢
+ハロウィンのチョコは子どもにあげるものって言った人は💢
+リンドールの詰め合わせ、気づいたら自分が先に3個食べてた💢
+ほんとありがとう💢
+でもぶっちゃけさ、
+
+**コメント欄1（セルフリプライ用）**
+正直、1個食べたら止まらなかった😭
+仮装の準備も配るお菓子選びも、全部子どもの分ばっかりで、自分用のチョコなんて買う余裕なかったんだけど口に入れた瞬間とろけて、「あ、今日もよく頑張った」ってなった
+リンドールは1個ずつ包んであるから、ちびちび食べられるのもありがたい
+ハロウィンにかこつけて、堂々と自分用もカゴに入れていいと思うママのご褒美、これね👇
+
+**コメント欄2（セルフリプライ用）**
+ママのご褒美リンドール↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/55413425.dca8acb6.5541342e.4bda1228/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuzuyaebisudo%2Fr-lindor-48-gsp%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
