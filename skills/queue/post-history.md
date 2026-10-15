@@ -17723,9 +17723,14 @@ metrics_fetched: true
 **コメント欄2（セルフリプライ用）**
 Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/55b04049.8154c38b.55b0404a.1f1b2914/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstartonehome%2Fzwa-pxf27%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-16取得）**
+views=799 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=1.3%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-14 13:06 | 投稿ID: 17892227154444559 -->
 ## 投稿83
 **テーマ**：「息子の友達に玄関に入るなり「くつのにおい、くっせ！」って言われた」
@@ -17779,9 +17784,14 @@ https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=http
 
 **コメント欄1（セルフリプライ用）**
 今日の予報、どんな感じだった？
+**メトリクス（2026-10-16取得）**
+views=87 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=5.7%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-14 22:41 | 投稿ID: 18080810903388172 -->
 ## 投稿87
 **テーマ**：お風呂場の転倒事故・滑り止めマット
@@ -17819,9 +17829,14 @@ https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=http
 **コメント欄2（セルフリプライ用）**
 あの「ドン」を二度と聞かないための一枚↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/585f3eaf.0b473ec0.585f3eb0.55420330/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flegashop%2Fplq7m-fbl-diee155%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-16取得）**
+views=71 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=14.1%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-15 00:52 | 投稿ID: 18046005251824682 -->
 ## 投稿83
 **テーマ**：「息子の友達に玄関に入るなり「くつのにおい、くっせ！」って言われた」
@@ -17844,6 +17859,11 @@ CUBEO（キュベオ）っていう消臭グッズを知ってから変わった
 **コメント欄2（セルフリプライ用）**
 下駄箱だけじゃなくて車・トイレ・おむつのにおいにも使える↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsensya%2F420-sps03%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-16取得）**
+views=46 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=28.3%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
