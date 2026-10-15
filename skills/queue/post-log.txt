@@ -13993,3 +13993,21 @@ https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/585f3eaf.0b473ec0.585f3eb0.55420330/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flegashop%2Fplq7m-fbl-diee155%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-14 22:41:35] リプライ2完了！ ID: 18123796937316691
 [2026-10-14 22:41:35] キュー移動完了。残りキュー: 3件
+[2026-10-15 00:52:03] ===== post.py 起動 =====
+[2026-10-15 00:52:03] キュー件数: 3件
+[2026-10-15 00:52:03] 投稿開始（試行1回目）:
+息子の友達に玄関に入るなり「くつのにおい、くっせ！」って言われた
+えぇっ？って笑ってごまかしたけど、子どもって正直だから余計ショックで、、、
+夏前に消臭剤を交換してだいぶたってるって気づいてたけど、ついつい後回しになってたのがばれた
+[2026-10-15 00:52:10] 投稿完了！ ID: 18046005251824682
+[2026-10-15 00:52:10] セルフリプライ1/2開始:
+CUBEO（キュベオ）っていう消臭グッズを知ってから変わった
+半永久的に使えるから、交換のたびに「また買わないと」がなくなった
+カラフルなキューブ型・ボール型・円柱型で、どこに置いてもごちゃっとしない
+消臭だけじゃなく、除湿や野菜の新鮮スリープ機能まである
+[2026-10-15 00:52:19] リプライ1完了！ ID: 18057134924566955
+[2026-10-15 00:52:21] セルフリプライ2/2開始:
+下駄箱だけじゃなくて車・トイレ・おむつのにおいにも使える↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsensya%2F420-sps03%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-15 00:52:35] リプライ2完了！ ID: 18145777831564231
+[2026-10-15 00:52:35] キュー移動完了。残りキュー: 2件
