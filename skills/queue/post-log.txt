@@ -14011,3 +14011,6 @@ CUBEO（キュベオ）っていう消臭グッズを知ってから変わった
 https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsensya%2F420-sps03%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-15 00:52:35] リプライ2完了！ ID: 18145777831564231
 [2026-10-15 00:52:35] キュー移動完了。残りキュー: 2件
+[2026-10-15 07:24:04] ===== post.py 起動 =====
+[2026-10-15 07:24:04] キュー件数: 2件
+[2026-10-15 07:24:04] ⚠️ 3連続アフィリ防止：非アフィリ投稿がキューにないためスキップ
