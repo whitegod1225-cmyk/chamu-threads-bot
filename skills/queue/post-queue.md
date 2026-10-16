@@ -1,11 +1,46 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する。
-ポスターは一番上の投稿を取り出してThreadsに投稿する。
-投稿済みのものはここから削除してpost-history.mdに移す。
+ライターが作成した投稿をここに追加する
+ポスターは一番上の投稿を取り出してThreadsに投稿する
+投稿済みのものはここから削除してpost-history.mdに移す
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
-> pushしないと新しい投稿は一切自動投稿されない。
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
+> pushしないと新しい投稿は一切自動投稿されない
+
+---
+
+## 投稿88
+**テーマ**：触り心地の審査員・シルキータッチブランケット
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：Panos シルキータッチブランケット（gudeza）
+**時期**：通年
+**文章の型**：かぴ式
+
+**本文**
+うちには触り心地の審査員がいる
+
+洋服のタグも「チクチクする」って全部切らされるし
+シーツも「なんか違う」で却下されるし
+ブランケットも「これじゃないとヤダ」って毎回もめる
+
+そんな2歳が一発で「これ、めっちゃふわふわ」って言った
+
+すんなりかけてもらって、そのまま寝た
+なんだよそれ、最初から言ってくれよ
+
+**コメント欄1（セルフリプライ用）**
+このブランケット使い始めてから
+ベビーカーのぐずりが明らかに減った
+
+かけてあげると落ち着くから、お出かけに必ず持っていく
+洗濯機で洗えるから、汚れても怖くない
+
+子どもが「ふわふわ」って言いながら
+自分でかけにくるようになった
+
+**コメント欄2（セルフリプライ用）**
+うちの審査員が唯一認めた一枚↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53362dbd.15e721eb.53362dc3.45f3060e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgudeza%2Fo-con-pns-stb%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
 
