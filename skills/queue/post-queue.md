@@ -9,6 +9,37 @@
 
 ---
 
+## 投稿90
+**テーマ**：モンチッチポシェット・世代継承
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：モンチッチ ぬいぐるみ型ポシェット
+**時期**：通年
+**文章の型**：新PASONA法・アングルB（あるある場面）
+
+**本文**
+プラザに立ち寄ったら、3歳の姪っ子が一目見て「これ！」って動かなくなった
+
+わたしが子どものころ一番好きだったキャラだった
+
+「知ってる？」って聞いたら首を振る、ちなみに
+
+**コメント欄1（セルフリプライ用）**
+モンチッチなんよね
+
+知らないのに一目で選ぶって、二回り以上年が違っても感性が同じってことじゃん
+
+嬉しすぎる‼
+
+1974年生まれのロングセラーキャラで、ぬいぐるみ型のポシェットになってて、ショルダーにも小銭入れにもなる
+
+姪っ子には「かわいいキャラのカバン」、わたしには「子どものころの大好き」が帰ってきた感じ
+
+**コメント欄2（セルフリプライ用）**
+姪っ子が迷わず選んだ、わたしの子どものころの推し↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fohmae-xmas%2Fjl-687_688%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
 ## 投稿89
 **テーマ**：保育園の洗礼no+e紹介
 **カテゴリ**：B（教育・知識系）／no+e誘導
