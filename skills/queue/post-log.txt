@@ -14109,3 +14109,32 @@ https://hb.afl.rakuten.co.jp/ichiba/587e1632.8d135826.587e1633.e69d4cdc/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/562d078b.3fd58c6b.562d078c.b8b6c7e1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgramsky%2Fb0ftssy75v-c2%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-17 05:34:18] リプライ2完了！ ID: 17881820652652250
 [2026-10-17 05:34:18] キュー移動完了。残りキュー: 4件
+[2026-10-17 08:51:03] ===== post.py 起動 =====
+[2026-10-17 08:51:03] キュー件数: 4件
+[2026-10-17 08:51:03] 投稿開始（試行1回目）:
+うちには触り心地の審査員がいる
+
+洋服のタグも「チクチクする」って全部切らされるし
+シーツも「なんか違う」で却下されるし
+ブランケットも「これじゃないとヤダ」って毎回もめる
+
+そんな2歳が一発で「これ、めっちゃふわふわ」って言った
+
+すんなりかけてもらって、そのまま寝た
+なんだよそれ、最初から言ってくれよ
+[2026-10-17 08:51:11] 投稿完了！ ID: 18467076898191389
+[2026-10-17 08:51:11] セルフリプライ1/2開始:
+このブランケット使い始めてから
+ベビーカーのぐずりが明らかに減った
+
+かけてあげると落ち着くから、お出かけに必ず持っていく
+洗濯機で洗えるから、汚れても怖くない
+
+子どもが「ふわふわ」って言いながら
+自分でかけにくるようになった
+[2026-10-17 08:51:23] リプライ1完了！ ID: 18173857813456341
+[2026-10-17 08:51:25] セルフリプライ2/2開始:
+うちの審査員が唯一認めた一枚↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/53362dbd.15e721eb.53362dc3.45f3060e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgudeza%2Fo-con-pns-stb%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-17 08:51:41] リプライ2完了！ ID: 17907881184577673
+[2026-10-17 08:51:41] キュー移動完了。残りキュー: 3件
