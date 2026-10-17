@@ -17923,3 +17923,42 @@ metrics_fetched: true
 
 ---
 
+<!-- 処理日時: 2026-10-17 05:34 | 投稿ID: 18136637221709368 -->
+## 投稿92
+**テーマ**：長雨・ダニ被害・子どもの肌荒れ
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：さよならダニー ダニ対策シート（gramsky）
+**時期**：夏〜秋（長雨後）
+**文章の型**：映画予告ナレーション型フック
+
+**本文**
+彼女は知らなかった
+
+この夏、長雨が続いた
+湿気が高い日が何週間も続いて
+布団の中でダニが爆発的に増えてたことを
+
+子どもの肌荒れが止まらなかった
+皮膚科にも通った
+何が原因かわからなくて、ただかわいそうだった
+
+布団を替えた途端、落ち着いた
+
+気づいてあげるのが遅くてごめんね
+
+**コメント欄1（セルフリプライ用）**
+使ってるのはダニ対策シート「さよならダニー」
+
+シーツの下に置くだけ
+繰り返し使えるからランニングコストが安い
+
+長雨の後は特にダニが増える
+子どもの肌荒れ・鼻水が季節関係なく続くなら
+まず布団から疑ってほしい
+
+**コメント欄2（セルフリプライ用）**
+過去の自分に教えたかった一枚↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/562d078b.3fd58c6b.562d078c.b8b6c7e1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgramsky%2Fb0ftssy75v-c2%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
