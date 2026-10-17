@@ -17897,9 +17897,14 @@ metrics_fetched: true
 
 **コメント欄（セルフリプライ用）**
 なし
+**メトリクス（2026-10-18取得）**
+views=245 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-16 23:35 | 投稿ID: 18094018592662421 -->
 ## 投稿91
 **テーマ**：「先生として何百人見てきたのに、うちの子が一番わからなかった」
@@ -17920,9 +17925,14 @@ metrics_fetched: true
 
 **コメント欄（セルフリプライ用）**
 なし
+**メトリクス（2026-10-18取得）**
+views=116 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=型A：自己紹介型 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-17 05:34 | 投稿ID: 18136637221709368 -->
 ## 投稿92
 **テーマ**：長雨・ダニ被害・子どもの肌荒れ
