@@ -4,3 +4,5 @@ __pycache__/
 *.pyo
 skills/queue/google_credentials.json
 skills/queue/sheets_config.json
+skills/queue/gas_scheduler.gs
+skills/queue/sync_to_sheets.py
