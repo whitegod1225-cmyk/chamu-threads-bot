@@ -469,15 +469,9 @@ def main():
                 log(f"⚠️ 朝一番スロット：アフィリ投稿を後回し → 投稿{swap_idx + 1}番目と入れ替え")
                 posts[0], posts[swap_idx] = posts[swap_idx], posts[0]
 
-        # ── 3連続アフィリ回避：直近2本が両方アフィリなら先頭の非アフィリと入れ替え ──
-        if is_affiliate(posts[0]) and last_two_were_affiliate() and len(posts) > 1:
-            swap_idx = next((i for i, p in enumerate(posts[1:], 1) if not is_affiliate(p)), None)
-            if swap_idx is not None:
-                log(f"⚠️ 3連続アフィリ防止：アフィリ投稿を後回し → 投稿{swap_idx + 1}番目と入れ替え")
-                posts[0], posts[swap_idx] = posts[swap_idx], posts[0]
-            else:
-                log("⚠️ 3連続アフィリ防止：非アフィリ投稿がキューにないためスキップ")
-                sys.exit(0)
+        # ── 3連続アフィリ警告：直近2本が両方アフィリなら警告のみ（スキップ・入れ替えなし）──
+        if is_affiliate(posts[0]) and last_two_were_affiliate():
+            log("⚠️ 3連続アフィリ警告：アフィリ投稿が3本連続になります（投稿は続行）")
 
         block = posts[0]
         body = extract_body(block)
