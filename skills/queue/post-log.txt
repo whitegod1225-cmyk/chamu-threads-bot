@@ -14263,3 +14263,8 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkozou%2F10002531%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-20 13:02:31] リプライ2完了！ ID: 18096243707448147
 [2026-10-20 13:02:31] キュー移動完了。残りキュー: 2件
+[2026-10-20 15:22:09] ===== post.py 起動 =====
+[2026-10-20 15:22:09] キュー件数: 2件
+[2026-10-20 15:22:09] ⚠️ 3連続アフィリ警告：アフィリ投稿が3本連続になります（投稿は続行）
+[2026-10-20 15:22:09] ⚠️ HARD GATE違反: ①②③（U+2460系）が含まれています → ❶❷❸（U+2776系）に変更してください
+[2026-10-20 15:22:09] ⚠️ HARD GATE違反あり。この投稿を末尾に移動し、次の投稿を次回スロットで試みます。手動で修正してください。
