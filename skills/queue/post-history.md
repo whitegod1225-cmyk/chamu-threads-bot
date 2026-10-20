@@ -18045,9 +18045,14 @@ https://hb.afl.rakuten.co.jp/ichiba/53362dbd.15e721eb.53362dc3.45f3060e/?pc=http
 
 待てた日もあれば待てない日もある
 それでいいと今は思ってます
+**メトリクス（2026-10-21取得）**
+views=34 / likes=0 / replies=1 / reposts=0 / quotes=0
+resonance_score=5 / quality_score=14.7%
+hook_type=不明 / cta_type=コメント誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-20 07:30 | 投稿ID: 18131043439693687 -->
 ## 投稿90
 **テーマ**：モンチッチポシェット・世代継承
