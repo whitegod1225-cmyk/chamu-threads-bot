@@ -14240,3 +14240,26 @@ https://hb.afl.rakuten.co.jp/ichiba/53362dbd.15e721eb.53362dc3.45f3060e/?pc=http
 https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fohmae-xmas%2Fjl-687_688%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-20 07:30:58] リプライ2完了！ ID: 18396180964165801
 [2026-10-20 07:30:58] キュー移動完了。残りキュー: 3件
+[2026-10-20 13:01:51] ===== post.py 起動 =====
+[2026-10-20 13:01:51] キュー件数: 3件
+[2026-10-20 13:01:51] 投稿開始（試行1回目）:
+七五三の草履、途中で脱ぎたがって困った
+足袋風ソックスという選択肢を知らなかった、、、
+[2026-10-20 13:02:00] 投稿完了！ ID: 18624976339011322
+[2026-10-20 13:02:00] セルフリプライ1/2開始:
+草履って3歳には慣れない形で痛くなりやすい
+途中で脱ぎたがって、抱っこのまま写真になった、なんて話もよく聞く
+
+この足袋風ソックスは、草履と鼻緒の柄が入ったデザイン
+着物や袴ロンパースに合わせると、和装感がちゃんと出る
+本物の草履を用意しなくても、足元が「完成してる」に見える
+
+桃・苺・藤の3色、サイズも9〜12cmと12〜15cmの2展開
+
+七五三の写真、足元まで映ったとき「これにしてよかった」って思える一足
+[2026-10-20 13:02:13] リプライ1完了！ ID: 17919823176451536
+[2026-10-20 13:02:15] セルフリプライ2/2開始:
+草履を脱ぎたがる前に準備しておきたいひとへ↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkozou%2F10002531%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-20 13:02:31] リプライ2完了！ ID: 18096243707448147
+[2026-10-20 13:02:31] キュー移動完了。残りキュー: 2件
