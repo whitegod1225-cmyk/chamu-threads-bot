@@ -18082,9 +18082,14 @@ metrics_fetched: true
 **コメント欄2（セルフリプライ用）**
 姪っ子が迷わず選んだ、わたしの子どものころの推し↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fohmae-xmas%2Fjl-687_688%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-22取得）**
+views=27 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=37.0%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-20 13:02 | 投稿ID: 18624976339011322 -->
 ## 投稿94
 **テーマ**：七五三・足袋風ソックス
@@ -18112,9 +18117,14 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=http
 **コメント欄2（セルフリプライ用）**
 草履を脱ぎたがる前に準備しておきたいひとへ↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkozou%2F10002531%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-22取得）**
+views=375 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=2.7%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-21 13:16 | 投稿ID: 18133075261739003 -->
 ## 投稿86
 **テーマ**：MARL MARL une block 木製積み木
