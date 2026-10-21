@@ -1,11 +1,11 @@
 # post-queue.md ── 投稿待ちキュー
-ライターが作成した投稿をここに追加する。
-ポスターは一番上の投稿を取り出してThreadsに投稿する。
-投稿済みのものはここから削除してpost-history.mdに移す。
+ライターが作成した投稿をここに追加する
+ポスターは一番上の投稿を取り出してThreadsに投稿する
+投稿済みのものはここから削除してpost-history.mdに移す
 
 > ⚠️ **【必須】このファイルを更新したら必ず `git push` すること**
-> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む。
-> pushしないと新しい投稿は一切自動投稿されない。
+> GitHub Actionsはこのファイルの**GitHub上のバージョン**を読む
+> pushしないと新しい投稿は一切自動投稿されない
 
 ---
 
@@ -151,8 +151,36 @@ https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=http
 
 ---
 
+## 投稿96
+**テーマ**：「2歳の甥っ子がズボンを自分で履いて走ってきた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：EN-JOY リブパンツ（Devirock）
+**時期**：通年
+**文章の型**：かぴ式 / 現場目撃型
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post96_enjoypants.png
+
+**本文**
+2歳の甥っ子がズボンを自分で履いて
+「みてみてー！」って満面の笑みで走ってきた
+
+あの顔が毎朝見たくて変えたやつ、ちなみに
+
+**コメント欄1（セルフリプライ用）**
+DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから前後がない
+「前どっち？」って聞かずに子どもが自分で決めて履ける
+
+「できた！」が1日1回増えるって、積み重なると子どもの顔が変わるよ
+無地と絵柄でカラフル、70〜130cmの展開で998円・送料無料
+
+**コメント欄2（セルフリプライ用）**
+「ひとりでできた！」が毎朝届くようになったズボン↓　Rakuten PR
+https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
 ## 📊 型Aカウンター
-- **キュー内投稿数**：5本（84・86・93・94・95）
+- **キュー内投稿数**：6本（84・86・93・94・95・96）
 - **キュー内の型A本数**：1本（投稿95）
-- **判定**：直近5投稿中に型A 1本あり → あと9投稿追加可能
+- **判定**：直近6投稿中に型A 1本あり → あと9投稿追加可能
 - **最終更新**：2026-10-21
