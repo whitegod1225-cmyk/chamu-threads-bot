@@ -148,31 +148,6 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 
 ---
 
-## 投稿99
-**テーマ**：「痛いが消えて朝の攻防も消えた」
-**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：後悔型
-**商品**：iijo もふ子ヘアゴム
-**時期**：通年
-⚠️ **連続Eフラグ**：投稿98の直後間に非Eを1本挟むことを推奨
-
-**本文**
-まっっっじで後悔してる！！
-かわいいヘアゴムを買い続けた3年間…
-
-**コメント欄1（セルフリプライ用）**
-かわいいゴムをつけるたびに「痛い」で外してた、それだけだった
-やわらかい素材に変えてから、一回も外してこない
-
-飾りなしだから保育園もOKで、7色あるから「今日は何色？」って自分で選びにくるようになって
-3年間の朝の攻防が一気に消えた
-
-**コメント欄2（セルフリプライ用）**
-「痛い」が消えて朝の攻防も消えた、3年前に知りたかったやつ↓
-PR　Rakuten
-https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿100
 **テーマ**：「ご飯もトイレも後回しにしてたママ友を見て」
 **カテゴリ**：B（教育・知識系）／共感型
@@ -210,6 +185,30 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 
 ---
 
+## 投稿99
+**テーマ**：「痛いが消えて朝の攻防も消えた」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：後悔型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+
+**本文**
+まっっっじで後悔してる！！
+かわいいヘアゴムを買い続けた3年間…
+
+**コメント欄1（セルフリプライ用）**
+かわいいゴムをつけるたびに「痛い」で外してた、それだけだった
+やわらかい素材に変えてから、一回も外してこない
+
+飾りなしだから保育園もOKで、7色あるから「今日は何色？」って自分で選びにくるようになって
+3年間の朝の攻防が一気に消えた
+
+**コメント欄2（セルフリプライ用）**
+「痛い」が消えて朝の攻防も消えた、3年前に知りたかったやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
 ## 投稿101
 **テーマ**：「授乳のたびに体重計に乗せてた」
 **カテゴリ**：B（教育・知識系）／共感型
@@ -237,8 +236,94 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 
 ---
 
+## 投稿102
+**テーマ**：「外出できない、も言いません」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：THERMOS 調乳用ステンレスボトル 350ml（JPA350）
+**時期**：通年
+**文章の型**：かぴ式 / 買いません連呼型
+
+**本文**
+粉ミルクのお湯、コンビニでもらいません
+ショッピングモールのケトルも借りません
+もう外出できない、も言いません
+
+サーモスのせいですだって、
+
+**コメント欄1（セルフリプライ用）**
+このボトル1本がカバンに入ってるだけで、全部いらなくなったから
+
+サーモスの調乳ボトル、70度以上を長時間キープできるから
+コンビニ寄らなくていい、ケトル探さなくていい
+甥っ子と外出する日が、じわじわ楽になってる
+
+**コメント欄2（セルフリプライ用）**
+「外出できない」をなくしてくれたボトル↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/58af9188.ead6d966.58af9189.661cc5e4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchushinshoji%2Fjpa-350%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+## 投稿104
+**テーマ**：「22時になっても全然寝なかった話」
+**カテゴリ**：B（教育・知識系）／共感型
+**時期**：通年
+**文章の型**：かぴ式 / 文章勝負型
+
+**本文**
+うちの1人目、22時になっても全然寝なくて
+テレビもスマホも切ってた
+それでも寝なかった話、
+
+**コメント欄（セルフリプライ用）**
+テレビのせいでもスマホのせいでもなかった
+
+ただ、その子が夜型だっただけで
+元保育士として現場で16年見てきた子たちも
+寝つきには全員ちゃんと個性があった
+
+同じきょうだいでも、1人は20時に秒で寝るのに
+もう1人は22時まで起きてる、なんてこともざらにある
+
+「22時まで起きてる」を責め続けた時間が
+一番もったいなかったかもしれない
+
+うちの子も夜型だった！ってひといる？
+
+---
+
+## 投稿103
+**テーマ**：「夜泣き、添い寝で止めません」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：Amazonアフィリエイト体験談型
+**商品**：glossave ベビーおくるみ スワドル（助産師監修・モロー反射対策）
+**時期**：通年
+**文章の型**：かぴ式 / 買いません連呼型
+
+**本文**
+夜泣き、添い寝で止めません
+おしゃぶりで止めません
+授乳で止めません
+
+glossaveのせいですだって、
+
+**コメント欄1（セルフリプライ用）**
+このスワドル1枚で、夜中に起こされる回数が消えたから
+
+モロー反射（寝てるのに手足がびくってなって起きるやつ）を抑える設計で
+助産師さんが監修してるから信頼できる
+
+マジックテープで着脱簡単・丸洗いOK
+新生児から使えて出産祝いにも送れる
+
+**コメント欄2（セルフリプライ用）**
+添い寝もおしゃぶりも要らなくなった夜のためのスワドル↓
+㏚　Amazon
+https://www.amazon.co.jp/glossave-%E3%83%99%E3%83%93%E3%83%BC%E3%81%8A%E3%81%8F%E3%82%8B%E3%81%BF%E3%80%902025%E5%B9%B4%E7%A7%8B%E5%86%AC-%E5%8A%A9%E7%94%A3%E5%B8%AB%E3%81%95%E3%82%93%E6%8E%A8%E8%96%A6%E3%80%91-%E8%B5%A4%E3%81%A1%E3%82%83%E3%82%93%E3%81%8A%E3%81%8F%E3%82%8B%E3%81%BF-%E6%B4%97%E3%81%88%E3%82%8B%E3%80%90%E5%8A%A9%E7%94%A3%E5%B8%AB%E7%9B%A3%E4%BF%AE%E3%80%91/dp/B0FXFYZV7X?pd_rd_w=64ve8&content-id=amzn1.sym.40b6f6bc-3d2b-4fce-9b50-1c62529d2e48&pf_rd_p=40b6f6bc-3d2b-4fce-9b50-1c62529d2e48&pf_rd_r=REJ6F0Z4JMGQGRR4XTHR&pd_rd_wg=JlNVl&pd_rd_r=fd560f2a-4d01-4065-a79b-1a30a87eee6a&pd_rd_i=B0FXFYZV7X&th=1&linkCode=ll2&tag=cham153-22&linkId=8200999c6946bbb5efcd50466fafc3f0&ref_=as_li_ss_tl
+
+---
+
 ## 📊 型Aカウンター
-- **キュー内投稿数**：8本（86・95・96・97・98・99・100・101）
+- **キュー内投稿数**：11本（86・95・96・97・98・99・100・101・102・103・104）
 - **キュー内の型A本数**：1本（投稿95）
-- **判定**：直近10投稿中に型A 1本あり → あと4投稿追加可能
+- **判定**：直近10投稿中に型A 1本あり → あと1投稿追加可能（次の追加後に型A要検討）
 - **最終更新**：2026-10-21
