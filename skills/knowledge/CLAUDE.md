@@ -52,7 +52,7 @@ Threadsアカウント「ちゃむ」の投稿を自動化するシステム。
 
 ### /affiliate-writer（アフィリエイト投稿作成）
 **必須**：共通コア ＋ 05_affiliate.md / 09_references.md（アフィリ参考のみ） / 12_hook-patterns.md / 13_cta-patterns.md / 15_post-structures_affiliate.md / affiliate-topics.md
-**任意**：affiliate-research/_index.md / affiliate-examples/_index.md（型の参考が必要な場合）
+**任意**：affiliate-research/_index.md / affiliate-examples/_index.md（型の参考が必要な場合）/ **kapi-first-lines-image.md（ファッション・暮らし系の商品スクショ投稿を作るとき・画像が商品を説明するタイプのアフィリ投稿）**
 
 ### /kapi-writer（かぴ式文章版 Threads投稿作成）
 **必須**：共通コア ＋ kapi-writing-rules.md / kapi-first-lines.md / kapi-post-patterns.md / next-topics.md
