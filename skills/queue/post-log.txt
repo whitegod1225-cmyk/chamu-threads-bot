@@ -14318,3 +14318,18 @@ PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fluckybabygoods%2Fj612565%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-21 13:16:07] リプライ2完了！ ID: 18119992588965554
 [2026-10-21 13:16:07] キュー移動完了。残りキュー: 7件
+[2026-10-21 15:36:39] ===== post.py 起動 =====
+[2026-10-21 15:36:39] キュー件数: 12件
+[2026-10-21 15:36:39] 投稿開始（試行1回目）:
+保育士16年でも、自分の子どもには毎日負けてた
+
+元保育士・3児の母の30代、ちゃむです
+
+現場で1,000人と向き合ってきた話を、ワーキングママに届けたくて書いてます
+
+「保育園の洗礼はいつ終わるの？」の正直な答えをno+eに書きました
+洗礼中のひとは一番上から読んでみて
+
+同じように悩んでるワーキングママ、仲良くしてね
+[2026-10-21 15:36:47] 投稿完了！ ID: 17923301967223741
+[2026-10-21 15:36:47] キュー移動完了。残りキュー: 11件
