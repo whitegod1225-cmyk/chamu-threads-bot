@@ -190,8 +190,60 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/meij
 
 ---
 
+## 投稿98
+**テーマ**：「外す子が消えたのに14本1,200円」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：買いません連呼型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+
+**本文**
+子どものゴム、セリアで買いません
+ダイソーでも買いません
+バースデイでも買いません
+
+だって、
+
+**コメント欄1**
+やわらかいもふもふ素材で、頭皮に当たっても痛くないから🥺
+しかも飾りがついてないから保育園・幼稚園の「ゴムNG」も全クリ
+
+14本7色で1,200円・送料無料って
+ずっとセリアで探してたの、何だったんだろってなった
+
+**コメント欄2**
+「外す」が消えたのに、14本1,200円のやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+## 投稿99
+**テーマ**：「痛いが消えて朝の攻防も消えた」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：後悔型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+⚠️ **連続Eフラグ**：投稿98の直後間に非Eを1本挟むことを推奨
+
+**本文**
+まっっっじで後悔してる！！
+かわいいヘアゴムを買い続けた3年間…
+
+**コメント欄1**
+かわいいゴムをつけるたびに「痛い」で外してた、それだけだった
+やわらかい素材に変えてから、一回も外してこない
+
+飾りなしだから保育園もOKで、7色あるから「今日は何色？」って自分で選びにくるようになって
+3年間の朝の攻防が一気に消えた
+
+**コメント欄2**
+「痛い」が消えて朝の攻防も消えた、3年前に知りたかったやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
 ## 📊 型Aカウンター
-- **キュー内投稿数**：6本（86・93・94・95・96・97）
+- **キュー内投稿数**：8本（86・93・94・95・96・97・98・99）
 - **キュー内の型A本数**：1本（投稿95）
-- **判定**：直近6投稿中に型A 1本あり → あと9投稿追加可能
+- **判定**：直近8投稿中に型A 1本あり → あと7投稿追加可能
 - **最終更新**：2026-10-21
