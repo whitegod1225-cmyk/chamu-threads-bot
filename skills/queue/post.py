@@ -375,6 +375,23 @@ def validate_post(block, body, replies):
     return violations
 
 
+def extract_post_number(block):
+    """## 投稿86 などから投稿番号文字列を返す。なければ None"""
+    m = re.search(r"## 投稿([\w-]+)", block)
+    return m.group(1) if m else None
+
+
+def already_in_history(block):
+    """同じ投稿番号が post-history.md に存在すれば True（ローカル↔リモート乖離による重複投稿防止）"""
+    if not DONE_FILE.exists():
+        return False
+    post_num = extract_post_number(block)
+    if not post_num:
+        return False
+    history_text = DONE_FILE.read_text(encoding="utf-8")
+    return bool(re.search(rf"## 投稿{re.escape(post_num)}\b", history_text))
+
+
 def get_body_hash(body):
     return hashlib.md5(body.encode("utf-8")).hexdigest()
 
@@ -474,6 +491,16 @@ def main():
             log("⚠️ 3連続アフィリ警告：アフィリ投稿が3本連続になります（投稿は続行）")
 
         block = posts[0]
+
+        # ── 投稿済み重複チェック（ローカル↔リモート乖離でキューに復活した投稿を防ぐ） ──
+        if already_in_history(block):
+            post_num = extract_post_number(block)
+            log(f"⚠️ 投稿{post_num}はすでに post-history に存在します。重複投稿を防ぐためスキップ → history へ移動")
+            append_done(block, error=f"重複スキップ（投稿{post_num}は投稿済み）")
+            save_queue(posts[1:])
+            log(f"残りキュー: {len(posts)-1}件")
+            return
+
         body = extract_body(block)
         image_urls = [normalize_image_url(u) for u in extract_image_urls(block)]
         replies = extract_replies(block)
