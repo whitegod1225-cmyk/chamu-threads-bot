@@ -359,9 +359,9 @@ def validate_post(block, body, replies):
     if _WRONG_PUNCT.search(all_text):
         violations.append("HARD GATE違反: 「？‼」の組み合わせが含まれています → 「！？」または「？」単体に変更してください")
 
-    # アフィリエイト投稿: PR表記チェック（「（PR）」旧表記 または「Rakuten PR」新表記）
+    # アフィリエイト投稿: PR表記チェック（「（PR）」旧表記 / 「Rakuten PR」/ 「PR　Rakuten」）
     if is_affiliate(block):
-        if not any("（PR）" in r or "Rakuten PR" in r for r in replies):
+        if not any("（PR）" in r or "Rakuten PR" in r or "PR　Rakuten" in r for r in replies):
             violations.append("HARD GATE違反: アフィリエイト投稿のコメント欄に「Rakuten PR」がありません")
 
     # コメント欄500文字チェック（Threads API の上限）
