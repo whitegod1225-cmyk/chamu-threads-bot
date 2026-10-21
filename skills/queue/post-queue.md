@@ -41,6 +41,7 @@
 一番先に教えたいやつ
 
 **コメント欄2（セルフリプライ用）**
+おもちゃっぽさゼロで部屋に馴染む積み木はこれ↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fluckybabygoods%2Fj612565%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
@@ -109,6 +110,7 @@ https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=http
 七五三の写真、足元まで映ったとき「これにしてよかった」って思える一足
 
 **コメント欄2（セルフリプライ用）**
+七五三の写真、足元まで映ったとき「これにしてよかった」って思える一足↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkozou%2F10002531%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
@@ -159,6 +161,7 @@ DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから
 無地と絵柄でカラフル、70〜130cmの展開で998円・送料無料
 
 **コメント欄2（セルフリプライ用）**
+「できた！」が毎朝届くようになったズボン↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
