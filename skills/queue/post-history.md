@@ -18082,9 +18082,14 @@ metrics_fetched: true
 **コメント欄2（セルフリプライ用）**
 姪っ子が迷わず選んだ、わたしの子どものころの推し↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fohmae-xmas%2Fjl-687_688%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-22取得）**
+views=27 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=37.0%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-20 13:02 | 投稿ID: 18624976339011322 -->
 ## 投稿94
 **テーマ**：七五三・足袋風ソックス
@@ -18112,9 +18117,14 @@ https://hb.afl.rakuten.co.jp/ichiba/548d381b.6e54b26a.548d3823.13e7a8d7/?pc=http
 **コメント欄2（セルフリプライ用）**
 草履を脱ぎたがる前に準備しておきたいひとへ↓　Rakuten PR
 https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkozou%2F10002531%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-22取得）**
+views=375 / likes=0 / replies=2 / reposts=0 / quotes=0
+resonance_score=10 / quality_score=2.7%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-21 13:16 | 投稿ID: 18133075261739003 -->
 ## 投稿86
 **テーマ**：MARL MARL une block 木製積み木
@@ -18151,6 +18161,149 @@ https://hb.afl.rakuten.co.jp/ichiba/58a26bd0.ae1ac379.58a26bd1.6cd56010/?pc=http
 おもちゃっぽさゼロで部屋に馴染む積み木はこれ↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fluckybabygoods%2Fj612565%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+<!-- 処理日時: 2026-10-21 15:36 | 投稿ID: 17923301967223741 -->
+## 投稿95
+**テーマ**：「保育士16年でも自分の子には毎日負けてた」
+**カテゴリ**：A（フォロー転換）／型A：自己紹介型
+**時期**：通年
+
+**本文**
+保育士16年でも、自分の子どもには毎日負けてた
+
+元保育士・3児の母の30代、ちゃむです
+
+現場で1,000人と向き合ってきた話を、ワーキングママに届けたくて書いてます
+
+「保育園の洗礼はいつ終わるの？」の正直な答えをno+eに書きました
+洗礼中のひとは一番上から読んでみて
+
+同じように悩んでるワーキングママ、仲良くしてね
+
+**コメント欄（セルフリプライ用）**
+なし
+
+---
+
+<!-- 処理日時: 2026-10-21 22:48 | 投稿ID: 18114333845138869 -->
+## 投稿97
+**テーマ**：「明治ミルクチョコが100周年でドリンクになった」
+**カテゴリ**：D（ライフスタイル・情報系）
+**時期**：2026年10月27日〜（コンビニ先行発売）
+**文章の型**：速報型 × 共感締め
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/meiji_choco_drink.jpg
+
+**本文**
+育児の疲れはチョコで癒やすって決めてる
+明治ミルクチョコが100周年でドリンクになったの知ってた？
+10月27日からコンビニで先行発売、ちなみに
+
+**コメント欄（セルフリプライ用）**
+チョコ味とストロベリーチョコ味の2種類、各210ml・246円
+
+濃厚なのに後味すっきりって書いてあって
+仕事と育児で疲れた夜のご褒美にちょうどいいやつ
+
+育児疲れのご褒美、みんなは何にしてる？
+
+---
+
+<!-- 処理日時: 2026-10-22 00:54 | 投稿ID: 18091560929676929 -->
+## 投稿96
+**テーマ**：「2歳の甥っ子がズボンを自分で履いて走ってきた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：EN-JOY リブパンツ（Devirock）
+**時期**：通年
+**文章の型**：かぴ式 / 現場目撃型
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post96_enjoypants.png
+
+**本文**
+2歳の甥っ子がズボンを自分で履いて
+「みてみてー！」って満面の笑みで走ってきた
+
+あの顔が毎朝見たくて変えたやつ、ちなみに
+
+**コメント欄1（セルフリプライ用）**
+DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから前後がない
+「前どっち？」って聞かずに子どもが自分で決めて履ける
+
+「できた！」が1日1回増えるって、積み重なると子どもの顔が変わるよ
+無地と絵柄でカラフル、70〜130cmの展開で998円・送料無料
+
+**コメント欄2（セルフリプライ用）**
+「できた！」が毎朝届くようになったズボン↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+<!-- 処理日時: 2026-10-22 07:32 | 投稿ID: 18105998054365323 -->
+## 投稿98
+**テーマ**：「外す子が消えたのに14本1,200円」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：買いません連呼型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+
+**本文**
+子どものゴム、セリアで買いません
+ダイソーでも買いません
+バースデイでも買いません
+
+だって、
+
+**コメント欄1（セルフリプライ用）**
+やわらかいもふもふ素材で、頭皮に当たっても痛くないから🥺
+しかも飾りがついてないから保育園・幼稚園の「ゴムNG」も全クリ
+
+14本7色で1,200円・送料無料って
+ずっとセリアで探してたの、何だったんだろってなった
+
+**コメント欄2（セルフリプライ用）**
+「外す」が消えたのに、14本1,200円のやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+<!-- 処理日時: 2026-10-22 13:13 | エラー: 重複スキップ（投稿100は投稿済み） -->
+## 投稿100
+**テーマ**：「ご飯もトイレも後回しにしてたママ友を見て」
+**カテゴリ**：B（教育・知識系）／共感型
+**時期**：通年
+
+**本文**
+久しぶりに会ったママ友、
+赤ちゃんが泣くたびに全部を後回しにしてた
+
+ご飯も途中で置いて、トイレも「待って待って」って
+
+産後に助産師さんに言ってもらった言葉を、
+そのままそっくり伝えたくなった
+
+**コメント欄（セルフリプライ用）**
+「育児していく上で大切なことが3つある
+赤ちゃん泣かせていいから、この3つは後回しにしたら絶対ダメ」
+
+❶ご飯をちゃんと食べること
+❷オシャレ・お化粧していい、身綺麗にすること
+❸トイレに行くこと
+
+泣かせてはいけないってどこかで思ってたから
+私も最初は全部後回しにしてた
+
+でもこれを言ってもらって
+泣いてても置いていく練習ができた
+
+泣けてるなら、生きてるから
+
+お化粧したら自分に戻れる感覚があって
+それだけで「ちゃんとしてる」気がした
+
+今でもこの言葉に救われながら育児してます
 
 ---
 
