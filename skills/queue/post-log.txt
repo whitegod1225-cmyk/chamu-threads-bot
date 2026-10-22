@@ -14352,3 +14352,24 @@ https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=http
 育児疲れのご褒美、みんなは何にしてる？
 [2026-10-21 22:48:48] リプライ1完了！ ID: 18092155193672698
 [2026-10-21 22:48:48] キュー移動完了。残りキュー: 10件
+[2026-10-22 00:53:48] ===== post.py 起動 =====
+[2026-10-22 00:53:48] キュー件数: 10件
+[2026-10-22 00:53:48] 投稿開始（試行1回目）:
+2歳の甥っ子がズボンを自分で履いて
+「みてみてー！」って満面の笑みで走ってきた
+
+あの顔が毎朝見たくて変えたやつ、ちなみに
+[2026-10-22 00:54:05] 投稿完了！ ID: 18091560929676929
+[2026-10-22 00:54:05] セルフリプライ1/2開始:
+DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから前後がない
+「前どっち？」って聞かずに子どもが自分で決めて履ける
+
+「できた！」が1日1回増えるって、積み重なると子どもの顔が変わるよ
+無地と絵柄でカラフル、70〜130cmの展開で998円・送料無料
+[2026-10-22 00:54:17] リプライ1完了！ ID: 18064887659543019
+[2026-10-22 00:54:19] セルフリプライ2/2開始:
+「できた！」が毎朝届くようになったズボン↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-22 00:54:35] リプライ2完了！ ID: 18121139434984405
+[2026-10-22 00:54:35] キュー移動完了。残りキュー: 9件
