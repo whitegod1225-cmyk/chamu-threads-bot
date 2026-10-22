@@ -18161,9 +18161,14 @@ metrics_fetched: true
 おもちゃっぽさゼロで部屋に馴染む積み木はこれ↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fluckybabygoods%2Fj612565%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-23取得）**
+views=165 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=7.9%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-21 15:36 | 投稿ID: 17923301967223741 -->
 ## 投稿95
 **テーマ**：「保育士16年でも自分の子には毎日負けてた」
@@ -18184,9 +18189,14 @@ https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=http
 
 **コメント欄（セルフリプライ用）**
 なし
+**メトリクス（2026-10-23取得）**
+views=46 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=型A：自己紹介型 / cta_type=その他 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-21 22:48 | 投稿ID: 18114333845138869 -->
 ## 投稿97
 **テーマ**：「明治ミルクチョコが100周年でドリンクになった」
@@ -18208,9 +18218,14 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/meij
 仕事と育児で疲れた夜のご褒美にちょうどいいやつ
 
 育児疲れのご褒美、みんなは何にしてる？
+**メトリクス（2026-10-23取得）**
+views=143 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=5.6%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-22 00:54 | 投稿ID: 18091560929676929 -->
 ## 投稿96
 **テーマ**：「2歳の甥っ子がズボンを自分で履いて走ってきた」
@@ -18238,9 +18253,14 @@ DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから
 「できた！」が毎朝届くようになったズボン↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-23取得）**
+views=18 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=72.2%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-22 07:32 | 投稿ID: 18105998054365323 -->
 ## 投稿98
 **テーマ**：「外す子が消えたのに14本1,200円」
