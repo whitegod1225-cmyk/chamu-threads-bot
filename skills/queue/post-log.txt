@@ -14395,3 +14395,7 @@ PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 [2026-10-22 07:32:35] リプライ2完了！ ID: 18120878368943667
 [2026-10-22 07:32:35] キュー移動完了。残りキュー: 8件
+[2026-10-22 13:13:15] ===== post.py 起動 =====
+[2026-10-22 13:13:15] キュー件数: 8件
+[2026-10-22 13:13:15] ⚠️ 投稿100はすでに post-history に存在します。重複投稿を防ぐためスキップ → history へ移動
+[2026-10-22 13:13:15] 残りキュー: 7件
