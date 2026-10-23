@@ -18161,9 +18161,14 @@ metrics_fetched: true
 おもちゃっぽさゼロで部屋に馴染む積み木はこれ↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fluckybabygoods%2Fj612565%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-23取得）**
+views=165 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=7.9%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-21 15:36 | 投稿ID: 17923301967223741 -->
 ## 投稿95
 **テーマ**：「保育士16年でも自分の子には毎日負けてた」
@@ -18184,9 +18189,14 @@ https://hb.afl.rakuten.co.jp/ichiba/549099b4.89dd9f73.549099bb.faf7eb6e/?pc=http
 
 **コメント欄（セルフリプライ用）**
 なし
+**メトリクス（2026-10-23取得）**
+views=46 / likes=0 / replies=0 / reposts=0 / quotes=0
+resonance_score=0 / quality_score=0.0%
+hook_type=型A：自己紹介型 / cta_type=その他 / failure_flag=true ⚠️
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-21 22:48 | 投稿ID: 18114333845138869 -->
 ## 投稿97
 **テーマ**：「明治ミルクチョコが100周年でドリンクになった」
@@ -18208,9 +18218,14 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/meij
 仕事と育児で疲れた夜のご褒美にちょうどいいやつ
 
 育児疲れのご褒美、みんなは何にしてる？
+**メトリクス（2026-10-23取得）**
+views=143 / likes=1 / replies=1 / reposts=0 / quotes=0
+resonance_score=8 / quality_score=5.6%
+hook_type=不明 / cta_type=その他
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-22 00:54 | 投稿ID: 18091560929676929 -->
 ## 投稿96
 **テーマ**：「2歳の甥っ子がズボンを自分で履いて走ってきた」
@@ -18238,9 +18253,14 @@ DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから
 「できた！」が毎朝届くようになったズボン↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-23取得）**
+views=18 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=72.2%
+hook_type=型13：楽天アフィリエイト体験談型 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-22 07:32 | 投稿ID: 18105998054365323 -->
 ## 投稿98
 **テーマ**：「外す子が消えたのに14本1,200円」
@@ -18304,6 +18324,146 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 それだけで「ちゃんとしてる」気がした
 
 今でもこの言葉に救われながら育児してます
+
+---
+
+<!-- 処理日時: 2026-10-22 15:39 | エラー: 重複スキップ（投稿107は投稿済み） -->
+## 投稿107
+**テーマ**：「靴下何枚も重ねません」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：Amazonアフィリエイト体験談型
+**商品**：ベビーレッグウォーマー
+**時期**：秋冬
+**型**：かぴ式文章版 / 断言連呼型（バリD）
+**フック種別**：G3 否定連呼
+
+**本文**
+冬の抱っこ、靴下何枚も重ねません
+「また脱げてる！」も言いません
+「足が冷たい」も言いません
+
+SOWANのレッグウォーマーのせい、だって、
+
+**コメント欄1（セルフリプライ用）**
+だって、これ1枚あるだけで
+靴下の上からサッと履かせておけばいいだけだから
+
+足首から膝まで包んでくれるし
+伸縮あって脱げにくいし
+日本製オーガニックコットンで肌にやさしい
+
+保育士のころ「足の冷えは体の冷えに直結する」って
+親御さんによく話してたから
+これを見つけたとき、迷わなかった
+
+**コメント欄2（セルフリプライ用）**
+「また脱げてる！」って言わなくなった1枚↓
+㏚　Amazon
+https://www.amazon.co.jp/dp/B0HMC5H5ST?tag=cham153-22
+
+---
+
+<!-- 処理日時: 2026-10-22 22:47 | エラー: 重複スキップ（投稿95は投稿済み） -->
+## 投稿95
+**テーマ**：「保育士16年でも自分の子には毎日負けてた」
+**カテゴリ**：A（フォロー転換）／型A：自己紹介型
+**時期**：通年
+
+**本文**
+保育士16年でも、自分の子どもには毎日負けてた
+
+元保育士・3児の母の30代、ちゃむです
+
+現場で1,000人と向き合ってきた話を、ワーキングママに届けたくて書いてます
+
+「保育園の洗礼はいつ終わるの？」の正直な答えをno+eに書きました
+洗礼中のひとは一番上から読んでみて
+
+同じように悩んでるワーキングママ、仲良くしてね
+
+**コメント欄（セルフリプライ用）**
+なし
+
+---
+
+<!-- 処理日時: 2026-10-23 00:56 | エラー: 重複スキップ（投稿96は投稿済み） -->
+## 投稿96
+**テーマ**：「2歳の甥っ子がズボンを自分で履いて走ってきた」
+**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
+**商品**：EN-JOY リブパンツ（Devirock）
+**時期**：通年
+**文章の型**：かぴ式 / 現場目撃型
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/post96_enjoypants.png
+
+**本文**
+2歳の甥っ子がズボンを自分で履いて
+「みてみてー！」って満面の笑みで走ってきた
+
+あの顔が毎朝見たくて変えたやつ、ちなみに
+
+**コメント欄1（セルフリプライ用）**
+DevirockのEN-JOYリブパンツ、どっちを前にしても同じ形だから前後がない
+「前どっち？」って聞かずに子どもが自分で決めて履ける
+
+「できた！」が1日1回増えるって、積み重なると子どもの顔が変わるよ
+無地と絵柄でカラフル、70〜130cmの展開で998円・送料無料
+
+**コメント欄2（セルフリプライ用）**
+「できた！」が毎朝届くようになったズボン↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/535c244d.de5f5232.535c2451.ac7b2b13/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdevirockstore%2F1ubt19082%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
+<!-- 処理日時: 2026-10-23 07:28 | エラー: 重複スキップ（投稿97は投稿済み） -->
+## 投稿97
+**テーマ**：「明治ミルクチョコが100周年でドリンクになった」
+**カテゴリ**：D（ライフスタイル・情報系）
+**時期**：2026年10月27日〜（コンビニ先行発売）
+**文章の型**：速報型 × 共感締め
+**画像URL**
+https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/meiji_choco_drink.jpg
+
+**本文**
+育児の疲れはチョコで癒やすって決めてる
+明治ミルクチョコが100周年でドリンクになったの知ってた？
+10月27日からコンビニで先行発売、ちなみに
+
+**コメント欄（セルフリプライ用）**
+チョコ味とストロベリーチョコ味の2種類、各210ml・246円
+
+濃厚なのに後味すっきりって書いてあって
+仕事と育児で疲れた夜のご褒美にちょうどいいやつ
+
+育児疲れのご褒美、みんなは何にしてる？
+
+---
+
+<!-- 処理日時: 2026-10-23 12:52 | エラー: 重複スキップ（投稿98は投稿済み） -->
+## 投稿98
+**テーマ**：「外す子が消えたのに14本1,200円」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：買いません連呼型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+
+**本文**
+子どものゴム、セリアで買いません
+ダイソーでも買いません
+バースデイでも買いません
+
+だって、
+
+**コメント欄1（セルフリプライ用）**
+やわらかいもふもふ素材で、頭皮に当たっても痛くないから🥺
+しかも飾りがついてないから保育園・幼稚園の「ゴムNG」も全クリ
+
+14本7色で1,200円・送料無料って
+ずっとセリアで探してたの、何だったんだろってなった
+
+**コメント欄2（セルフリプライ用）**
+「外す」が消えたのに、14本1,200円のやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
 
 ---
 
