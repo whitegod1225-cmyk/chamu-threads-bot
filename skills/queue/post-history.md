@@ -18439,3 +18439,31 @@ https://cdn.jsdelivr.net/gh/whitegod1225-cmyk/chamu-threads-bot@main/images/meij
 
 ---
 
+<!-- 処理日時: 2026-10-23 12:52 | エラー: 重複スキップ（投稿98は投稿済み） -->
+## 投稿98
+**テーマ**：「外す子が消えたのに14本1,200円」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：買いません連呼型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+
+**本文**
+子どものゴム、セリアで買いません
+ダイソーでも買いません
+バースデイでも買いません
+
+だって、
+
+**コメント欄1（セルフリプライ用）**
+やわらかいもふもふ素材で、頭皮に当たっても痛くないから🥺
+しかも飾りがついてないから保育園・幼稚園の「ゴムNG」も全クリ
+
+14本7色で1,200円・送料無料って
+ずっとセリアで探してたの、何だったんだろってなった
+
+**コメント欄2（セルフリプライ用）**
+「外す」が消えたのに、14本1,200円のやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
