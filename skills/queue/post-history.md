@@ -18286,9 +18286,14 @@ metrics_fetched: true
 「外す」が消えたのに、14本1,200円のやつ↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-24取得）**
+views=1040 / likes=2 / replies=2 / reposts=0 / quotes=0
+resonance_score=16 / quality_score=1.5%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-22 13:13 | エラー: 重複スキップ（投稿100は投稿済み） -->
 ## 投稿100
 **テーマ**：「ご飯もトイレも後回しにしてたママ友を見て」
