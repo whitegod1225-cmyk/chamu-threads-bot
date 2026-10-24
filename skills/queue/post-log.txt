@@ -14432,3 +14432,22 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 [2026-10-23 23:51:32] ⚠️ 朝一番スロット：アフィリ投稿を後回し → 投稿2番目と入れ替え
 [2026-10-23 23:51:32] ⚠️ 投稿101はすでに post-history に存在します。重複投稿を防ぐためスキップ → history へ移動
 [2026-10-23 23:51:32] 残りキュー: 7件
+[2026-10-24 05:46:56] ===== post.py 起動 =====
+[2026-10-24 05:46:56] キュー件数: 7件
+[2026-10-24 05:46:56] 投稿開始（試行1回目）:
+まっっっじで後悔してる！！
+かわいいヘアゴムを買い続けた3年間…
+[2026-10-24 05:47:05] 投稿完了！ ID: 17899790676398745
+[2026-10-24 05:47:05] セルフリプライ1/2開始:
+かわいいゴムをつけるたびに「痛い」で外してた、それだけだった
+やわらかい素材に変えてから、一回も外してこない
+
+飾りなしだから保育園もOKで、7色あるから「今日は何色？」って自分で選びにくるようになって
+3年間の朝の攻防が一気に消えた
+[2026-10-24 05:47:15] リプライ1完了！ ID: 17912356278478387
+[2026-10-24 05:47:17] セルフリプライ2/2開始:
+「痛い」が消えて朝の攻防も消えた、3年前に知りたかったやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+[2026-10-24 05:47:28] リプライ2完了！ ID: 18633331420007707
+[2026-10-24 05:47:28] キュー移動完了。残りキュー: 6件

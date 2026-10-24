@@ -18538,3 +18538,28 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 
 ---
 
+<!-- 処理日時: 2026-10-24 05:47 | 投稿ID: 17899790676398745 -->
+## 投稿99
+**テーマ**：「痛いが消えて朝の攻防も消えた」
+**カテゴリ**：E（節約・グッズ・生活系）／ファッション系かぴ式：後悔型
+**商品**：iijo もふ子ヘアゴム
+**時期**：通年
+
+**本文**
+まっっっじで後悔してる！！
+かわいいヘアゴムを買い続けた3年間…
+
+**コメント欄1（セルフリプライ用）**
+かわいいゴムをつけるたびに「痛い」で外してた、それだけだった
+やわらかい素材に変えてから、一回も外してこない
+
+飾りなしだから保育園もOKで、7色あるから「今日は何色？」って自分で選びにくるようになって
+3年間の朝の攻防が一気に消えた
+
+**コメント欄2（セルフリプライ用）**
+「痛い」が消えて朝の攻防も消えた、3年前に知りたかったやつ↓
+PR　Rakuten
+https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+
+---
+
