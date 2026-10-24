@@ -9,34 +9,6 @@
 
 ---
 
-## 投稿102
-**テーマ**：「外出できない、も言いません」
-**カテゴリ**：E（節約・グッズ・生活系）／型13：楽天アフィリエイト体験談型
-**商品**：THERMOS 調乳用ステンレスボトル 350ml（JPA350）
-**時期**：通年
-**文章の型**：かぴ式 / 買いません連呼型
-
-**本文**
-粉ミルクのお湯、コンビニでもらいません
-ショッピングモールのケトルも借りません
-もう外出できない、も言いません
-
-サーモスのせい、だって、
-
-**コメント欄1（セルフリプライ用）**
-このボトル1本がカバンに入ってるだけで、全部いらなくなったから
-
-サーモスの調乳ボトル、70度以上を長時間キープできるから
-コンビニ寄らなくていい、ケトル探さなくていい
-甥っ子と外出する日が、じわじわ楽になってる
-
-**コメント欄2（セルフリプライ用）**
-「外出できない」をなくしてくれたボトル↓
-PR　Rakuten
-https://hb.afl.rakuten.co.jp/ichiba/58af9188.ead6d966.58af9189.661cc5e4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchushinshoji%2Fjpa-350%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
-
----
-
 ## 投稿104
 **テーマ**：「22時になっても全然寝なかった話」
 **カテゴリ**：B（教育・知識系）／共感型
