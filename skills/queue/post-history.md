@@ -18560,9 +18560,14 @@ https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=http
 「痛い」が消えて朝の攻防も消えた、3年前に知りたかったやつ↓
 PR　Rakuten
 https://hb.afl.rakuten.co.jp/ichiba/548b12b6.5ac70f77.548b12b7.962182bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiijo%2Fmofu200%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9
+**メトリクス（2026-10-26取得）**
+views=166 / likes=1 / replies=2 / reposts=0 / quotes=0
+resonance_score=13 / quality_score=7.8%
+hook_type=不明 / cta_type=コメント誘導
+metrics_fetched: true
+
 
 ---
-
 <!-- 処理日時: 2026-10-24 09:09 | エラー: 重複スキップ（投稿102は投稿済み） -->
 ## 投稿102
 **テーマ**：「外出できない、も言いません」
