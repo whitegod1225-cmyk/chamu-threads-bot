@@ -870,3 +870,39 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：候補
 **スクレイプ情報**：評価4.39 / レビュー4994件 / 2,180円 / Oeuf Soleil
 
+---
+
+## 候補70：おむつ・衛生用品／11月3日(火)★到着可能★ おむつケーキ 3段 Sassy
+**商品名**：11月3日(火)★到着可能★ おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 ハロウィン ランキング
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.71 / レビュー13319件 / 5,500円 / おむつケーキ研究所
+
+---
+
+## 候補71：おむつ・衛生用品／11月5日（木）★発送可能★おむつケーキ2段NEW今治タオル
+**商品名**：11月5日（木）★発送可能★おむつケーキ2段NEW今治タオル名前入れ★出産祝い男の子女の子ギフトかわいいラトルいぬ、クくま、うさぎ、ねこクリスマス お誕生日ハーフバースデー100日記念日 ベビーシャワー 送料無料 土曜日営業 即日発送可ベビーシャワーママギフト
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6392件 / 4,380円 / おむつケーキ専門店アイリムベビー
+
+---
+
+## 候補72：おむつ・衛生用品／最大1000円OFFクーポン配布中 ＼楽天1位獲得！／ 防臭
+**商品名**：最大1000円OFFクーポン配布中 ＼楽天1位獲得！／ 防臭 ウッビー Ubbi おむつペール カートリッジ不要 おむつ ゴミ箱 臭わない インテリア オムツ ペール おむつ処理ポット 18L 赤ちゃん ベビー 出産祝い 出産準備 ペット 犬 猫 トイレ 介護 ペットシーツ ネコ砂
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qcnfm.xpczbc1f.g00qcnfm.xpczc127/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatural-living%2Fu119712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatural-living%2Fi%2F10010377%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qcnfm.xpczbc1f.g00qcnfm.xpczc127/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatural-living%2Fu119712%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatural-living%2Fi%2F10010377%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.52 / レビュー6181件 / 9,980円 / ナチュラルベビー Natural Baby
+
