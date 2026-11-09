@@ -906,3 +906,39 @@ next-topics.mdのアフィリエイト版。投稿したい商品をここで管
 **ステータス**：候補
 **スクレイプ情報**：評価4.52 / レビュー6181件 / 9,980円 / ナチュラルベビー Natural Baby
 
+---
+
+## 候補73：おむつ・衛生用品／大安★10日(火)到着可★ おむつケーキ 3段 Sassy
+**商品名**：大安★10日(火)到着可★ おむつケーキ 3段 Sassy 身長計付き バスタオル ラルフローレン ベビーソックス 1位 出産祝い サッシー POLO RALPH LAUREN 男の子 女の子 名前入り 可愛い ギフトセット キャラクター 知育玩具 豪華 赤ちゃん 専門 クリスマス ランキング
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00r276m.xpczb058.g00r276m.xpczc76f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomutsufactory%2Ftowel2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomutsufactory%2Fi%2F10004242%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.71 / レビュー13321件 / 5,500円 / おむつケーキ研究所
+
+---
+
+## 候補74：おむつ・衛生用品／11月10日（火）★発送可能★おむつケーキ2段NEW今治タオ
+**商品名**：11月10日（火）★発送可能★おむつケーキ2段NEW今治タオル名前入れ★出産祝い男の子女の子ギフトかわいいラトルいぬ、クくま、うさぎ、ねこクリスマス お誕生日ハーフバースデー100日記念日 ベビーシャワー 送料無料 土曜日営業 即日発送可ベビーシャワーママギフト
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00qwcym.xpczbe81.g00qwcym.xpczc1fc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fairim-baby%2Fbuggygigglersred%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fairim-baby%2Fi%2F10000003%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.65 / レビュー6392件 / 4,380円 / おむつケーキ専門店アイリムベビー
+
+---
+
+## 候補75：おむつ・衛生用品／【11/8 ランキング1位】 防水シーツ おねしょシーツ 乾
+**商品名**：【11/8 ランキング1位】 防水シーツ おねしょシーツ 乾燥機対応 シングル ダブル エコ ミニ サイズ ベビー から 大人 介護 介護シーツ 子供 乾燥機 敷布団 防水 シーツ 綿100 吸水 パイル フラット 介護用防水シーツ 敷きパッド お昼寝 マット 寝汗 防ダニ イクズス
+**楽天URL**：https://hb.afl.rakuten.co.jp/hgc/g00rb88m.xpczbdeb.g00rb88m.xpczc2e9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fikuzus%2Ffc-001-2set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fikuzus%2Fi%2F10055054%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**アフィリエイトURL**：https://hb.afl.rakuten.co.jp/hgc/g00rb88m.xpczbdeb.g00rb88m.xpczc2e9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fikuzus%2Ffc-001-2set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fikuzus%2Fi%2F10055054%2F&rafcid=wsc_i_is_89ce2982-e65b-4e0f-8b2c-7cc94e7288a9
+**時期**：通年
+**イベント対応**：マラソン / スーパーSALE
+**投稿アングル**：（記入してください）
+**ステータス**：候補
+**スクレイプ情報**：評価4.52 / レビュー4879件 / 1,000円 / イクズス
+
